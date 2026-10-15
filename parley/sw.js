@@ -1,7 +1,7 @@
 /* Service worker. Precaches the app shell only; API and audio are network-only.
  * VERSION and PRECACHE are rewritten by tools/build-sw.mjs. Do not edit them by hand. */
 
-const VERSION = 'f3521a73aca2';
+const VERSION = '5e151d5e1a8a';
 const CACHE = `parley-shell-${VERSION}`;
 const PRECACHE = [
   "./",
@@ -12,19 +12,32 @@ const PRECACHE = [
   "./assets/icons/maskable-512.png",
   "./index.html",
   "./manifest.webmanifest",
+  "./src/ai/claude.js",
+  "./src/ai/prompts.js",
+  "./src/ai/schema.js",
+  "./src/ai/sse.js",
   "./src/config.js",
   "./src/content/manifest-schema.js",
   "./src/learning/adaptive.js",
   "./src/learning/dates.js",
+  "./src/learning/diff.js",
+  "./src/learning/srs.js",
+  "./src/learning/text.js",
   "./src/learning/xp.js",
   "./src/main.js",
   "./src/router.js",
+  "./src/screens/cards.js",
   "./src/screens/progress.js",
   "./src/screens/run.js",
   "./src/screens/today.js",
+  "./src/speech/stt-merge.js",
+  "./src/speech/stt.js",
+  "./src/speech/tts.js",
+  "./src/speech/voice-choice.js",
   "./src/state/activity.js",
   "./src/state/backup-schema.js",
   "./src/state/backup.js",
+  "./src/state/cards.js",
   "./src/state/db.js",
   "./src/state/minutes.js",
   "./src/state/profile.js",

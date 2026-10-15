@@ -21,3 +21,11 @@ One line per non-obvious decision, with the reason.
 - Backups exclude the imported audio library entirely (metadata too), so an import never creates entries whose audio is missing. Device-local `shadowAttempts` ids are dropped on export.
 - Merge import: minutes take the per-activity max per date (re-importing never doubles them), cards dedupe by id then by lowercase front keeping the most recently reviewed copy, profile kept unless the backup has more XP.
 - Minutes are flushed every 15 s while an activity runs, so a crash loses at most 15 s; XP is awarded when the activity ends.
+- API calls use `fetch` directly (no SDK) because the app has no dependencies and no build step.
+- Default effort `low` for every request: conversation latency matters most, and Sonnet 5.5 skips thinking on most simple turns at `low`. Thinking deltas in the stream are ignored; only text is spoken.
+- Server-side refusal fallback (`fallbacks: "default"` + beta header) is sent for the models that accept it. If the API rejects it with a 400, the client drops it for the rest of the session.
+- Structured outputs (`output_config.format` json_schema) guarantee JSON; numeric and length limits the API does not accept are stripped and checked locally, with one repair retry. If the API rejects the format, the client falls back to prompt-only JSON.
+- Conversation history is sent as plain text turns (thinking blocks are not kept), so trimming history never invalidates anything.
+- SRS: new card Again 10 min / Hard 1 d / Good 1 d / Easy 4 d; second success Good 6 d; then interval x ease (Hard x1.2, Easy x ease x1.3). Ease floor 1.3. Again re-queues the card at the end of the current review.
+- Cards "Say it" shows a word match from speech recognition, labelled as such: STT auto-corrects pronunciation.
+- Speech recognition results are merged defensively: some Android Chrome builds return cumulative finals, which would otherwise duplicate words.

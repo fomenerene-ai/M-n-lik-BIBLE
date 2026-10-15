@@ -12,6 +12,7 @@ import { requestPersistence } from './state/db.js';
 const SCREENS = {
   today: () => import('./screens/today.js'),
   progress: () => import('./screens/progress.js'),
+  cards: () => import('./screens/cards.js'),
 };
 
 const NAV_TOP = [
