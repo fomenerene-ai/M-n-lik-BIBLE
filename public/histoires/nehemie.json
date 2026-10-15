@@ -1,0 +1,33 @@
+{
+  "id": "nehemie",
+  "nom": "Néhémie",
+  "cle": "nehemie",
+  "ordre": 375,
+  "groupe": "Exil et retour",
+  "periode": "Empire perse, Ve siècle av. J.-C.",
+  "resume": "Échanson du roi de Perse, il obtient de partir rebâtir les murailles de Jérusalem. Malgré l’opposition, il les achève en cinquante-deux jours, puis réforme la vie du peuple.",
+  "recit": [
+    "Néhémie, fils de Hacalia, est à Suse, la capitale, la vingtième année du roi Artaxerxès. Son frère Hanani lui apprend que les rescapés de Juda sont dans la détresse, que la muraille de Jérusalem est en ruines et ses portes brûlées [[Néhémie 1:1-3]]. Il pleure, jeûne et prie le Dieu des cieux plusieurs jours [[Néhémie 1:4-11]]. Il précise : « J’étais alors échanson du roi » [[Néhémie 1:11]].",
+    "Le roi remarque la tristesse de son visage et lui demande ce qu’il désire. « Je priai le Dieu des cieux », puis il demande à être envoyé en Juda pour rebâtir la ville. Le roi accepte et lui donne des lettres, « la bonne main de mon Dieu étant sur moi » [[Néhémie 2:1-8]]. Arrivé à Jérusalem, il inspecte les murailles de nuit, sans rien dire à personne [[Néhémie 2:11-16]], puis appelle les chefs : « Venez, rebâtissons la muraille de Jérusalem » [[Néhémie 2:17-18]].",
+    "Sanballat, Tobija et Guéschem se moquent d’eux. Néhémie répond : « Le Dieu des cieux nous donnera le succès » [[Néhémie 2:19-20]]. Chaque famille rebâtit une portion de la muraille [[Néhémie 3]]. Devant les moqueries et les menaces d’attaque, Néhémie fait prier le peuple, place des gardes, et organise le travail : une moitié travaille pendant que l’autre tient les armes, et ceux qui bâtissent ont l’épée au côté [[Néhémie 4]].",
+    "Des Juifs pauvres se plaignent d’avoir dû engager leurs champs et vendre leurs enfants pour payer leurs dettes. Néhémie, indigné, fait renoncer les riches à leurs créances et à l’intérêt [[Néhémie 5:1-13]]. Pendant ses douze années de gouverneur, il renonce au revenu qui lui est dû, pour ne pas alourdir la charge du peuple [[Néhémie 5:14-18]].",
+    "Ses ennemis cherchent à l’attirer hors de la ville pour lui nuire. Il répond : « J’ai un grand ouvrage à exécuter, et je ne puis descendre » [[Néhémie 6:1-4]]. Il refuse aussi de se cacher dans le temple sur le conseil d’un faux prophète [[Néhémie 6:10-13]]. La muraille est achevée le vingt-cinquième jour du mois d’Élul, en cinquante-deux jours ; les nations voisines reconnaissent que l’œuvre s’est faite par la volonté de Dieu [[Néhémie 6:15-16]].",
+    "Il assiste à la lecture de la loi par Esdras [[Néhémie 8:9]], puis organise la dédicace de la muraille avec deux grands chœurs [[Néhémie 12:27-43]]. Après un séjour auprès du roi, il revient et combat plusieurs abus : il fait respecter le sabbat en fermant les portes de la ville [[Néhémie 13:15-22]] et s’oppose aux mariages avec les peuples voisins [[Néhémie 13:23-27]]. Son livre s’achève sur cette prière : « Souviens-toi favorablement de moi, ô mon Dieu ! » [[Néhémie 13:31]]."
+  ],
+  "contexte": [
+    "La vingtième année d’Artaxerxès Ier correspond à 445 av. J.-C. Des papyrus araméens d’Éléphantine, en Égypte, mentionnent un Sanballat gouverneur de Samarie, ce qui confirme l’existence de ce personnage.",
+    "Le chapitre 4 de Néhémie est numéroté différemment selon les éditions (une partie correspond à la fin du chapitre 3 dans les éditions qui suivent l’hébreu) ; la fiche y renvoie donc par chapitre."
+  ],
+  "chronologie": [
+    { "etape": "Nouvelles de Jérusalem à Suse", "ref": "Néhémie 1:1-4" },
+    { "etape": "Prière et requête au roi", "ref": "Néhémie 2:1-8" },
+    { "etape": "Inspection nocturne des murailles", "ref": "Néhémie 2:11-18" },
+    { "etape": "Reconstruction malgré l’opposition", "ref": "Néhémie 3-4" },
+    { "etape": "Abolition des dettes abusives", "ref": "Néhémie 5:1-13" },
+    { "etape": "Muraille achevée en 52 jours", "ref": "Néhémie 6:15-16" },
+    { "etape": "Lecture de la loi", "ref": "Néhémie 8" },
+    { "etape": "Dédicace de la muraille", "ref": "Néhémie 12:27-43" },
+    { "etape": "Dernières réformes", "ref": "Néhémie 13" }
+  ],
+  "references": ["Néhémie 1-2", "Néhémie 4-6", "Néhémie 8", "Néhémie 13"]
+}

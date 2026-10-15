@@ -1,0 +1,33 @@
+{
+  "id": "daniel",
+  "nom": "Daniel",
+  "cle": "daniel",
+  "ordre": 332,
+  "groupe": "Exil et retour",
+  "periode": "Exil à Babylone",
+  "resume": "Jeune déporté à Babylone, fidèle à son Dieu à la cour des rois, il interprète les songes, survit à la fosse aux lions et reçoit des visions sur l’avenir des royaumes.",
+  "recit": [
+    "Après le siège de Jérusalem, Nebucadnetsar fait venir à sa cour de jeunes Israélites de famille noble, pour les instruire dans la langue et les lettres des Chaldéens. Parmi eux, Daniel, Hanania, Mischaël et Azaria, qui reçoivent les noms de Beltschatsar, Schadrac, Méschac et Abed-Nego [[Daniel 1:1-7]]. « Daniel résolut de ne pas se souiller par les mets du roi » ; il obtient de se nourrir de légumes et d’eau, et au bout de dix jours, ses compagnons et lui ont meilleure mine que les autres [[Daniel 1:8-16]]. Dieu lui donne l’intelligence des visions et des songes [[Daniel 1:17-20]].",
+    "Nebucadnetsar fait un songe et exige que ses sages le lui racontent, sous peine de mort. Daniel demande un délai, prie avec ses compagnons, et le secret lui est révélé dans une vision de la nuit [[Daniel 2:1-19]]. Il déclare au roi : « il y a dans les cieux un Dieu qui révèle les secrets » [[Daniel 2:27-28]]. Il décrit la statue d’or, d’argent, d’airain, de fer et d’argile, renversée par une pierre détachée sans le secours d’aucune main, et l’interprète comme une succession de royaumes, suivie d’un royaume que Dieu suscitera et qui ne sera jamais détruit [[Daniel 2:31-45]]. Le roi l’élève et l’établit sur la province de Babylone [[Daniel 2:46-49]].",
+    "Il interprète un second songe de Nebucadnetsar, celui de l’arbre abattu, et l’exhorte à rompre avec ses péchés [[Daniel 4]]. Lors d’un festin, le roi Belschatsar profane les vases du temple de Jérusalem ; une main écrit sur la muraille. Daniel lit : « MENÉ, MENÉ, THEKEL, UPHARSIN », et explique que le royaume est compté, pesé et divisé. Cette nuit-là, Belschatsar est tué [[Daniel 5:1-30]].",
+    "Sous le roi Darius, ses rivaux obtiennent un décret interdisant toute prière adressée à un autre que le roi pendant trente jours. Daniel continue de prier trois fois par jour, ses fenêtres ouvertes dans la direction de Jérusalem. Il est jeté dans la fosse aux lions ; au matin, il déclare au roi que son Dieu a envoyé son ange et fermé la gueule des lions [[Daniel 6]].",
+    "Daniel reçoit lui-même des visions. Il voit quatre bêtes sortir de la mer, puis l’Ancien des jours sur son trône, et « quelqu’un de semblable à un fils de l’homme » venir sur les nuées, à qui sont donnés la domination et un règne qui ne sera jamais détruit [[Daniel 7:1-14]].",
+    "Comprenant par les livres que la désolation de Jérusalem doit durer soixante-dix ans, comme l’avait annoncé Jérémie, il se tourne vers Dieu dans le jeûne et adresse une longue prière de confession pour son peuple [[Daniel 9:1-19]]. L’ange Gabriel lui parle alors de « soixante-dix semaines » [[Daniel 9:20-27]]. La dernière vision annonce la résurrection : « Plusieurs de ceux qui dorment dans la poussière de la terre se réveilleront » [[Daniel 12:1-3]]. Le livre se termine par une promesse personnelle : il se reposera et se relèvera pour son héritage à la fin des jours [[Daniel 12:13]].",
+    "Jésus cite « le prophète Daniel » [[Matthieu 24:15]] et reprend l’image du Fils de l’homme venant sur les nuées [[Marc 14:61-62]]. L’épître aux Hébreux évoque ceux qui, par la foi, « fermèrent la gueule des lions » [[Hébreux 11:33]]."
+  ],
+  "contexte": [
+    "La date de composition du livre de Daniel est débattue : la tradition le situe au VIe siècle av. J.-C., tandis que de nombreux spécialistes datent sa rédaction finale du IIe siècle av. J.-C. Le livre est écrit en partie en hébreu, en partie en araméen.",
+    "Belschatsar est connu par des textes babyloniens comme fils de Nabonide, qui lui confia le gouvernement de Babylone. Darius le Mède n’est pas identifié avec certitude dans les sources extérieures. Dans la Louis Segond, la numérotation des versets des chapitres 4 et 6 peut différer d’une unité selon les éditions."
+  ],
+  "chronologie": [
+    { "etape": "Déporté à Babylone ; fidèle à la table du roi", "ref": "Daniel 1" },
+    { "etape": "Le songe de la statue", "ref": "Daniel 2" },
+    { "etape": "Le songe de l’arbre", "ref": "Daniel 4" },
+    { "etape": "L’écriture sur la muraille", "ref": "Daniel 5" },
+    { "etape": "La fosse aux lions", "ref": "Daniel 6" },
+    { "etape": "Vision des quatre bêtes et du fils de l’homme", "ref": "Daniel 7" },
+    { "etape": "Prière et soixante-dix semaines", "ref": "Daniel 9" },
+    { "etape": "Dernière vision", "ref": "Daniel 10-12" }
+  ],
+  "references": ["Daniel 1-2", "Daniel 5-7", "Daniel 9", "Daniel 12", "Matthieu 24:15", "Hébreux 11:33"]
+}

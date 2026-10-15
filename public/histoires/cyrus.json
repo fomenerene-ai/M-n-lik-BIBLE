@@ -1,0 +1,28 @@
+{
+  "id": "cyrus",
+  "nom": "Cyrus",
+  "cle": "cyrus",
+  "ordre": 340,
+  "groupe": "Exil et retour",
+  "periode": "Empire perse, VIe siècle av. J.-C.",
+  "resume": "Roi de Perse, conquérant de Babylone, il autorise les exilés à rentrer à Jérusalem et à rebâtir le temple. Le livre d’Ésaïe l’appelle le berger et l’oint de l’Éternel.",
+  "recit": [
+    "Bien avant son règne, le livre d’Ésaïe le nomme : l’Éternel dit de Cyrus : « Il est mon berger, et il accomplira toute ma volonté ; il dira de Jérusalem : Qu’elle soit rebâtie ! » [[Ésaïe 44:28]]. Il l’appelle même son oint : « Ainsi parle l’Éternel à son oint, à Cyrus », qu’il a pris par la main pour terrasser les nations [[Ésaïe 45:1]]. Dieu précise qu’il l’a appelé par son nom, à cause d’Israël, alors que Cyrus ne le connaissait pas [[Ésaïe 45:4]].",
+    "La première année de Cyrus, roi de Perse, « afin que s’accomplît la parole de l’Éternel prononcée par la bouche de Jérémie », l’Éternel réveille son esprit, et il fait publier dans tout son royaume une proclamation [[Esdras 1:1]]. Il y déclare : « L’Éternel, le Dieu des cieux, m’a donné tous les royaumes de la terre, et il m’a commandé de lui bâtir une maison à Jérusalem en Juda. » Il autorise tous ceux du peuple de Dieu à y monter, et invite leurs voisins à les aider de leurs biens [[Esdras 1:2-4]]. Le même décret clôt le livre des Chroniques [[2 Chroniques 36:22-23]].",
+    "Cyrus fait sortir les ustensiles du temple que Nebucadnetsar avait emportés, et les remet à Scheschbatsar, prince de Juda : il y en a en tout cinq mille quatre cents [[Esdras 1:7-11]].",
+    "Les adversaires de Juda tentent de faire échouer la reconstruction pendant toute la durée du règne de Cyrus [[Esdras 4:4-5]]. Sous Darius, on retrouve à Ecbatane le texte du décret de Cyrus, ce qui permet d’achever le temple [[Esdras 6:1-5]].",
+    "Le livre de Daniel mentionne Cyrus comme repère chronologique : Daniel reste à la cour jusqu’à la première année du roi Cyrus [[Daniel 1:21]], prospère sous son règne [[Daniel 6]], et reçoit une vision la troisième année de Cyrus, roi de Perse [[Daniel 10:1]]."
+  ],
+  "contexte": [
+    "Cyrus II, fondateur de l’empire perse achéménide, prit Babylone en 539 av. J.-C. Le « cylindre de Cyrus », conservé au British Museum, décrit sa politique de retour des populations déplacées et de restauration des sanctuaires, ce qui concorde avec le décret rapporté par Esdras, même s’il ne mentionne pas Juda.",
+    "Que le livre d’Ésaïe nomme Cyrus à l’avance est compris par certains comme une prophétie annoncée de longue date, par d’autres comme l’indice que cette partie du livre fut rédigée pendant l’exil."
+  ],
+  "chronologie": [
+    { "etape": "Annoncé comme berger et oint", "ref": "Ésaïe 44:28-45:4" },
+    { "etape": "Décret pour la reconstruction du temple", "ref": "Esdras 1:1-4" },
+    { "etape": "Restitution des ustensiles du temple", "ref": "Esdras 1:7-11" },
+    { "etape": "Opposition à la reconstruction", "ref": "Esdras 4:4-5" },
+    { "etape": "Son décret retrouvé à Ecbatane", "ref": "Esdras 6:1-5" }
+  ],
+  "references": ["Ésaïe 44:24-45:7", "Esdras 1", "Esdras 6:1-5", "2 Chroniques 36:22-23"]
+}

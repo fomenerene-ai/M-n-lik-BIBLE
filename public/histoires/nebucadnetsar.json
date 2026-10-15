@@ -1,0 +1,31 @@
+{
+  "id": "nebucadnetsar",
+  "nom": "Nebucadnetsar",
+  "cle": "nebucadnetsar",
+  "ordre": 330,
+  "groupe": "Exil et retour",
+  "periode": "Empire babylonien, VIe siècle av. J.-C.",
+  "resume": "Roi de Babylone, il soumet Juda, déporte ses habitants et détruit Jérusalem. Le livre de Daniel le montre confronté au Dieu d’Israël, humilié puis reconnaissant sa souveraineté.",
+  "recit": [
+    "Au temps du roi Jojakim, Nebucadnetsar, roi de Babylone, monte contre Juda ; Jojakim lui est assujetti trois ans, puis se révolte [[2 Rois 24:1]]. Le livre de Daniel situe à cette époque un premier siège de Jérusalem, où une partie des ustensiles du temple est emportée [[Daniel 1:1-2]].",
+    "Sous Jojakin, Nebucadnetsar assiège de nouveau la ville. Le roi se rend ; il est déporté à Babylone avec sa famille, les chefs, les hommes vaillants et les artisans, et les trésors du temple sont emportés [[2 Rois 24:10-16]]. Nebucadnetsar établit roi son oncle Matthania, à qui il donne le nom de Sédécias [[2 Rois 24:17]].",
+    "Sédécias se révolte à son tour. Nebucadnetsar assiège Jérusalem jusqu’à la famine ; la ville est prise, les fils de Sédécias sont égorgés sous ses yeux, puis on lui crève les yeux [[2 Rois 25:1-7]]. Nebuzaradan, chef des gardes, brûle la maison de l’Éternel, le palais et toutes les maisons de Jérusalem, et abat les murailles [[2 Rois 25:8-10]]. Le prophète Jérémie avait présenté ce roi comme l’instrument de Dieu : « Nebucadnetsar, roi de Babylone, mon serviteur » [[Jérémie 27:6]].",
+    "Le livre de Daniel le montre troublé par un songe qu’il exige de ses sages qu’ils lui racontent. Daniel le lui révèle et l’interprète ; le roi déclare : « En vérité, votre Dieu est le Dieu des dieux et le Seigneur des rois » [[Daniel 2:1-47]]. Il fait pourtant dresser une statue d’or et ordonne à tous de s’y prosterner ; il jette dans la fournaise ceux qui refusent, puis bénit leur Dieu en les voyant sortir indemnes [[Daniel 3]].",
+    "Dans un autre songe, il voit un grand arbre abattu. Daniel lui explique qu’il sera chassé du milieu des hommes jusqu’à ce qu’il reconnaisse que le Très-Haut domine sur le règne des hommes. Un an plus tard, se promenant sur son palais, il se glorifie de Babylone la grande, qu’il a bâtie. Il est alors chassé et mange de l’herbe comme les bœufs, jusqu’à ce que, levant les yeux vers le ciel, il recouvre la raison et loue le roi des cieux [[Daniel 4]].",
+    "Plus tard, Daniel rappelle cette humiliation au roi Belschatsar, qui ne s’est pas humilié malgré cet exemple [[Daniel 5:18-22]]."
+  ],
+  "contexte": [
+    "Nebucadnetsar II régna sur Babylone de 605 à 562 av. J.-C. Les chroniques babyloniennes rapportent la prise de Jérusalem en 597 av. J.-C. et l’installation d’un roi de son choix. La porte d’Ishtar, dont des éléments sont exposés à Berlin, date de son règne.",
+    "L’épisode de la folie du roi n’est pas attesté par les sources babyloniennes. Certains historiens le rapprochent d’un texte de Qumrân, la « Prière de Nabonide », qui évoque une maladie de Nabonide, un roi babylonien plus tardif."
+  ],
+  "chronologie": [
+    { "etape": "Juda soumis sous Jojakim", "ref": "2 Rois 24:1" },
+    { "etape": "Déportation de Jojakin", "ref": "2 Rois 24:10-16" },
+    { "etape": "Sédécias établi roi", "ref": "2 Rois 24:17" },
+    { "etape": "Prise et destruction de Jérusalem", "ref": "2 Rois 25:1-10" },
+    { "etape": "Le songe de la statue", "ref": "Daniel 2" },
+    { "etape": "La fournaise", "ref": "Daniel 3" },
+    { "etape": "Humiliation et restauration", "ref": "Daniel 4" }
+  ],
+  "references": ["2 Rois 24-25", "Jérémie 27:6", "Daniel 1-4"]
+}

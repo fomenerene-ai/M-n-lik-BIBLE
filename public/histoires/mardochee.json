@@ -1,0 +1,31 @@
+{
+  "id": "mardochee",
+  "nom": "Mardochée",
+  "cle": "mardochee",
+  "ordre": 361,
+  "groupe": "Exil et retour",
+  "periode": "Empire perse, Ve siècle av. J.-C.",
+  "resume": "Cousin et tuteur d’Esther, il refuse de se prosterner devant Haman. Le roi, qui lui doit la vie, l’honore, et il devient le second du royaume.",
+  "recit": [
+    "Mardochée, fils de Jaïr, de la tribu de Benjamin, est un Juif de Suse, descendant d’exilés emmenés de Jérusalem par Nebucadnetsar. Il élève Esther, fille de son oncle, qu’il a adoptée à la mort de ses parents [[Esther 2:5-7]]. Quand elle est conduite au palais, il vient chaque jour devant la cour pour prendre de ses nouvelles [[Esther 2:11]].",
+    "Assis à la porte du roi, il apprend que deux eunuques, Bigthan et Théresch, complotent contre Assuérus. Il en informe Esther, qui prévient le roi au nom de Mardochée ; les coupables sont pendus, et le fait est inscrit dans le livre des Chroniques du roi [[Esther 2:19-23]].",
+    "Haman est élevé au-dessus de tous les chefs, et tous se prosternent devant lui. Mardochée refuse. Quand Haman apprend qu’il est Juif, il décide de détruire tout le peuple de Mardochée dans le royaume [[Esther 3:1-6]]. Apprenant le décret, Mardochée déchire ses vêtements, se couvre d’un sac et de cendre, et pousse des cris amers dans la ville [[Esther 4:1-3]]. Il persuade Esther d’intercéder : « qui sait si ce n’est pas pour un temps comme celui-ci que tu es parvenue à la royauté ? » [[Esther 4:13-14]].",
+    "Ulcéré de voir Mardochée rester assis devant lui, Haman fait dresser un bois haut de cinquante coudées pour l’y pendre [[Esther 5:9-14]]. Cette nuit-là, le roi ne peut dormir ; il se fait lire les Chroniques et découvre que Mardochée n’a reçu aucune récompense pour l’avoir sauvé [[Esther 6:1-3]]. Il ordonne à Haman lui-même de revêtir Mardochée du vêtement royal et de le promener à cheval dans la ville en criant : « C’est ainsi que l’on fait à l’homme que le roi veut honorer ! » [[Esther 6:6-11]].",
+    "Après la chute d’Haman, le roi donne à Mardochée l’anneau qu’il avait repris à Haman, et Esther l’établit sur la maison d’Haman [[Esther 8:1-2]]. Il rédige le nouvel édit en faveur des Juifs [[Esther 8:9-10]] et sort de chez le roi vêtu d’habits royaux bleu et blanc, avec une grande couronne d’or [[Esther 8:15]]. Il devient de plus en plus puissant [[Esther 9:4]].",
+    "Il écrit aux Juifs de toutes les provinces pour qu’ils célèbrent chaque année les jours de Purim [[Esther 9:20-22]]. Le livre se termine sur lui : il est le second après le roi, considéré parmi les Juifs, « recherchant le bien de son peuple, et parlant pour le bonheur de toute sa race » [[Esther 10:3]]."
+  ],
+  "contexte": [
+    "Haman est appelé « l’Agaguite » [[Esther 3:1]], ce qui rappelle Agag, roi d’Amalek épargné par Saül [[1 Samuel 15:8-9]], lui-même benjamite comme Mardochée. Beaucoup d’interprètes voient dans ce rapprochement un écho volontaire.",
+    "Une tablette administrative de Persépolis mentionne un fonctionnaire nommé Marduka à l’époque de Xerxès. Le rapprochement avec Mardochée a été proposé, mais il reste incertain."
+  ],
+  "chronologie": [
+    { "etape": "Élève Esther", "ref": "Esther 2:5-7" },
+    { "etape": "Déjoue un complot contre le roi", "ref": "Esther 2:19-23" },
+    { "etape": "Refuse de se prosterner devant Haman", "ref": "Esther 3:1-6" },
+    { "etape": "Persuade Esther d’intervenir", "ref": "Esther 4:1-14" },
+    { "etape": "Honoré par le roi", "ref": "Esther 6:1-11" },
+    { "etape": "Reçoit l’anneau royal", "ref": "Esther 8:1-2" },
+    { "etape": "Institue Purim ; second après le roi", "ref": "Esther 9:20-10:3" }
+  ],
+  "references": ["Esther 2-4", "Esther 6", "Esther 8-10"]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "esdras",
+  "nom": "Esdras",
+  "cle": "esdras",
+  "ordre": 370,
+  "groupe": "Exil et retour",
+  "periode": "Empire perse, Ve siècle av. J.-C.",
+  "resume": "Sacrificateur et scribe versé dans la loi de Moïse, il conduit un groupe d’exilés à Jérusalem, s’attaque aux mariages avec les peuples voisins et lit publiquement la loi au peuple.",
+  "recit": [
+    "Esdras est un descendant d’Aaron, le premier grand prêtre [[Esdras 7:1-5]]. C’est « un scribe versé dans la loi de Moïse », et le roi lui accorde tout ce qu’il demande, car la main de l’Éternel est sur lui [[Esdras 7:6]]. Il part de Babylone la septième année du roi Artaxerxès et arrive à Jérusalem au cinquième mois [[Esdras 7:7-9]]. Le texte résume sa vocation : « Esdras avait appliqué son cœur à étudier et à mettre en pratique la loi de l’Éternel, et à enseigner au milieu d’Israël les lois et les ordonnances » [[Esdras 7:10]].",
+    "Une lettre du roi l’autorise à emmener les Israélites qui le souhaitent, à apporter des offrandes pour le temple et à établir des juges qui connaissent les lois de son Dieu [[Esdras 7:11-26]]. Esdras bénit l’Éternel d’avoir mis cette pensée au cœur du roi [[Esdras 7:27-28]].",
+    "Près du fleuve d’Ahava, il proclame un jeûne pour demander à Dieu un heureux voyage. Il a honte de demander au roi une escorte, après lui avoir dit que la main de Dieu est sur ceux qui le cherchent ; Dieu exauce leur prière [[Esdras 8:21-23]]. Ils arrivent à Jérusalem sains et saufs [[Esdras 8:31-32]].",
+    "Des chefs lui apprennent que beaucoup, parmi le peuple, les sacrificateurs et les Lévites, ont épousé des femmes des peuples du pays. Esdras déchire ses vêtements, s’arrache les cheveux et reste assis, consterné, jusqu’au soir [[Esdras 9:1-4]]. Il prie en confessant les fautes du peuple comme les siennes [[Esdras 9:5-15]]. Une grande foule pleure avec lui, et Schecania propose de prendre un engagement devant Dieu [[Esdras 10:1-5]]. Le peuple se réunit sous la pluie, et une commission examine chaque cas [[Esdras 10:9-17]].",
+    "Plus tard, au temps de Néhémie, tout le peuple se rassemble sur la place devant la porte des eaux et demande à Esdras d’apporter le livre de la loi de Moïse. Debout sur une estrade de bois, il le lit depuis le matin jusqu’à midi ; quand il ouvre le livre, le peuple se lève, et à sa bénédiction tous répondent : « Amen ! Amen ! » [[Néhémie 8:1-6]]. Des Lévites lisent distinctement et en donnent le sens, pour que le peuple comprenne [[Néhémie 8:7-8]].",
+    "Le peuple pleure en entendant la loi ; Néhémie, Esdras et les Lévites leur disent de ne pas s’affliger, « car la joie de l’Éternel sera votre force » [[Néhémie 8:9-10]]. Esdras lit encore la loi chaque jour pendant la fête des tabernacles [[Néhémie 8:18]], et marche en tête d’un des chœurs lors de la dédicace de la muraille [[Néhémie 12:36]]."
+  ],
+  "contexte": [
+    "Plusieurs rois perses ont porté le nom d’Artaxerxès. On date généralement l’arrivée d’Esdras de 458 av. J.-C., sous Artaxerxès Ier, mais certains historiens proposent 398 av. J.-C., sous Artaxerxès II, ce qui placerait Esdras après Néhémie.",
+    "La tradition juive voit en Esdras une figure fondatrice dans la transmission des Écritures. Ce rôle relève de la tradition ; le texte biblique le présente comme scribe et enseignant de la loi."
+  ],
+  "chronologie": [
+    { "etape": "Scribe versé dans la loi, descendant d’Aaron", "ref": "Esdras 7:1-6" },
+    { "etape": "Lettre d’Artaxerxès", "ref": "Esdras 7:11-26" },
+    { "etape": "Jeûne au fleuve d’Ahava", "ref": "Esdras 8:21-23" },
+    { "etape": "Arrivée à Jérusalem", "ref": "Esdras 8:31-32" },
+    { "etape": "Prière de confession", "ref": "Esdras 9" },
+    { "etape": "Assemblée sur les mariages", "ref": "Esdras 10" },
+    { "etape": "Lecture publique de la loi", "ref": "Néhémie 8:1-12" }
+  ],
+  "references": ["Esdras 7-10", "Néhémie 8"]
+}
