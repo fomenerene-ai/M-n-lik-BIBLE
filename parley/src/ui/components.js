@@ -146,7 +146,7 @@ export function minutesChart(days, today, o = {}) {
     const dayLabel = o.dense ? (dt.getDate() % 5 === 0 || isToday ? String(dt.getDate()) : '') : 'SMTWTFS'[dt.getDay()];
     const bar = d.total > 0.05
       ? h(`div.barv${isToday ? '.today' : ''}`, { title: `${d.date}: ${Math.round(d.total)} min` })
-      : h('div.barv.empty', { title: `${d.date}: 0 min` });
+      : h('div.barv.none', { title: `${d.date}: 0 min` });
     if (d.total > 0.05) bar.style.height = `${Math.max(8, (d.total / max) * 100)}%`;
     chart.appendChild(h('div.col', null, bar, h(`span.day${isToday ? '.today' : ''}`, { 'aria-hidden': 'true' }, dayLabel)));
   }

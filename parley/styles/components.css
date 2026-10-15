@@ -135,13 +135,14 @@
 .score-ring .score-label { font-weight: 800; font-size: 15px; color: var(--muted-strong); }
 
 /* Minutes chart */
-.chart { display: flex; align-items: flex-end; gap: 10px; flex: 1; min-height: 150px; padding-top: 18px; }
+.chart { display: flex; align-items: flex-end; gap: 10px; height: 240px; padding-top: 18px; }
+.chart-card .chart { flex: 1; height: auto; min-height: 150px; }
 .chart.dense { gap: 4px; }
 .chart .col { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 8px; height: 100%; justify-content: flex-end; min-width: 0; }
 .chart .barv { width: 100%; border-radius: 10px; background: var(--teal-light); min-height: 8px; }
 .chart.dense .barv { border-radius: 5px; }
 .chart .barv.today { background: var(--teal); }
-.chart .barv.empty { background: var(--line); height: 8px; border-radius: 4px; }
+.chart .barv.none { background: var(--line); height: 8px; border-radius: 4px; }
 .chart .day { font-size: 14px; font-weight: 800; color: var(--muted); }
 .chart .day.today { color: var(--teal-ink); }
 

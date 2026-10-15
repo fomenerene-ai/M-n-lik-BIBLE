@@ -11,6 +11,7 @@ import { requestPersistence } from './state/db.js';
 /** Route name to lazy screen module. */
 const SCREENS = {
   today: () => import('./screens/today.js'),
+  progress: () => import('./screens/progress.js'),
 };
 
 const NAV_TOP = [
