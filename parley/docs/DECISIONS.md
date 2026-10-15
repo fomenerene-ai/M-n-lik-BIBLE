@@ -37,3 +37,10 @@ One line per non-obvious decision, with the reason.
 - Report uses effort `medium` (quality matters, latency does not); conversation uses `low`.
 - Speech recognition language is en-US for the learner whatever the partner accent: recognition of a French accent does not improve with en-GB, and one setting keeps behaviour predictable.
 - The live transcript is kept per recognition session and Chrome's early session ends trigger a silent restart, so long turns survive Android's short-pause cut-offs.
+- Listen keeps the library and the item in one screen (no route change) so the guided step timer is not reset when an item opens.
+- Remote VOA audio plays in a plain `<audio>` element; it is never decoded with Web Audio here (no verified CORS).
+- Exercises for VOA and imported audio are generated once from the transcript and cached in `contentCache`; generated gaps are checked locally to be copied word for word from the text, otherwise the model is asked to repair them.
+- Comprehension answers are checked locally (gap: exact after normalisation; short answer: all content words present), so pass 2 costs no API call for dialogues.
+- Tier choice by listening level: below 4 tiers 0, 1, 3; 4 to 6.5 all tiers; above 6.5 tiers 0, 2, 3 (VOA Learning English is a stepping stone only). Items outside the band stay visible and labelled.
+- Dictation shows a wrong word as "typed -> expected" rather than striking the expected word, which read as if the expected word were wrong.
+- Dictation updates the listening level once, when leaving the screen, from the average of at least 3 sentences.

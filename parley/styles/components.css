@@ -244,7 +244,7 @@ dialog.modal .stack { gap: 16px; }
 
 .tok { padding: 2px 5px; border-radius: 6px; margin: 0 1px; }
 .tok.correct { background: var(--teal-tint); color: var(--teal-ink); }
-.tok.wrong { background: var(--danger-tint); color: var(--danger-ink); text-decoration: line-through; }
+.tok.wrong { background: var(--danger-tint); color: var(--danger-ink); }
 .tok.missing { background: var(--sun-tint); color: #7A5A00; border: 2px dashed var(--sun-edge); }
 .tok.extra { background: var(--violet-tint); color: var(--violet-ink); text-decoration: line-through; }
 .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; font-weight: 800; }
