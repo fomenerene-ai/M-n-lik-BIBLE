@@ -1,0 +1,32 @@
+{
+  "id": "jean-apotre",
+  "nom": "Jean, fils de Zébédée",
+  "cle": "jean",
+  "ordre": 411,
+  "groupe": "Évangiles",
+  "periode": "Ministère de Jésus et Église naissante",
+  "resume": "Pêcheur appelé avec son frère Jacques, l’un des trois disciples les plus proches de Jésus. Il devient une des « colonnes » de l’Église de Jérusalem.",
+  "recit": [
+    "Jean et son frère Jacques, fils de Zébédée, réparent leurs filets dans la barque quand Jésus les appelle ; ils laissent leur père avec les ouvriers et le suivent [[Marc 1:19-20]]. Jésus leur donne le surnom de Boanergès, « fils du tonnerre » [[Marc 3:17]].",
+    "Avec Pierre et Jacques, il est témoin de moments que les autres disciples ne voient pas : la résurrection de la fille de Jaïrus [[Marc 5:37-42]], la transfiguration [[Marc 9:2-8]], et l’angoisse de Jésus à Gethsémané [[Marc 14:32-34]].",
+    "Les Évangiles ne cachent pas ses emportements. Il veut empêcher un homme qui chasse les démons au nom de Jésus sans les suivre [[Marc 9:38-40]]. Quand un village samaritain refuse de recevoir Jésus, Jacques et Jean proposent de faire descendre le feu du ciel ; Jésus les réprimande [[Luc 9:51-56]]. Avec son frère, il demande à siéger à la droite et à la gauche de Jésus dans sa gloire ; Jésus leur répond qu’ils boiront sa coupe, mais que ces places ne dépendent pas de lui [[Marc 10:35-40]].",
+    "Jésus l’envoie avec Pierre préparer le repas de la Pâque [[Luc 22:8]]. Après la Pentecôte, il accompagne Pierre au temple lors de la guérison du boiteux [[Actes 3:1-10]]. Devant le sanhédrin, on s’étonne de l’assurance de ces « hommes du peuple sans instruction » [[Actes 4:13]]. Les apôtres l’envoient avec Pierre en Samarie, où les nouveaux croyants reçoivent le Saint-Esprit [[Actes 8:14-17]].",
+    "Paul le cite, avec Jacques et Céphas, parmi ceux qui sont regardés comme les « colonnes » de l’Église de Jérusalem [[Galates 2:9]]. Son frère Jacques est mis à mort par Hérode [[Actes 12:1-2]].",
+    "Le quatrième Évangile parle à plusieurs reprises du « disciple que Jésus aimait », penché sur sa poitrine au dernier repas [[Jean 13:23-25]], présent au pied de la croix, à qui Jésus confie sa mère [[Jean 19:26-27]], et qui court au tombeau avec Pierre [[Jean 20:2-8]]. L’Évangile affirme que c’est ce disciple qui en rend témoignage et qui l’a écrit [[Jean 21:20-24]]."
+  ],
+  "contexte": [
+    "L’identification du « disciple que Jésus aimait » à Jean, fils de Zébédée, est une tradition ancienne, défendue notamment par Irénée de Lyon au IIe siècle. Le texte ne le nomme pas, et d’autres hypothèses existent.",
+    "L’auteur de l’Apocalypse se présente comme « Jean », exilé dans l’île de Patmos [[Apocalypse 1:9]]. Son identification à l’apôtre, comme l’attribution des trois épîtres de Jean, est discutée depuis l’Antiquité."
+  ],
+  "chronologie": [
+    { "etape": "Appelé avec Jacques", "ref": "Marc 1:19-20" },
+    { "etape": "Surnommé fils du tonnerre", "ref": "Marc 3:17" },
+    { "etape": "La transfiguration", "ref": "Marc 9:2-8" },
+    { "etape": "La demande des premières places", "ref": "Marc 10:35-40" },
+    { "etape": "Gethsémané", "ref": "Marc 14:32-34" },
+    { "etape": "Avec Pierre au temple et devant le sanhédrin", "ref": "Actes 3-4" },
+    { "etape": "Mission en Samarie", "ref": "Actes 8:14-17" },
+    { "etape": "Une des colonnes de l’Église", "ref": "Galates 2:9" }
+  ],
+  "references": ["Marc 1:19-20", "Marc 10:35-45", "Luc 9:51-56", "Actes 3-4", "Galates 2:9", "Jean 21:20-24"]
+}

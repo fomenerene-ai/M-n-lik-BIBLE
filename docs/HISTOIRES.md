@@ -56,7 +56,7 @@ ajouter un personnage revient à ajouter un fichier, sans toucher au code.
 | 2 | Moïse, Aaron, Miriam, Jéthro, Josué, Caleb, Koré, Balaam, Phinées, Rahab, Acan | Validé |
 | 3 | Débora, Gédéon, Jephthé, Samson, Naomi, Ruth, Boaz, Éli, Anne, Samuel, Saül | Validé |
 | 4 | David, Jonathan, Abigaïl, Bath-Schéba, Absalom, Salomon, Roboam, Jéroboam, Achab, Jézabel, Ézéchias, Josias | Validé |
-| 5 | Nathan, Élie, Élisée, Jonas, Amos, Osée, Ésaïe, Michée, Jérémie, Ézéchiel | Livré, à valider |
-| 6 | Exil et retour : Daniel, Esther, Mardochée, Esdras, Néhémie, Zorobabel… | À venir |
-| 7 | Évangiles : Marie, Joseph de Nazareth, Jean-Baptiste, Pierre, Marthe, Marie de Magdala, Nicodème, Zachée… | À venir |
-| 8 | Apôtres et compagnons de Paul : Paul, Barnabas, Timothée, Silas, Lydie, Priscille et Aquilas, Étienne… | À venir |
+| 5 | Nathan, Élie, Élisée, Jonas, Amos, Osée, Ésaïe, Michée, Jérémie, Ézéchiel | Validé |
+| 6 | Nebucadnetsar, Daniel, Schadrac, Méschac et Abed-Nego, Cyrus, Zorobabel, Esther, Mardochée, Esdras, Néhémie | Validé |
+| 7 | Zacharie et Élisabeth, Marie, Joseph de Nazareth, Jean-Baptiste, Pierre, Jean, Thomas, Nicodème, Marie de Magdala, Marthe, Marie et Lazare, Zachée, Judas Iscariot, Ponce Pilate | Validé |
+| 8 | Étienne, Philippe l’évangéliste, Paul, Barnabas, Jacques frère du Seigneur, Silas, Timothée, Lydie, Priscille et Aquilas, Apollos, Onésime et Philémon | Validé |

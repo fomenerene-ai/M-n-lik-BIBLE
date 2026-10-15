@@ -1,0 +1,35 @@
+{
+  "id": "pierre",
+  "nom": "Pierre",
+  "cle": "pierre",
+  "ordre": 410,
+  "groupe": "Évangiles",
+  "periode": "Ministère de Jésus et Église naissante",
+  "resume": "Pêcheur de Galilée devenu le premier des apôtres, il confesse que Jésus est le Christ, le renie trois fois, puis, restauré par le Ressuscité, annonce l’Évangile avec assurance.",
+  "recit": [
+    "Simon, fils de Jonas, est pêcheur, avec son frère André. André l’amène à Jésus, qui lui dit : « tu seras appelé Céphas (ce qui signifie Pierre) » [[Jean 1:40-42]]. Au bord du lac de Galilée, Jésus les appelle : « Suivez-moi, et je vous ferai pêcheurs d’hommes. » Aussitôt, ils laissent leurs filets [[Matthieu 4:18-20]]. Après une pêche inattendue, Pierre tombe aux genoux de Jésus : « Seigneur, retire-toi de moi, parce que je suis un homme pécheur » [[Luc 5:1-11]]. Jésus guérit sa belle-mère [[Marc 1:29-31]].",
+    "Une nuit, il marche sur l’eau vers Jésus, puis, voyant que le vent est fort, a peur et commence à enfoncer. Jésus le saisit : « Homme de peu de foi, pourquoi as-tu douté ? » [[Matthieu 14:28-31]]. Quand beaucoup de disciples se retirent, il dit : « Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle » [[Jean 6:66-68]].",
+    "À la question « Et vous, qui dites-vous que je suis ? », Pierre répond : « Tu es le Christ, le Fils du Dieu vivant. » Jésus lui dit : « tu es Pierre, et sur cette pierre je bâtirai mon Église » [[Matthieu 16:15-18]]. Mais quand Jésus annonce ses souffrances, Pierre le reprend, et Jésus lui répond : « Arrière de moi, Satan ! » [[Matthieu 16:21-23]]. Il est témoin de la transfiguration [[Matthieu 17:1-4]].",
+    "Il affirme qu’il ne tombera jamais ; Jésus lui annonce : « cette nuit même, avant que le coq chante, tu me renieras trois fois » [[Matthieu 26:33-35]]. À Gethsémané, il s’endort [[Matthieu 26:40]], puis tire l’épée et coupe l’oreille du serviteur du souverain sacrificateur [[Jean 18:10-11]]. Dans la cour du souverain sacrificateur, il nie trois fois connaître Jésus ; le coq chante, il se souvient de la parole de Jésus, sort, et pleure amèrement [[Matthieu 26:69-75]].",
+    "Au matin de Pâques, il court au sépulcre [[Luc 24:12]]. Le Seigneur lui apparaît [[Luc 24:34]] [[1 Corinthiens 15:5]]. Au bord du lac, Jésus lui demande trois fois : « m’aimes-tu ? », et lui confie : « Pais mes brebis » [[Jean 21:15-17]]. Il lui annonce aussi par quelle mort il glorifiera Dieu [[Jean 21:18-19]].",
+    "Le jour de la Pentecôte, il prend la parole devant la foule ; environ trois mille personnes sont baptisées [[Actes 2:14-41]]. Au temple, il dit à un boiteux : « Je n’ai ni argent, ni or ; mais ce que j’ai, je te le donne : au nom de Jésus-Christ de Nazareth, lève-toi et marche » [[Actes 3:1-10]]. Devant le sanhédrin qui interdit de prêcher, il répond avec les apôtres : « Il faut obéir à Dieu plutôt qu’aux hommes » [[Actes 5:27-29]].",
+    "À Joppé, une vision le prépare à se rendre chez le centenier romain Corneille ; il y déclare : « Dieu ne fait point acception de personnes » [[Actes 10:9-35]]. Emprisonné par Hérode, il est délivré par un ange [[Actes 12:1-17]]. Il intervient lors de l’assemblée de Jérusalem en faveur des croyants d’origine païenne [[Actes 15:7-11]]. Paul raconte lui avoir résisté en face à Antioche [[Galates 2:11-14]]. Deux épîtres portent son nom [[1 Pierre 1:1]] [[2 Pierre 1:1]]."
+  ],
+  "contexte": [
+    "Céphas (araméen) et Pierre (grec) signifient tous deux « rocher » ou « pierre ». Le sens de la parole de Matthieu 16:18 et la question de la succession de Pierre sont compris différemment selon les traditions chrétiennes.",
+    "Selon une tradition ancienne, rapportée notamment par Clément de Rome et Eusèbe, Pierre mourut martyr à Rome sous Néron. Le Nouveau Testament annonce sa mort sans en préciser le lieu [[Jean 21:18-19]]."
+  ],
+  "chronologie": [
+    { "etape": "Appelé par Jésus", "ref": "Matthieu 4:18-20" },
+    { "etape": "La pêche miraculeuse", "ref": "Luc 5:1-11" },
+    { "etape": "Marche sur l’eau", "ref": "Matthieu 14:28-31" },
+    { "etape": "Confession à Césarée de Philippe", "ref": "Matthieu 16:13-20" },
+    { "etape": "La transfiguration", "ref": "Matthieu 17:1-8" },
+    { "etape": "Le reniement", "ref": "Matthieu 26:69-75" },
+    { "etape": "Restauré par le Ressuscité", "ref": "Jean 21:15-19" },
+    { "etape": "Discours de la Pentecôte", "ref": "Actes 2:14-41" },
+    { "etape": "Chez Corneille", "ref": "Actes 10" },
+    { "etape": "Délivré de prison", "ref": "Actes 12:1-17" }
+  ],
+  "references": ["Matthieu 16:13-23", "Matthieu 26:31-75", "Jean 21:15-19", "Actes 2-5", "Actes 10-12"]
+}

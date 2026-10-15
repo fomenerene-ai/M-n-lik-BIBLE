@@ -305,8 +305,10 @@ try {
   await page.goto(BASE + '#/histoires');
   await page.locator('.story-item').first().waitFor();
   check((await page.locator('.story-item').count()) >= 15, 'Histoires : liste chargée');
+  // L'app trie par clé (« cle ») : on compare à l'index trié de la même façon
   const alpha = await page.locator('.story-item strong').allInnerTexts();
-  const sorted = [...alpha].sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }));
+  const index = await page.evaluate(() => fetch('./histoires/index.json').then((r) => r.json()));
+  const sorted = [...index].sort((a, b) => a.cle.localeCompare(b.cle, 'fr')).map((x) => x.nom);
   await page.getByRole('button', { name: 'Chronologique' }).click();
   await page.locator('.group-title', { hasText: 'Les origines' }).waitFor();
   const firstChrono = await page.locator('.story-item strong').first().innerText();

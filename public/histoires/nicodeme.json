@@ -1,0 +1,27 @@
+{
+  "id": "nicodeme",
+  "nom": "Nicodème",
+  "cle": "nicodeme",
+  "ordre": 420,
+  "groupe": "Évangiles",
+  "periode": "Ministère de Jésus",
+  "resume": "Pharisien et chef des Juifs, il vient voir Jésus de nuit et entend parler de la nouvelle naissance. Il défend ensuite Jésus devant les siens et participe à son ensevelissement.",
+  "recit": [
+    "Nicodème est un pharisien, un chef des Juifs [[Jean 3:1]]. Il vient trouver Jésus de nuit et lui dit : « Rabbi, nous savons que tu es un docteur venu de Dieu ; car personne ne peut faire ces miracles que tu fais, si Dieu n’est avec lui » [[Jean 3:2]].",
+    "Jésus lui répond : « si un homme ne naît de nouveau, il ne peut voir le royaume de Dieu. » Nicodème demande : « Comment un homme peut-il naître quand il est vieux ? » [[Jean 3:3-4]]. Jésus précise qu’il faut naître d’eau et d’Esprit, et compare l’Esprit au vent, qui souffle où il veut [[Jean 3:5-8]]. « Comment cela peut-il se faire ? » demande encore Nicodème ; Jésus s’étonne : « Tu es le docteur d’Israël, et tu ne sais pas ces choses ! » [[Jean 3:9-10]].",
+    "Jésus évoque le serpent élevé par Moïse dans le désert : de même, le Fils de l’homme doit être élevé, afin que quiconque croit en lui ait la vie éternelle [[Jean 3:14-15]]. Le passage se poursuit par une phrase devenue célèbre : « Car Dieu a tant aimé le monde qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle » [[Jean 3:16]].",
+    "Plus tard, les principaux sacrificateurs et les pharisiens reprochent à leurs gardes de ne pas avoir arrêté Jésus. Nicodème intervient : « Notre loi condamne-t-elle un homme avant qu’on l’entende et qu’on sache ce qu’il a fait ? » On lui répond : « Es-tu aussi Galiléen ? » [[Jean 7:45-52]].",
+    "Après la mort de Jésus, Joseph d’Arimathée obtient de Pilate le corps de Jésus. Nicodème, « qui précédemment était allé de nuit vers Jésus », vient aussi, apportant un mélange d’environ cent livres de myrrhe et d’aloès. Ils enveloppent le corps de bandes, avec les aromates, selon la coutume des Juifs, et le déposent dans un sépulcre neuf, dans un jardin [[Jean 19:38-42]]."
+  ],
+  "contexte": [
+    "Les interprètes discutent de l’endroit où s’arrêtent les paroles de Jésus à Nicodème : Jean 3:16-21 peut être lu comme la suite du discours de Jésus ou comme un commentaire de l’évangéliste.",
+    "La quantité d’aromates apportée par Nicodème (une centaine de livres romaines, soit plus de trente kilogrammes) est considérable et évoque une sépulture royale."
+  ],
+  "chronologie": [
+    { "etape": "Visite nocturne à Jésus", "ref": "Jean 3:1-2" },
+    { "etape": "Entretien sur la nouvelle naissance", "ref": "Jean 3:3-15" },
+    { "etape": "Défend Jésus devant les pharisiens", "ref": "Jean 7:45-52" },
+    { "etape": "Ensevelissement de Jésus", "ref": "Jean 19:38-42" }
+  ],
+  "references": ["Jean 3:1-21", "Jean 7:45-52", "Jean 19:38-42"]
+}

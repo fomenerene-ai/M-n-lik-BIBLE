@@ -1,0 +1,28 @@
+{
+  "id": "apollos",
+  "nom": "Apollos",
+  "cle": "apollos",
+  "ordre": 486,
+  "groupe": "Apôtres et compagnons de Paul",
+  "periode": "Voyages de Paul",
+  "resume": "Juif d’Alexandrie éloquent et versé dans les Écritures, instruit par Priscille et Aquilas, il devient un prédicateur influent à Corinthe, au point que certains se réclament de lui.",
+  "recit": [
+    "Un Juif nommé Apollos, originaire d’Alexandrie, homme éloquent et versé dans les Écritures, vient à Éphèse. Instruit dans la voie du Seigneur et fervent d’esprit, il enseigne avec exactitude ce qui concerne Jésus, bien qu’il ne connaisse que le baptême de Jean [[Actes 18:24-25]].",
+    "Il se met à parler avec assurance dans la synagogue. Priscille et Aquilas, l’ayant entendu, le prennent avec eux et lui exposent plus exactement la voie de Dieu [[Actes 18:26]].",
+    "Il souhaite passer en Achaïe ; les frères l’encouragent et écrivent aux disciples de le recevoir. Arrivé là, il est d’un grand secours aux croyants, car il réfute vigoureusement les Juifs en public, démontrant par les Écritures que Jésus est le Christ [[Actes 18:27-28]]. Il est à Corinthe quand Paul revient à Éphèse [[Actes 19:1]].",
+    "À Corinthe, des divisions apparaissent : « Moi, je suis de Paul ! et moi, d’Apollos ! et moi, de Céphas ! et moi, de Christ ! » [[1 Corinthiens 1:11-12]]. Paul corrige ces rivalités : « J’ai planté, Apollos a arrosé, mais Dieu a fait croître » [[1 Corinthiens 3:4-6]]. Il les présente tous deux comme des serviteurs [[1 Corinthiens 4:6]].",
+    "Paul l’a vivement exhorté à retourner à Corinthe, mais Apollos ne l’a pas voulu pour le moment ; il ira quand il en aura l’occasion [[1 Corinthiens 16:12]]. La lettre à Tite demande de pourvoir à son voyage pour qu’il ne manque de rien [[Tite 3:13]]."
+  ],
+  "contexte": [
+    "Alexandrie, en Égypte, abritait une importante communauté juive de langue grecque et était un centre intellectuel majeur, où le philosophe juif Philon interprétait les Écritures.",
+    "Martin Luther a proposé qu’Apollos soit l’auteur de l’épître aux Hébreux. Ce n’est qu’une hypothèse parmi d’autres : l’épître est anonyme."
+  ],
+  "chronologie": [
+    { "etape": "Prédication à Éphèse", "ref": "Actes 18:24-25" },
+    { "etape": "Instruit par Priscille et Aquilas", "ref": "Actes 18:26" },
+    { "etape": "Ministère en Achaïe", "ref": "Actes 18:27-28" },
+    { "etape": "Les divisions de Corinthe", "ref": "1 Corinthiens 1:11-12" },
+    { "etape": "« Apollos a arrosé »", "ref": "1 Corinthiens 3:4-6" }
+  ],
+  "references": ["Actes 18:24-19:1", "1 Corinthiens 1:10-17", "1 Corinthiens 3:1-9", "1 Corinthiens 16:12"]
+}

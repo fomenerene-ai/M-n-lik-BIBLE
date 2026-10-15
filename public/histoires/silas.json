@@ -1,0 +1,27 @@
+{
+  "id": "silas",
+  "nom": "Silas",
+  "cle": "silas",
+  "ordre": 480,
+  "groupe": "Apôtres et compagnons de Paul",
+  "periode": "Voyages de Paul",
+  "resume": "Responsable de l’Église de Jérusalem et prophète, il accompagne Paul dans son deuxième voyage. Emprisonnés à Philippes, ils chantent les louanges de Dieu au milieu de la nuit.",
+  "recit": [
+    "Après l’assemblée de Jérusalem, les apôtres et les anciens choisissent Jude, appelé Barsabas, et Silas, « hommes considérés entre les frères », pour porter leur lettre à Antioche avec Paul et Barnabas [[Actes 15:22-27]]. Prophètes eux-mêmes, ils exhortent et fortifient les frères par plusieurs discours [[Actes 15:32]].",
+    "Quand Paul et Barnabas se séparent, Paul choisit Silas pour compagnon et part, recommandé par les frères à la grâce du Seigneur [[Actes 15:40-41]].",
+    "À Philippes, après la délivrance d’une servante possédée, ses maîtres traînent Paul et Silas devant les magistrats. Ils sont battus de verges et jetés en prison, les pieds dans les ceps [[Actes 16:19-24]]. « Vers le milieu de la nuit, Paul et Silas priaient et chantaient les louanges de Dieu, et les prisonniers les entendaient. » Un tremblement de terre ouvre les portes [[Actes 16:25-26]]. Le geôlier se convertit avec sa famille [[Actes 16:27-34]]. Le lendemain, Paul fait valoir qu’ils sont citoyens romains, battus publiquement sans jugement [[Actes 16:35-39]].",
+    "Silas continue avec Paul à Thessalonique [[Actes 17:1-4]] et à Bérée [[Actes 17:10]], où il reste avec Timothée quand Paul doit partir [[Actes 17:14]]. Il le rejoint ensuite à Corinthe [[Actes 18:5]].",
+    "Les épîtres l’appellent Silvain. Paul rappelle que le Fils de Dieu a été prêché à Corinthe par lui, Silvain et Timothée [[2 Corinthiens 1:19]], et le nomme en tête des lettres aux Thessaloniciens [[1 Thessaloniciens 1:1]] [[2 Thessaloniciens 1:1]]. La première épître de Pierre a été écrite « par Silvain, qui est à mes yeux un frère fidèle » [[1 Pierre 5:12]]."
+  ],
+  "contexte": [
+    "On identifie généralement Silas (forme du livre des Actes) et Silvain (forme latine des épîtres) à la même personne. Comme Paul, il semble avoir eu la citoyenneté romaine [[Actes 16:37]]."
+  ],
+  "chronologie": [
+    { "etape": "Envoyé de Jérusalem à Antioche", "ref": "Actes 15:22-32" },
+    { "etape": "Choisi par Paul", "ref": "Actes 15:40" },
+    { "etape": "Prison et louanges à Philippes", "ref": "Actes 16:19-34" },
+    { "etape": "Thessalonique et Bérée", "ref": "Actes 17:1-14" },
+    { "etape": "Rejoint Paul à Corinthe", "ref": "Actes 18:5" }
+  ],
+  "references": ["Actes 15:22-41", "Actes 16:16-40", "Actes 17:1-15", "1 Pierre 5:12"]
+}

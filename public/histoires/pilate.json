@@ -1,0 +1,32 @@
+{
+  "id": "pilate",
+  "nom": "Ponce Pilate",
+  "cle": "pilate",
+  "ordre": 445,
+  "groupe": "Évangiles",
+  "periode": "Passion de Jésus",
+  "resume": "Gouverneur romain de Judée, il interroge Jésus, le déclare sans faute, mais cède à la foule et le livre pour être crucifié.",
+  "recit": [
+    "Luc situe le début du ministère de Jean-Baptiste au temps où Ponce Pilate est gouverneur de la Judée [[Luc 3:1]]. Il mentionne aussi des Galiléens dont Pilate avait mêlé le sang à celui de leurs sacrifices [[Luc 13:1]].",
+    "Au matin, les principaux sacrificateurs et les anciens livrent Jésus à Pilate [[Matthieu 27:1-2]]. Dans le prétoire, Pilate l’interroge : « Es-tu le roi des Juifs ? » Jésus répond : « Mon royaume n’est pas de ce monde. » Il ajoute qu’il est venu rendre témoignage à la vérité ; Pilate demande : « Qu’est-ce que la vérité ? », puis sort dire aux Juifs : « je ne trouve aucun crime en lui » [[Jean 18:28-38]]. Apprenant que Jésus est galiléen, il l’envoie à Hérode, qui le lui renvoie [[Luc 23:6-12]].",
+    "Selon la coutume, il propose de relâcher un prisonnier pour la fête : Jésus ou Barabbas. La foule, poussée par les principaux sacrificateurs, réclame Barabbas et crie : « Qu’il soit crucifié ! » [[Matthieu 27:15-23]]. Sa femme lui fait dire : « Qu’il n’y ait rien entre toi et ce juste ; car aujourd’hui j’ai beaucoup souffert en songe à cause de lui » [[Matthieu 27:19]].",
+    "Pilate fait battre de verges Jésus ; les soldats le couronnent d’épines. Il le présente à la foule : « Voici l’homme » [[Jean 19:1-5]]. À Pilate qui lui rappelle son pouvoir de le relâcher ou de le crucifier, Jésus répond : « Tu n’aurais sur moi aucun pouvoir, s’il ne t’avait été donné d’en haut » [[Jean 19:10-11]]. Les Juifs lui crient : « Si tu le relâches, tu n’es pas ami de César » [[Jean 19:12]].",
+    "Voyant que le tumulte augmente, Pilate prend de l’eau, se lave les mains devant la foule et dit : « Je suis innocent du sang de ce juste. Cela vous regarde. » Il relâche Barabbas et livre Jésus pour être crucifié [[Matthieu 27:24-26]]. Il fait placer sur la croix l’inscription « Jésus de Nazareth, roi des Juifs », et refuse de la changer : « Ce que j’ai écrit, je l’ai écrit » [[Jean 19:19-22]].",
+    "Il accorde à Joseph d’Arimathée le corps de Jésus [[Jean 19:38]], puis autorise les principaux sacrificateurs à faire garder le sépulcre [[Matthieu 27:62-66]]. Les premiers chrétiens rappellent que Jésus a été livré sous Ponce Pilate [[Actes 4:27]], et Paul évoque le bon témoignage rendu par Jésus devant lui [[1 Timothée 6:13]]."
+  ],
+  "contexte": [
+    "Ponce Pilate fut préfet de la province romaine de Judée de 26 à 36 apr. J.-C. environ. Une inscription découverte à Césarée maritime en 1961 porte son nom et son titre de « préfet de Judée ». L’historien romain Tacite mentionne la mise à mort du Christ sous son gouvernement.",
+    "Flavius Josèphe et Philon d’Alexandrie décrivent Pilate comme un gouverneur dur, peu soucieux des sensibilités juives. Les Évangiles le montrent hésitant, cherchant à relâcher Jésus, mais cédant à la pression."
+  ],
+  "chronologie": [
+    { "etape": "Gouverneur de Judée", "ref": "Luc 3:1" },
+    { "etape": "Jésus lui est livré", "ref": "Matthieu 27:1-2" },
+    { "etape": "Interrogatoire sur la royauté", "ref": "Jean 18:28-38" },
+    { "etape": "Renvoi à Hérode", "ref": "Luc 23:6-12" },
+    { "etape": "Jésus ou Barabbas", "ref": "Matthieu 27:15-23" },
+    { "etape": "« Voici l’homme »", "ref": "Jean 19:1-5" },
+    { "etape": "Se lave les mains et livre Jésus", "ref": "Matthieu 27:24-26" },
+    { "etape": "L’inscription de la croix", "ref": "Jean 19:19-22" }
+  ],
+  "references": ["Matthieu 27:1-26", "Luc 23:1-25", "Jean 18:28-19:22"]
+}

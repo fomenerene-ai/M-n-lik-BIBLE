@@ -1,0 +1,32 @@
+{
+  "id": "jean-baptiste",
+  "nom": "Jean-Baptiste",
+  "cle": "jean-baptiste",
+  "ordre": 405,
+  "groupe": "Évangiles",
+  "periode": "Début du ministère de Jésus",
+  "resume": "Prophète du désert, il appelle Israël à la repentance et baptise dans le Jourdain. Il désigne Jésus comme l’Agneau de Dieu, puis meurt décapité sur l’ordre d’Hérode Antipas.",
+  "recit": [
+    "Fils de Zacharie et d’Élisabeth, Jean naît selon la promesse de l’ange [[Luc 1:57-64]]. « L’enfant croissait, et se fortifiait en esprit. Et il demeura dans les déserts » jusqu’au jour où il se présenta devant Israël [[Luc 1:80]]. La quinzième année du règne de Tibère, la parole de Dieu lui est adressée dans le désert [[Luc 3:1-2]].",
+    "Il prêche dans le désert de Judée : « Repentez-vous, car le royaume des cieux est proche. » Les Évangiles voient en lui « la voix de celui qui crie dans le désert » annoncée par Ésaïe. Il porte un vêtement de poils de chameau et une ceinture de cuir, et se nourrit de sauterelles et de miel sauvage [[Matthieu 3:1-4]]. Les foules viennent se faire baptiser dans le Jourdain en confessant leurs péchés [[Matthieu 3:5-6]].",
+    "Il interpelle les pharisiens et les sadducéens : « Races de vipères » [[Matthieu 3:7-10]]. Aux foules, il demande de partager vêtements et nourriture ; aux publicains, de ne rien exiger au-delà de ce qui est fixé ; aux soldats, de ne pas extorquer [[Luc 3:10-14]]. Il annonce un plus puissant que lui, dont il n’est pas digne de porter les souliers, et qui baptisera du Saint-Esprit et de feu [[Matthieu 3:11-12]].",
+    "Jésus vient se faire baptiser. Jean s’y oppose d’abord, puis accepte ; l’Esprit descend comme une colombe et une voix déclare : « Celui-ci est mon Fils bien-aimé » [[Matthieu 3:13-17]]. Interrogé, Jean affirme : « Je ne suis pas le Christ » [[Jean 1:19-23]]. Voyant Jésus venir à lui, il dit : « Voici l’Agneau de Dieu, qui ôte le péché du monde » [[Jean 1:29]], et deux de ses disciples suivent Jésus [[Jean 1:35-37]]. Quand on lui signale le succès de Jésus, il répond : « Il faut qu’il croisse, et que je diminue » [[Jean 3:26-30]].",
+    "Emprisonné, il envoie demander à Jésus : « Es-tu celui qui doit venir, ou devons-nous en attendre un autre ? » Jésus lui fait rapporter ce que ses disciples voient et entendent [[Matthieu 11:2-6]], puis déclare : « parmi ceux qui sont nés de femmes, il n’en a point paru de plus grand que Jean-Baptiste » [[Matthieu 11:11]].",
+    "Hérode Antipas l’a fait arrêter parce qu’il lui reprochait d’avoir pris Hérodias, la femme de son frère. Hérode le craint, le sait juste et saint, et l’écoute volontiers [[Marc 6:17-20]]. Lors d’un banquet, la fille d’Hérodias danse et obtient, sur le conseil de sa mère, la tête de Jean-Baptiste sur un plat. Ses disciples prennent son corps et l’ensevelissent [[Marc 6:21-29]]."
+  ],
+  "contexte": [
+    "L’historien juif Flavius Josèphe, à la fin du Ier siècle, mentionne Jean, surnommé le Baptiste, et sa mise à mort par Hérode Antipas dans la forteresse de Machéronte, à l’est de la mer Morte.",
+    "Jésus identifie Jean à l’Élie qui devait venir [[Matthieu 11:14]] [[Matthieu 17:10-13]], tandis que Jean, interrogé, nie être Élie [[Jean 1:21]]. Les interprètes expliquent souvent que Jean accomplit le rôle d’Élie sans être Élie en personne [[Luc 1:17]]."
+  ],
+  "chronologie": [
+    { "etape": "Naissance", "ref": "Luc 1:57-66" },
+    { "etape": "Vie au désert", "ref": "Luc 1:80" },
+    { "etape": "Prédication et baptême au Jourdain", "ref": "Matthieu 3:1-12" },
+    { "etape": "Baptême de Jésus", "ref": "Matthieu 3:13-17" },
+    { "etape": "« Voici l’Agneau de Dieu »", "ref": "Jean 1:29-37" },
+    { "etape": "« Il faut qu’il croisse »", "ref": "Jean 3:26-30" },
+    { "etape": "Question depuis la prison", "ref": "Matthieu 11:2-11" },
+    { "etape": "Mort sur l’ordre d’Hérode", "ref": "Marc 6:17-29" }
+  ],
+  "references": ["Luc 1", "Matthieu 3", "Jean 1:19-37", "Matthieu 11:2-15", "Marc 6:14-29"]
+}

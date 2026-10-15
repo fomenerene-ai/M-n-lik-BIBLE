@@ -1,0 +1,31 @@
+{
+  "id": "esther",
+  "nom": "Esther",
+  "cle": "esther",
+  "ordre": 360,
+  "groupe": "Exil et retour",
+  "periode": "Empire perse, Ve siècle av. J.-C.",
+  "resume": "Jeune Juive orpheline devenue reine de Perse, elle risque sa vie en se présentant devant le roi pour sauver son peuple, menacé d’extermination.",
+  "recit": [
+    "Assuérus règne à Suse sur cent vingt-sept provinces, de l’Inde à l’Éthiopie. Lors d’un festin, la reine Vasthi refuse de paraître devant le roi ; elle est répudiée, et l’on cherche une nouvelle reine [[Esther 1:1-22]] [[Esther 2:1-4]].",
+    "Mardochée, un Juif de la tribu de Benjamin, élève sa cousine Hadassa, appelée Esther, orpheline de père et de mère, qui est « belle de taille et belle de figure » [[Esther 2:5-7]]. Esther est emmenée au palais. Sur l’ordre de Mardochée, elle ne fait connaître ni son peuple ni sa naissance [[Esther 2:8-10]]. Elle gagne la faveur de tous ceux qui la voient ; le roi l’aime plus que toutes les autres femmes, pose la couronne royale sur sa tête et la fait reine à la place de Vasthi [[Esther 2:15-17]].",
+    "Haman, élevé au-dessus de tous les chefs, est irrité que Mardochée refuse de se prosterner devant lui. Il obtient du roi un décret ordonnant d’exterminer tous les Juifs du royaume en un seul jour, le treizième du douzième mois, le mois d’Adar ; la date a été fixée en jetant le sort, appelé « pur » [[Esther 3:1-13]].",
+    "Mardochée prend le deuil et fait demander à Esther d’intercéder auprès du roi. Elle rappelle que quiconque entre chez le roi sans y être appelé est puni de mort, sauf si le roi lui tend son sceptre d’or [[Esther 4:1-11]]. Mardochée lui répond : « Ne t’imagine pas que tu échapperas seule d’entre tous les Juifs […] Et qui sait si ce n’est pas pour un temps comme celui-ci que tu es parvenue à la royauté ? » [[Esther 4:13-14]]. Esther demande que tous les Juifs de Suse jeûnent pour elle trois jours, et conclut : « Si je dois périr, je périrai » [[Esther 4:15-17]].",
+    "Le troisième jour, elle se présente devant le roi, qui lui tend le sceptre d’or [[Esther 5:1-3]]. Elle l’invite avec Haman à deux festins successifs [[Esther 5:4-8]]. Au second, elle révèle qu’elle et son peuple sont voués à la destruction, et désigne le coupable : « L’oppresseur, l’ennemi, c’est Haman, ce méchant-là ! » [[Esther 7:1-6]]. Haman est pendu au bois qu’il avait préparé pour Mardochée [[Esther 7:9-10]].",
+    "Le premier décret ne pouvant être révoqué, Esther supplie le roi en pleurant [[Esther 8:3-6]]. Un nouvel édit permet aux Juifs de se défendre [[Esther 8:7-11]]. Le jour fixé pour leur perte, ils l’emportent sur leurs ennemis [[Esther 9:1-2]]. La fête de Purim est instituée pour en garder le souvenir, et la reine Esther écrit avec Mardochée pour confirmer cette fête [[Esther 9:20-32]]."
+  ],
+  "contexte": [
+    "Le nom de Dieu n’apparaît pas une seule fois dans le texte hébreu d’Esther. Les lecteurs y voient souvent une providence discrète, perceptible dans l’enchaînement des événements. La version grecque ancienne ajoute des prières et mentionne Dieu explicitement ; ces additions ne figurent pas dans la Louis Segond.",
+    "Assuérus est généralement identifié à Xerxès Ier, roi de Perse de 486 à 465 av. J.-C. Le palais de Suse a été fouillé par les archéologues. La fête de Purim est toujours célébrée dans le judaïsme, avec la lecture publique du livre d’Esther."
+  ],
+  "chronologie": [
+    { "etape": "Répudiation de Vasthi", "ref": "Esther 1" },
+    { "etape": "Esther devient reine", "ref": "Esther 2:5-17" },
+    { "etape": "Décret d’Haman contre les Juifs", "ref": "Esther 3" },
+    { "etape": "« Pour un temps comme celui-ci »", "ref": "Esther 4:13-17" },
+    { "etape": "Devant le roi ; les festins", "ref": "Esther 5:1-8" },
+    { "etape": "Haman démasqué", "ref": "Esther 7" },
+    { "etape": "Délivrance et fête de Purim", "ref": "Esther 9:1-32" }
+  ],
+  "references": ["Esther 2", "Esther 4-5", "Esther 7-9"]
+}

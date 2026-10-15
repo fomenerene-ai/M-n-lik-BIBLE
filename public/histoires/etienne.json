@@ -1,0 +1,31 @@
+{
+  "id": "etienne",
+  "nom": "Étienne",
+  "cle": "etienne",
+  "ordre": 470,
+  "groupe": "Apôtres et compagnons de Paul",
+  "periode": "Église de Jérusalem",
+  "resume": "Choisi parmi les sept pour le service des tables, homme plein de foi et d’Esprit Saint, il devient le premier martyr chrétien, lapidé sous les yeux du jeune Saul.",
+  "recit": [
+    "Dans l’Église de Jérusalem, les Hellénistes se plaignent que leurs veuves soient négligées dans la distribution quotidienne. Les apôtres font choisir sept hommes de qui l’on rende un bon témoignage, pleins d’Esprit Saint et de sagesse. On élit Étienne, « homme plein de foi et d’Esprit Saint », avec six autres ; les apôtres prient et leur imposent les mains [[Actes 6:1-6]].",
+    "« Étienne, plein de grâce et de puissance, faisait des prodiges et de grands miracles parmi le peuple » [[Actes 6:8]]. Des membres de plusieurs synagogues discutent avec lui, mais ne peuvent résister à sa sagesse et à l’Esprit par lequel il parle [[Actes 6:9-10]]. Ils suscitent des faux témoins, qui l’accusent de proférer des paroles blasphématoires contre Moïse, contre la loi et contre le lieu saint [[Actes 6:11-14]]. Les membres du sanhédrin voient son visage comme celui d’un ange [[Actes 6:15]].",
+    "Dans un long discours, il retrace l’histoire d’Israël, d’Abraham à Salomon, en soulignant que le peuple a souvent rejeté ceux que Dieu envoyait, et que « le Très-Haut n’habite pas dans ce qui est fait de main d’homme » [[Actes 7:2-50]]. Il conclut : « Hommes au cou raide, incirconcis de cœur et d’oreilles ! vous vous opposez toujours au Saint-Esprit » [[Actes 7:51-53]].",
+    "Ses auditeurs grincent des dents contre lui. Rempli du Saint-Esprit, il fixe les regards vers le ciel : « voici, je vois les cieux ouverts, et le Fils de l’homme debout à la droite de Dieu » [[Actes 7:54-56]]. Ils l’entraînent hors de la ville et le lapident. Les témoins déposent leurs vêtements aux pieds d’un jeune homme nommé Saul [[Actes 7:57-58]].",
+    "Pendant qu’on le lapide, Étienne prie : « Seigneur Jésus, reçois mon esprit ! » Puis, à genoux, il crie d’une voix forte : « Seigneur, ne leur impute pas ce péché ! » Et il s’endort [[Actes 7:59-60]]. Saul approuvait ce meurtre [[Actes 8:1]]. Des hommes pieux ensevelissent Étienne et le pleurent [[Actes 8:2]].",
+    "Une grande persécution éclate alors contre l’Église de Jérusalem, et les croyants se dispersent en Judée et en Samarie [[Actes 8:1]]. Certains vont jusqu’en Phénicie, à Chypre et à Antioche, annonçant la parole [[Actes 11:19]]. Paul évoquera plus tard ce jour : « lorsqu’on répandit le sang d’Étienne, ton témoin, j’étais moi-même présent » [[Actes 22:20]]."
+  ],
+  "contexte": [
+    "Les « Hellénistes » étaient des Juifs de langue grecque, souvent originaires de la diaspora, par opposition aux « Hébreux » de langue araméenne. Les sept élus portent tous des noms grecs.",
+    "Le nom Étienne (Stephanos en grec) signifie « couronne ». La tradition chrétienne le fête comme le « protomartyr », le premier martyr."
+  ],
+  "chronologie": [
+    { "etape": "Élu parmi les sept", "ref": "Actes 6:1-6" },
+    { "etape": "Prodiges et controverses", "ref": "Actes 6:8-10" },
+    { "etape": "Arrêté sur de faux témoignages", "ref": "Actes 6:11-15" },
+    { "etape": "Discours devant le sanhédrin", "ref": "Actes 7:2-53" },
+    { "etape": "Vision du Fils de l’homme", "ref": "Actes 7:55-56" },
+    { "etape": "Lapidation", "ref": "Actes 7:57-60" },
+    { "etape": "Dispersion de l’Église", "ref": "Actes 8:1-4" }
+  ],
+  "references": ["Actes 6-7", "Actes 8:1-4", "Actes 22:20"]
+}

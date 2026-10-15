@@ -1,0 +1,30 @@
+{
+  "id": "jacques-frere",
+  "nom": "Jacques, frère du Seigneur",
+  "cle": "jacques",
+  "ordre": 478,
+  "groupe": "Apôtres et compagnons de Paul",
+  "periode": "Église de Jérusalem",
+  "resume": "Frère de Jésus, d’abord incrédule, il voit le Ressuscité et devient l’un des responsables de l’Église de Jérusalem, où il joue un rôle décisif lors de l’assemblée sur l’accueil des païens.",
+  "recit": [
+    "Les habitants de Nazareth citent les frères de Jésus : Jacques, Joseph, Simon et Jude [[Matthieu 13:55]]. Pendant le ministère de Jésus, « ses frères non plus ne croyaient pas en lui » [[Jean 7:5]].",
+    "Paul rapporte que le Christ ressuscité « est apparu à Jacques, puis à tous les apôtres » [[1 Corinthiens 15:7]]. Après l’ascension, les frères de Jésus persévèrent dans la prière avec les apôtres [[Actes 1:14]].",
+    "Lors de sa première visite à Jérusalem après sa conversion, Paul ne voit, parmi les apôtres, que Pierre et « Jacques, le frère du Seigneur » [[Galates 1:18-19]]. Délivré de prison, Pierre demande qu’on annonce la nouvelle « à Jacques et aux frères » [[Actes 12:17]].",
+    "Lors de l’assemblée de Jérusalem, après les témoignages de Pierre, de Barnabas et de Paul, Jacques prend la parole. Il cite le prophète Amos sur le relèvement de la tente de David et conclut qu’il ne faut pas créer de difficultés aux païens qui se convertissent à Dieu, mais leur demander de s’abstenir de certaines pratiques [[Actes 15:13-21]]. Ses propositions sont reprises dans la lettre envoyée aux Églises [[Actes 15:22-29]].",
+    "Paul le nomme, avec Céphas et Jean, parmi ceux qui sont regardés comme des « colonnes » [[Galates 2:9]]. Il mentionne aussi des gens « venus de la part de Jacques » à Antioche [[Galates 2:12]]. À son dernier voyage, Paul se rend chez Jacques, où tous les anciens se réunissent pour l’entendre raconter ce que Dieu a fait parmi les païens [[Actes 21:17-20]].",
+    "L’épître de Jacques s’ouvre par : « Jacques, serviteur de Dieu et du Seigneur Jésus-Christ » [[Jacques 1:1]]. L’auteur de l’épître de Jude se présente comme « frère de Jacques » [[Jude 1]]."
+  ],
+  "contexte": [
+    "L’historien Flavius Josèphe rapporte que « Jacques, frère de Jésus appelé Christ » fut lapidé à Jérusalem vers 62 apr. J.-C., sur l’initiative du grand prêtre Anan. Le Nouveau Testament ne raconte pas sa mort.",
+    "Le sens du mot « frère » est compris différemment selon les traditions chrétiennes (frère, demi-frère ou cousin). L’épître de Jacques lui est traditionnellement attribuée ; certains spécialistes discutent cette attribution. Il ne faut pas le confondre avec Jacques, fils de Zébédée, frère de Jean, mort sous Hérode [[Actes 12:1-2]]."
+  ],
+  "chronologie": [
+    { "etape": "Frère de Jésus, d’abord incrédule", "ref": "Jean 7:5" },
+    { "etape": "Le Ressuscité lui apparaît", "ref": "1 Corinthiens 15:7" },
+    { "etape": "En prière avec les apôtres", "ref": "Actes 1:14" },
+    { "etape": "Rencontre Paul à Jérusalem", "ref": "Galates 1:18-19" },
+    { "etape": "Discours à l’assemblée de Jérusalem", "ref": "Actes 15:13-21" },
+    { "etape": "Reçoit Paul et les anciens", "ref": "Actes 21:17-20" }
+  ],
+  "references": ["Actes 15:1-29", "Galates 1:18-2:12", "Actes 21:17-26", "Jacques 1:1"]
+}

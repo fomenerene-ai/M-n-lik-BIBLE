@@ -1,0 +1,28 @@
+{
+  "id": "onesime",
+  "nom": "Onésime et Philémon",
+  "cle": "onesime",
+  "ordre": 490,
+  "groupe": "Apôtres et compagnons de Paul",
+  "periode": "Captivité de Paul",
+  "resume": "Esclave de Philémon, devenu croyant auprès de Paul prisonnier, Onésime est renvoyé à son maître avec une lettre qui demande de l’accueillir comme un frère.",
+  "recit": [
+    "Paul, prisonnier, écrit avec Timothée à Philémon, « notre bien-aimé et notre compagnon d’œuvre », ainsi qu’à Apphia, à Archippe et à l’Église qui est dans sa maison [[Philémon 1:1-2]]. Il rend grâces pour l’amour et la foi de Philémon, qui ont réconforté les cœurs des saints [[Philémon 1:4-7]].",
+    "Paul pourrait lui prescrire ce qui convient, mais préfère le prier au nom de l’amour : « je te prie pour mon enfant, que j’ai engendré étant dans les chaînes, Onésime » [[Philémon 1:8-10]]. Il joue sur le sens du nom d’Onésime, « utile » : autrefois inutile à Philémon, il est maintenant utile à tous deux [[Philémon 1:11]].",
+    "Paul le renvoie, « lui, mon propre cœur ». Il aurait voulu le garder auprès de lui pour l’aider dans sa captivité, mais il ne veut rien faire sans l’accord de Philémon [[Philémon 1:12-14]]. Il suggère que l’éloignement d’Onésime avait peut-être pour but que Philémon le retrouve pour l’éternité, « non plus comme un esclave, mais comme supérieur à un esclave, comme un frère bien-aimé » [[Philémon 1:15-16]].",
+    "« Si donc tu me tiens pour ton ami, reçois-le comme moi-même. » Paul ajoute que s’il a causé quelque tort ou doit quelque chose, cela doit être mis sur son compte ; il l’écrit de sa propre main : « je paierai » [[Philémon 1:17-19]]. Il conclut en se disant persuadé que Philémon fera même plus qu’il ne demande [[Philémon 1:20-21]].",
+    "La lettre aux Colossiens mentionne Onésime parmi les porteurs de nouvelles : « Onésime, le fidèle et bien-aimé frère, qui est des vôtres » [[Colossiens 4:9]]."
+  ],
+  "contexte": [
+    "La lettre ne dit pas explicitement qu’Onésime s’était enfui. L’hypothèse la plus répandue est qu’il était un esclave fugitif ; d’autres pensent qu’il était venu demander l’intercession de Paul après un conflit avec son maître.",
+    "Ignace d’Antioche, au début du IIe siècle, mentionne un évêque d’Éphèse nommé Onésime. L’identification avec l’esclave de Philémon est possible, mais incertaine."
+  ],
+  "chronologie": [
+    { "etape": "Philémon, responsable d’une Église de maison", "ref": "Philémon 1:1-7" },
+    { "etape": "Onésime devient croyant auprès de Paul", "ref": "Philémon 1:10" },
+    { "etape": "Renvoyé à son maître", "ref": "Philémon 1:12-16" },
+    { "etape": "« Reçois-le comme moi-même »", "ref": "Philémon 1:17-21" },
+    { "etape": "Envoyé à Colosses", "ref": "Colossiens 4:9" }
+  ],
+  "references": ["Philémon 1:1-25", "Colossiens 4:7-9"]
+}

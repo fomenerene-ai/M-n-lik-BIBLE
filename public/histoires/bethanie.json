@@ -1,0 +1,29 @@
+{
+  "id": "bethanie",
+  "nom": "Marthe, Marie et Lazare",
+  "cle": "marthe",
+  "ordre": 425,
+  "groupe": "Évangiles",
+  "periode": "Ministère de Jésus",
+  "resume": "Deux sœurs et leur frère, amis de Jésus à Béthanie. Marthe sert, Marie écoute ; Lazare est ramené à la vie après quatre jours dans le tombeau.",
+  "recit": [
+    "Jésus est reçu dans la maison d’une femme nommée Marthe. Sa sœur Marie, assise aux pieds du Seigneur, écoute sa parole, tandis que Marthe s’affaire au service. Marthe demande à Jésus de dire à sa sœur de l’aider. Il lui répond : « Marthe, Marthe, tu t’inquiètes et tu t’agites pour beaucoup de choses. Une seule chose est nécessaire. Marie a choisi la bonne part, qui ne lui sera point ôtée » [[Luc 10:38-42]].",
+    "Lazare, de Béthanie, le village de Marthe et de Marie, tombe malade. Les sœurs font dire à Jésus : « Seigneur, voici, celui que tu aimes est malade. » Le texte précise : « Jésus aimait Marthe, et sa sœur, et Lazare » [[Jean 11:1-5]]. Il reste pourtant encore deux jours là où il est [[Jean 11:6]]. Quand il arrive, Lazare est dans le sépulcre depuis quatre jours [[Jean 11:17]].",
+    "Marthe vient à sa rencontre : « Seigneur, si tu eusses été ici, mon frère ne serait pas mort. » Jésus lui dit : « Je suis la résurrection et la vie. Celui qui croit en moi vivra, quand même il serait mort. » Elle répond : « Oui, Seigneur, je crois que tu es le Christ, le Fils de Dieu, qui devait venir dans le monde » [[Jean 11:20-27]]. Marie vient à son tour, tombe à ses pieds et lui dit la même parole que sa sœur [[Jean 11:28-32]]. Voyant pleurer Marie et ceux qui l’accompagnent, Jésus est profondément ému. « Jésus pleura » [[Jean 11:33-35]].",
+    "Devant le sépulcre, Jésus fait ôter la pierre. Marthe objecte que le corps sent déjà, car il est là depuis quatre jours [[Jean 11:38-40]]. Jésus prie, puis crie d’une voix forte : « Lazare, sors ! » Le mort sort, les pieds et les mains liés de bandes [[Jean 11:41-44]]. Beaucoup croient en lui, mais les principaux sacrificateurs et les pharisiens décident de le faire mourir [[Jean 11:45-53]].",
+    "Six jours avant la Pâque, un souper est donné à Béthanie : Marthe sert, Lazare est à table avec Jésus. Marie prend une livre d’un parfum de nard pur de grand prix, oint les pieds de Jésus et les essuie avec ses cheveux ; la maison est remplie de l’odeur du parfum [[Jean 12:1-3]]. Judas Iscariot proteste ; Jésus prend la défense de Marie [[Jean 12:4-8]]. Les principaux sacrificateurs projettent de faire mourir aussi Lazare, parce que beaucoup croient en Jésus à cause de lui [[Jean 12:9-11]]."
+  ],
+  "contexte": [
+    "Béthanie se trouvait sur le versant est du mont des Oliviers, à environ trois kilomètres de Jérusalem [[Jean 11:18]]. Le village porte aujourd’hui le nom arabe d’al-Azariya, dérivé du nom de Lazare.",
+    "Matthieu et Marc racontent une onction à Béthanie chez Simon le lépreux, par une femme non nommée [[Matthieu 26:6-13]] [[Marc 14:3-9]]. Son rapport avec le récit de Jean est discuté."
+  ],
+  "chronologie": [
+    { "etape": "Marthe et Marie reçoivent Jésus", "ref": "Luc 10:38-42" },
+    { "etape": "Maladie et mort de Lazare", "ref": "Jean 11:1-17" },
+    { "etape": "« Je suis la résurrection et la vie »", "ref": "Jean 11:20-27" },
+    { "etape": "« Jésus pleura »", "ref": "Jean 11:35" },
+    { "etape": "Lazare ramené à la vie", "ref": "Jean 11:38-44" },
+    { "etape": "Onction à Béthanie", "ref": "Jean 12:1-8" }
+  ],
+  "references": ["Luc 10:38-42", "Jean 11", "Jean 12:1-11"]
+}

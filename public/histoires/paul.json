@@ -1,0 +1,35 @@
+{
+  "id": "paul",
+  "nom": "Paul (Saul de Tarse)",
+  "cle": "paul",
+  "ordre": 475,
+  "groupe": "Apôtres et compagnons de Paul",
+  "periode": "Église naissante, Ier siècle",
+  "resume": "Pharisien persécuteur des chrétiens, il rencontre le Christ ressuscité sur le chemin de Damas. Devenu l’apôtre des païens, il fonde des Églises dans tout le monde grec et écrit une grande partie du Nouveau Testament.",
+  "recit": [
+    "Saul est né à Tarse, en Cilicie, et a été instruit à Jérusalem aux pieds de Gamaliel [[Actes 22:3]]. Il se présente comme « circoncis le huitième jour, de la race d’Israël, de la tribu de Benjamin, Hébreu né d’Hébreux ; quant à la loi, pharisien » [[Philippiens 3:5]]. Il approuve la lapidation d’Étienne [[Actes 7:58]] [[Actes 8:1]], puis ravage l’Église, entrant dans les maisons pour arrêter hommes et femmes [[Actes 8:3]].",
+    "En route vers Damas pour y arrêter les disciples, il est enveloppé d’une lumière venant du ciel. Il tombe et entend une voix : « Saul, Saul, pourquoi me persécutes-tu ? » « Qui es-tu, Seigneur ? » « Je suis Jésus que tu persécutes » [[Actes 9:1-5]]. Aveugle, il est conduit à Damas, où il reste trois jours sans voir, sans manger ni boire [[Actes 9:8-9]]. Le Seigneur envoie Ananias : « cet homme est un instrument que j’ai choisi, pour porter mon nom devant les nations ». Des écailles tombent de ses yeux, et il est baptisé [[Actes 9:10-18]]. Aussitôt, il prêche que Jésus est le Fils de Dieu [[Actes 9:20]].",
+    "Menacé de mort, il s’échappe de Damas dans une corbeille descendue le long de la muraille [[Actes 9:23-25]]. Barnabas le présente aux apôtres à Jérusalem [[Actes 9:26-28]]. Plus tard, Barnabas va le chercher à Tarse et l’amène à Antioche, où les disciples sont, pour la première fois, appelés chrétiens [[Actes 11:25-26]]. L’Esprit demande de mettre à part Barnabas et Saul pour l’œuvre à laquelle il les a appelés [[Actes 13:1-3]]. À partir de Chypre, le texte l’appelle « Saul, appelé aussi Paul » [[Actes 13:9]].",
+    "Lors de ses voyages, il annonce l’Évangile dans les synagogues puis aux païens. À Lystre, il est lapidé et laissé pour mort [[Actes 14:19-20]]. Il plaide à Jérusalem pour que les croyants d’origine païenne ne soient pas soumis à la circoncision [[Actes 15:1-29]]. Appelé en Macédoine par une vision [[Actes 16:9-10]], il est emprisonné à Philippes avec Silas ; au geôlier qui demande : « Que faut-il que je fasse pour être sauvé ? », il répond : « Crois au Seigneur Jésus, et tu seras sauvé, toi et ta famille » [[Actes 16:25-34]]. À Athènes, il parle devant l’Aréopage à partir d’un autel « À un dieu inconnu » [[Actes 17:22-31]]. Il reste un an et six mois à Corinthe [[Actes 18:1-11]] et plus de deux ans à Éphèse [[Actes 19:8-10]].",
+    "À Milet, il fait ses adieux aux anciens d’Éphèse et leur rappelle cette parole du Seigneur : « Il y a plus de bonheur à donner qu’à recevoir » [[Actes 20:17-38]]. À Jérusalem, il est arrêté dans le temple [[Actes 21:27-36]]. Le Seigneur lui dit : « il faut aussi que tu rendes témoignage dans Rome » [[Actes 23:11]]. Après deux ans de détention à Césarée, il en appelle à César [[Actes 25:10-12]]. Le navire qui le conduit à Rome fait naufrage près de Malte [[Actes 27:13-44]] [[Actes 28:1]]. À Rome, il demeure deux ans dans une maison louée, prêchant le royaume de Dieu avec une pleine liberté [[Actes 28:30-31]].",
+    "Ses lettres décrivent ses épreuves : coups, lapidation, naufrages, dangers sans nombre [[2 Corinthiens 11:23-28]], et une « écharde dans la chair » ; le Seigneur lui répond : « Ma grâce te suffit » [[2 Corinthiens 12:7-9]]. Il écrit : « je n’ai point honte de l’Évangile » [[Romains 1:16]]. Vers la fin, il déclare : « J’ai combattu le bon combat, j’ai achevé la course, j’ai gardé la foi » [[2 Timothée 4:6-8]]."
+  ],
+  "contexte": [
+    "Treize épîtres du Nouveau Testament portent le nom de Paul. Les spécialistes s’accordent sur l’authenticité de sept d’entre elles ; l’attribution des autres est discutée.",
+    "Le livre des Actes s’arrête avant la mort de Paul. Selon une tradition ancienne (Clément de Rome, puis Eusèbe), il mourut martyr à Rome sous Néron, dans les années 60."
+  ],
+  "chronologie": [
+    { "etape": "Né à Tarse, formé à Jérusalem", "ref": "Actes 22:3" },
+    { "etape": "Persécuteur de l’Église", "ref": "Actes 8:1-3" },
+    { "etape": "Sur le chemin de Damas", "ref": "Actes 9:1-19" },
+    { "etape": "À Antioche avec Barnabas", "ref": "Actes 11:25-26" },
+    { "etape": "Premier voyage missionnaire", "ref": "Actes 13-14" },
+    { "etape": "Assemblée de Jérusalem", "ref": "Actes 15" },
+    { "etape": "Philippes, Athènes, Corinthe", "ref": "Actes 16-18" },
+    { "etape": "Éphèse", "ref": "Actes 19" },
+    { "etape": "Arrestation à Jérusalem", "ref": "Actes 21:27-36" },
+    { "etape": "Appel à César", "ref": "Actes 25:10-12" },
+    { "etape": "Naufrage et arrivée à Rome", "ref": "Actes 27-28" }
+  ],
+  "references": ["Actes 9", "Actes 13-28", "Galates 1:11-24", "2 Corinthiens 11:23-12:10", "Philippiens 3:4-14", "2 Timothée 4:6-8"]
+}

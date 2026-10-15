@@ -1,0 +1,30 @@
+{
+  "id": "zorobabel",
+  "nom": "Zorobabel",
+  "cle": "zorobabel",
+  "ordre": 345,
+  "groupe": "Exil et retour",
+  "periode": "Retour d’exil, fin du VIe siècle av. J.-C.",
+  "resume": "Descendant de David et gouverneur de Juda, il conduit le retour des exilés et la reconstruction du temple, encouragé par les prophètes Aggée et Zacharie.",
+  "recit": [
+    "Zorobabel figure en tête de la liste des exilés qui reviennent de Babylone, avec le sacrificateur Josué [[Esdras 2:1-2]]. Le septième mois, ils rebâtissent l’autel et rétablissent les holocaustes, malgré leur crainte des peuples du pays [[Esdras 3:1-3]].",
+    "La deuxième année du retour, ils posent les fondements du temple. Les sacrificateurs sonnent des trompettes et le peuple pousse des cris de joie, tandis que beaucoup de vieillards qui avaient vu l’ancien temple pleurent à haute voix ; on ne pouvait distinguer les cris de joie des pleurs [[Esdras 3:8-13]].",
+    "Des adversaires proposent de bâtir avec eux. Zorobabel et Josué refusent : « Ce n’est pas à vous et à nous de bâtir la maison de notre Dieu » [[Esdras 4:1-3]]. Ces adversaires découragent alors le peuple et l’effraient, et les travaux s’arrêtent jusqu’à la deuxième année du roi Darius [[Esdras 4:4-5]] [[Esdras 4:24]].",
+    "Le prophète Aggée s’adresse à Zorobabel, fils de Schealthiel, gouverneur de Juda, et au grand prêtre Josué : le peuple habite des maisons lambrissées pendant que la maison de Dieu reste en ruines [[Aggée 1:1-4]]. L’Éternel réveille l’esprit de Zorobabel, de Josué et de tout le peuple, et le travail reprend [[Aggée 1:12-15]] [[Esdras 5:1-2]].",
+    "Aggée lui transmet une promesse : « je te prendrai, Zorobabel, […] et je te garderai comme un sceau ; car je t’ai choisi » [[Aggée 2:20-23]]. Le prophète Zacharie l’encourage aussi : « Ce n’est ni par la puissance ni par la force, mais c’est par mon esprit, dit l’Éternel des armées » ; « Les mains de Zorobabel ont fondé cette maison, et ses mains l’achèveront » [[Zacharie 4:6-10]].",
+    "Le temple est achevé la sixième année du règne de Darius, et sa dédicace est célébrée dans la joie [[Esdras 6:14-16]]. Zorobabel figure dans la généalogie de Jésus selon Matthieu [[Matthieu 1:12-13]]."
+  ],
+  "contexte": [
+    "Zorobabel est appelé « fils de Schealthiel » dans Esdras, Aggée et Matthieu, mais « fils de Pedaja » dans une généalogie des Chroniques [[1 Chroniques 3:17-19]]. Différentes explications ont été proposées, comme un mariage de lévirat.",
+    "Le second temple fut achevé vers 515 av. J.-C. Plus modeste que celui de Salomon, il fut ensuite profondément agrandi par Hérode le Grand, et c’est ce temple que fréquenta Jésus."
+  ],
+  "chronologie": [
+    { "etape": "Retour à la tête des exilés", "ref": "Esdras 2:1-2" },
+    { "etape": "Rétablissement de l’autel", "ref": "Esdras 3:1-3" },
+    { "etape": "Fondations du temple", "ref": "Esdras 3:8-13" },
+    { "etape": "Refus des adversaires ; arrêt des travaux", "ref": "Esdras 4:1-5" },
+    { "etape": "Encouragements d’Aggée et de Zacharie", "ref": "Aggée 1:12-15" },
+    { "etape": "Achèvement du temple", "ref": "Esdras 6:14-16" }
+  ],
+  "references": ["Esdras 2-6", "Aggée 1-2", "Zacharie 4:6-10", "Matthieu 1:12-13"]
+}
