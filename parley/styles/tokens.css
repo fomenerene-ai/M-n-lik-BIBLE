@@ -1,0 +1,70 @@
+/* Design tokens, direction "A, Pop". Light theme only. */
+:root {
+  color-scheme: light;
+
+  /* Neutrals */
+  --ground: #FFFFFF;
+  --surface: #F3F5F9;
+  --ink: #1D2433;
+  --muted: #6B7488;          /* text on white only (4.69:1) */
+  --muted-strong: #5E6679;   /* text on tinted surfaces (>= 4.5:1) */
+  --line: #E3E7EF;
+  --track: #F0F2F7;
+
+  /* Accents: fill, pressed edge, tint, and an "ink" shade for text on the tint */
+  --coral: #FF5B4A;
+  --coral-edge: #D63E2F;
+  --coral-tint: #FFF0EE;
+  --coral-soft: #FFF7F5;
+  --coral-ring: #FFE1DD;
+  --coral-ink: #C4372A;
+
+  --sun: #FFC53D;
+  --sun-edge: #D9A21B;
+  --sun-tint: #FFFBEF;
+  --sun-track: #F0E7CB;
+
+  --teal: #13B5A5;
+  --teal-edge: #0E8D80;
+  --teal-tint: #E6F8F6;
+  --teal-soft: #F6FBFA;
+  --teal-light: #BFE9E4;
+  --teal-ink: #0B7A6F;
+
+  --sky: #4CA8FF;
+  --sky-edge: #2F82D6;
+  --sky-tint: #EAF4FF;
+  --sky-strong: #1F78D1;     /* white text on it reaches 4.5:1 */
+  --sky-strong-edge: #17609F;
+  --sky-ink: #1F6FBF;
+
+  --violet: #8B7CF6;
+  --violet-edge: #6A5BD8;
+  --violet-tint: #F1EFFE;
+  --violet-ink: #5446C4;
+
+  --danger-ink: #B42318;
+  --danger-tint: #FEF0EF;
+
+  /* Type */
+  --font-display: 'Fredoka', system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+
+  /* Radii */
+  --r-card: 22px;
+  --r-card-lg: 24px;
+  --r-btn: 18px;
+  --r-tile: 18px;
+  --r-pill: 999px;
+
+  /* Chunky borders */
+  --bw: 2px;
+  --bw-bottom: 5px;
+
+  /* Layout */
+  --sidebar-w: 232px;
+  --rail-w: 300px;
+  --btn-h: 54px;
+  --touch: 48px;
+  --focus: 0 0 0 3px var(--ground), 0 0 0 6px var(--sky-strong);
+}

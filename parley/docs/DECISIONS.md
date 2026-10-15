@@ -1,0 +1,66 @@
+# Decisions
+
+One line per non-obvious decision, with the reason.
+
+- App lives in `parley/` of the Ménélik Bible repo (user choice); deployed by the existing Pages workflow, which copies `parley/` into `dist/parley/` after the Vite build.
+- The Bible service worker (`src/sw-template.js`) now skips `./parley/` requests: without it, a tablet that already runs the Bible app would get the Bible page when opening `/parley/`.
+- Hash routing (`#/listen`) because GitHub Pages has no rewrite rules and paths must stay relative.
+- `node --test "parley/tests/*.test.js"` (glob) because Node 22 does not accept a directory argument the way later versions do.
+- `parley/package.json` declares `"type": "module"` so the folder does not depend on the Bible's package.json.
+- `sw.js` keeps a hand-free precache list rewritten by `tools/build-sw.mjs`; a test fails when it is stale. This is a dev tool, not a build step: the repo is deployable as is.
+- Navigations are served from the cached `index.html` (cache-first shell) so HTML and JS always come from the same version; new versions arrive through the "Update ready, reload" toast.
+- `.json` requests and range requests bypass the service worker so the content manifest is always fresh and audio seeking works.
+- Icons are rasterised by a dependency-free node script (`tools/make-icons.mjs`) from the same geometry as `icon.svg`.
+- Contrast: the spec colors are kept for fills, but text on tints uses darker "ink" tokens (`--coral-ink`, `--teal-ink`, `--muted-strong`) to reach 4.5:1. Learner bubbles use `--sky-strong` (#1F78D1, 4.5:1 with white) instead of #4CA8FF (2.5:1).
+- White labels on coral buttons are 3.07:1. They are 20 px semibold and above, which WCAG AA classes as large text (3:1). Kept for the "Pop" look; all body text is at least 4.5:1.
+- VOA sites could not be reached from the build environment (DNS blocked), so the manifest ships 3 placeholder items flagged `"placeholder": true`, ignored by the app. No URL was invented.
+- CSP allows `https://*.voanews.com` for media and connect (CORS decode attempt). The validator fails if a manifest audio host is not in the CSP.
+- Separate `audioBlobs` store next to `audioLibrary`: listing the library never loads audio data.
+- Cards carry a `frontKey` (lowercase front) index for de-duplication, and `lastReviewedAt` to tell new cards from reviewed ones.
+- Adaptive rule: a score of 70 on content at the learner's level is "on level"; target = level + 2 * (score - 70) / 30, then EMA with alpha 0.15, clamped to 1..10 and to +/- 0.5 from the level held at the start of the day.
+- Backups exclude the imported audio library entirely (metadata too), so an import never creates entries whose audio is missing. Device-local `shadowAttempts` ids are dropped on export.
+- Merge import: minutes take the per-activity max per date (re-importing never doubles them), cards dedupe by id then by lowercase front keeping the most recently reviewed copy, profile kept unless the backup has more XP.
+- Minutes are flushed every 15 s while an activity runs, so a crash loses at most 15 s; XP is awarded when the activity ends.
+- API calls use `fetch` directly (no SDK) because the app has no dependencies and no build step.
+- Default effort `low` for every request: conversation latency matters most, and Sonnet 5.5 skips thinking on most simple turns at `low`. Thinking deltas in the stream are ignored; only text is spoken.
+- Server-side refusal fallback (`fallbacks: "default"` + beta header) is sent for the models that accept it. If the API rejects it with a 400, the client drops it for the rest of the session.
+- Structured outputs (`output_config.format` json_schema) guarantee JSON; numeric and length limits the API does not accept are stripped and checked locally, with one repair retry. If the API rejects the format, the client falls back to prompt-only JSON.
+- Conversation history is sent as plain text turns (thinking blocks are not kept), so trimming history never invalidates anything.
+- SRS: new card Again 10 min / Hard 1 d / Good 1 d / Easy 4 d; second success Good 6 d; then interval x ease (Hard x1.2, Easy x ease x1.3). Ease floor 1.3. Again re-queues the card at the end of the current review.
+- Cards "Say it" shows a word match from speech recognition, labelled as such: STT auto-corrects pronunciation.
+- Speech recognition results are merged defensively: some Android Chrome builds return cumulative finals, which would otherwise duplicate words.
+- Talk is half-duplex: the mic opens only after the partner finishes speaking (no echo of the TTS voice into recognition). Tapping the mic while the partner speaks interrupts and opens the mic.
+- The scenario opening line is fixed and spoken without an API call, so the conversation starts instantly. The API's first message must be from the user, so history starts with a "[Session note]" user message.
+- Time-up never cuts the learner: the wrap-up instruction is appended to the learner's current turn, or sent after the current reply.
+- The time-up and turn-limit instructions are plain bracketed notes in user messages (not mid-conversation system messages), so they work with any model chosen in Settings.
+- Reports are saved first with transcript and local metrics, then completed by the AI call: a failed call never loses the conversation, and the report screen offers "Generate feedback" later. Level update and report cards happen once, on the first successful generation.
+- Report uses effort `medium` (quality matters, latency does not); conversation uses `low`.
+- Speech recognition language is en-US for the learner whatever the partner accent: recognition of a French accent does not improve with en-GB, and one setting keeps behaviour predictable.
+- The live transcript is kept per recognition session and Chrome's early session ends trigger a silent restart, so long turns survive Android's short-pause cut-offs.
+- Listen keeps the library and the item in one screen (no route change) so the guided step timer is not reset when an item opens.
+- Remote VOA audio plays in a plain `<audio>` element; it is never decoded with Web Audio here (no verified CORS).
+- Exercises for VOA and imported audio are generated once from the transcript and cached in `contentCache`; generated gaps are checked locally to be copied word for word from the text, otherwise the model is asked to repair them.
+- Comprehension answers are checked locally (gap: exact after normalisation; short answer: all content words present), so pass 2 costs no API call for dialogues.
+- Tier choice by listening level: below 4 tiers 0, 1, 3; 4 to 6.5 all tiers; above 6.5 tiers 0, 2, 3 (VOA Learning English is a stepping stone only). Items outside the band stay visible and labelled.
+- Dictation shows a wrong word as "typed -> expected" rather than striking the expected word, which read as if the expected word were wrong.
+- Dictation updates the listening level once, when leaving the screen, from the average of at least 3 sentences.
+- Imported audio is decoded with an `OfflineAudioContext` at 16 kHz mono: enough for segmentation and pitch, and about six times less memory than 48 kHz stereo on the tablet. Files over 80 MB are refused; files over 25 minutes are stored without segments (whole-audio listening only).
+- Segmentation threshold adapts per recording (35 % between the 10th and 95th percentile frame energies), silences of 0.25 s split speech, groups end on pauses of 0.45 s once they reach 1.5 s, segments are 1 to 12 s (longer speech is cut at its quietest point).
+- Transcript alignment without timestamps is by order: one to one when counts match, otherwise proportional (characters versus seconds). SRT/VTT cues are used as segments directly; a Common Voice sentence covers the clip trimmed of silence.
+- Common Voice clips are titled with their sentence so the library list stays readable.
+- Pitch: YIN (threshold 0.15, 65 to 450 Hz, 40 ms frames, 10 ms hop) on audio downsampled to 16 kHz, so a 5 s take is analysed in well under a second on a tablet. Contours are in semitones relative to each speaker's median, octave jumps folded, median-smoothed over 5 frames.
+- Voice curve score: DTW (Sakoe-Chiba band 25 %) between both contours resampled to 80 points; 100 at identical, 0 at a mean gap of 4 semitones.
+- Rhythm score: 60 % duration ratio (0 at half or double length) and 40 % pause placement (pauses matched within 8 % of the speech span). TTS references get duration only, measured from the utterance's start and end events.
+- Overall shadow score weights words 50, curve 30, rhythm 20, renormalised over the parts that could be measured.
+- Recording uses an AudioWorklet (ScriptProcessor fallback) with noise suppression and auto gain off, to keep the pitch contour intact. Samples live in memory and are dropped after analysis.
+- Simultaneous recognition and recording is tried first; if the recording is silent (peak < 0.003) or recognition fails with a device error, the app switches to two takes and remembers it (`parley.shadowMode`), with a button to try one take again.
+- Remote manifest audio is only decoded for a curve if a CORS fetch succeeds; otherwise it is scored like a TTS reference, and the UI says so.
+- Tier changes only count attempts made since the tier was entered (`shadowTierSince`), so old scores at a tier do not bounce the learner back.
+- A small built-in bank of original sentences per tier is the last-resort reference when no imported audio or dialogue fits the tier.
+- Placement listening uses a built-in bank of 4 original clips (difficulty 2, 4, 6, 8) read by the device voices: no API call, same test every time, and it works without a key. Each clip can be played twice.
+- Placement speaking: 3 fixed questions, answers by voice (or typed), assessed in one JSON call with a rubric. Without a key, or if the call fails, levels come from the listening part (highest clip passed + 1, minus misses below it) and speaking starts half a level lower.
+- The shadowing tier starts from the speaking level band after the placement test.
+- Accessibility pass with an automated in-browser audit (text contrast against the effective background, accessible names, 44 px minimum targets) on every screen: small coral buttons and teal buttons use the darker ink shades so their white labels reach 4.5:1.
+- The report prompt carries the learner's speaking level and the vocabulary band one notch above, which sets the sophistication of the vocabulary added to cards.
+- A last-resort `error` / `unhandledrejection` handler turns any uncaught failure into a short friendly toast (never with secrets), so no failure is silent.
+- Verified in headless Chromium, not on the tablet: service worker update toast and old cache cleanup, offline shell, conversation wrap-up at time-up (with timers accelerated). Real speech, voices and the simultaneous recording mode are in `docs/MANUAL-TESTS.md`.
