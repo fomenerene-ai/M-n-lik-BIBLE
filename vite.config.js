@@ -81,6 +81,8 @@ export default defineConfig({
   base: './',
   define: {
     __APP_VERSION__: JSON.stringify(pkg.version),
+    // Horodatage du build (UTC), affiché dans les réglages pour distinguer les mises à jour
+    __BUILD_ID__: JSON.stringify(new Date().toISOString().slice(0, 16).replace('T', ' ')),
   },
   build: {
     target: 'es2020',
