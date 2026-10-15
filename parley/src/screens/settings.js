@@ -2,7 +2,7 @@
  * Settings: API key and model, conversation length, voices and accent mix, data (export, import,
  * reset), storage status.
  */
-import { h, replace, mmss } from '../ui/dom.js';
+import { h, replace, mmss, add } from '../ui/dom.js';
 import { button, choiceGroup, banner, errorBanner, confirmDialog, loading, chip } from '../ui/components.js';
 import { icon } from '../ui/icons.js';
 import { toast } from '../ui/toast.js';
@@ -23,10 +23,10 @@ const SAMPLE = 'Thanks for coming in today. Could you tell me a bit about yourse
  */
 export async function render(root, route, ctx) {
   const settings = await getSettings();
-  root.append(h('div.screen-head', null, h('div', null, h('h1', null, 'Settings'), h('p.subtitle', null, 'Everything is stored on this tablet only.'))));
+  add(root, h('div.screen-head', null, h('div', null, h('h1', null, 'Settings'), h('p.subtitle', null, 'Everything is stored on this tablet only.'))));
   const grid = h('div.settings-grid');
-  root.append(grid);
-  grid.append(await apiCard(settings), conversationCard(settings), await voicesCard(settings), await libraryCard(), dataCard(settings, ctx), await storageCard(ctx));
+  add(root, grid);
+  add(grid, await apiCard(settings), conversationCard(settings), await voicesCard(settings), await libraryCard(), dataCard(settings, ctx), await storageCard(ctx));
   return () => cancelSpeech();
 }
 
@@ -81,25 +81,25 @@ async function voicesCard(settings) {
   const voices = await getVoices();
   const groups = englishVoiceGroups(voices);
   const card = h('div.card', null, h('h3', null, 'Voices'));
-  if (!groups.length) { card.append(errorBanner({ kind: 'no-voice' })); return card; }
+  if (!groups.length) { add(card, errorBanner({ kind: 'no-voice' })); return card; }
   const saved = { ...settings.voices };
   for (const g of groups) {
     const id = `voice-${g.lang}`;
     const current = pickVoice(voices, g.lang, saved);
     const sel = h('select.select', { id, onchange: async () => { saved[g.lang] = sel.value; await setSetting('voices', saved); toast('Voice saved.'); } },
       ...g.voices.map((v) => h('option', { value: v.voiceURI, selected: current && v.voiceURI === current.voiceURI }, `${v.name}${v.localService ? '' : ' (online)'}`)));
-    card.append(h('div.field', null, h('label', { for: id }, g.label),
+    add(card, h('div.field', null, h('label', { for: id }, g.label),
       h('div.row', null, h('div.grow', null, sel), button('Play', { variant: 'outline', size: 'small', icon: 'speaker', onClick: () => {
         cancelSpeech();
         const v = voices.find((x) => x.voiceURI === sel.value);
         speak(SAMPLE, { voice: v }).catch((e) => toast(e.message));
       } }))));
   }
-  card.append(h('span.field-label', null, 'Accent for conversations'),
+  add(card, h('span.field-label', null, 'Accent for conversations'),
     choiceGroup([{ value: 'mixed', label: 'Mixed US and UK' }, ...groups.map((g) => ({ value: g.lang, label: g.label.replace('English ', '') }))], settings.accentMix,
       async (v) => { await setSetting('accentMix', v); toast('Saved.'); }, 'Accent mix'));
   if (!groups.some((g) => g.lang === 'en-GB') || !groups.some((g) => g.lang === 'en-US')) {
-    card.append(banner({ tone: 'sun', icon: 'info', text: 'Install English (US) and English (UK) voices in Android text-to-speech settings for mixed accents.' }));
+    add(card, banner({ tone: 'sun', icon: 'info', text: 'Install English (US) and English (UK) voices in Android text-to-speech settings for mixed accents.' }));
   }
   return card;
 }
@@ -181,7 +181,7 @@ async function libraryCard() {
       h('button.icon-btn', { type: 'button', 'aria-label': `Delete ${m.title}`, onclick: async () => {
         if (await confirmDialog({ title: 'Delete this audio?', text: `"${m.title}" will be removed from this tablet.`, confirm: 'Delete', danger: true })) { await deleteLibraryItem(m.id); drawList(); }
       } }, icon('trash')))));
-    if (items.length > 200) list.append(h('p.muted.small', null, `${items.length} items in total.`));
+    if (items.length > 200) add(list, h('p.muted.small', null, `${items.length} items in total.`));
   };
   file.addEventListener('change', async () => {
     const files = Array.from(file.files || []);
@@ -190,13 +190,13 @@ async function libraryCard() {
     const rows = new Map();
     replace(progress);
     const res = await importFiles(files, (name, status) => {
-      if (!rows.has(name)) { const r = h('div.muted.small'); rows.set(name, r); progress.append(r); }
+      if (!rows.has(name)) { const r = h('div.muted.small'); rows.set(name, r); add(progress, r); }
       rows.get(name).textContent = `${name}: ${status}`;
     });
     toast(`${res.imported} file${res.imported === 1 ? '' : 's'} imported${res.skipped.length ? `, ${res.skipped.length} skipped` : ''}.`);
     drawList();
   });
-  card.append(
+  add(card, 
     h('h3', null, 'Audio library'),
     h('p.muted.small', null, 'Import real native speech: your own recordings or Common Voice clips. Add a transcript with the same name (.txt, .srt, .vtt) or the Common Voice .tsv to unlock questions, dictation and word scores. Files stay on this tablet and are not included in backups.'),
     h('div.row', null, h('label.btn.btn-outline.btn-small', { for: 'audio-files', tabindex: '0', role: 'button', onkeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); file.click(); } } }, icon('upload'), 'Import audio'), file),

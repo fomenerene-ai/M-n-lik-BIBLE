@@ -1,7 +1,7 @@
 /**
  * Today: the guided 30-minute session (Listen 8, Talk 10, Shadow 5, Cards 4, Dictation 3).
  */
-import { h } from '../ui/dom.js';
+import { h, add } from '../ui/dom.js';
 import { stepCard, levelCard, minutesChart, chip, banner } from '../ui/components.js';
 import { SESSION_PLAN } from '../config.js';
 import { getSession, nextStepKey } from '../state/sessions.js';
@@ -20,14 +20,14 @@ export async function render(root, route, ctx) {
   const lv = levelInfo(profile.xp);
   const next = nextStepKey(session);
 
-  root.append(h('div.screen-head', null,
+  add(root, h('div.screen-head', null,
     h('div', null,
       h('h1', null, "Today's session"),
       h('p.subtitle', null, session.completedAt ? 'Session complete. Free practice is open, or start a step again.' : '30 minutes, five steps. Listening comes first.')),
     h('div.head-chips', null, chip(`Level ${lv.level}`, 'sun'), chip(`${profile.xp.toLocaleString('en-US')} XP`, 'teal'))));
 
   if (!profile.placementDoneAt) {
-    root.append(banner({
+    add(root, banner({
       tone: 'sun', icon: 'target', title: 'Placement test, about 5 minutes',
       text: 'Set your starting levels so listening and conversation match you.',
       action: { label: 'Take the test', onClick: () => ctx.go('placement') },
@@ -40,11 +40,11 @@ export async function render(root, route, ctx) {
     const state = st.status === 'done' ? 'done' : step.key === next ? 'next' : 'upcoming';
     const card = stepCard({ step, state, onStart: () => ctx.go(step.route, { session: 1 }) });
     card.setAttribute('role', 'listitem');
-    steps.append(card);
+    add(steps, card);
   }
 
   const today = localDate();
-  root.append(h('div.today-grid', null,
+  add(root, h('div.today-grid', null,
     steps,
     h('div.today-rail', null,
       levelCard(lv),

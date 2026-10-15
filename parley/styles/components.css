@@ -14,7 +14,8 @@
 .btn .icon { width: 22px; height: 22px; }
 
 .btn-primary { background: var(--coral); border-bottom-color: var(--coral-edge); color: #fff; }
-.btn-teal { background: var(--teal-edge); border-bottom-color: #0A6E64; color: #fff; }
+.btn-teal { background: var(--teal-ink); border-bottom-color: #085A52; color: #fff; }
+.btn-primary.btn-small { background: var(--coral-ink); border-bottom-color: #9E2A1F; }
 .btn-sun { background: var(--sun); border-bottom-color: var(--sun-edge); color: var(--ink); }
 .btn-sky { background: var(--sky-strong); border-bottom-color: var(--sky-strong-edge); color: #fff; }
 .btn-outline {
@@ -160,7 +161,7 @@
 .switch { display: inline-flex; align-items: center; gap: 12px; min-height: var(--touch); font-weight: 800; background: none; border: 0; padding: 0; }
 .switch .track-sw { width: 54px; height: 32px; border-radius: 16px; background: var(--line); position: relative; flex: none; }
 .switch .track-sw::after { content: ''; position: absolute; top: 4px; left: 4px; width: 24px; height: 24px; border-radius: 12px; background: #fff; transition: left 120ms ease; }
-.switch[aria-checked="true"] .track-sw { background: var(--teal-edge); }
+.switch[aria-checked="true"] .track-sw { background: var(--teal-ink); }
 .switch[aria-checked="true"] .track-sw::after { left: 26px; }
 
 /* Segmented control */

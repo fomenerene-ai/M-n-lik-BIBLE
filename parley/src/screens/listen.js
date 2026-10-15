@@ -3,7 +3,7 @@
  * Pass 1 audio only ("What did you catch?"), pass 2 questions and gap-fill, pass 3 subtitles with
  * tap-to-card. Subtitles can be shown at any time with the toggle.
  */
-import { h, replace, mmss } from '../ui/dom.js';
+import { h, replace, mmss, add } from '../ui/dom.js';
 import { button, iconButton, chip, choiceGroup, banner, errorBanner, emptyState, loading, toggle, tile } from '../ui/components.js';
 import { icon } from '../ui/icons.js';
 import { toast } from '../ui/toast.js';
@@ -31,7 +31,7 @@ export async function render(root, route, ctx) {
   let player = null;
   let genAbort = null;
   const body = h('div.stack.loose');
-  root.append(
+  add(root, 
     h('div.screen-head', null, h('div', null, h('h1', null, 'Listen'), h('p.subtitle', null, 'Natural speed, three passes. You control the pace.'))),
     run.frameEl, body);
 
@@ -139,7 +139,7 @@ export async function render(root, route, ctx) {
           pop);
         line.addEventListener('dblclick', () => player.playUnit(i));
         subLines.push(line);
-        lines.append(line);
+        add(lines, line);
       });
       replace(subsBox, h('div.row.between', null, h('h3', null, 'Subtitles'), h('span.muted.small', null, 'Tap a word to add it to your cards.')), lines);
       highlight();
@@ -173,7 +173,7 @@ export async function render(root, route, ctx) {
       if (player.mode === 'audio') {
         timeEl.textContent = `${mmss(s.time || 0)} / ${s.duration ? mmss(s.duration) : '--:--'}`;
         if (seek && s.duration) { seek.max = String(s.duration); seek.value = String(s.time || 0); }
-        if (s.error && !controls.querySelector('.banner')) controls.append(banner({ tone: 'danger', icon: 'alert', text: s.error }));
+        if (s.error && !controls.querySelector('.banner')) add(controls, banner({ tone: 'danger', icon: 'alert', text: s.error }));
       } else {
         timeEl.textContent = `${Math.min(s.index + 1, item.units.length)} / ${item.units.length}`;
       }
@@ -190,7 +190,7 @@ export async function render(root, route, ctx) {
         if (q.kind === 'choice') {
           let picked = null;
           const opts = h('div.choice-group', { role: 'group', 'aria-label': q.question });
-          q.options.forEach((o) => opts.append(h('button.choice', { type: 'button', 'aria-pressed': 'false', onclick: (e) => {
+          q.options.forEach((o) => add(opts, h('button.choice', { type: 'button', 'aria-pressed': 'false', onclick: (e) => {
             picked = o;
             opts.querySelectorAll('.choice').forEach((b) => b.setAttribute('aria-pressed', String(b === e.currentTarget)));
           } }, o)));

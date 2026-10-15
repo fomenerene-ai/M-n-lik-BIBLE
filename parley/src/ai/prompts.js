@@ -138,12 +138,15 @@ export const REPORT_SYSTEM = [
 ].join('\n');
 
 /**
- * Formats a transcript for the report prompt.
+ * Formats a transcript for the report prompt, with the level that sets vocabulary sophistication.
+ * @param {string} scenarioTitle
  * @param {{role: 'ai'|'me', text: string}[]} turns
+ * @param {number} level speaking level
  */
-export function reportUserMessage(scenarioTitle, turns) {
+export function reportUserMessage(scenarioTitle, turns, level) {
   const lines = turns.map((t) => `${t.role === 'me' ? 'LEARNER' : 'PARTNER'}: ${t.text}`);
-  return `Scenario: ${scenarioTitle}\n\nTranscript:\n${lines.join('\n')}`;
+  const next = bandFor(Math.min(10, level + 1.5));
+  return `Scenario: ${scenarioTitle}\nLearner speaking level: about ${bandFor(level).cefr}. Pick vocabulary one notch above: ${next.vocabulary}.\n\nTranscript:\n${lines.join('\n')}`;
 }
 
 /* ------------------------------------------------------------------------------------------------

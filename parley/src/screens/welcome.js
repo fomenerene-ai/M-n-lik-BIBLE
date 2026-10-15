@@ -1,7 +1,7 @@
 /**
  * First launch: welcome, API key, microphone test, voice test, placement offer.
  */
-import { h, replace } from '../ui/dom.js';
+import { h, replace, add } from '../ui/dom.js';
 import { button, banner, errorBanner, chip, loading } from '../ui/components.js';
 import { APP_NAME } from '../config.js';
 import { getSettings, setApiKey, setSetting } from '../state/settings.js';
@@ -25,7 +25,7 @@ export async function render(root, route, ctx) {
   let meterTimer = null;
   const stopMic = () => { clearInterval(meterTimer); if (mic) { mic.close(); mic = null; } };
   const wrap = h('div.welcome.stack.loose');
-  root.append(wrap);
+  add(root, wrap);
 
   const dots = () => h('div.dots', { 'aria-label': `Step ${step + 1} of 5` }, ...[0, 1, 2, 3, 4].map((i) => h(`span${i <= step ? '.on' : ''}`)));
   const nav = (...buttons) => h('div.row.between', null, step > 0 ? button('Back', { variant: 'outline', onClick: () => { step -= 1; draw(); } }) : h('span'), h('div.row', null, ...buttons));
@@ -83,7 +83,7 @@ export async function render(root, route, ctx) {
         if (!sttSupported()) { replace(out, errorBanner({ kind: 'no-stt' })); return; }
         replace(out, h('p', null, 'Now say: "I\'d like a coffee, please."'));
         const said = h('p.muted');
-        out.append(said);
+        add(out, said);
         try {
           const r = await recognizeOnce({ maxMs: 8000, onPartial: (t) => { said.textContent = t; } }).done;
           replace(out, r.text ? banner({ tone: 'teal', icon: 'check', text: `Heard: "${r.text}". Speech recognition works.` }) : banner({ tone: 'sun', icon: 'info', text: 'Nothing was recognised. Check the microphone and try again.' }));
@@ -101,7 +101,7 @@ export async function render(root, route, ctx) {
       getVoices().then((voices) => {
         const groups = englishVoiceGroups(voices);
         if (!groups.length) { replace(box, errorBanner({ kind: 'no-voice' })); return; }
-        const play = (lang) => { cancelSpeech(); speak(SAMPLE, { voice: pickVoice(voices, lang, settings.voices) }).catch((e) => box.append(errorBanner(e))); };
+        const play = (lang) => { cancelSpeech(); speak(SAMPLE, { voice: pickVoice(voices, lang, settings.voices) }).catch((e) => add(box, errorBanner(e))); };
         replace(box,
           h('div.row', null, ...groups.map((g) => chip(`${g.label}: ${g.voices.length}`, g.lang === 'en-US' || g.lang === 'en-GB' ? 'teal' : 'grey', true))),
           h('div.row', null,

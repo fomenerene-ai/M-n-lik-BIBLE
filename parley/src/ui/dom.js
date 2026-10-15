@@ -47,6 +47,15 @@ export function append(el, children) {
 }
 
 /**
+ * Appends children, skipping null and false (unlike the native Element.append).
+ * @param {Node} el
+ * @param {...any} children
+ */
+export function add(el, ...children) {
+  return append(el, children);
+}
+
+/**
  * Replaces all children of an element.
  * @param {Element} el
  * @param {...any} children

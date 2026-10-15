@@ -44,7 +44,7 @@
 }
 .pass-tab .num { width: 32px; height: 32px; border-radius: 16px; background: var(--surface); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); }
 .pass-tab[aria-current="step"] { border-color: var(--teal); background: var(--teal-tint); color: var(--teal-ink); }
-.pass-tab[aria-current="step"] .num { background: var(--teal-edge); color: #fff; }
+.pass-tab[aria-current="step"] .num { background: var(--teal-ink); color: #fff; }
 
 .player { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
 .player .seek { flex: 1; min-width: 200px; }

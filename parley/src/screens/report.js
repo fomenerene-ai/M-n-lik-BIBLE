@@ -2,7 +2,7 @@
  * Report: end-of-conversation feedback (scores, recurring errors, natural rephrasings, vocabulary,
  * strengths, next focus) plus local metrics and the transcript.
  */
-import { h, replace } from '../ui/dom.js';
+import { h, replace, add } from '../ui/dom.js';
 import { button, chip, errorBanner, emptyState, loading } from '../ui/components.js';
 import { getReport } from '../state/reports.js';
 import { generateReportAi } from './report-builder.js';
@@ -17,15 +17,15 @@ const SCORE_BARS = { fluency: 'teal', grammar: 'coral', vocabulary: 'sun', relev
 export async function render(root, route, ctx) {
   const report = await getReport(route.segments[0] || '');
   if (!report) {
-    root.append(h('h1', null, 'Report'), emptyState('chat', 'coral', 'Report not found', 'It may have been deleted.', button('Back to Progress', { onClick: () => ctx.go('progress') })));
+    add(root, h('h1', null, 'Report'), emptyState('chat', 'coral', 'Report not found', 'It may have been deleted.', button('Back to Progress', { onClick: () => ctx.go('progress') })));
     return;
   }
   const when = new Date(report.date).toLocaleString('en-GB', { dateStyle: 'full', timeStyle: 'short' });
-  root.append(h('div.screen-head', null,
+  add(root, h('div.screen-head', null,
     h('div', null, h('h1', null, report.scenarioTitle), h('p.subtitle', null, `${when}, ${Math.max(1, Math.round(report.durationSec / 60))} min`)),
     h('div.head-chips', null, button('Back to Today', { onClick: () => ctx.go('today') }))));
   const body = h('div.stack.loose');
-  root.append(body);
+  add(root, body);
   draw(body, report, ctx);
 }
 

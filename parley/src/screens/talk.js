@@ -4,7 +4,7 @@
  * speaks (live transcript), the reply streams and is spoken sentence by sentence, then the mic reopens.
  * No correction during the conversation: the report comes at the end.
  */
-import { h, replace, mmss } from '../ui/dom.js';
+import { h, replace, mmss, add } from '../ui/dom.js';
 import { button, iconButton, chip, choiceGroup, banner, errorBanner, confirmDialog, loading } from '../ui/components.js';
 import { icon } from '../ui/icons.js';
 import { API, CONVERSATION_LENGTHS, TURN_SILENCE_MS } from '../config.js';
@@ -44,11 +44,11 @@ export async function render(root, route, ctx) {
   }));
 
   const warnings = h('div.stack');
-  if (!key) warnings.append(banner({ tone: 'danger', icon: 'key', title: 'API key needed', text: 'Talk uses your Anthropic API key. Add it in Settings.', action: { label: 'Open Settings', onClick: () => ctx.go('settings') } }));
-  if (!sttSupported()) warnings.append(errorBanner({ kind: 'no-stt' }));
-  if (!ttsSupported()) warnings.append(errorBanner({ kind: 'no-voice' }));
+  if (!key) add(warnings, banner({ tone: 'danger', icon: 'key', title: 'API key needed', text: 'Talk uses your Anthropic API key. Add it in Settings.', action: { label: 'Open Settings', onClick: () => ctx.go('settings') } }));
+  if (!sttSupported()) add(warnings, errorBanner({ kind: 'no-stt' }));
+  if (!ttsSupported()) add(warnings, errorBanner({ kind: 'no-voice' }));
 
-  root.append(
+  add(root, 
     h('div.screen-head', null, h('div', null, h('h1', null, 'Talk'), h('p.subtitle', null, 'A real conversation at natural speed. Corrections arrive in your end-of-session report.'))),
     warnings,
     h('div.stack', null, h('h2', null, 'Scenarios'), scenarioPick(SCENARIOS.filter((s) => s.kind === 'scenario'))),
@@ -113,7 +113,7 @@ function startConversation(root, route, ctx, scenario, minutes) {
   const addBubble = (role, text, cls = '') => {
     const bubble = h(`div.bubble.${role === 'ai' ? 'ai' : 'me'}${cls}`, null, text);
     const row = role === 'ai' ? h('div.msg', null, h('div.avatar', { 'aria-hidden': 'true' }, icon('chat')), bubble) : h('div.msg.me', null, bubble);
-    chatEl.append(row);
+    add(chatEl, row);
     scrollDown();
     return { row, bubble };
   };
@@ -227,7 +227,7 @@ function startConversation(root, route, ctx, scenario, minutes) {
       if (listener !== current) return;
       listener = null;
       live.row.remove();
-      chatEl.append(errorBanner(e, { onRetry: () => { chatEl.lastElementChild.remove(); listen(); } }));
+      add(chatEl, errorBanner(e, { onRetry: () => { chatEl.lastElementChild.remove(); listen(); } }));
       typedRow.hidden = false;
       setPhase('idle');
       scrollDown();
@@ -238,7 +238,7 @@ function startConversation(root, route, ctx, scenario, minutes) {
     addBubble('me', text);
     turns.push({ role: 'me', text, ...meta });
     if (learnerTurns() >= API.maxConversationTurns) {
-      chatEl.append(banner({ tone: 'sun', icon: 'info', text: 'Turn limit reached for one session. Wrapping up.' }));
+      add(chatEl, banner({ tone: 'sun', icon: 'info', text: 'Turn limit reached for one session. Wrapping up.' }));
       state.timeUp = true;
     }
     if (state.timeUp) state.wrapUp = true;
@@ -331,7 +331,7 @@ function startConversation(root, route, ctx, scenario, minutes) {
     profileLevel = profile.speakingLevel;
     const persona = PERSONAS[lang] || PERSONAS.other;
     replace(personaChip, chip(`${persona.name}, ${persona.accent} voice`, 'teal', true));
-    if (!voice) chatEl.append(errorBanner({ kind: 'no-voice' }));
+    if (!voice) add(chatEl, errorBanner({ kind: 'no-voice' }));
     addBubble('ai', scenario.opening);
     turns.push({ role: 'ai', text: scenario.opening });
     setPhase('speaking');
@@ -340,7 +340,7 @@ function startConversation(root, route, ctx, scenario, minutes) {
     queue.end();
     await queue.wait();
     if (!state.ended && !state.paused) listen();
-  })().catch((e) => { chatEl.append(errorBanner(e)); setPhase('idle'); });
+  })().catch((e) => { add(chatEl, errorBanner(e)); setPhase('idle'); });
 
   return () => {
     if (!state.ended) stopAll();

@@ -2,7 +2,7 @@
  * Placement test, about 5 minutes: 4 listening clips of increasing difficulty with one question each,
  * then 3 spoken questions assessed by the API with a rubric. Sets the starting levels.
  */
-import { h, replace } from '../ui/dom.js';
+import { h, replace, add } from '../ui/dom.js';
 import { button, chip, banner, errorBanner, loading } from '../ui/components.js';
 import { icon } from '../ui/icons.js';
 import { bandFor } from '../config.js';
@@ -29,7 +29,7 @@ export async function render(root, route, ctx) {
   let turn = null;
   let closed = false;
   const wrap = h('div.welcome.stack.loose');
-  root.append(wrap);
+  add(root, wrap);
   const totalSteps = PLACEMENT_CLIPS.length + PLACEMENT_QUESTIONS.length;
   const head = (n, title, sub) => [
     h('div.row.between', null, h('div.dots', { 'aria-label': `Step ${n} of ${totalSteps}` }, ...Array.from({ length: totalSteps }, (_, i) => h(`span${i < n ? '.on' : ''}`))),

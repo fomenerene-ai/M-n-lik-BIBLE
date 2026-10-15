@@ -3,7 +3,7 @@
  * word match (speech recognition), voice curve (pitch contour versus the reference, DTW) and rhythm.
  * Sentence length tiers S, M, L move automatically. Recordings are analysed in memory, never saved.
  */
-import { h, replace } from '../ui/dom.js';
+import { h, replace, add } from '../ui/dom.js';
 import { button, chip, banner, errorBanner, loading, toggle } from '../ui/components.js';
 import { icon } from '../ui/icons.js';
 import { toast } from '../ui/toast.js';
@@ -53,7 +53,7 @@ export async function render(root, route, ctx) {
   const main = h('div.activity-main');
   const tierCard = h('div.card.stack.tight');
   const modeCard = h('div.card.soft.stack.tight');
-  root.append(
+  add(root, 
     h('div.screen-head', null, h('div', null, h('h1', null, 'Shadow'), h('p.subtitle', null, 'Listen, then say it the same way: same words, same melody, same rhythm.'))),
     run.frameEl,
     h('div.activity', null, main, h('div.activity-rail', null, tierCard, modeCard,
@@ -109,7 +109,7 @@ export async function render(root, route, ctx) {
         textEl,
         h('p.muted.small', null, ref.note),
         h('div.row.center', null,
-          button('Listen', { variant: 'sky', icon: 'speaker', size: 'large', onClick: () => ref.play().catch((e) => status.append(errorBanner(e))) }),
+          button('Listen', { variant: 'sky', icon: 'speaker', size: 'large', onClick: () => ref.play().catch((e) => add(status, errorBanner(e))) }),
           h('div.stack.tight', null, mic, h('div.mic-caption', null, 'Tap, then repeat')),
           button('Skip', { variant: 'outline', icon: 'next', onClick: next })),
         status),

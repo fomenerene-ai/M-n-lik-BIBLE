@@ -1,7 +1,7 @@
 /**
  * Shared UI components built on h(). Every component returns a DOM node.
  */
-import { h, replace, mmss } from './dom.js';
+import { h, replace, mmss, add } from './dom.js';
 import { icon } from './icons.js';
 
 /**
@@ -214,7 +214,7 @@ export function confirmDialog(o) {
   return new Promise((resolve) => {
     const dlg = h('dialog.modal', { 'aria-labelledby': 'dlg-title' });
     const done = (v) => { dlg.close(); dlg.remove(); resolve(v); };
-    dlg.append(h('div.stack', null,
+    add(dlg, h('div.stack', null,
       h('h2', { id: 'dlg-title' }, o.title),
       h('p', null, o.text),
       h('div.row.end', null,
@@ -244,7 +244,7 @@ export function promptDialog(o) {
       h('div.row.end', null,
         button('Cancel', { variant: 'outline', onClick: () => done(null) }),
         button(o.confirm || 'Save', { type: 'submit' })));
-    dlg.append(form);
+    add(dlg, form);
     dlg.addEventListener('cancel', (e) => { e.preventDefault(); done(null); });
     document.body.appendChild(dlg);
     dlg.showModal();

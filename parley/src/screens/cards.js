@@ -2,7 +2,7 @@
  * Cards: review (due first, then unlimited new cards), browse (search, filter, edit, delete),
  * and manual add with AI enrichment.
  */
-import { h, replace } from '../ui/dom.js';
+import { h, replace, add } from '../ui/dom.js';
 import { button, iconButton, chip, segmented, choiceGroup, emptyState, errorBanner, confirmDialog, loading } from '../ui/components.js';
 import { toast } from '../ui/toast.js';
 import { listCards, addCard, saveCard, deleteCard, reviewCard, enrichCard } from '../state/cards.js';
@@ -33,7 +33,7 @@ export async function render(root, route, ctx) {
   let activeTurn = null;
 
   const body = h('div.stack.loose');
-  root.append(
+  add(root, 
     h('div.screen-head', null,
       h('div', null, h('h1', null, 'Cards'), h('p.subtitle', null, 'Due reviews first, then new cards. Definitions in simple English.')),
       h('div.head-chips', null,
@@ -74,7 +74,7 @@ export async function render(root, route, ctx) {
       h('div.row', null, chip(`${counts.due} due`, 'coral'), chip(`${counts.fresh} new`, 'sky')),
       h('p.muted.small', null, `${counts.total} cards in total. New cards are unlimited.`));
     updateCounts();
-    rail.append(countsEl, h('div.card.soft.stack.tight', null, h('h3', null, 'Say it'),
+    add(rail, countsEl, h('div.card.soft.stack.tight', null, h('h3', null, 'Say it'),
       h('p.muted.small', null, 'The match uses speech recognition, which tends to auto-correct pronunciation. It checks the words, it is not a pronunciation diagnosis.')));
 
     const next = () => {
@@ -94,7 +94,7 @@ export async function render(root, route, ctx) {
       const actions = h('div.row.center');
       replace(main, flash, actions);
       const isNew = !card.lastReviewedAt;
-      flash.append(
+      add(flash, 
         h('div.row.center', null, chip(TYPE_LABELS[card.type], 'violet', true), chip(isNew ? 'New' : 'Review', isNew ? 'sky' : 'coral', true), chip(SOURCE_LABELS[card.source] || card.source, 'grey', true)),
         h(`div.front${card.type === 'sentence' ? '.sentence' : ''}`, { lang: 'en' }, card.front),
         card.context && card.context !== card.front ? h('p.context', null, card.context) : null,
@@ -108,7 +108,7 @@ export async function render(root, route, ctx) {
           card.definitionEn ? h('p.definition', null, card.definitionEn) : h('div.stack.tight', null, h('p.muted', null, 'No definition yet.'),
             button('Fill with AI', { variant: 'outline', size: 'small', icon: 'bolt', onClick: async (e) => {
               e.currentTarget.disabled = true;
-              try { const c = await enrichCard(card); Object.assign(card, c); showAnswer.click(); } catch (err) { reveal.append(errorBanner(err, { onSettings: () => ctx.go('settings') })); }
+              try { const c = await enrichCard(card); Object.assign(card, c); showAnswer.click(); } catch (err) { add(reveal, errorBanner(err, { onSettings: () => ctx.go('settings') })); }
             } })),
           card.exampleEn ? h('p.example', null, card.exampleEn) : null);
         const pv = previewIntervals(card, Date.now());
@@ -116,7 +116,7 @@ export async function render(root, route, ctx) {
           ...GRADES.map((g) => h(`button.btn.btn-${GRADE_STYLE[g]}`, { type: 'button', onclick: () => rate(card, g) },
             g[0].toUpperCase() + g.slice(1), h('small', null, pv[g])))));
       } });
-      actions.append(showAnswer);
+      add(actions, showAnswer);
       showAnswer.focus();
     };
 
@@ -175,7 +175,7 @@ export async function render(root, route, ctx) {
             await deleteCard(c.id); toast('Card deleted.'); drawBrowse();
           }
         }))));
-      if (items.length > 300) listEl.append(h('p.muted', null, `Showing 300 of ${items.length}. Refine the search.`));
+      if (items.length > 300) add(listEl, h('p.muted', null, `Showing 300 of ${items.length}. Refine the search.`));
     };
     replace(body,
       h('div.row', null, h('div.grow', null, search)),
@@ -201,7 +201,7 @@ export async function render(root, route, ctx) {
     let type = card.type || 'word';
     const close = () => { dlg.close(); dlg.remove(); };
     const isNew = !card.id;
-    dlg.append(h('form.stack', { onsubmit: async (e) => {
+    add(dlg, h('form.stack', { onsubmit: async (e) => {
       e.preventDefault();
       if (!f.front.value.trim()) { f.front.focus(); return; }
       await onSave({ ...card, type, front: f.front.value, context: f.context.value.trim(), definitionEn: f.definitionEn.value.trim(), exampleEn: f.exampleEn.value.trim() });

@@ -7,7 +7,7 @@ import { REPORT_SCHEMA, REPORT_SYSTEM, reportUserMessage } from '../ai/prompts.j
 import { learnerMetrics } from '../learning/conversation.js';
 import { saveReport, getReport } from '../state/reports.js';
 import { addReportVocabulary } from '../state/cards.js';
-import { updateSkill } from '../state/profile.js';
+import { updateSkill, getProfile } from '../state/profile.js';
 
 /**
  * Saves a report draft with the transcript and local metrics.
@@ -40,9 +40,10 @@ export async function createReport(o) {
  * @returns {Promise<{report: object}>}
  */
 export async function generateReportAi(report) {
+  const { speakingLevel } = await getProfile();
   const ai = await chatJson({
     system: REPORT_SYSTEM,
-    messages: [{ role: 'user', content: reportUserMessage(report.scenarioTitle, report.turns) }],
+    messages: [{ role: 'user', content: reportUserMessage(report.scenarioTitle, report.turns, speakingLevel) }],
     schema: REPORT_SCHEMA,
     maxTokens: 6000,
     effort: 'medium',

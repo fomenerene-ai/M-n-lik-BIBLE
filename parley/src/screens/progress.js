@@ -1,7 +1,7 @@
 /**
  * Progress: minutes per day (7 or 30 days), level and XP, past conversation reports.
  */
-import { h, replace } from '../ui/dom.js';
+import { h, replace, add } from '../ui/dom.js';
 import { levelCard, minutesChart, segmented, emptyState } from '../ui/components.js';
 import { getProfile } from '../state/profile.js';
 import { lastDays } from '../state/minutes.js';
@@ -40,7 +40,7 @@ export async function render(root) {
       h('span.chip.sm.grey', null, `${Math.round(r.overall)} / 100`))))
     : emptyState('chat', 'coral', 'No reports yet', 'Finish a Talk session to get your first report.');
 
-  root.append(
+  add(root, 
     h('div.screen-head', null, h('div', null, h('h1', null, 'Progress'), h('p.subtitle', null, 'Minutes practised, your level, and past conversation reports.'))),
     h('div.activity', null,
       h('div.activity-main', null,

@@ -3,7 +3,7 @@
  * Unlimited replays; the transcript is offered after two replays. The diff marks correct, missing,
  * wrong and extra words. Words missed twice can be added to cards in one tap.
  */
-import { h, replace } from '../ui/dom.js';
+import { h, replace, add } from '../ui/dom.js';
 import { button, chip, errorBanner, emptyState, loading } from '../ui/components.js';
 import { toast } from '../ui/toast.js';
 import { allItems, sentenceUnits } from '../content/pool.js';
@@ -33,7 +33,7 @@ export async function render(root, route, ctx) {
   const main = h('div.activity-main');
   const stats = h('div.card.stack.tight');
   const missedBox = h('div.card.stack.tight');
-  root.append(
+  add(root, 
     h('div.screen-head', null, h('div', null, h('h1', null, 'Dictation'), h('p.subtitle', null, 'Type exactly what you hear. Natural speed, replay as often as you need.'))),
     run.frameEl,
     h('div.activity', null, main, h('div.activity-rail', null, stats, missedBox, h('div.card.soft.stack.tight', null,
@@ -81,7 +81,7 @@ export async function render(root, route, ctx) {
       const play = async () => {
         if (sentence.item.kind === 'dialogue') {
           cancelSpeech();
-          await speak(sentence.text, { voice: (sentence.speaker === 'B' ? voices.B : voices.A).voice }).catch((e) => main.append(errorBanner(e)));
+          await speak(sentence.text, { voice: (sentence.speaker === 'B' ? voices.B : voices.A).voice }).catch((e) => add(main, errorBanner(e)));
         } else {
           let p = players.get(sentence.item.id);
           if (!p) { p = await createPlayer(sentence.item); players.set(sentence.item.id, p); }
@@ -92,7 +92,7 @@ export async function render(root, route, ctx) {
       const transcriptBox = h('div');
       const offerTranscript = () => {
         if (replays >= 2 && !transcriptBox.firstChild && !checked) {
-          transcriptBox.append(button('Show transcript', { variant: 'outline', size: 'small', icon: 'eye', onClick: () => replace(transcriptBox, h('p.words', { lang: 'en' }, sentence.text)) }));
+          add(transcriptBox, button('Show transcript', { variant: 'outline', size: 'small', icon: 'eye', onClick: () => replace(transcriptBox, h('p.words', { lang: 'en' }, sentence.text)) }));
         }
       };
       const input = h('textarea.textarea', { 'aria-label': 'Type what you hear', autocapitalize: 'sentences', spellcheck: 'false' });

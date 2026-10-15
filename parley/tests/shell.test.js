@@ -44,6 +44,7 @@ test('no absolute paths, innerHTML or inline styles in the app shell', () => {
     const src = read(f);
     assert.ok(!/\.innerHTML\s*=|insertAdjacentHTML|outerHTML\s*=/.test(src), `${f} uses innerHTML`);
     assert.ok(!/setAttribute\(\s*['"]style['"]/.test(src), `${f} sets a style attribute`);
+    if (f !== 'src/ui/dom.js') assert.ok(!/\.append\(/.test(src), `${f} uses native append (prints "null"); use add() from dom.js`);
   }
 });
 

@@ -19,6 +19,7 @@ const SCREENS = {
   dictation: () => import('./screens/dictation.js'),
   shadow: () => import('./screens/shadow.js'),
   placement: () => import('./screens/placement.js'),
+  readaloud: () => import('./screens/readaloud.js'),
   report: () => import('./screens/report.js'),
   welcome: () => import('./screens/welcome.js'),
   settings: () => import('./screens/settings.js'),
