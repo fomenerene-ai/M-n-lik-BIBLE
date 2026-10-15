@@ -1,0 +1,29 @@
+{
+  "id": "marie-magdala",
+  "nom": "Marie de Magdala",
+  "cle": "marie de magdala",
+  "ordre": 421,
+  "groupe": "Évangiles",
+  "periode": "Ministère de Jésus et résurrection",
+  "resume": "Délivrée par Jésus, elle le suit et l’assiste de ses biens. Présente à la croix et au tombeau, elle est la première à rencontrer le Ressuscité selon l’Évangile de Jean.",
+  "recit": [
+    "Jésus parcourt villes et villages avec les Douze et quelques femmes qu’il a guéries, parmi lesquelles « Marie, dite de Magdala, de laquelle étaient sortis sept démons ». Ces femmes l’assistent de leurs biens [[Luc 8:1-3]].",
+    "Elle est parmi les femmes qui regardent de loin la crucifixion, et qui suivaient Jésus depuis la Galilée [[Marc 15:40-41]]. L’Évangile de Jean la place près de la croix avec Marie, mère de Jésus [[Jean 19:25]]. Elle regarde où l’on dépose le corps [[Marc 15:47]], et achète des aromates pour aller l’embaumer après le sabbat [[Marc 16:1]].",
+    "Le premier jour de la semaine, de grand matin, elle va au sépulcre et voit la pierre ôtée. Elle court avertir Pierre et l’autre disciple : « Ils ont enlevé du sépulcre le Seigneur, et nous ne savons où ils l’ont mis » [[Jean 20:1-2]].",
+    "Restée dehors près du sépulcre, elle pleure. Deux anges lui demandent : « Femme, pourquoi pleures-tu ? » [[Jean 20:11-13]]. Elle se retourne et voit Jésus, sans le reconnaître ; pensant que c’est le jardinier, elle lui demande où il a mis le corps [[Jean 20:14-15]]. Jésus lui dit : « Marie ! » Elle se retourne et lui dit en hébreu : « Rabbouni ! », c’est-à-dire Maître [[Jean 20:16]].",
+    "Jésus lui dit de ne pas le retenir, car il n’est pas encore monté vers son Père, et l’envoie vers ses frères [[Jean 20:17]]. Elle va annoncer aux disciples qu’elle a vu le Seigneur et leur rapporte ses paroles [[Jean 20:18]]. Selon Luc, les femmes qui rapportent ces choses aux apôtres ne sont pas crues : leurs paroles leur semblent des rêveries [[Luc 24:10-11]]."
+  ],
+  "contexte": [
+    "Depuis la fin de l’Antiquité, une partie de la tradition occidentale a identifié Marie de Magdala à la pécheresse anonyme de Luc 7:36-50 et à Marie de Béthanie. Rien dans le texte biblique n’appuie ces identifications, qui sont aujourd’hui largement abandonnées.",
+    "Magdala était une ville de pêcheurs sur la rive ouest du lac de Galilée ; des fouilles y ont mis au jour une synagogue du Ier siècle."
+  ],
+  "chronologie": [
+    { "etape": "Délivrée et disciple de Jésus", "ref": "Luc 8:1-3" },
+    { "etape": "Présente à la crucifixion", "ref": "Marc 15:40-41" },
+    { "etape": "Voit où le corps est déposé", "ref": "Marc 15:47" },
+    { "etape": "Découvre le tombeau vide", "ref": "Jean 20:1-2" },
+    { "etape": "Rencontre le Ressuscité", "ref": "Jean 20:11-17" },
+    { "etape": "Annonce aux disciples", "ref": "Jean 20:18" }
+  ],
+  "references": ["Luc 8:1-3", "Marc 15:40-16:1", "Jean 20:1-18", "Luc 24:1-11"]
+}

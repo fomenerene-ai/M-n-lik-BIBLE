@@ -1,0 +1,30 @@
+{
+  "id": "thomas",
+  "nom": "Thomas",
+  "cle": "thomas",
+  "ordre": 412,
+  "groupe": "Évangiles",
+  "periode": "Ministère de Jésus et résurrection",
+  "resume": "Apôtre surnommé Didyme, prêt à mourir avec Jésus, il refuse de croire à la résurrection sans preuve, puis confesse : « Mon Seigneur et mon Dieu ! »",
+  "recit": [
+    "Thomas figure parmi les douze apôtres [[Matthieu 10:2-4]]. L’Évangile de Jean précise qu’il est appelé Didyme, c’est-à-dire « jumeau » [[Jean 11:16]].",
+    "Quand Jésus décide de retourner en Judée, où l’on a voulu le lapider, pour aller auprès de Lazare, Thomas dit aux autres disciples : « Allons aussi, afin de mourir avec lui » [[Jean 11:7-16]].",
+    "Au dernier repas, Jésus annonce qu’il va préparer une place à ses disciples et qu’ils savent le chemin. Thomas objecte : « Seigneur, nous ne savons où tu vas ; comment pouvons-nous en savoir le chemin ? » Jésus répond : « Je suis le chemin, la vérité, et la vie. Nul ne vient au Père que par moi » [[Jean 14:1-6]].",
+    "Le soir de la résurrection, Thomas n’est pas avec les disciples quand Jésus leur apparaît. Quand ils lui disent : « Nous avons vu le Seigneur », il répond : « Si je ne vois dans ses mains la marque des clous, et si je ne mets mon doigt dans la marque des clous, et si je ne mets ma main dans son côté, je ne croirai point » [[Jean 20:24-25]].",
+    "Huit jours après, Jésus vient alors que les portes sont fermées et dit à Thomas : « Avance ici ton doigt, et regarde mes mains ; avance aussi ta main, et mets-la dans mon côté ; et ne sois pas incrédule, mais crois. » Thomas répond : « Mon Seigneur et mon Dieu ! » Jésus lui dit : « Parce que tu m’as vu, tu as cru. Heureux ceux qui n’ont pas vu, et qui ont cru ! » [[Jean 20:26-29]].",
+    "Il fait partie des disciples à qui Jésus se manifeste au bord du lac de Tibériade [[Jean 21:1-2]], et il est présent avec les apôtres à Jérusalem après l’ascension [[Actes 1:13]]."
+  ],
+  "contexte": [
+    "Une tradition ancienne, rapportée notamment par Eusèbe et les Actes de Thomas (texte apocryphe), fait de Thomas l’évangélisateur de la Perse et de l’Inde. Les chrétiens de saint Thomas, en Inde du Sud, se réclament de lui. Le Nouveau Testament ne dit rien de sa mission ultérieure.",
+    "L’expression « Thomas l’incrédule » vient de la tradition. Le texte retient surtout sa confession, l’une des plus explicites des Évangiles sur l’identité de Jésus."
+  ],
+  "chronologie": [
+    { "etape": "Choisi parmi les Douze", "ref": "Matthieu 10:2-4" },
+    { "etape": "« Allons aussi, afin de mourir avec lui »", "ref": "Jean 11:16" },
+    { "etape": "Question sur le chemin", "ref": "Jean 14:5-6" },
+    { "etape": "Doute après la résurrection", "ref": "Jean 20:24-25" },
+    { "etape": "« Mon Seigneur et mon Dieu ! »", "ref": "Jean 20:26-29" },
+    { "etape": "Au bord du lac de Tibériade", "ref": "Jean 21:1-2" }
+  ],
+  "references": ["Jean 11:1-16", "Jean 14:1-7", "Jean 20:19-29"]
+}

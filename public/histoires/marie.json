@@ -1,0 +1,33 @@
+{
+  "id": "marie",
+  "nom": "Marie, mère de Jésus",
+  "cle": "marie",
+  "ordre": 401,
+  "groupe": "Évangiles",
+  "periode": "Vie de Jésus et Église naissante",
+  "resume": "Jeune femme de Nazareth, elle accepte l’annonce de l’ange et devient la mère de Jésus. Elle l’accompagne de sa naissance jusqu’à la croix, et prie avec les disciples après la résurrection.",
+  "recit": [
+    "L’ange Gabriel est envoyé à Nazareth, en Galilée, vers une vierge fiancée à Joseph, de la maison de David ; elle s’appelle Marie. « Je te salue, toi à qui une grâce a été faite ; le Seigneur est avec toi » [[Luc 1:26-28]]. Il lui annonce qu’elle enfantera un fils, qu’elle appellera Jésus, qui sera appelé Fils du Très-Haut et à qui Dieu donnera le trône de David [[Luc 1:30-33]].",
+    "Marie demande : « Comment cela se fera-t-il, puisque je ne connais point d’homme ? » L’ange répond que le Saint-Esprit viendra sur elle, et ajoute : « rien n’est impossible à Dieu. » Marie dit : « Je suis la servante du Seigneur ; qu’il me soit fait selon ta parole ! » [[Luc 1:34-38]]. Elle se rend chez Élisabeth, puis chante : « Mon âme exalte le Seigneur, et mon esprit se réjouit en Dieu, mon Sauveur » [[Luc 1:39-55]].",
+    "Joseph, informé en songe, la prend chez lui [[Matthieu 1:18-25]]. À Bethléhem, Marie met au monde son fils premier-né, l’emmaillote et le couche dans une crèche, faute de place dans l’hôtellerie [[Luc 2:4-7]]. Après la visite des bergers, « Marie gardait toutes ces choses, et les repassait dans son cœur » [[Luc 2:19]]. Au temple, le vieillard Siméon lui annonce : « une épée te transpercera l’âme » [[Luc 2:33-35]]. Avec Joseph et l’enfant, elle fuit en Égypte pour échapper à Hérode [[Matthieu 2:13-15]].",
+    "Quand Jésus a douze ans, ses parents le perdent à Jérusalem et le retrouvent au temple après trois jours. Marie lui dit : « Mon enfant, pourquoi as-tu agi de la sorte avec nous ? Voici, ton père et moi, nous te cherchions avec angoisse » [[Luc 2:41-51]].",
+    "Aux noces de Cana, elle signale à Jésus que le vin manque, puis dit aux serviteurs : « Faites ce qu’il vous dira » [[Jean 2:1-11]]. Pendant le ministère de Jésus, elle vient le chercher avec ses frères ; Jésus déclare que quiconque fait la volonté de Dieu est son frère, sa sœur et sa mère [[Marc 3:31-35]].",
+    "Elle se tient près de la croix. Voyant sa mère et le disciple qu’il aimait, Jésus dit à sa mère : « Femme, voilà ton fils », puis au disciple : « Voilà ta mère. » Dès ce moment, le disciple la prend chez lui [[Jean 19:25-27]]. Après l’ascension, elle persévère dans la prière avec les apôtres et les frères de Jésus [[Actes 1:14]]."
+  ],
+  "contexte": [
+    "Le cantique de Marie est appelé Magnificat dans la tradition chrétienne. Il présente de nombreux points communs avec le cantique d’Anne [[1 Samuel 2:1-10]].",
+    "Les Évangiles mentionnent des « frères » et des « sœurs » de Jésus [[Marc 6:3]]. Selon les traditions chrétiennes, ils sont compris comme des enfants de Marie et de Joseph, des enfants d’un premier mariage de Joseph ou des cousins. Les doctrines mariales développées ensuite varient selon les Églises."
+  ],
+  "chronologie": [
+    { "etape": "L’annonciation à Nazareth", "ref": "Luc 1:26-38" },
+    { "etape": "Visite à Élisabeth ; le Magnificat", "ref": "Luc 1:39-56" },
+    { "etape": "Naissance de Jésus à Bethléhem", "ref": "Luc 2:1-20" },
+    { "etape": "Présentation au temple", "ref": "Luc 2:22-35" },
+    { "etape": "Fuite en Égypte", "ref": "Matthieu 2:13-15" },
+    { "etape": "Jésus retrouvé au temple", "ref": "Luc 2:41-51" },
+    { "etape": "Les noces de Cana", "ref": "Jean 2:1-11" },
+    { "etape": "Au pied de la croix", "ref": "Jean 19:25-27" },
+    { "etape": "En prière avec les disciples", "ref": "Actes 1:14" }
+  ],
+  "references": ["Luc 1-2", "Matthieu 1:18-2:23", "Jean 2:1-11", "Jean 19:25-27", "Actes 1:14"]
+}

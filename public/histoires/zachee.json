@@ -1,0 +1,26 @@
+{
+  "id": "zachee",
+  "nom": "Zachée",
+  "cle": "zachee",
+  "ordre": 430,
+  "groupe": "Évangiles",
+  "periode": "Ministère de Jésus",
+  "resume": "Chef des publicains de Jéricho, riche et mal vu, il grimpe sur un sycomore pour voir Jésus. Jésus s’invite chez lui, et sa vie est transformée.",
+  "recit": [
+    "Jésus traverse la ville de Jéricho. Un homme appelé Zachée, chef des publicains et riche, cherche à voir qui est Jésus, mais il ne le peut à cause de la foule, car il est de petite taille. Il court en avant et monte sur un sycomore pour le voir, parce qu’il doit passer par là [[Luc 19:1-4]].",
+    "Arrivé à cet endroit, Jésus lève les yeux et lui dit : « Zachée, hâte-toi de descendre ; car il faut que je demeure aujourd’hui dans ta maison. » Zachée descend en hâte et le reçoit avec joie [[Luc 19:5-6]]. Voyant cela, tous murmurent : Jésus est allé loger chez un homme pécheur [[Luc 19:7]].",
+    "Zachée, se tenant devant le Seigneur, lui dit : « Voici, Seigneur, je donne aux pauvres la moitié de mes biens, et, si j’ai fait tort de quelque chose à quelqu’un, je lui rends le quadruple » [[Luc 19:8]].",
+    "Jésus lui dit : « Le salut est entré aujourd’hui dans cette maison, parce que celui-ci est aussi un fils d’Abraham. Car le Fils de l’homme est venu chercher et sauver ce qui était perdu » [[Luc 19:9-10]]."
+  ],
+  "contexte": [
+    "Les publicains percevaient les taxes pour le compte de Rome ou des autorités locales, souvent en prélevant plus que le dû. Ils étaient méprisés comme collaborateurs et pécheurs [[Luc 15:1-2]]. Jéricho, ville de passage et de commerce, offrait de bons revenus aux collecteurs.",
+    "La loi de Moïse prévoyait la restitution du quadruple pour certains vols [[Exode 22:1]], et l’ajout d’un cinquième pour un tort reconnu [[Nombres 5:6-7]]. L’engagement de Zachée va au-delà de ce qui était exigé."
+  ],
+  "chronologie": [
+    { "etape": "Monte sur un sycomore", "ref": "Luc 19:1-4" },
+    { "etape": "Jésus s’invite chez lui", "ref": "Luc 19:5-7" },
+    { "etape": "Engagement à réparer", "ref": "Luc 19:8" },
+    { "etape": "« Le salut est entré dans cette maison »", "ref": "Luc 19:9-10" }
+  ],
+  "references": ["Luc 19:1-10"]
+}

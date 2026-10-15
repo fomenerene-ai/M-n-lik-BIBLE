@@ -1,0 +1,31 @@
+{
+  "id": "joseph-nazareth",
+  "nom": "Joseph de Nazareth",
+  "cle": "joseph de nazareth",
+  "ordre": 402,
+  "groupe": "Évangiles",
+  "periode": "Enfance de Jésus",
+  "resume": "Charpentier de la lignée de David, fiancé à Marie, il obéit aux songes envoyés par Dieu, accueille l’enfant, le protège en Égypte et l’élève à Nazareth.",
+  "recit": [
+    "La généalogie de Matthieu aboutit à « Joseph, l’époux de Marie, de laquelle est né Jésus » [[Matthieu 1:16]]. Joseph est de la maison et de la famille de David [[Luc 2:4]].",
+    "Marie, sa fiancée, se trouve enceinte avant qu’ils aient habité ensemble. « Joseph, son époux, qui était un homme de bien et qui ne voulait pas la diffamer, se proposa de rompre secrètement avec elle » [[Matthieu 1:18-19]]. Un ange lui apparaît en songe : « Joseph, fils de David, ne crains pas de prendre avec toi Marie, ta femme, car l’enfant qu’elle a conçu vient du Saint-Esprit », et lui dit de l’appeler Jésus [[Matthieu 1:20-21]]. À son réveil, il fait ce que l’ange lui a ordonné et prend sa femme avec lui [[Matthieu 1:24-25]].",
+    "À cause du recensement, il monte de Nazareth à Bethléhem avec Marie, où Jésus naît [[Luc 2:1-7]]. Les bergers trouvent « Marie et Joseph, et le petit enfant couché dans la crèche » [[Luc 2:16]]. Au temple, ils offrent le sacrifice prévu par la loi, une paire de tourterelles ou deux jeunes pigeons [[Luc 2:22-24]].",
+    "Après la visite des mages, un ange l’avertit en songe de fuir en Égypte, car Hérode cherche l’enfant pour le faire périr. Il part de nuit avec l’enfant et sa mère [[Matthieu 2:13-15]]. À la mort d’Hérode, un nouveau songe l’invite à revenir ; craignant Archélaüs, il se retire en Galilée et s’établit à Nazareth [[Matthieu 2:19-23]].",
+    "Chaque année, il monte à Jérusalem pour la Pâque avec Marie. Quand Jésus a douze ans, ils le cherchent avec angoisse pendant trois jours ; Jésus leur répond qu’il doit s’occuper des affaires de son Père, puis redescend avec eux et leur est soumis [[Luc 2:41-51]].",
+    "Plus tard, les habitants de Nazareth demandent à propos de Jésus : « N’est-ce pas le fils du charpentier ? » [[Matthieu 13:55]]. Luc précise que Jésus était « fils, comme on le croyait, de Joseph » [[Luc 3:23]]."
+  ],
+  "contexte": [
+    "Joseph n’apparaît plus dans les récits du ministère public de Jésus. Beaucoup en déduisent qu’il était mort ; le texte ne le dit pas.",
+    "Le mot grec traduit par « charpentier » désigne un artisan du bois ou de la construction. Les généalogies de Matthieu et de Luc présentent deux listes d’ancêtres différentes pour Joseph ; plusieurs explications ont été proposées."
+  ],
+  "chronologie": [
+    { "etape": "Fiancé à Marie", "ref": "Matthieu 1:18-19" },
+    { "etape": "Premier songe : accueillir Marie", "ref": "Matthieu 1:20-25" },
+    { "etape": "Naissance de Jésus à Bethléhem", "ref": "Luc 2:1-7" },
+    { "etape": "Présentation au temple", "ref": "Luc 2:22-24" },
+    { "etape": "Fuite en Égypte", "ref": "Matthieu 2:13-15" },
+    { "etape": "Installation à Nazareth", "ref": "Matthieu 2:19-23" },
+    { "etape": "Pâque à Jérusalem", "ref": "Luc 2:41-51" }
+  ],
+  "references": ["Matthieu 1:16-25", "Matthieu 2:13-23", "Luc 2"]
+}

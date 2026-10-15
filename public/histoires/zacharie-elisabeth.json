@@ -1,0 +1,30 @@
+{
+  "id": "zacharie-elisabeth",
+  "nom": "Zacharie et Élisabeth",
+  "cle": "zacharie",
+  "ordre": 400,
+  "groupe": "Évangiles",
+  "periode": "Règne d’Hérode le Grand",
+  "resume": "Couple âgé et sans enfant, de famille sacerdotale, ils deviennent les parents de Jean-Baptiste. Élisabeth accueille Marie, et Zacharie chante la venue du salut.",
+  "recit": [
+    "Au temps d’Hérode, roi de Judée, vit un sacrificateur nommé Zacharie, de la classe d’Abia ; sa femme, Élisabeth, descend d’Aaron. « Tous deux étaient justes devant Dieu », mais ils n’ont pas d’enfant, car Élisabeth est stérile, et ils sont avancés en âge [[Luc 1:5-7]].",
+    "Un jour, le sort désigne Zacharie pour offrir le parfum dans le temple [[Luc 1:8-10]]. Un ange lui apparaît : « Ne crains point, Zacharie ; car ta prière a été exaucée. » Élisabeth lui enfantera un fils, qu’il appellera Jean ; il marchera devant le Seigneur « avec l’esprit et la puissance d’Élie » [[Luc 1:11-17]]. Zacharie demande : « À quoi reconnaîtrai-je cela ? » L’ange se nomme, Gabriel, et annonce qu’il restera muet jusqu’à l’accomplissement de ces paroles, parce qu’il n’a pas cru [[Luc 1:18-20]].",
+    "Élisabeth devient enceinte et se tient cachée cinq mois : le Seigneur, dit-elle, a jeté les yeux sur elle pour ôter son opprobre [[Luc 1:24-25]]. Au sixième mois, l’ange annonce à Marie qu’Élisabeth, sa parente, attend un fils [[Luc 1:36]].",
+    "Marie vient la visiter. Dès qu’Élisabeth entend sa salutation, l’enfant tressaille dans son sein, et elle est remplie du Saint-Esprit : « Tu es bénie entre les femmes, et le fruit de ton sein est béni. Comment m’est-il accordé que la mère de mon Seigneur vienne auprès de moi ? » Elle ajoute : « Heureuse celle qui a cru » [[Luc 1:39-45]].",
+    "L’enfant naît, et voisins et parents se réjouissent. Le huitième jour, on veut l’appeler Zacharie comme son père ; Élisabeth s’y oppose. Zacharie, consulté, écrit sur une tablette : « Jean est son nom. » Aussitôt sa bouche s’ouvre et il bénit Dieu [[Luc 1:57-64]].",
+    "Rempli du Saint-Esprit, il prophétise : « Béni soit le Seigneur, le Dieu d’Israël, de ce qu’il a visité et racheté son peuple. » Il s’adresse ensuite à son fils : « Et toi, petit enfant, tu seras appelé prophète du Très-Haut ; car tu marcheras devant la face du Seigneur, pour préparer ses voies » [[Luc 1:67-79]]."
+  ],
+  "contexte": [
+    "Les sacrificateurs étaient répartis en vingt-quatre classes qui servaient à tour de rôle au temple ; la classe d’Abia est mentionnée en 1 Chroniques 24:10. Offrir le parfum était un privilège que beaucoup ne recevaient qu’une fois dans leur vie.",
+    "Le cantique de Zacharie est connu dans la tradition chrétienne sous le nom de Benedictus, d’après son premier mot en latin."
+  ],
+  "chronologie": [
+    { "etape": "Couple juste et sans enfant", "ref": "Luc 1:5-7" },
+    { "etape": "Annonce de Gabriel au temple", "ref": "Luc 1:8-20" },
+    { "etape": "Grossesse d’Élisabeth", "ref": "Luc 1:24-25" },
+    { "etape": "Visite de Marie", "ref": "Luc 1:39-45" },
+    { "etape": "Naissance de Jean ; Zacharie retrouve la parole", "ref": "Luc 1:57-64" },
+    { "etape": "Cantique de Zacharie", "ref": "Luc 1:67-79" }
+  ],
+  "references": ["Luc 1"]
+}

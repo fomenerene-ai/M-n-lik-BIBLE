@@ -1,0 +1,31 @@
+{
+  "id": "judas-iscariot",
+  "nom": "Judas Iscariot",
+  "cle": "judas iscariot",
+  "ordre": 440,
+  "groupe": "Évangiles",
+  "periode": "Ministère et passion de Jésus",
+  "resume": "L’un des Douze, chargé de la bourse commune, il livre Jésus aux principaux sacrificateurs pour trente pièces d’argent. Pris de remords, il meurt tragiquement.",
+  "recit": [
+    "Judas Iscariot figure dans toutes les listes des douze apôtres, toujours en dernier, avec la mention : « celui qui livra Jésus » [[Marc 3:14-19]]. L’Évangile de Jean rapporte une parole de Jésus : « l’un de vous est un démon », et précise qu’il parlait de Judas [[Jean 6:70-71]].",
+    "À Béthanie, quand Marie oint les pieds de Jésus d’un parfum de grand prix, Judas proteste qu’on aurait pu le vendre pour les pauvres. L’évangéliste commente : il disait cela parce qu’il était voleur et qu’ayant la bourse, il prenait ce qu’on y mettait [[Jean 12:4-6]].",
+    "Il va trouver les principaux sacrificateurs : « Que voulez-vous me donner, et je vous le livrerai ? » Ils lui comptent trente pièces d’argent, et dès lors il cherche une occasion favorable [[Matthieu 26:14-16]]. Luc écrit que Satan entra en lui [[Luc 22:3-6]].",
+    "Au dernier repas, Jésus annonce que l’un d’eux le livrera. Il donne à Judas le morceau trempé et lui dit : « Ce que tu fais, fais-le promptement. » Judas sort aussitôt. « Il était nuit » [[Jean 13:21-30]].",
+    "À Gethsémané, il arrive avec une troupe armée. Il avait donné un signe : celui qu’il baiserait serait Jésus. Il s’approche : « Salut, Rabbi ! » et le baise ; Jésus lui dit : « Mon ami, ce que tu es venu faire, fais-le » [[Matthieu 26:47-50]]. Selon Luc, Jésus lui demande : « C’est par un baiser que tu livres le Fils de l’homme ! » [[Luc 22:47-48]].",
+    "Voyant Jésus condamné, Judas, pris de remords, rapporte les trente pièces : « J’ai péché, en livrant le sang innocent. » Il jette l’argent dans le temple, se retire et va se pendre [[Matthieu 27:3-5]]. Les principaux sacrificateurs achètent avec cet argent le champ du potier, pour la sépulture des étrangers [[Matthieu 27:6-10]]. Le livre des Actes rapporte sa mort autrement : il serait tombé dans un champ, appelé Hakeldama, « champ du sang » [[Actes 1:16-19]]. Les apôtres choisissent Matthias pour le remplacer [[Actes 1:21-26]]."
+  ],
+  "contexte": [
+    "Le surnom Iscariot est souvent compris comme « homme de Kerioth », une localité de Judée, ce qui ferait de Judas le seul des Douze à ne pas être galiléen. D’autres explications ont été proposées.",
+    "Les motifs de Judas ne sont pas expliqués de façon unique : appât du gain, influence de Satan, ou déception politique selon certaines hypothèses modernes. Les deux récits de sa mort (Matthieu et Actes) ont été harmonisés de diverses manières par les interprètes."
+  ],
+  "chronologie": [
+    { "etape": "Choisi parmi les Douze", "ref": "Marc 3:14-19" },
+    { "etape": "Proteste contre l’onction de Béthanie", "ref": "Jean 12:4-6" },
+    { "etape": "Accord pour trente pièces d’argent", "ref": "Matthieu 26:14-16" },
+    { "etape": "Sort pendant le dernier repas", "ref": "Jean 13:21-30" },
+    { "etape": "Le baiser de Gethsémané", "ref": "Matthieu 26:47-50" },
+    { "etape": "Remords et mort", "ref": "Matthieu 27:3-10" },
+    { "etape": "Remplacé par Matthias", "ref": "Actes 1:15-26" }
+  ],
+  "references": ["Matthieu 26:14-25", "Matthieu 26:47-50", "Matthieu 27:3-10", "Jean 13:21-30", "Actes 1:15-26"]
+}
