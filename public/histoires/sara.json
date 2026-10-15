@@ -1,0 +1,36 @@
+{
+  "id": "sara",
+  "nom": "Sara",
+  "cle": "sara",
+  "ordre": 31,
+  "groupe": "Patriarches et matriarches",
+  "periode": "Époque des patriarches",
+  "resume": "Femme d’Abraham, longtemps stérile, elle devient à quatre-vingt-dix ans la mère d’Isaac, l’enfant de la promesse.",
+  "recit": [
+    "Saraï est la femme d’Abram, et le texte précise d’emblée : « Saraï était stérile : elle n’avait point d’enfants » [[Genèse 11:29-30]]. Elle accompagne Abram dans son départ vers Canaan [[Genèse 12:5]].",
+    "Pendant une famine, Abram descend en Égypte et lui demande de se dire sa sœur, car elle est belle et il craint d’être tué à cause d’elle. Elle est emmenée chez Pharaon ; l’Éternel frappe Pharaon et sa maison, et Pharaon la rend à Abram [[Genèse 12:10-20]]. Une scène semblable se reproduit plus tard à Guérar, chez le roi Abimélec ; Dieu avertit le roi en songe, et Sara est rendue sans qu’il l’ait touchée [[Genèse 20:1-18]].",
+    "Faute d’enfant, Saraï donne à Abram sa servante égyptienne Agar. Quand Agar devient enceinte, elle méprise sa maîtresse ; Saraï la maltraite, et Agar s’enfuit [[Genèse 16:1-6]].",
+    "Dieu change son nom en Sara et déclare : « Je la bénirai, et je te donnerai d’elle un fils ; je la bénirai, et elle deviendra des nations » [[Genèse 17:15-16]]. Abraham rit à l’idée que Sara, âgée de quatre-vingt-dix ans, puisse enfanter [[Genèse 17:17]].",
+    "À Mamré, Sara entend depuis l’entrée de la tente l’annonce qu’elle aura un fils, et rit en elle-même. L’Éternel demande : « Y a-t-il rien qui soit étonnant de la part de l’Éternel ? » Sara, prise de peur, nie avoir ri [[Genèse 18:9-15]].",
+    "L’Éternel se souvient de Sara : elle enfante un fils au temps annoncé, et Abraham le nomme Isaac. Sara dit : « Dieu m’a fait un sujet de rire ; quiconque l’apprendra rira de moi » [[Genèse 21:1-7]]. Le nom Isaac évoque en hébreu le rire.",
+    "Lors de la fête du sevrage, Sara voit le fils d’Agar rire et demande à Abraham de chasser la servante et son fils. Abraham en est très peiné, mais Dieu lui dit d’écouter Sara, car c’est d’Isaac que sortira la postérité qui portera son nom [[Genèse 21:8-12]].",
+    "Sara meurt à cent vingt-sept ans à Kirjath-Arba, c’est-à-dire Hébron. Abraham la pleure, puis achète la caverne de Macpéla pour l’y enterrer [[Genèse 23:1-2]] [[Genèse 23:19]].",
+    "L’épître aux Hébreux souligne sa foi : « elle crut à la fidélité de celui qui avait fait la promesse » [[Hébreux 11:11]]. Pierre la donne en exemple aux femmes chrétiennes [[1 Pierre 3:5-6]], et Paul cite la promesse faite à son sujet [[Romains 9:9]]."
+  ],
+  "contexte": [
+    "Le procédé consistant à donner une servante à son mari pour obtenir un héritier est attesté dans des contrats de mariage du Proche-Orient ancien. Ce rapprochement aide à comprendre la démarche de Saraï, sans que le texte biblique l’explique lui-même."
+  ],
+  "chronologie": [
+    { "etape": "Femme d’Abram, stérile", "ref": "Genèse 11:29-30" },
+    { "etape": "Départ vers Canaan", "ref": "Genèse 12:5" },
+    { "etape": "En Égypte, présentée comme sœur", "ref": "Genèse 12:10-20" },
+    { "etape": "Elle donne Agar à Abram", "ref": "Genèse 16:1-6" },
+    { "etape": "Nouveau nom : Sara", "ref": "Genèse 17:15-16" },
+    { "etape": "Elle rit à l’annonce de Mamré", "ref": "Genèse 18:9-15" },
+    { "etape": "Épisode de Guérar", "ref": "Genèse 20" },
+    { "etape": "Naissance d’Isaac", "ref": "Genèse 21:1-7" },
+    { "etape": "Renvoi d’Agar et d’Ismaël", "ref": "Genèse 21:8-12" },
+    { "etape": "Mort à 127 ans, à Hébron", "ref": "Genèse 23:1-2" }
+  ],
+  "references": ["Genèse 16:1-6", "Genèse 17:15-21", "Genèse 18:9-15", "Genèse 21:1-12", "Genèse 23", "Hébreux 11:11-12", "1 Pierre 3:5-6"]
+}

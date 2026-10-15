@@ -1,0 +1,27 @@
+{
+  "id": "melchisedek",
+  "nom": "Melchisédek",
+  "cle": "melchisedek",
+  "ordre": 33,
+  "groupe": "Patriarches et matriarches",
+  "periode": "Époque des patriarches",
+  "resume": "Roi de Salem et sacrificateur du Dieu Très-Haut, il bénit Abram. Les Psaumes et l’épître aux Hébreux en font la figure d’un sacerdoce éternel.",
+  "recit": [
+    "Melchisédek n’apparaît qu’une fois dans le récit de la Genèse. Abram revient vainqueur d’une coalition de rois qui avaient emmené son neveu Lot. Le roi de Sodome sort à sa rencontre dans la vallée de Schavé, la vallée du roi [[Genèse 14:17]].",
+    "« Melchisédek, roi de Salem, fit apporter du pain et du vin : il était sacrificateur du Dieu Très-Haut. » Il bénit Abram : « Béni soit Abram par le Dieu Très-Haut, maître du ciel et de la terre ! Béni soit le Dieu Très-Haut, qui a livré tes ennemis entre tes mains ! » Et Abram lui donne la dîme de tout [[Genèse 14:18-20]]. Le texte ne dit rien d’autre de lui : ni sa famille, ni sa naissance, ni sa mort.",
+    "Un psaume royal reprend son nom dans un oracle adressé au roi : « Tu es sacrificateur pour toujours, à la manière de Melchisédek » [[Psaumes 110:4]].",
+    "L’épître aux Hébreux développe longuement cette figure. Elle applique le psaume à Jésus, « souverain sacrificateur selon l’ordre de Melchisédek » [[Hébreux 5:5-10]] [[Hébreux 6:20]]. Elle explique le sens de son nom, « roi de justice », et de son titre, roi de Salem, « roi de paix » [[Hébreux 7:1-2]]. Elle souligne le silence du texte sur ses origines : il est « sans père, sans mère, sans généalogie », et ainsi « rendu semblable au Fils de Dieu » [[Hébreux 7:3]].",
+    "L’auteur tire argument de la dîme donnée par Abram et de la bénédiction reçue : le plus petit est béni par le plus grand, ce qui place ce sacerdoce au-dessus de celui de Lévi, descendant d’Abram [[Hébreux 7:4-10]]. Il en conclut qu’un sacerdoce nouveau, fondé non sur une loi de filiation mais sur « la puissance d’une vie impérissable », a été inauguré par le Christ [[Hébreux 7:11-17]]."
+  ],
+  "contexte": [
+    "Salem est généralement identifiée à Jérusalem ; un psaume emploie d’ailleurs « Salem » en parallèle avec « Sion » [[Psaumes 76]]. Cette identification est ancienne mais n’est pas affirmée explicitement dans le récit de la Genèse.",
+    "Le nom Melchisédek est formé de deux mots hébreux, « roi » et « justice ». L’épître aux Hébreux s’appuie sur ce sens [[Hébreux 7:2]]."
+  ],
+  "chronologie": [
+    { "etape": "Rencontre d’Abram après la victoire sur les rois", "ref": "Genèse 14:17-18" },
+    { "etape": "Bénédiction d’Abram, qui lui donne la dîme", "ref": "Genèse 14:19-20" },
+    { "etape": "Oracle du psaume 110", "ref": "Psaumes 110:4" },
+    { "etape": "Relecture de l’épître aux Hébreux", "ref": "Hébreux 7:1-17" }
+  ],
+  "references": ["Genèse 14:17-24", "Psaumes 110", "Hébreux 5:5-10", "Hébreux 6:19-20", "Hébreux 7"]
+}

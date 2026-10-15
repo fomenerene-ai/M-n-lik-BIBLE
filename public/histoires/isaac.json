@@ -1,0 +1,37 @@
+{
+  "id": "isaac",
+  "nom": "Isaac",
+  "cle": "isaac",
+  "ordre": 40,
+  "groupe": "Patriarches et matriarches",
+  "periode": "Époque des patriarches",
+  "resume": "Fils promis d’Abraham et de Sara, héritier de l’alliance. Homme paisible, il creuse des puits, aime Rebecca et transmet la bénédiction à Jacob.",
+  "recit": [
+    "Avant même sa naissance, Dieu annonce à Abraham que Sara lui donnera un fils, qu’il appellera Isaac, et qu’il établira son alliance avec lui [[Genèse 17:19]]. Isaac naît quand Abraham a cent ans ; il est circoncis le huitième jour [[Genèse 21:1-5]]. Abraham donne un grand festin le jour où il est sevré [[Genèse 21:8]].",
+    "Dieu demande à Abraham d’offrir Isaac en holocauste. En chemin, Isaac porte le bois et demande : « Voici le feu et le bois ; mais où est l’agneau pour l’holocauste ? » Abraham répond que Dieu y pourvoira. Isaac est lié sur l’autel, mais l’ange de l’Éternel arrête la main de son père, et un bélier est offert à sa place [[Genèse 22:6-13]].",
+    "Après la mort de Sara, le serviteur d’Abraham ramène Rebecca de Mésopotamie. Isaac, sorti pour méditer dans les champs le soir, la voit arriver. Il la conduit dans la tente de Sara, sa mère : « il l’aima. Ainsi fut consolé Isaac, après avoir perdu sa mère » [[Genèse 24:62-67]]. Il a quarante ans [[Genèse 25:20]].",
+    "Avec Ismaël, il enterre Abraham dans la caverne de Macpéla ; Dieu bénit ensuite Isaac, qui habite près du puits de Lachaï-roï [[Genèse 25:9-11]]. Rebecca étant stérile, Isaac prie l’Éternel pour elle, et elle conçoit [[Genèse 25:21]]. Les jumeaux Ésaü et Jacob naissent quand il a soixante ans. Isaac aime Ésaü, « parce qu’il mangeait du gibier » [[Genèse 25:26-28]].",
+    "Pendant une famine, Dieu lui dit de ne pas descendre en Égypte et lui renouvelle les promesses faites à Abraham [[Genèse 26:1-5]]. À Guérar, il fait passer Rebecca pour sa sœur, comme son père l’avait fait ; le roi Abimélec découvre la vérité et protège le couple [[Genèse 26:6-11]]. Isaac sème et récolte au centuple, car l’Éternel le bénit [[Genèse 26:12-14]].",
+    "Les Philistins comblent les puits creusés du temps d’Abraham. Isaac les recreuse, et les bergers de Guérar lui disputent deux puits, qu’il nomme Ések et Sitna. Pour le troisième, personne ne conteste : il l’appelle Rehoboth, « car l’Éternel nous a maintenant mis au large » [[Genèse 26:15-22]]. À Beer-Schéba, l’Éternel lui apparaît, et Isaac bâtit un autel [[Genèse 26:23-25]]. Abimélec vient ensuite conclure une alliance avec lui [[Genèse 26:26-31]].",
+    "Devenu vieux et aveugle, Isaac veut bénir Ésaü. Rebecca et Jacob le trompent, et c’est Jacob qui reçoit la bénédiction. Quand Ésaü arrive, Isaac est saisi d’une grande émotion, mais il maintient sa parole : « aussi sera-t-il béni » [[Genèse 27:1-40]]. Il envoie ensuite Jacob chercher une femme chez Laban, à Paddan-Aram, et le bénit de nouveau [[Genèse 28:1-5]].",
+    "Isaac meurt à cent quatre-vingts ans, « âgé et rassasié de jours ». Ésaü et Jacob, ses fils, l’enterrent [[Genèse 35:27-29]], dans la caverne de Macpéla [[Genèse 49:31]].",
+    "L’épître aux Hébreux rappelle sa foi lorsqu’il bénit Jacob et Ésaü en vue de l’avenir [[Hébreux 11:20]]. Paul le présente comme l’enfant de la promesse [[Galates 4:28]] [[Romains 9:7-10]]."
+  ],
+  "contexte": [
+    "Beer-Schéba, dans le Néguev, et Guérar, plus à l’ouest, sont des lieux de pâturage où l’accès à l’eau était vital : les conflits autour des puits reflètent la vie de pasteurs semi-nomades.",
+    "La mention de « Philistins » à l’époque d’Isaac est discutée par les historiens, car les sources extérieures les situent sur la côte plus tard. Certains y voient une désignation tardive des habitants de la région."
+  ],
+  "chronologie": [
+    { "etape": "Naissance, Abraham a 100 ans", "ref": "Genèse 21:1-5" },
+    { "etape": "Offert sur le mont Morija", "ref": "Genèse 22:1-14" },
+    { "etape": "Mariage avec Rebecca, à 40 ans", "ref": "Genèse 24:62-67" },
+    { "etape": "Enterre Abraham avec Ismaël", "ref": "Genèse 25:9" },
+    { "etape": "Naissance d’Ésaü et Jacob, à 60 ans", "ref": "Genèse 25:21-26" },
+    { "etape": "Séjour à Guérar", "ref": "Genèse 26:1-11" },
+    { "etape": "Les puits et l’alliance de Beer-Schéba", "ref": "Genèse 26:15-33" },
+    { "etape": "Bénédiction de Jacob", "ref": "Genèse 27" },
+    { "etape": "Envoie Jacob à Paddan-Aram", "ref": "Genèse 28:1-5" },
+    { "etape": "Mort à 180 ans", "ref": "Genèse 35:28-29" }
+  ],
+  "references": ["Genèse 21:1-8", "Genèse 22:1-19", "Genèse 24:62-67", "Genèse 26", "Genèse 27", "Hébreux 11:17-20"]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "esau",
+  "nom": "Ésaü",
+  "cle": "esau",
+  "ordre": 50,
+  "groupe": "Patriarches et matriarches",
+  "periode": "Époque des patriarches",
+  "resume": "Fils aîné d’Isaac, chasseur, il vend son droit d’aînesse pour un plat et perd la bénédiction. Des années plus tard, il accueille son frère Jacob à bras ouverts.",
+  "recit": [
+    "Ésaü naît le premier des jumeaux de Rebecca : « Le premier sortit entièrement roux, comme un manteau de poil ; et on lui donna le nom d’Ésaü » [[Genèse 25:25]]. Il devient « un habile chasseur, un homme des champs », et Isaac l’aime pour son gibier [[Genèse 25:27-28]].",
+    "Un jour, revenant des champs épuisé, il demande à Jacob le potage roux qu’il prépare ; c’est pourquoi on l’appelle aussi Édom, « roux ». Jacob exige d’abord son droit d’aînesse. « Voici, je m’en vais mourir ; à quoi me sert ce droit d’aînesse ? » Ésaü le lui vend par serment, mange du pain et du potage de lentilles, puis s’en va. Le texte conclut : « C’est ainsi qu’Ésaü méprisa le droit d’aînesse » [[Genèse 25:29-34]].",
+    "À quarante ans, il épouse deux femmes hittites, ce qui est pour ses parents un sujet d’amertume [[Genèse 26:34-35]].",
+    "Isaac, âgé, l’envoie chasser pour lui préparer un plat avant de le bénir [[Genèse 27:1-4]]. Pendant ce temps, Jacob se fait passer pour lui et reçoit la bénédiction. À son retour, Ésaü pousse de grands cris d’amertume et supplie : « Bénis-moi aussi, mon père ! » [[Genèse 27:30-34]]. Isaac lui annonce : « Tu vivras de ton épée, et tu seras asservi à ton frère ; mais en errant librement çà et là, tu briseras son joug de dessus ton cou » [[Genèse 27:38-40]].",
+    "Ésaü se met à haïr Jacob et se dit qu’il le tuera après le deuil de leur père [[Genèse 27:41]]. Comprenant que ses femmes cananéennes déplaisent à Isaac, il épouse aussi Mahalath, fille d’Ismaël [[Genèse 28:6-9]].",
+    "Vingt ans plus tard, Jacob revient et envoie des messagers à Ésaü, au pays de Séir. Ésaü vient à sa rencontre avec quatre cents hommes, et Jacob prend peur [[Genèse 32:3-7]]. Mais « Ésaü courut à sa rencontre ; il l’embrassa, se jeta à son cou, et le baisa. Et ils pleurèrent » [[Genèse 33:4]]. Il refuse d’abord les présents : « Je suis dans l’abondance, mon frère ; garde ce qui est à toi » [[Genèse 33:9]], puis retourne à Séir [[Genèse 33:16]].",
+    "Les deux frères enterrent ensemble leur père Isaac [[Genèse 35:29]]. Ésaü s’établit dans la montagne de Séir : « Ésaü, c’est Édom » [[Genèse 36:6-8]]. Ses descendants, les Édomites, sont recensés dans la suite du chapitre [[Genèse 36:9-19]].",
+    "Le prophète Malachie oppose Jacob et Ésaü dans une parole que Paul reprend [[Malachie 1:2-3]] [[Romains 9:13]]. L’épître aux Hébreux met en garde contre l’attitude d’Ésaü, « qui pour un mets vendit son droit d’aînesse », et qui ensuite ne put obtenir la bénédiction malgré ses larmes [[Hébreux 12:16-17]]."
+  ],
+  "contexte": [
+    "Édom désigne la région montagneuse au sud-est de la mer Morte, autour de Séir. Les relations entre Israël et Édom furent longtemps tendues, ce dont témoigne par exemple le livre d’Abdias.",
+    "Le droit d’aînesse donnait au fils aîné une part plus importante de l’héritage et une place de chef de famille. La portée exacte de ce droit à l’époque des patriarches est discutée."
+  ],
+  "chronologie": [
+    { "etape": "Naissance, premier des jumeaux", "ref": "Genèse 25:24-25" },
+    { "etape": "Vend son droit d’aînesse", "ref": "Genèse 25:29-34" },
+    { "etape": "Épouse deux femmes hittites", "ref": "Genèse 26:34-35" },
+    { "etape": "Perd la bénédiction", "ref": "Genèse 27:30-40" },
+    { "etape": "Projet de tuer Jacob", "ref": "Genèse 27:41" },
+    { "etape": "Épouse Mahalath", "ref": "Genèse 28:6-9" },
+    { "etape": "Réconciliation avec Jacob", "ref": "Genèse 33:1-16" },
+    { "etape": "Enterre Isaac avec Jacob", "ref": "Genèse 35:29" },
+    { "etape": "S’établit à Séir", "ref": "Genèse 36:6-8" }
+  ],
+  "references": ["Genèse 25:19-34", "Genèse 27", "Genèse 33:1-16", "Genèse 36", "Hébreux 12:16-17"]
+}

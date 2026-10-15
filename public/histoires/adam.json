@@ -1,0 +1,34 @@
+{
+  "id": "adam",
+  "nom": "Adam",
+  "cle": "adam",
+  "ordre": 10,
+  "groupe": "Les origines",
+  "periode": "Origines de l’humanité",
+  "resume": "Le premier homme, formé par Dieu et placé dans le jardin d’Éden. Sa désobéissance ouvre le récit de la chute et de ses conséquences.",
+  "recit": [
+    "La Bible présente Adam comme le premier être humain. Au sixième jour, Dieu crée l’homme « à son image », homme et femme, et leur confie la terre [[Genèse 1:26-31]]. Le second récit de la création précise que l’Éternel Dieu forme l’homme de la poussière du sol et souffle dans ses narines un souffle de vie [[Genèse 2:7]]. Le nom hébreu adam signifie « homme » et rappelle le mot adama, « sol ».",
+    "Dieu place l’homme dans le jardin d’Éden « pour le cultiver et pour le garder » [[Genèse 2:15]]. Il lui permet de manger de tous les arbres, sauf de l’arbre de la connaissance du bien et du mal, avec cet avertissement : le jour où il en mangera, il mourra [[Genèse 2:16-17]]. Adam donne un nom à chaque animal, mais ne trouve parmi eux aucune aide qui lui soit semblable [[Genèse 2:19-20]].",
+    "Dieu fait alors tomber sur lui un profond sommeil et forme la femme à partir d’une de ses côtes. En la voyant, Adam s’écrie : « Voici cette fois celle qui est os de mes os et chair de ma chair ! » [[Genèse 2:21-23]]. Le texte en tire le principe du mariage : l’homme quitte son père et sa mère et s’attache à sa femme [[Genèse 2:24]].",
+    "Le serpent persuade la femme de manger du fruit défendu ; elle en mange et en donne à son mari, qui était avec elle et qui en mange aussi. Leurs yeux s’ouvrent, ils se savent nus et se couvrent de feuilles de figuier [[Genèse 3:1-7]]. Quand l’Éternel l’appelle (« Où es-tu ? »), Adam se cache, puis rejette la faute sur la femme que Dieu lui a donnée [[Genèse 3:8-12]].",
+    "Dieu annonce les conséquences : le sol est maudit à cause de lui, il mangera son pain à la sueur de son visage jusqu’à ce qu’il retourne à la terre, « car tu es poussière, et tu retourneras dans la poussière » [[Genèse 3:17-19]]. Adam nomme sa femme Ève [[Genèse 3:20]]. Dieu les revêt d’habits de peau, puis les chasse du jardin, dont l’accès est gardé par des chérubins [[Genèse 3:21-24]].",
+    "Hors d’Éden, Adam devient père de Caïn et d’Abel [[Genèse 4:1-2]], puis de Seth après la mort d’Abel [[Genèse 4:25]]. La généalogie précise qu’il eut Seth à cent trente ans, qu’il eut d’autres fils et filles, et qu’il mourut âgé de neuf cent trente ans [[Genèse 5:3-5]].",
+    "Le Nouveau Testament revient souvent sur Adam. Luc fait remonter la généalogie de Jésus jusqu’à « Adam, fils de Dieu » [[Luc 3:38]]. Paul explique que le péché est entré dans le monde par un seul homme, et met en parallèle la désobéissance d’Adam et l’obéissance du Christ [[Romains 5:12-19]]. Il écrit encore : « comme tous meurent en Adam, de même aussi tous revivront en Christ » [[1 Corinthiens 15:22]], et appelle le Christ « le dernier Adam » [[1 Corinthiens 15:45]]."
+  ],
+  "contexte": [
+    "Le texte biblique ne donne aucune date pour Adam. Les chronologies anciennes calculées à partir des généalogies de la Genèse sont des reconstructions postérieures, qui ne font pas consensus.",
+    "Les deux récits de la création (Genèse 1 et Genèse 2) ont un style différent : le premier est rythmé par les jours, le second centré sur l’homme et le jardin. Leur articulation fait l’objet de nombreuses lectures, théologiques et littéraires."
+  ],
+  "chronologie": [
+    { "etape": "Création de l’homme à l’image de Dieu", "ref": "Genèse 1:26-27" },
+    { "etape": "Formé de la poussière, placé en Éden", "ref": "Genèse 2:7-15" },
+    { "etape": "Interdiction de l’arbre de la connaissance", "ref": "Genèse 2:16-17" },
+    { "etape": "Création de la femme", "ref": "Genèse 2:21-24" },
+    { "etape": "Désobéissance et sentence", "ref": "Genèse 3:1-19" },
+    { "etape": "Expulsion du jardin", "ref": "Genèse 3:22-24" },
+    { "etape": "Naissance de Caïn et d’Abel", "ref": "Genèse 4:1-2" },
+    { "etape": "Naissance de Seth", "ref": "Genèse 4:25" },
+    { "etape": "Mort à 930 ans", "ref": "Genèse 5:5" }
+  ],
+  "references": ["Genèse 1:26-31", "Genèse 2:4-25", "Genèse 3", "Genèse 5:1-5", "Romains 5:12-19", "1 Corinthiens 15:20-22", "1 Corinthiens 15:45-49"]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "noe",
+  "nom": "Noé",
+  "cle": "noe",
+  "ordre": 20,
+  "groupe": "Les origines",
+  "periode": "Avant et après le déluge",
+  "resume": "Homme juste au milieu d’une humanité corrompue, il construit l’arche, traverse le déluge avec sa famille et reçoit l’alliance de l’arc-en-ciel.",
+  "recit": [
+    "Noé est fils de Lémec, qui lui donne ce nom en disant : « Celui-ci nous consolera de nos fatigues » [[Genèse 5:28-29]]. À cinq cents ans, il devient père de Sem, Cham et Japhet [[Genèse 5:32]].",
+    "L’Éternel voit que la méchanceté des hommes est grande sur la terre et se repent de les avoir faits [[Genèse 6:5-7]]. « Mais Noé trouva grâce aux yeux de l’Éternel » [[Genèse 6:8]]. Le texte le présente comme « un homme juste et intègre dans son temps » qui « marchait avec Dieu » [[Genèse 6:9]].",
+    "Dieu lui ordonne de construire une arche de bois de gopher, longue de trois cents coudées, large de cinquante et haute de trente [[Genèse 6:14-16]]. Il annonce le déluge, établit son alliance avec Noé et lui demande de faire entrer sa famille et des animaux de chaque espèce [[Genèse 6:17-21]]. « C’est ce que fit Noé : il exécuta tout ce que Dieu lui avait ordonné » [[Genèse 6:22]]. Une seconde instruction précise : sept couples de chaque animal pur, un couple des autres [[Genèse 7:1-5]].",
+    "Noé a six cents ans quand le déluge commence. Les sources du grand abîme jaillissent, les écluses des cieux s’ouvrent, et la pluie tombe quarante jours et quarante nuits [[Genèse 7:6-12]]. L’Éternel ferme la porte derrière eux [[Genèse 7:16]]. Les eaux grossissent pendant cent cinquante jours, et tout être vivant sur la terre périt ; seuls restent Noé et ceux qui sont avec lui dans l’arche [[Genèse 7:21-24]].",
+    "Dieu se souvient de Noé, et les eaux baissent. L’arche s’arrête sur les montagnes d’Ararat [[Genèse 8:1-4]]. Noé lâche un corbeau, puis une colombe ; celle-ci revient un soir avec une feuille d’olivier, et la fois suivante ne revient plus [[Genèse 8:6-12]]. Sur l’ordre de Dieu, il sort de l’arche avec sa famille et les animaux [[Genèse 8:15-19]].",
+    "Noé bâtit un autel et offre des holocaustes. L’Éternel promet de ne plus frapper tout ce qui vit et de maintenir le cycle des semailles et des moissons, du froid et de la chaleur, de l’été et de l’hiver, du jour et de la nuit [[Genèse 8:20-22]]. Il bénit Noé et ses fils, puis établit avec eux et avec toute créature une alliance dont l’arc-en-ciel est le signe [[Genèse 9:1-17]].",
+    "Noé commence à cultiver la terre et plante de la vigne. Il boit du vin, s’enivre et se découvre dans sa tente. Cham voit la nudité de son père et le rapporte ; Sem et Japhet le couvrent sans regarder. À son réveil, Noé maudit Canaan, fils de Cham, et bénit Sem et Japhet [[Genèse 9:20-27]]. Il vit encore trois cent cinquante ans après le déluge et meurt à neuf cent cinquante ans [[Genèse 9:28-29]].",
+    "Jésus compare sa venue aux jours de Noé, où les gens vivaient sans se douter de rien jusqu’au déluge [[Matthieu 24:37-39]]. L’épître aux Hébreux cite sa foi [[Hébreux 11:7]], Pierre rappelle que huit personnes furent sauvées dans l’arche [[1 Pierre 3:20]] et appelle Noé « prédicateur de la justice » [[2 Pierre 2:5]]."
+  ],
+  "contexte": [
+    "D’autres textes anciens du Proche-Orient racontent un grand déluge, notamment l’épopée de Gilgamesh et le récit d’Atrahasis en Mésopotamie. Les ressemblances et les différences avec la Genèse sont étudiées de longue date ; leur interprétation varie selon les auteurs.",
+    "Le texte parle des « montagnes d’Ararat », c’est-à-dire d’une région (l’Ourartou des sources assyriennes, autour de l’actuelle Arménie et de l’est de la Turquie), et non d’un sommet précis."
+  ],
+  "chronologie": [
+    { "etape": "Naissance, fils de Lémec", "ref": "Genèse 5:28-29" },
+    { "etape": "Noé trouve grâce aux yeux de l’Éternel", "ref": "Genèse 6:8-9" },
+    { "etape": "Ordre de construire l’arche", "ref": "Genèse 6:13-22" },
+    { "etape": "Entrée dans l’arche, à 600 ans", "ref": "Genèse 7:1-16" },
+    { "etape": "Le déluge", "ref": "Genèse 7:17-24" },
+    { "etape": "L’arche s’arrête sur l’Ararat", "ref": "Genèse 8:4" },
+    { "etape": "Corbeau et colombe", "ref": "Genèse 8:6-12" },
+    { "etape": "Sortie de l’arche et sacrifice", "ref": "Genèse 8:15-22" },
+    { "etape": "Alliance et arc-en-ciel", "ref": "Genèse 9:8-17" },
+    { "etape": "La vigne et l’ivresse", "ref": "Genèse 9:20-27" },
+    { "etape": "Mort à 950 ans", "ref": "Genèse 9:28-29" }
+  ],
+  "references": ["Genèse 5:28-32", "Genèse 6:5-22", "Genèse 7", "Genèse 8", "Genèse 9:1-29", "Matthieu 24:37-39", "Hébreux 11:7", "1 Pierre 3:20", "2 Pierre 2:5"]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "lea",
+  "nom": "Léa",
+  "cle": "lea",
+  "ordre": 52,
+  "groupe": "Patriarches et matriarches",
+  "periode": "Époque des patriarches",
+  "resume": "Fille aînée de Laban, épousée par Jacob à la suite d’une tromperie. Moins aimée que sa sœur Rachel, elle est la mère de six des douze fils d’Israël, dont Lévi et Juda.",
+  "recit": [
+    "Laban a deux filles : l’aînée s’appelle Léa, la cadette Rachel. « Léa avait les yeux délicats ; mais Rachel était belle de taille et belle de figure » [[Genèse 29:16-17]]. Jacob aime Rachel et sert sept ans pour elle [[Genèse 29:18-20]].",
+    "Le soir des noces, Laban conduit Léa auprès de Jacob. « Le lendemain matin, voilà que c’était Léa. » Laban se justifie : « Ce n’est point la coutume dans ce lieu de donner la cadette avant l’aînée » [[Genèse 29:23-26]]. Jacob épouse Rachel une semaine plus tard, en échange de sept nouvelles années de service, et il aime Rachel plus que Léa [[Genèse 29:27-30]].",
+    "« L’Éternel vit que Léa n’était pas aimée ; et il la rendit féconde » [[Genèse 29:31]]. Les noms de ses fils disent son histoire. Ruben : « L’Éternel a vu mon humiliation, et maintenant mon mari m’aimera ». Siméon : « L’Éternel a entendu que je n’étais pas aimée ». Lévi : « Pour cette fois, mon mari s’attachera à moi ». Puis Juda : « Cette fois, je louerai l’Éternel » [[Genèse 29:32-35]].",
+    "Quand elle cesse d’enfanter, elle donne à Jacob sa servante Zilpa, qui met au monde Gad et Aser [[Genèse 30:9-13]]. Après l’épisode des mandragores trouvées par Ruben, que Rachel lui demande, Léa enfante encore Issacar et Zabulon, puis une fille, Dina [[Genèse 30:14-21]].",
+    "Quand Jacob décide de quitter Laban, Léa et Rachel lui répondent d’une seule voix et le suivent [[Genèse 31:14-16]]. À l’approche d’Ésaü, Jacob place Léa et ses enfants devant Rachel et Joseph [[Genèse 33:1-2]].",
+    "Le texte ne raconte pas sa mort. Avant de mourir en Égypte, Jacob déclare l’avoir enterrée dans la caverne de Macpéla, auprès d’Abraham, Sara, Isaac et Rebecca [[Genèse 49:31]].",
+    "Bien des siècles plus tard, les habitants de Bethléhem souhaitent à Ruth de ressembler « à Rachel et à Léa, qui toutes les deux ont fondé la maison d’Israël » [[Ruth 4:11]]. La généalogie de Jésus dans Matthieu passe par Juda, fils de Léa [[Matthieu 1:2-3]]."
+  ],
+  "contexte": [
+    "De Lévi descendra la tribu sacerdotale, et de Juda la lignée royale de David. Ces développements sont racontés dans les livres suivants de la Bible ; la Genèse se contente de rapporter la naissance de ces fils.",
+    "Les mandragores étaient associées, dans l’Antiquité, à la fécondité. Le texte ne le dit pas explicitement, mais cette croyance éclaire la demande de Rachel."
+  ],
+  "chronologie": [
+    { "etape": "Fille aînée de Laban", "ref": "Genèse 29:16-17" },
+    { "etape": "Donnée à Jacob à la place de Rachel", "ref": "Genèse 29:23-26" },
+    { "etape": "Naissance de Ruben, Siméon, Lévi et Juda", "ref": "Genèse 29:31-35" },
+    { "etape": "Zilpa enfante Gad et Aser", "ref": "Genèse 30:9-13" },
+    { "etape": "Naissance d’Issacar, Zabulon et Dina", "ref": "Genèse 30:14-21" },
+    { "etape": "Départ avec Jacob", "ref": "Genèse 31:14-18" },
+    { "etape": "Sépulture à Macpéla", "ref": "Genèse 49:31" }
+  ],
+  "references": ["Genèse 29:16-35", "Genèse 30:9-21", "Genèse 49:31", "Ruth 4:11"]
+}
