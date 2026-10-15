@@ -6,6 +6,10 @@ surlignage, notes, favoris, projection en visioconférence, histoires des person
 
 Usage strictement personnel. Aucun compte, aucun serveur, aucune statistique : rien ne quitte la tablette.
 
+## Autre application du dépôt : Parley
+
+Le dossier `parley/` contient Parley, un entraîneur d'anglais oral (PWA statique, sans build), publié sous `/parley/` par le même workflow. Voir `parley/README.md`.
+
 ## Installer sur la tablette
 
 1. Ouvrir l’adresse du site dans **Chrome** (connexion nécessaire la première fois).

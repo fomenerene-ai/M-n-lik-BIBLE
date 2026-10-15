@@ -62,3 +62,5 @@ One line per non-obvious decision, with the reason.
 - The shadowing tier starts from the speaking level band after the placement test.
 - Accessibility pass with an automated in-browser audit (text contrast against the effective background, accessible names, 44 px minimum targets) on every screen: small coral buttons and teal buttons use the darker ink shades so their white labels reach 4.5:1.
 - The report prompt carries the learner's speaking level and the vocabulary band one notch above, which sets the sophistication of the vocabulary added to cards.
+- A last-resort `error` / `unhandledrejection` handler turns any uncaught failure into a short friendly toast (never with secrets), so no failure is silent.
+- Verified in headless Chromium, not on the tablet: service worker update toast and old cache cleanup, offline shell, conversation wrap-up at time-up (with timers accelerated). Real speech, voices and the simultaneous recording mode are in `docs/MANUAL-TESTS.md`.

@@ -8,6 +8,8 @@ import { startRouter, go, hrefFor, parseHash } from './router.js';
 import { registerServiceWorker } from './sw-register.js';
 import { requestPersistence } from './state/db.js';
 import { getSettings } from './state/settings.js';
+import { toast } from './ui/toast.js';
+import { friendlyError } from './ui/components.js';
 
 /** Route name to lazy screen module. */
 const SCREENS = {
@@ -84,6 +86,19 @@ async function onRoute(route) {
   const heading = root.querySelector('h1');
   if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
 }
+
+// Last-resort handler: anything not caught by a screen gets a short, friendly message.
+let lastErrorToast = 0;
+function reportUnhandled(err) {
+  if (!err || err.kind === 'aborted') return;
+  console.error(err);
+  if (Date.now() - lastErrorToast < 4000) return;
+  lastErrorToast = Date.now();
+  const m = friendlyError(err);
+  toast(`${m.title}. ${m.text}`, { duration: 6000 });
+}
+window.addEventListener('error', (e) => reportUnhandled(e.error || e));
+window.addEventListener('unhandledrejection', (e) => reportUnhandled(e.reason));
 
 let onboarded = false;
 
