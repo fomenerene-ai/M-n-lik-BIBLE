@@ -21,7 +21,7 @@ export function shellFiles() {
       else if (/\.(js|css|png|svg)$/.test(e.name)) out.push(rel);
     }
   };
-  for (const d of ['src', 'styles', 'assets']) walk(d);
+  for (const d of ['src', 'styles', 'assets/icons']) walk(d);
   return out.sort();
 }
 
