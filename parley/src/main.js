@@ -6,6 +6,7 @@ import { h, replace } from './ui/dom.js';
 import { icon } from './ui/icons.js';
 import { startRouter, go, hrefFor } from './router.js';
 import { registerServiceWorker } from './sw-register.js';
+import { requestPersistence } from './state/db.js';
 
 /** Route name to lazy screen module. */
 const SCREENS = {
@@ -73,3 +74,4 @@ async function onRoute(route) {
 document.title = APP_NAME;
 startRouter(onRoute);
 registerServiceWorker();
+requestPersistence();
