@@ -2,14 +2,17 @@
  * Settings: API key and model, conversation length, voices and accent mix, data (export, import,
  * reset), storage status.
  */
-import { h, replace } from '../ui/dom.js';
+import { h, replace, mmss } from '../ui/dom.js';
 import { button, choiceGroup, banner, errorBanner, confirmDialog, loading, chip } from '../ui/components.js';
+import { icon } from '../ui/icons.js';
 import { toast } from '../ui/toast.js';
 import { API, CONVERSATION_LENGTHS, DEFAULT_SETTINGS } from '../config.js';
 import { getSettings, setSetting, getApiKey, setApiKey, maskKey } from '../state/settings.js';
 import { exportBackup, importBackup, resetAll } from '../state/backup.js';
 import { testKey } from '../ai/claude.js';
 import { getVoices, englishVoiceGroups, pickVoice, speak, cancelSpeech } from '../speech/tts.js';
+import { listLibrary, deleteLibraryItem } from '../audio/library.js';
+import { importFiles } from '../audio/import.js';
 
 const SAMPLE = 'Thanks for coming in today. Could you tell me a bit about yourself?';
 
@@ -23,7 +26,7 @@ export async function render(root, route, ctx) {
   root.append(h('div.screen-head', null, h('div', null, h('h1', null, 'Settings'), h('p.subtitle', null, 'Everything is stored on this tablet only.'))));
   const grid = h('div.settings-grid');
   root.append(grid);
-  grid.append(await apiCard(settings), conversationCard(settings), await voicesCard(settings), dataCard(settings, ctx), await storageCard(ctx));
+  grid.append(await apiCard(settings), conversationCard(settings), await voicesCard(settings), await libraryCard(), dataCard(settings, ctx), await storageCard(ctx));
   return () => cancelSpeech();
 }
 
@@ -162,4 +165,42 @@ async function storageCard(ctx) {
     h('div.row', null, chip(persisted ? 'Persistent storage' : 'Storage may be cleared by Chrome', persisted ? 'teal' : 'sun', true), usage ? h('span.muted.small', null, usage) : null),
     persisted ? null : h('p.hint', null, 'Install the app to the home screen so Chrome keeps the data, and export a backup regularly.'),
     h('div.row', null, button('Retake placement test', { variant: 'outline', size: 'small', icon: 'target', onClick: () => ctx.go('placement') })));
+}
+
+async function libraryCard() {
+  const card = h('div.card');
+  const file = h('input', { type: 'file', multiple: true, accept: 'audio/*,.mp3,.wav,.m4a,.txt,.srt,.vtt,.tsv', class: 'visually-hidden', id: 'audio-files' });
+  const progress = h('div.list', { 'aria-live': 'polite' });
+  const list = h('div.list');
+  const drawList = async () => {
+    const items = (await listLibrary()).sort((a, b) => b.createdAt - a.createdAt);
+    if (!items.length) { replace(list, h('p.muted.small', null, 'No imported audio yet.')); return; }
+    replace(list, ...items.slice(0, 200).map((m) => h('div.list-row', null,
+      h('div.grow', null, h('div.title', null, m.title), h('div.muted.small', null, `${mmss(m.durationSec)}, ${m.segments.length} segment${m.segments.length === 1 ? '' : 's'}`)),
+      chip(m.transcript ? 'Transcript' : 'No transcript', m.transcript ? 'teal' : 'grey', true),
+      h('button.icon-btn', { type: 'button', 'aria-label': `Delete ${m.title}`, onclick: async () => {
+        if (await confirmDialog({ title: 'Delete this audio?', text: `"${m.title}" will be removed from this tablet.`, confirm: 'Delete', danger: true })) { await deleteLibraryItem(m.id); drawList(); }
+      } }, icon('trash')))));
+    if (items.length > 200) list.append(h('p.muted.small', null, `${items.length} items in total.`));
+  };
+  file.addEventListener('change', async () => {
+    const files = Array.from(file.files || []);
+    file.value = '';
+    if (!files.length) return;
+    const rows = new Map();
+    replace(progress);
+    const res = await importFiles(files, (name, status) => {
+      if (!rows.has(name)) { const r = h('div.muted.small'); rows.set(name, r); progress.append(r); }
+      rows.get(name).textContent = `${name}: ${status}`;
+    });
+    toast(`${res.imported} file${res.imported === 1 ? '' : 's'} imported${res.skipped.length ? `, ${res.skipped.length} skipped` : ''}.`);
+    drawList();
+  });
+  card.append(
+    h('h3', null, 'Audio library'),
+    h('p.muted.small', null, 'Import real native speech: your own recordings or Common Voice clips. Add a transcript with the same name (.txt, .srt, .vtt) or the Common Voice .tsv to unlock questions, dictation and word scores. Files stay on this tablet and are not included in backups.'),
+    h('div.row', null, h('label.btn.btn-outline.btn-small', { for: 'audio-files', tabindex: '0', role: 'button', onkeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); file.click(); } } }, icon('upload'), 'Import audio'), file),
+    progress, list);
+  await drawList();
+  return card;
 }

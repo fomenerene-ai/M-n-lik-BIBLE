@@ -44,3 +44,7 @@ One line per non-obvious decision, with the reason.
 - Tier choice by listening level: below 4 tiers 0, 1, 3; 4 to 6.5 all tiers; above 6.5 tiers 0, 2, 3 (VOA Learning English is a stepping stone only). Items outside the band stay visible and labelled.
 - Dictation shows a wrong word as "typed -> expected" rather than striking the expected word, which read as if the expected word were wrong.
 - Dictation updates the listening level once, when leaving the screen, from the average of at least 3 sentences.
+- Imported audio is decoded with an `OfflineAudioContext` at 16 kHz mono: enough for segmentation and pitch, and about six times less memory than 48 kHz stereo on the tablet. Files over 80 MB are refused; files over 25 minutes are stored without segments (whole-audio listening only).
+- Segmentation threshold adapts per recording (35 % between the 10th and 95th percentile frame energies), silences of 0.25 s split speech, groups end on pauses of 0.45 s once they reach 1.5 s, segments are 1 to 12 s (longer speech is cut at its quietest point).
+- Transcript alignment without timestamps is by order: one to one when counts match, otherwise proportional (characters versus seconds). SRT/VTT cues are used as segments directly; a Common Voice sentence covers the clip trimmed of silence.
+- Common Voice clips are titled with their sentence so the library list stays readable.
