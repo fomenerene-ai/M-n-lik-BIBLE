@@ -1,0 +1,30 @@
+{
+  "id": "bath-scheba",
+  "nom": "Bath-Schéba",
+  "cle": "bath-scheba",
+  "ordre": 174,
+  "groupe": "Rois d’Israël et de Juda",
+  "periode": "Royaume uni",
+  "resume": "Femme d’Urie le Héthien, prise par David qui fait tuer son mari. Mère de Salomon, elle joue ensuite un rôle décisif dans sa succession au trône.",
+  "recit": [
+    "Un soir, depuis le toit de son palais, David voit une femme très belle qui se baigne. On lui apprend que c’est Bath-Schéba, fille d’Éliam, femme d’Urie le Héthien [[2 Samuel 11:2-3]]. David l’envoie chercher et couche avec elle ; elle devient enceinte et le lui fait savoir : « Je suis enceinte » [[2 Samuel 11:4-5]].",
+    "David fait revenir Urie du front pour qu’il aille chez lui, mais Urie refuse de rentrer dans sa maison tant que l’arche et l’armée sont sous la tente [[2 Samuel 11:6-13]]. David écrit alors à Joab de placer Urie au plus fort du combat ; Urie est tué [[2 Samuel 11:14-17]]. Après le deuil, David fait venir Bath-Schéba et l’épouse. « Ce que David avait fait déplut à l’Éternel » [[2 Samuel 11:26-27]].",
+    "Le prophète Nathan confronte David, qui reconnaît son péché [[2 Samuel 12:1-13]]. L’enfant né de Bath-Schéba tombe malade et meurt [[2 Samuel 12:15-18]]. David console sa femme ; elle enfante un fils, Salomon, que l’Éternel aime, et que Nathan appelle Jedidja [[2 Samuel 12:24-25]].",
+    "À la fin de la vie de David, son fils Adonija se fait proclamer roi. Sur le conseil de Nathan, Bath-Schéba va trouver David et lui rappelle son serment : Salomon doit régner après lui. Nathan confirme ses paroles [[1 Rois 1:11-27]]. David renouvelle son serment, et Salomon est oint roi [[1 Rois 1:28-40]].",
+    "Plus tard, Adonija lui demande d’intercéder auprès de Salomon pour obtenir Abischag. Salomon reçoit sa mère avec honneur, fait placer un trône pour elle à sa droite, mais voit dans cette demande une prétention au trône et refuse [[1 Rois 2:13-25]].",
+    "Matthieu la mentionne dans la généalogie de Jésus, sans la nommer : « David engendra Salomon de la femme d’Urie » [[Matthieu 1:6]]."
+  ],
+  "contexte": [
+    "Le texte ne dit rien des sentiments de Bath-Schéba au moment des faits. Les interprètes discutent de son degré de liberté face au roi ; la parabole de Nathan, qui la compare à une brebis volée, présente David comme seul coupable [[2 Samuel 12:1-4]].",
+    "Les Chroniques l’appellent Bath-Schua [[1 Chroniques 3:5]]."
+  ],
+  "chronologie": [
+    { "etape": "David la voit et la prend", "ref": "2 Samuel 11:2-5" },
+    { "etape": "Mort d’Urie ; mariage avec David", "ref": "2 Samuel 11:14-27" },
+    { "etape": "Mort du premier enfant", "ref": "2 Samuel 12:15-18" },
+    { "etape": "Naissance de Salomon", "ref": "2 Samuel 12:24-25" },
+    { "etape": "Obtient la succession pour Salomon", "ref": "1 Rois 1:11-31" },
+    { "etape": "Intercède pour Adonija", "ref": "1 Rois 2:13-25" }
+  ],
+  "references": ["2 Samuel 11-12", "1 Rois 1", "1 Rois 2:13-25", "Matthieu 1:6"]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ezechias",
+  "nom": "Ézéchias",
+  "cle": "ezechias",
+  "ordre": 230,
+  "groupe": "Rois d’Israël et de Juda",
+  "periode": "Royaume de Juda, menace assyrienne",
+  "resume": "Roi de Juda fidèle à l’Éternel, il réforme le culte et résiste à l’Assyrie. Jérusalem est délivrée de Sanchérib ; malade, il obtient quinze années de vie supplémentaires.",
+  "recit": [
+    "Ézéchias, fils d’Achaz, devient roi de Juda à vingt-cinq ans et règne vingt-neuf ans à Jérusalem [[2 Rois 18:1-2]]. Il supprime les hauts lieux et brise le serpent d’airain fait par Moïse, devant lequel on brûlait des parfums ; on l’appelait Néhuschtan [[2 Rois 18:3-4]]. « Il mit sa confiance en l’Éternel, le Dieu d’Israël ; et parmi tous les rois de Juda qui vinrent après lui ou qui le précédèrent, il n’y en eut point de semblable à lui » [[2 Rois 18:5-7]]. Les Chroniques racontent la purification du temple et la grande Pâque qu’il célèbre [[2 Chroniques 29-30]].",
+    "Pendant son règne, Samarie tombe aux mains des Assyriens, et Israël est déporté [[2 Rois 18:9-12]]. La quatorzième année d’Ézéchias, Sanchérib, roi d’Assyrie, prend les villes fortes de Juda. Ézéchias paie un lourd tribut, en prenant l’argent du temple et l’or de ses portes [[2 Rois 18:13-16]].",
+    "Sanchérib envoie pourtant son grand échanson, le Rabschaké, qui harangue en hébreu le peuple sur la muraille de Jérusalem et se moque de la confiance en l’Éternel [[2 Rois 18:17-35]]. Ézéchias déchire ses vêtements et fait consulter le prophète Ésaïe, qui répond de ne pas craindre [[2 Rois 19:1-7]]. Recevant une lettre de menace, il la déploie devant l’Éternel dans le temple et prie : « délivre-nous de la main de Sanchérib, et que tous les royaumes de la terre sachent que toi seul es l’Éternel Dieu ! » [[2 Rois 19:14-19]].",
+    "Cette nuit-là, l’ange de l’Éternel frappe cent quatre-vingt-cinq mille hommes dans le camp des Assyriens. Sanchérib retourne à Ninive, où il est plus tard assassiné par deux de ses fils [[2 Rois 19:35-37]].",
+    "Ézéchias tombe gravement malade. Ésaïe lui annonce sa mort ; le roi se tourne contre le mur, prie et pleure. Dieu lui répond : « J’ai entendu ta prière, j’ai vu tes larmes », et lui accorde quinze années de plus. En signe, l’ombre recule de dix degrés sur le cadran d’Achaz [[2 Rois 20:1-11]]. Le livre d’Ésaïe conserve le cantique qu’il composa après sa guérison [[Ésaïe 38:9-20]].",
+    "Il reçoit des envoyés du roi de Babylone, Berodac-Baladan, et leur montre tous ses trésors. Ésaïe lui annonce que tout sera un jour emporté à Babylone [[2 Rois 20:12-19]]. Le texte mentionne aussi l’étang et l’aqueduc par lesquels il fit entrer l’eau dans la ville [[2 Rois 20:20]]. Il meurt, et son fils Manassé lui succède [[2 Rois 20:21]]."
+  ],
+  "contexte": [
+    "Les annales de Sanchérib (prisme de Taylor) racontent sa campagne de 701 av. J.-C. : il affirme avoir enfermé Ézéchias dans Jérusalem « comme un oiseau en cage » et reçu un tribut, mais ne prétend pas avoir pris la ville. Des bas-reliefs de son palais de Ninive représentent le siège de Lakis [[2 Rois 18:14]].",
+    "Un tunnel creusé dans le roc, qui conduit l’eau de la source de Guihon au réservoir de Siloé, est généralement attribué à Ézéchias. Une inscription en hébreu ancien, découverte en 1880, y raconte la rencontre des deux équipes de creuseurs."
+  ],
+  "chronologie": [
+    { "etape": "Avènement à 25 ans", "ref": "2 Rois 18:1-2" },
+    { "etape": "Réforme religieuse", "ref": "2 Rois 18:3-7" },
+    { "etape": "Chute de Samarie", "ref": "2 Rois 18:9-12" },
+    { "etape": "Invasion de Sanchérib", "ref": "2 Rois 18:13-37" },
+    { "etape": "Prière et délivrance de Jérusalem", "ref": "2 Rois 19" },
+    { "etape": "Maladie et guérison", "ref": "2 Rois 20:1-11" },
+    { "etape": "Les envoyés de Babylone", "ref": "2 Rois 20:12-19" },
+    { "etape": "Mort", "ref": "2 Rois 20:21" }
+  ],
+  "references": ["2 Rois 18-20", "2 Chroniques 29-32", "Ésaïe 36-39"]
+}

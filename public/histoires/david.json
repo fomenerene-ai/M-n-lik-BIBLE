@@ -1,0 +1,39 @@
+{
+  "id": "david",
+  "nom": "David",
+  "cle": "david",
+  "ordre": 171,
+  "groupe": "Rois d’Israël et de Juda",
+  "periode": "Royaume uni",
+  "resume": "Berger de Bethléhem oint par Samuel, vainqueur de Goliath, roi de tout Israël à Jérusalem. Homme de foi et de grandes fautes, il reçoit la promesse d’une dynastie éternelle.",
+  "recit": [
+    "Envoyé chez Isaï à Bethléhem, Samuel écarte les fils aînés, car « l’Éternel regarde au cœur ». On fait venir le plus jeune, qui garde les brebis ; il est roux, avec de beaux yeux et une belle figure. Samuel l’oint, et l’esprit de l’Éternel saisit David à partir de ce jour [[1 Samuel 16:1-13]]. Il entre au service de Saül, qu’il apaise en jouant de la harpe [[1 Samuel 16:14-23]].",
+    "Le Philistin Goliath, de Gath, défie l’armée d’Israël. David s’indigne : « qui est donc ce Philistin, cet incirconcis, pour insulter l’armée du Dieu vivant ? » [[1 Samuel 17:4-26]]. Il rappelle qu’il a tué le lion et l’ours qui attaquaient son troupeau [[1 Samuel 17:34-37]], prend cinq pierres polies dans le torrent et sa fronde [[1 Samuel 17:40]], et déclare : « je marche contre toi au nom de l’Éternel des armées » [[1 Samuel 17:45]]. Il atteint Goliath au front avec une pierre et l’abat [[1 Samuel 17:49-51]].",
+    "Jonathan, fils de Saül, se lie d’amitié avec lui [[1 Samuel 18:1-4]]. Les succès de David rendent Saül jaloux [[1 Samuel 18:6-9]]. Mical, fille de Saül et femme de David, l’aide à s’enfuir [[1 Samuel 19:11-17]]. Fugitif, David se réfugie dans la caverne d’Adullam, où se rassemblent autour de lui des hommes en détresse [[1 Samuel 22:1-2]]. Par deux fois, il épargne Saül, refusant de porter la main sur l’oint de l’Éternel [[1 Samuel 24]] [[1 Samuel 26]]. Quand sa ville de Tsiklag est pillée et que ses hommes parlent de le lapider, « David se fortifia en l’Éternel, son Dieu » [[1 Samuel 30:1-6]].",
+    "Après la mort de Saül et de Jonathan, il compose une complainte [[2 Samuel 1:17-27]]. Il est oint roi de Juda à Hébron [[2 Samuel 2:1-4]], puis roi de tout Israël ; il a trente ans et règne quarante ans [[2 Samuel 5:1-5]]. Il prend la forteresse de Sion, qui devient la cité de David [[2 Samuel 5:6-9]]. Il fait monter l’arche à Jérusalem en dansant de toutes ses forces devant l’Éternel, ce que Mical méprise [[2 Samuel 6:12-16]].",
+    "David veut bâtir une maison pour l’Éternel. Par le prophète Nathan, Dieu lui répond que c’est lui qui fera une maison à David : « ta maison et ton règne seront pour toujours assurés, ton trône sera pour toujours affermi » [[2 Samuel 7:1-16]]. David témoigne de la bonté à Mephiboscheth, fils de Jonathan [[2 Samuel 9:1-7]].",
+    "Un soir, il voit Bath-Schéba se baigner, la fait venir et elle devient enceinte. Il fait tuer son mari Urie au combat et l’épouse [[2 Samuel 11]]. Nathan lui raconte la parabole de la brebis du pauvre ; David s’indigne, et Nathan lui dit : « Tu es cet homme-là ! » David reconnaît : « J’ai péché contre l’Éternel » [[2 Samuel 12:1-13]]. L’enfant meurt ; plus tard naît Salomon [[2 Samuel 12:15-24]]. Le psaume 51 est rattaché par son titre à cet épisode [[Psaumes 51]].",
+    "Les malheurs s’enchaînent dans sa famille : Amnon outrage sa demi-sœur Tamar, Absalom le fait tuer [[2 Samuel 13]], puis se révolte contre son père. David fuit Jérusalem, montant la colline des Oliviers en pleurant [[2 Samuel 15:13-30]]. Absalom est tué malgré l’ordre de l’épargner, et David le pleure amèrement [[2 Samuel 18]].",
+    "Vieux, David fait proclamer Salomon roi [[1 Rois 1:28-40]] et lui recommande de garder les commandements de l’Éternel [[1 Rois 2:1-4]]. Il meurt après quarante ans de règne, sept à Hébron et trente-trois à Jérusalem [[1 Rois 2:10-11]].",
+    "Le Nouveau Testament présente Jésus comme « fils de David » [[Matthieu 1:1]] et héritier de son trône [[Luc 1:32]]. Paul rappelle que Dieu a dit de lui : « J’ai trouvé David, fils d’Isaï, homme selon mon cœur » [[Actes 13:22]]."
+  ],
+  "contexte": [
+    "Une inscription araméenne découverte à Tel Dan, datée du IXe siècle av. J.-C., mentionne la « maison de David ». C’est la plus ancienne attestation extérieure à la Bible de la dynastie davidique.",
+    "De nombreux psaumes portent en titre « De David ». Ces titres sont anciens, mais leur portée exacte (auteur, dédicace, collection) est discutée."
+  ],
+  "chronologie": [
+    { "etape": "Onction par Samuel", "ref": "1 Samuel 16:1-13" },
+    { "etape": "Victoire sur Goliath", "ref": "1 Samuel 17" },
+    { "etape": "Amitié avec Jonathan ; jalousie de Saül", "ref": "1 Samuel 18" },
+    { "etape": "Fuite et vie de fugitif", "ref": "1 Samuel 21-30" },
+    { "etape": "Roi de Juda à Hébron", "ref": "2 Samuel 2:1-4" },
+    { "etape": "Roi de tout Israël ; prise de Jérusalem", "ref": "2 Samuel 5" },
+    { "etape": "L’arche à Jérusalem", "ref": "2 Samuel 6" },
+    { "etape": "Promesse d’une dynastie", "ref": "2 Samuel 7" },
+    { "etape": "Bath-Schéba et Urie ; reproche de Nathan", "ref": "2 Samuel 11-12" },
+    { "etape": "Révolte d’Absalom", "ref": "2 Samuel 15-18" },
+    { "etape": "Salomon proclamé roi", "ref": "1 Rois 1" },
+    { "etape": "Mort après 40 ans de règne", "ref": "1 Rois 2:10-11" }
+  ],
+  "references": ["1 Samuel 16-17", "2 Samuel 5-7", "2 Samuel 11-12", "Psaumes 51", "1 Rois 2:1-11", "Actes 13:22"]
+}

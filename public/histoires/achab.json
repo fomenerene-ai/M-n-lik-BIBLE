@@ -1,0 +1,30 @@
+{
+  "id": "achab",
+  "nom": "Achab",
+  "cle": "achab",
+  "ordre": 200,
+  "groupe": "Rois d’Israël et de Juda",
+  "periode": "Royaume d’Israël",
+  "resume": "Roi d’Israël, époux de Jézabel, il introduit le culte de Baal à Samarie. Adversaire du prophète Élie, il fait mourir Naboth pour sa vigne et meurt au combat.",
+  "recit": [
+    "Achab, fils d’Omri, règne vingt-deux ans sur Israël à Samarie. « Achab, fils d’Omri, fit ce qui est mal aux yeux de l’Éternel, plus que tous ceux qui avaient été avant lui » [[1 Rois 16:29-30]]. Il épouse Jézabel, fille d’Ethbaal, roi des Sidoniens, sert Baal, lui bâtit un temple à Samarie et fait une idole d’Astarté [[1 Rois 16:31-33]].",
+    "Le prophète Élie lui annonce qu’il n’y aura ni rosée ni pluie sauf à sa parole [[1 Rois 17:1]]. Trois ans plus tard, Achab l’accueille par ces mots : « Est-ce toi, qui jettes le trouble en Israël ? » Élie lui répond que c’est lui, Achab, qui trouble Israël en suivant les Baals [[1 Rois 18:17-18]]. Sur le mont Carmel, le feu de l’Éternel répond à Élie et non aux prophètes de Baal [[1 Rois 18:19-40]]. La pluie revient, et Élie court devant le char d’Achab jusqu’à Jizreel [[1 Rois 18:41-46]].",
+    "Achab remporte deux victoires sur Ben-Hadad, roi de Syrie, mais l’épargne et conclut une alliance avec lui ; un prophète le lui reproche [[1 Rois 20:31-43]].",
+    "Il convoite la vigne de Naboth, voisine de son palais à Jizreel. Naboth refuse : « Que l’Éternel me garde de te donner l’héritage de mes pères ! » Achab rentre chez lui irrité, se couche et refuse de manger [[1 Rois 21:1-4]]. Jézabel organise la condamnation de Naboth sur de faux témoignages ; il est lapidé, et Achab prend possession de la vigne [[1 Rois 21:5-16]].",
+    "Élie le rencontre dans la vigne. Achab lui dit : « M’as-tu trouvé, mon ennemi ? » Élie annonce le jugement sur lui et sur sa maison [[1 Rois 21:17-24]]. Le texte commente : « Il n’y a eu personne qui se soit vendu comme Achab pour faire ce qui est mal aux yeux de l’Éternel, et Jézabel, sa femme, l’y excitait » [[1 Rois 21:25]]. Achab déchire ses vêtements et jeûne ; Dieu reporte le malheur après lui [[1 Rois 21:27-29]].",
+    "Avec Josaphat, roi de Juda, il veut reprendre Ramoth en Galaad. Quatre cents prophètes lui promettent la victoire ; le prophète Michée, fils de Jimla, qu’Achab déteste parce qu’il ne lui prophétise rien de bon, annonce sa défaite [[1 Rois 22:1-28]]. Achab se déguise pour la bataille, mais une flèche tirée au hasard l’atteint entre les pièces de sa cuirasse. Il meurt le soir, et les chiens lèchent son sang à Samarie [[1 Rois 22:29-38]]. Le texte mentionne la maison d’ivoire qu’il avait bâtie [[1 Rois 22:39]]."
+  ],
+  "contexte": [
+    "Une inscription du roi assyrien Salmanasar III (monolithe de Kurkh) mentionne « Achab l’Israélite » parmi les rois coalisés lors de la bataille de Qarqar, en 853 av. J.-C., avec un nombre important de chars.",
+    "Des plaques d’ivoire sculpté ont été retrouvées dans les fouilles du palais royal de Samarie, ce qui éclaire la mention de la « maison d’ivoire »."
+  ],
+  "chronologie": [
+    { "etape": "Avènement ; mariage avec Jézabel", "ref": "1 Rois 16:29-33" },
+    { "etape": "Annonce de la sécheresse par Élie", "ref": "1 Rois 17:1" },
+    { "etape": "Le mont Carmel", "ref": "1 Rois 18:17-46" },
+    { "etape": "Guerres contre Ben-Hadad", "ref": "1 Rois 20" },
+    { "etape": "La vigne de Naboth", "ref": "1 Rois 21" },
+    { "etape": "Mort à Ramoth en Galaad", "ref": "1 Rois 22:29-38" }
+  ],
+  "references": ["1 Rois 16:29-34", "1 Rois 18", "1 Rois 21", "1 Rois 22"]
+}

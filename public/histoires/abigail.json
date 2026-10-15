@@ -1,0 +1,29 @@
+{
+  "id": "abigail",
+  "nom": "Abigaïl",
+  "cle": "abigail",
+  "ordre": 173,
+  "groupe": "Rois d’Israël et de Juda",
+  "periode": "Règne de Saül",
+  "resume": "Femme sensée d’un homme brutal, elle détourne David d’une vengeance sanglante. Veuve peu après, elle devient sa femme.",
+  "recit": [
+    "Au désert de Paran, un homme très riche de Maon, Nabal, possède ses biens à Carmel. Sa femme s’appelle Abigaïl : « C’était une femme de bon sens et belle de figure, mais l’homme était dur et méchant dans ses actions » [[1 Samuel 25:1-3]].",
+    "Au moment de la tonte, David, qui a protégé les bergers de Nabal, lui envoie dix jeunes gens demander des vivres. Nabal les renvoie avec mépris : « Qui est David, et qui est le fils d’Isaï ? » [[1 Samuel 25:4-11]]. David part avec quatre cents hommes pour se venger [[1 Samuel 25:12-13]].",
+    "Un serviteur avertit Abigaïl [[1 Samuel 25:14-17]]. Sans rien dire à son mari, elle charge des ânes de pain, de vin, de moutons, de grain, de raisins secs et de figues, et part à la rencontre de David [[1 Samuel 25:18-20]]. Elle se prosterne devant lui, prend la faute sur elle et lui demande de ne pas se charger de sang versé ; elle ajoute que l’Éternel fera à son seigneur une maison stable [[1 Samuel 25:23-31]].",
+    "David lui répond : « Béni soit l’Éternel, le Dieu d’Israël, qui t’a envoyée aujourd’hui à ma rencontre ! Béni soit ton bon sens, et bénie sois-tu, toi qui m’as empêché en ce jour de répandre le sang ! » [[1 Samuel 25:32-35]].",
+    "Elle trouve Nabal en plein festin, ivre ; elle attend le matin pour tout lui raconter. Le cœur de Nabal reçoit un coup mortel, et il meurt une dizaine de jours plus tard [[1 Samuel 25:36-38]]. David envoie demander Abigaïl en mariage ; elle accepte et le suit [[1 Samuel 25:39-42]].",
+    "Elle accompagne David chez les Philistins [[1 Samuel 27:3]], est capturée lors du pillage de Tsiklag, puis délivrée [[1 Samuel 30:5]] [[1 Samuel 30:18]]. Elle s’installe avec lui à Hébron [[2 Samuel 2:2]] et lui donne un fils, appelé Kileab [[2 Samuel 3:3]], ou Daniel selon les Chroniques [[1 Chroniques 3:1]]."
+  ],
+  "contexte": [
+    "Le nom Nabal ressemble au mot hébreu signifiant « insensé ». Abigaïl le souligne elle-même : « il est ce que dit son nom » [[1 Samuel 25:25]]."
+  ],
+  "chronologie": [
+    { "etape": "Femme de Nabal", "ref": "1 Samuel 25:2-3" },
+    { "etape": "Nabal insulte David", "ref": "1 Samuel 25:4-13" },
+    { "etape": "Va à la rencontre de David", "ref": "1 Samuel 25:18-31" },
+    { "etape": "David la bénit", "ref": "1 Samuel 25:32-35" },
+    { "etape": "Mort de Nabal ; mariage avec David", "ref": "1 Samuel 25:36-42" },
+    { "etape": "Capturée puis délivrée à Tsiklag", "ref": "1 Samuel 30:5-18" }
+  ],
+  "references": ["1 Samuel 25", "1 Samuel 30:1-18", "2 Samuel 3:3"]
+}

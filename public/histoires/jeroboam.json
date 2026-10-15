@@ -1,0 +1,32 @@
+{
+  "id": "jeroboam",
+  "nom": "Jéroboam",
+  "cle": "jeroboam",
+  "ordre": 191,
+  "groupe": "Rois d’Israël et de Juda",
+  "periode": "Royaume divisé",
+  "resume": "Ancien serviteur de Salomon, désigné par le prophète Achija, il devient le premier roi du royaume d’Israël au nord. Ses veaux d’or deviennent le modèle du péché des rois d’Israël.",
+  "recit": [
+    "Jéroboam, fils de Nebath, d’Éphraïm, est un serviteur de Salomon ; sa mère est veuve [[1 Rois 11:26]]. Vaillant et travailleur, il est chargé des corvées de la maison de Joseph [[1 Rois 11:28]].",
+    "Un jour, le prophète Achija de Silo le rencontre, déchire son manteau neuf en douze morceaux et lui en donne dix : l’Éternel arrachera le royaume à Salomon et lui donnera dix tribus [[1 Rois 11:29-35]]. Dieu lui promet une maison stable s’il marche dans ses voies comme David [[1 Rois 11:38]]. Salomon cherche à le faire mourir, et Jéroboam s’enfuit en Égypte auprès de Schischak [[1 Rois 11:40]].",
+    "À la mort de Salomon, il revient et se joint au peuple qui demande à Roboam un allègement [[1 Rois 12:2-4]]. Après le refus de Roboam, les tribus du nord le font roi sur tout Israël [[1 Rois 12:20]]. Il fortifie Sichem et en fait sa résidence [[1 Rois 12:25]].",
+    "Craignant que le peuple ne retourne à Roboam en allant sacrifier à Jérusalem, il fait deux veaux d’or et les présente au peuple comme les dieux qui l’ont fait monter du pays d’Égypte. Il en place un à Béthel et l’autre à Dan. « Ce fut là une occasion de péché » [[1 Rois 12:26-30]]. Il établit des sacrificateurs pris en dehors des Lévites et institue une fête au huitième mois [[1 Rois 12:31-33]].",
+    "Un homme de Dieu venu de Juda annonce la profanation future de l’autel de Béthel par un roi nommé Josias. Jéroboam étend la main pour le faire saisir ; sa main se dessèche, puis est guérie à la prière du prophète [[1 Rois 13:1-6]]. Il ne se détourne pourtant pas de sa mauvaise voie [[1 Rois 13:33-34]].",
+    "Son fils Abija tombe malade. Il envoie sa femme, déguisée, consulter Achija, devenu aveugle. Le prophète la reconnaît et annonce la mort de l’enfant et la fin de la maison de Jéroboam [[1 Rois 14:1-18]]. Jéroboam règne vingt-deux ans [[1 Rois 14:20]].",
+    "Les livres des Rois reviennent sans cesse sur « les péchés de Jéroboam, fils de Nebath, qui avait fait pécher Israël » pour juger les rois du nord, jusqu’à la chute de Samarie [[2 Rois 17:21-23]]."
+  ],
+  "contexte": [
+    "Béthel et Dan marquaient les limites sud et nord du royaume d’Israël. À Tel Dan, les archéologues ont mis au jour une grande plate-forme cultuelle de l’époque royale, souvent rapprochée du sanctuaire de Jéroboam.",
+    "Les veaux d’or ont peut-être été conçus comme des piédestaux pour le Dieu invisible plutôt que comme des idoles. Le texte biblique, lui, les présente clairement comme un péché."
+  ],
+  "chronologie": [
+    { "etape": "Serviteur de Salomon", "ref": "1 Rois 11:26-28" },
+    { "etape": "Le manteau déchiré d’Achija", "ref": "1 Rois 11:29-39" },
+    { "etape": "Fuite en Égypte", "ref": "1 Rois 11:40" },
+    { "etape": "Roi des dix tribus", "ref": "1 Rois 12:20" },
+    { "etape": "Les veaux d’or de Béthel et de Dan", "ref": "1 Rois 12:26-33" },
+    { "etape": "L’homme de Dieu venu de Juda", "ref": "1 Rois 13:1-6" },
+    { "etape": "Maladie de son fils ; prophétie d’Achija", "ref": "1 Rois 14:1-18" }
+  ],
+  "references": ["1 Rois 11:26-40", "1 Rois 12-14", "2 Rois 17:21-23"]
+}

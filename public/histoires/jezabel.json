@@ -1,0 +1,30 @@
+{
+  "id": "jezabel",
+  "nom": "Jézabel",
+  "cle": "jezabel",
+  "ordre": 201,
+  "groupe": "Rois d’Israël et de Juda",
+  "periode": "Royaume d’Israël",
+  "resume": "Princesse phénicienne devenue reine d’Israël, elle promeut le culte de Baal, persécute les prophètes et fait tuer Naboth. Sa mort tragique accomplit la parole d’Élie.",
+  "recit": [
+    "Jézabel est la fille d’Ethbaal, roi des Sidoniens ; Achab l’épouse et se met à servir Baal [[1 Rois 16:31]]. Elle fait périr les prophètes de l’Éternel ; Abdias, intendant du palais, en cache cent dans des cavernes [[1 Rois 18:4]]. Quatre cent cinquante prophètes de Baal et quatre cents prophètes d’Astarté mangent à sa table [[1 Rois 18:19]].",
+    "Après la victoire d’Élie sur le mont Carmel, elle lui fait dire qu’elle le traitera comme il a traité les prophètes de Baal. Élie, effrayé, s’enfuit pour sauver sa vie [[1 Rois 19:1-3]].",
+    "Voyant Achab abattu parce que Naboth refuse de lui céder sa vigne, elle lui dit : « Est-ce bien toi maintenant qui exerces la souveraineté sur Israël ? Lève-toi, prends de la nourriture, et que ton cœur se réjouisse ; moi, je te donnerai la vigne de Naboth » [[1 Rois 21:5-7]]. Elle écrit au nom d’Achab aux anciens de la ville : qu’on proclame un jeûne, qu’on place Naboth en tête du peuple, et que deux faux témoins l’accusent d’avoir maudit Dieu et le roi. Naboth est lapidé [[1 Rois 21:8-14]], et elle annonce à Achab qu’il peut prendre la vigne [[1 Rois 21:15-16]].",
+    "Élie annonce : « Les chiens mangeront Jézabel près du rempart de Jizreel » [[1 Rois 21:23]]. Le texte ajoute que c’est elle qui excitait Achab au mal [[1 Rois 21:25]].",
+    "Des années plus tard, Jéhu, oint roi d’Israël pour exterminer la maison d’Achab, reproche au roi Joram les prostitutions et les sortilèges de sa mère Jézabel [[2 Rois 9:22]]. Quand Jéhu entre à Jizreel, Jézabel se farde les yeux, orne sa tête et l’interpelle depuis une fenêtre : « Est-ce la paix, nouveau Zimri, assassin de son maître ? » [[2 Rois 9:30-31]]. Sur l’ordre de Jéhu, des eunuques la jettent par la fenêtre. Quand on vient pour l’enterrer, on ne trouve que le crâne, les pieds et les paumes des mains ; Jéhu y reconnaît l’accomplissement de la parole d’Élie [[2 Rois 9:32-37]].",
+    "Dans l’Apocalypse, le nom de Jézabel est donné à une femme de l’Église de Thyatire qui se dit prophétesse et égare les croyants [[Apocalypse 2:20]]."
+  ],
+  "contexte": [
+    "Sidon et Tyr étaient les grandes cités phéniciennes de la côte, dans l’actuel Liban. Le mariage d’Achab avec une princesse phénicienne s’inscrit dans les alliances politiques et commerciales de la dynastie d’Omri.",
+    "Zimri avait assassiné le roi Éla et n’avait régné que sept jours [[1 Rois 16:9-18]]. En appelant Jéhu « nouveau Zimri », Jézabel lui prédit le même sort."
+  ],
+  "chronologie": [
+    { "etape": "Épouse Achab", "ref": "1 Rois 16:31" },
+    { "etape": "Persécute les prophètes de l’Éternel", "ref": "1 Rois 18:4" },
+    { "etape": "Menace Élie", "ref": "1 Rois 19:1-3" },
+    { "etape": "Fait tuer Naboth", "ref": "1 Rois 21:5-16" },
+    { "etape": "Annonce de son châtiment", "ref": "1 Rois 21:23" },
+    { "etape": "Mort à Jizreel", "ref": "2 Rois 9:30-37" }
+  ],
+  "references": ["1 Rois 16:31-33", "1 Rois 19:1-3", "1 Rois 21", "2 Rois 9:30-37", "Apocalypse 2:20"]
+}
