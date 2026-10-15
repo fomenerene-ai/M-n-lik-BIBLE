@@ -1,0 +1,27 @@
+{
+  "id": "priscille-aquilas",
+  "nom": "Priscille et Aquilas",
+  "cle": "priscille",
+  "ordre": 485,
+  "groupe": "Apôtres et compagnons de Paul",
+  "periode": "Voyages de Paul",
+  "resume": "Couple de fabricants de tentes chassés de Rome, ils accueillent Paul à Corinthe, instruisent Apollos à Éphèse et réunissent une Église dans leur maison.",
+  "recit": [
+    "À Corinthe, Paul rencontre un Juif nommé Aquilas, originaire du Pont, récemment arrivé d’Italie avec sa femme Priscille, parce que l’empereur Claude avait ordonné à tous les Juifs de sortir de Rome. Ils exercent le même métier que lui, faiseurs de tentes ; Paul demeure chez eux et travaille avec eux [[Actes 18:1-3]].",
+    "Quand Paul quitte Corinthe, ils l’accompagnent jusqu’à Éphèse, où il les laisse [[Actes 18:18-19]].",
+    "Un Juif d’Alexandrie nommé Apollos, homme éloquent, enseigne avec ferveur dans la synagogue d’Éphèse ce qui concerne Jésus, mais ne connaît que le baptême de Jean. Priscille et Aquilas, l’ayant entendu, le prennent avec eux et lui exposent plus exactement la voie de Dieu [[Actes 18:24-26]].",
+    "Paul transmet les salutations d’Aquilas et de Priscille, avec l’Église qui est dans leur maison [[1 Corinthiens 16:19]]. Dans la lettre aux Romains, il écrit : « Saluez Prisca et Aquilas, mes compagnons d’œuvre en Jésus-Christ, qui ont exposé leur tête pour sauver ma vie », et salue aussi l’Église qui est dans leur maison [[Romains 16:3-5]]. Il les salue encore dans sa dernière lettre [[2 Timothée 4:19]]."
+  ],
+  "contexte": [
+    "L’historien romain Suétone mentionne l’expulsion des Juifs de Rome par l’empereur Claude, à cause de troubles provoqués par un certain « Chrestus ». On date généralement cet édit de l’an 49 apr. J.-C.",
+    "Paul et Luc nomment souvent Priscille (ou Prisca, sa forme courte) avant son mari, ce qui est inhabituel dans l’Antiquité. Beaucoup y voient le signe de son rôle important dans l’Église. Leurs déplacements entre Rome, Corinthe et Éphèse montrent la mobilité des premiers chrétiens."
+  ],
+  "chronologie": [
+    { "etape": "Expulsés de Rome, installés à Corinthe", "ref": "Actes 18:1-2" },
+    { "etape": "Accueillent Paul et travaillent avec lui", "ref": "Actes 18:3" },
+    { "etape": "Partent avec Paul pour Éphèse", "ref": "Actes 18:18-19" },
+    { "etape": "Instruisent Apollos", "ref": "Actes 18:24-26" },
+    { "etape": "Une Église dans leur maison", "ref": "Romains 16:3-5" }
+  ],
+  "references": ["Actes 18:1-3", "Actes 18:18-26", "Romains 16:3-5", "1 Corinthiens 16:19"]
+}

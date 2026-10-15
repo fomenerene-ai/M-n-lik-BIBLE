@@ -1,0 +1,30 @@
+{
+  "id": "barnabas",
+  "nom": "Barnabas",
+  "cle": "barnabas",
+  "ordre": 476,
+  "groupe": "Apôtres et compagnons de Paul",
+  "periode": "Église naissante",
+  "resume": "Lévite de Chypre surnommé « fils d’exhortation », il introduit Paul auprès des apôtres, encourage l’Église d’Antioche et accompagne Paul dans son premier voyage missionnaire.",
+  "recit": [
+    "Joseph, surnommé par les apôtres Barnabas, « ce qui signifie fils d’exhortation », est un Lévite originaire de Chypre. Il vend un champ qu’il possède et en apporte le prix aux apôtres [[Actes 4:36-37]].",
+    "Quand Saul, nouvellement converti, arrive à Jérusalem, les disciples le craignent. Barnabas le prend avec lui, le conduit vers les apôtres et leur raconte comment il a vu le Seigneur et prêché avec assurance à Damas [[Actes 9:26-27]].",
+    "Apprenant que beaucoup de Grecs ont cru à Antioche, l’Église de Jérusalem y envoie Barnabas. Il se réjouit de voir la grâce de Dieu et les exhorte tous à rester attachés au Seigneur, « car c’était un homme de bien, plein d’Esprit Saint et de foi » [[Actes 11:22-24]]. Il va chercher Saul à Tarse et l’amène à Antioche, où ils enseignent ensemble un an [[Actes 11:25-26]]. Ils portent ensuite à Jérusalem l’aide envoyée pour les frères de Judée [[Actes 11:29-30]].",
+    "L’Esprit demande de mettre à part Barnabas et Saul [[Actes 13:1-3]]. À Chypre, le proconsul Sergius Paulus croit [[Actes 13:4-12]]. À Lystre, après une guérison, la foule les prend pour des dieux et appelle Barnabas Jupiter et Paul Mercure ; ils déchirent leurs vêtements pour l’en empêcher [[Actes 14:8-18]]. À Jérusalem, ils racontent les miracles accomplis par Dieu parmi les païens [[Actes 15:12]]. Les responsables de Jérusalem leur donnent la main d’association [[Galates 2:9]].",
+    "Paul lui reproche de s’être laissé entraîner par l’attitude de Pierre, qui évitait de manger avec les croyants d’origine païenne [[Galates 2:11-13]]. Quand Paul propose un nouveau voyage, Barnabas veut emmener Jean, surnommé Marc, qui les avait quittés lors du premier. Le désaccord est vif, et ils se séparent : Barnabas part pour Chypre avec Marc [[Actes 15:36-39]].",
+    "Paul mentionne plus tard Barnabas comme un ouvrier de l’Évangile qui, comme lui, travaille pour vivre [[1 Corinthiens 9:6]]. Marc est présenté comme son cousin [[Colossiens 4:10]]."
+  ],
+  "contexte": [
+    "Une « Épître de Barnabas », écrit chrétien du IIe siècle, lui a été attribuée dans l’Antiquité, mais elle n’est pas de lui et ne fait pas partie du Nouveau Testament. Tertullien lui attribuait l’épître aux Hébreux ; cette hypothèse n’a pas été retenue par la tradition.",
+    "Marc, d’abord en conflit avec Paul, est ensuite mentionné favorablement par lui [[2 Timothée 4:11]], ce qui suggère une réconciliation."
+  ],
+  "chronologie": [
+    { "etape": "Vend son champ", "ref": "Actes 4:36-37" },
+    { "etape": "Présente Saul aux apôtres", "ref": "Actes 9:26-27" },
+    { "etape": "Envoyé à Antioche", "ref": "Actes 11:22-26" },
+    { "etape": "Premier voyage avec Paul", "ref": "Actes 13-14" },
+    { "etape": "Assemblée de Jérusalem", "ref": "Actes 15:1-12" },
+    { "etape": "Séparation d’avec Paul", "ref": "Actes 15:36-39" }
+  ],
+  "references": ["Actes 4:36-37", "Actes 9:26-27", "Actes 11:19-30", "Actes 13-15", "Galates 2:1-13"]
+}

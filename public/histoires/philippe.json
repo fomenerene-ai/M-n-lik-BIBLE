@@ -1,0 +1,29 @@
+{
+  "id": "philippe",
+  "nom": "Philippe l’évangéliste",
+  "cle": "philippe",
+  "ordre": 472,
+  "groupe": "Apôtres et compagnons de Paul",
+  "periode": "Église naissante",
+  "resume": "L’un des sept, il annonce l’Évangile en Samarie, puis explique le livre d’Ésaïe à un ministre éthiopien qu’il baptise sur la route de Gaza.",
+  "recit": [
+    "Philippe est l’un des sept hommes choisis par l’Église de Jérusalem pour le service des veuves, avec Étienne [[Actes 6:5-6]].",
+    "Après la mort d’Étienne, les croyants se dispersent. Philippe descend dans une ville de Samarie et y prêche le Christ. Les foules sont attentives, des esprits impurs sortent, des paralytiques et des boiteux sont guéris, « et il y eut une grande joie dans cette ville » [[Actes 8:4-8]]. Un magicien nommé Simon croit lui aussi et est baptisé [[Actes 8:9-13]]. Les apôtres envoient Pierre et Jean en Samarie [[Actes 8:14-17]].",
+    "Un ange du Seigneur lui dit de prendre la route qui descend de Jérusalem à Gaza, une route déserte [[Actes 8:26]]. Il y rencontre un eunuque éthiopien, haut fonctionnaire de Candace, reine d’Éthiopie, qui revient d’adorer à Jérusalem et lit le prophète Ésaïe sur son char [[Actes 8:27-28]]. L’Esprit dit à Philippe de s’approcher. Il entend l’homme lire et lui demande : « Comprends-tu ce que tu lis ? » L’Éthiopien répond : « Comment le pourrais-je, si quelqu’un ne me guide ? » [[Actes 8:29-31]].",
+    "Le passage est celui de la brebis menée à la boucherie [[Actes 8:32-34]]. « Alors Philippe, ouvrant la bouche et commençant par ce passage, lui annonça la bonne nouvelle de Jésus » [[Actes 8:35]]. Arrivés près d’un point d’eau, l’eunuque demande : « Voici de l’eau ; qu’est-ce qui empêche que je sois baptisé ? » Philippe le baptise [[Actes 8:36-38]]. L’Esprit enlève Philippe, et l’eunuque poursuit sa route, tout joyeux [[Actes 8:39]].",
+    "Philippe se retrouve à Azot, puis évangélise toutes les villes jusqu’à Césarée [[Actes 8:40]]. Bien des années plus tard, Paul et ses compagnons logent à Césarée chez « Philippe l’évangéliste, qui était l’un des sept ». Il a quatre filles non mariées qui prophétisent [[Actes 21:8-9]]."
+  ],
+  "contexte": [
+    "Il ne faut pas confondre Philippe l’évangéliste avec l’apôtre Philippe, l’un des Douze, originaire de Bethsaïda [[Jean 1:43-46]]. Les deux sont parfois confondus dans les traditions anciennes.",
+    "« Candace » était un titre porté par les reines du royaume de Méroé, sur le Nil, au sud de l’Égypte, que les Grecs appelaient Éthiopie."
+  ],
+  "chronologie": [
+    { "etape": "Élu parmi les sept", "ref": "Actes 6:5-6" },
+    { "etape": "Évangélisation de la Samarie", "ref": "Actes 8:4-13" },
+    { "etape": "Rencontre de l’eunuque éthiopien", "ref": "Actes 8:26-35" },
+    { "etape": "Baptême de l’eunuque", "ref": "Actes 8:36-39" },
+    { "etape": "D’Azot à Césarée", "ref": "Actes 8:40" },
+    { "etape": "Accueille Paul à Césarée", "ref": "Actes 21:8-9" }
+  ],
+  "references": ["Actes 6:1-6", "Actes 8:4-40", "Actes 21:8-9"]
+}

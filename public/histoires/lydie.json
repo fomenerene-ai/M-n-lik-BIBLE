@@ -1,0 +1,26 @@
+{
+  "id": "lydie",
+  "nom": "Lydie",
+  "cle": "lydie",
+  "ordre": 482,
+  "groupe": "Apôtres et compagnons de Paul",
+  "periode": "Voyages de Paul",
+  "resume": "Marchande de pourpre originaire de Thyatire, elle est la première personne baptisée en Europe selon les Actes. Sa maison devient le point d’appui de l’Église de Philippes.",
+  "recit": [
+    "Paul et ses compagnons arrivent à Philippes, ville de Macédoine et colonie romaine [[Actes 16:11-12]]. Le jour du sabbat, ils sortent de la ville et se rendent au bord d’une rivière, où ils pensent trouver un lieu de prière ; ils s’assoient et parlent aux femmes qui sont réunies [[Actes 16:13]].",
+    "« L’une d’elles, nommée Lydie, marchande de pourpre, de la ville de Thyatire, était une femme craignant Dieu, et elle écoutait. Le Seigneur lui ouvrit le cœur, pour qu’elle fût attentive à ce que disait Paul » [[Actes 16:14]].",
+    "Elle est baptisée avec sa famille, puis invite les missionnaires : « Si vous me jugez fidèle au Seigneur, entrez dans ma maison, et demeurez-y. » Et elle les presse par ses instances [[Actes 16:15]].",
+    "Après leur emprisonnement et leur libération, Paul et Silas retournent chez Lydie ; ils y voient les frères, les exhortent, puis quittent la ville [[Actes 16:40]]."
+  ],
+  "contexte": [
+    "La pourpre était une teinture coûteuse, réservée aux étoffes de luxe ; Thyatire, en Asie Mineure, était réputée pour ses teintureries. Lydie semble donc être une commerçante aisée, à la tête de sa propre maison.",
+    "Une « femme craignant Dieu » désigne une personne non juive attachée au Dieu d’Israël et fréquentant le culte juif. L’Église de Philippes soutiendra plus tard Paul à plusieurs reprises [[Philippiens 4:15-16]]."
+  ],
+  "chronologie": [
+    { "etape": "Prière au bord de la rivière", "ref": "Actes 16:13" },
+    { "etape": "Le Seigneur lui ouvre le cœur", "ref": "Actes 16:14" },
+    { "etape": "Baptisée ; accueille les missionnaires", "ref": "Actes 16:15" },
+    { "etape": "Reçoit Paul et Silas libérés", "ref": "Actes 16:40" }
+  ],
+  "references": ["Actes 16:11-15", "Actes 16:40"]
+}

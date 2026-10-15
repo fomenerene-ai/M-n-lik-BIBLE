@@ -1,0 +1,29 @@
+{
+  "id": "timothee",
+  "nom": "Timothée",
+  "cle": "timothee",
+  "ordre": 481,
+  "groupe": "Apôtres et compagnons de Paul",
+  "periode": "Voyages de Paul",
+  "resume": "Jeune disciple de Lystre, fils d’une mère juive croyante et d’un père grec, il devient le collaborateur le plus proche de Paul, qui l’appelle son enfant bien-aimé.",
+  "recit": [
+    "À Lystre, Paul rencontre un disciple nommé Timothée, fils d’une femme juive fidèle et d’un père grec, dont les frères de la région rendent un bon témoignage. Paul veut l’emmener et le fait circoncire, à cause des Juifs qui sont dans ces lieux [[Actes 16:1-3]].",
+    "Paul rappelle la foi sincère de Timothée, qui habita d’abord dans sa grand-mère Loïs et dans sa mère Eunice [[2 Timothée 1:5]], et lui écrit que dès son enfance il connaît les saintes lettres [[2 Timothée 3:14-15]].",
+    "Timothée accompagne Paul et sert souvent d’envoyé. Paul l’envoie à Thessalonique pour affermir les croyants, et Timothée lui en rapporte de bonnes nouvelles [[1 Thessaloniciens 3:1-6]]. Il l’envoie aussi à Corinthe : « mon enfant bien-aimé et fidèle dans le Seigneur » [[1 Corinthiens 4:17]]. Aux Philippiens, il écrit qu’il n’a personne d’autre qui partage ainsi ses sentiments, et que Timothée a servi avec lui pour l’Évangile « comme un enfant avec son père » [[Philippiens 2:19-22]].",
+    "Son nom figure avec celui de Paul en tête de plusieurs lettres [[2 Corinthiens 1:1]] [[Philippiens 1:1]] [[Colossiens 1:1]] [[Philémon 1:1]]. Paul le laisse à Éphèse pour y combattre de faux enseignements [[1 Timothée 1:3]].",
+    "Les deux lettres qui lui sont adressées l’encouragent : « Que personne ne méprise ta jeunesse ; mais sois un modèle pour les fidèles » [[1 Timothée 4:12]]. Paul lui conseille aussi de prendre un peu de vin à cause de son estomac et de ses fréquentes indispositions [[1 Timothée 5:23]]. Dans la seconde lettre, écrite en prison, il le presse : « Viens au plus tôt vers moi » [[2 Timothée 4:9]].",
+    "L’épître aux Hébreux annonce la mise en liberté de « notre frère Timothée » [[Hébreux 13:23]]."
+  ],
+  "contexte": [
+    "La circoncision de Timothée, alors que Paul s’oppose à l’imposer aux croyants païens [[Galates 2:3]], s’explique dans le texte par la présence des Juifs de la région et par l’origine juive de sa mère.",
+    "Les épîtres à Timothée et à Tite sont appelées « épîtres pastorales ». Leur attribution directe à Paul est discutée par une partie des spécialistes. Selon une tradition ancienne rapportée par Eusèbe, Timothée fut le premier responsable de l’Église d’Éphèse."
+  ],
+  "chronologie": [
+    { "etape": "Rencontré par Paul à Lystre", "ref": "Actes 16:1-3" },
+    { "etape": "Envoyé à Thessalonique", "ref": "1 Thessaloniciens 3:1-6" },
+    { "etape": "Envoyé à Corinthe", "ref": "1 Corinthiens 4:17" },
+    { "etape": "Laissé à Éphèse", "ref": "1 Timothée 1:3" },
+    { "etape": "Appelé auprès de Paul prisonnier", "ref": "2 Timothée 4:9" }
+  ],
+  "references": ["Actes 16:1-5", "Philippiens 2:19-22", "1 Timothée 4:12-16", "2 Timothée 1:3-7"]
+}
