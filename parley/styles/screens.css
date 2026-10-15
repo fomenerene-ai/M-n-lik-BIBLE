@@ -52,7 +52,8 @@
 input[type="range"] { accent-color: var(--coral); height: var(--touch); }
 
 .qa { display: flex; flex-direction: column; gap: 10px; }
-.qa .q { font-weight: 800; font-size: 18px; }
+.q { font-weight: 800; font-size: 18px; }
+.stack:has(> .mic) { align-items: center; }
 .gap-input { display: inline-block; width: 150px; min-height: 40px; padding: 4px 10px; margin: 0 4px; border-radius: 12px; border: var(--bw) solid var(--line); font-weight: 800; font-size: 18px; }
 .input.correct, .gap-input.correct { border-color: var(--teal); background: var(--teal-tint); }
 .input.wrong, .gap-input.wrong { border-color: #F3C4C0; background: var(--danger-tint); }

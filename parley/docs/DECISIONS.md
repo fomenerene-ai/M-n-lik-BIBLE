@@ -57,3 +57,6 @@ One line per non-obvious decision, with the reason.
 - Remote manifest audio is only decoded for a curve if a CORS fetch succeeds; otherwise it is scored like a TTS reference, and the UI says so.
 - Tier changes only count attempts made since the tier was entered (`shadowTierSince`), so old scores at a tier do not bounce the learner back.
 - A small built-in bank of original sentences per tier is the last-resort reference when no imported audio or dialogue fits the tier.
+- Placement listening uses a built-in bank of 4 original clips (difficulty 2, 4, 6, 8) read by the device voices: no API call, same test every time, and it works without a key. Each clip can be played twice.
+- Placement speaking: 3 fixed questions, answers by voice (or typed), assessed in one JSON call with a rubric. Without a key, or if the call fails, levels come from the listening part (highest clip passed + 1, minus misses below it) and speaking starts half a level lower.
+- The shadowing tier starts from the speaking level band after the placement test.

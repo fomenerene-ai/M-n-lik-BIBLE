@@ -49,3 +49,13 @@ test('level bands map to CEFR labels', () => {
   assert.equal(bandFor(8).cefr, 'B2+');
   assert.equal(bandFor(10).cefr, 'C1');
 });
+
+test('placement listening level without the API', async () => {
+  const { listeningFromResults, PLACEMENT_CLIPS } = await import('../src/learning/placement-bank.js');
+  const r = (c) => PLACEMENT_CLIPS.map((clip, i) => ({ difficulty: clip.difficulty, correct: c[i] }));
+  assert.equal(listeningFromResults(r([false, false, false, false])), 2.5);
+  assert.equal(listeningFromResults(r([true, true, false, false])), 5);
+  assert.equal(listeningFromResults(r([true, true, true, true])), 9);
+  assert.equal(listeningFromResults(r([false, true, true, false])), 6, 'a miss on an easier clip lowers the result');
+  for (const c of PLACEMENT_CLIPS) assert.ok(c.options.includes(c.answer));
+});
