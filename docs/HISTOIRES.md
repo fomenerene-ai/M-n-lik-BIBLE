@@ -53,9 +53,9 @@ ajouter un personnage revient à ajouter un fichier, sans toucher au code.
 | Lot | Personnages | État |
 |---|---|---|
 | 1 | Adam, Ève, Noé, Abraham, Sara, Agar, Melchisédek, Lot, Isaac, Rebecca, Ésaü, Jacob, Léa, Rachel, Joseph | Validé |
-| 2 | Moïse, Aaron, Miriam, Jéthro, Josué, Caleb, Koré, Balaam, Phinées, Rahab, Acan | Livré, à valider |
-| 3 | Juges et début de la royauté : Débora, Gédéon, Samson, Ruth, Noémi, Anne, Samuel, Saül… | À venir |
-| 4 | Rois : David, Jonathan, Bath-Schéba, Salomon, Roboam, Jéroboam, Achab, Jézabel, Ézéchias, Josias… | À venir |
+| 2 | Moïse, Aaron, Miriam, Jéthro, Josué, Caleb, Koré, Balaam, Phinées, Rahab, Acan | Validé |
+| 3 | Débora, Gédéon, Jephthé, Samson, Naomi, Ruth, Boaz, Éli, Anne, Samuel, Saül | Livré, à valider |
+| 4 | Rois : David, Jonathan, Abigaïl, Bath-Schéba, Salomon, Roboam, Jéroboam, Achab, Jézabel, Ézéchias, Josias… | À venir |
 | 5 | Prophètes : Élie, Élisée, Ésaïe, Jérémie, Ézéchiel, Jonas, Osée, Amos… | À venir |
 | 6 | Exil et retour : Daniel, Esther, Mardochée, Esdras, Néhémie, Zorobabel… | À venir |
 | 7 | Évangiles : Marie, Joseph de Nazareth, Jean-Baptiste, Pierre, Marthe, Marie de Magdala, Nicodème, Zachée… | À venir |

@@ -1,0 +1,31 @@
+{
+  "id": "samson",
+  "nom": "Samson",
+  "cle": "samson",
+  "ordre": 128,
+  "groupe": "Juges",
+  "periode": "Époque des Juges",
+  "resume": "Naziréen dès sa naissance, doté d’une force hors du commun, il combat seul les Philistins. Trahi par Dalila, il meurt en faisant s’écrouler le temple de Dagon.",
+  "recit": [
+    "Israël est livré aux Philistins pendant quarante ans [[Juges 13:1]]. L’ange de l’Éternel apparaît à la femme stérile de Manoach, de la tribu de Dan, à Tsorea : elle aura un fils, naziréen de Dieu dès le ventre de sa mère ; le rasoir ne passera pas sur sa tête, et il commencera à délivrer Israël [[Juges 13:2-5]]. Quand Manoach demande son nom, l’ange répond : « Pourquoi demandes-tu mon nom ? Il est merveilleux », puis monte dans la flamme de l’autel [[Juges 13:17-20]]. L’enfant naît et reçoit le nom de Samson ; l’esprit de l’Éternel commence à l’agiter [[Juges 13:24-25]].",
+    "Samson veut épouser une Philistine de Thimna, malgré ses parents ; le texte précise que « cela venait de l’Éternel », qui cherchait une occasion contre les Philistins [[Juges 14:1-4]]. En chemin, il déchire un jeune lion à mains nues [[Juges 14:5-6]], et trouve plus tard un essaim d’abeilles et du miel dans son cadavre [[Juges 14:8-9]]. Aux noces, il propose une énigme : « De celui qui mange est sorti ce qui se mange, et du fort est sorti le doux » [[Juges 14:12-14]]. Sa femme, pressée par ses compatriotes, lui arrache la réponse en pleurant et la leur révèle ; Samson tue trente Philistins à Askalon pour payer son pari [[Juges 14:15-19]].",
+    "Privé de sa femme, il attache par la queue trois cents renards deux à deux, avec des flambeaux, et brûle les moissons des Philistins [[Juges 15:1-5]]. En représailles, ceux-ci brûlent sa femme et son père [[Juges 15:6]]. Livré lié par les hommes de Juda, il rompt ses cordes et tue mille hommes avec une mâchoire d’âne [[Juges 15:11-16]]. Assoiffé, il crie à l’Éternel, qui fait jaillir de l’eau [[Juges 15:18-19]]. Il juge Israël vingt ans [[Juges 15:20]].",
+    "Il aime une femme de la vallée de Sorek, nommée Dalila. Les princes des Philistins lui promettent chacun mille cent sicles d’argent si elle découvre le secret de sa force [[Juges 16:4-5]]. Trois fois, Samson la trompe [[Juges 16:6-14]]. Elle le harcèle chaque jour, jusqu’à ce qu’il lui révèle qu’il est naziréen et que, rasé, il perdrait sa force [[Juges 16:15-17]].",
+    "Elle le fait raser pendant son sommeil. Samson se réveille, pensant se dégager comme les autres fois : « Il ne savait pas que l’Éternel s’était retiré de lui. » Les Philistins lui crèvent les yeux, l’emmènent à Gaza, et il tourne la meule dans la prison [[Juges 16:19-21]]. Ses cheveux recommencent à pousser [[Juges 16:22]].",
+    "Lors d’une grande fête en l’honneur de leur dieu Dagon, les Philistins font venir Samson pour se divertir. Il prie : « Seigneur Éternel ! souviens-toi de moi, je te prie ; ô Dieu ! donne-moi de la force seulement cette fois » [[Juges 16:23-28]]. Il saisit les deux colonnes du milieu, dit : « Que je meure avec les Philistins ! », et la maison s’écroule. Il en fait périr à sa mort plus qu’il n’en avait tué pendant sa vie [[Juges 16:29-30]]. Ses frères l’enterrent entre Tsorea et Eschthaol [[Juges 16:31]].",
+    "L’épître aux Hébreux le compte parmi ceux qui, par la foi, « de faibles qu’ils étaient, furent rendus forts » [[Hébreux 11:32-34]]."
+  ],
+  "contexte": [
+    "Le naziréat est décrit en Nombres 6 : abstinence de vin, cheveux non coupés, éloignement des morts. Pour Samson, il s’agit d’un naziréat à vie, imposé dès avant sa naissance, et le récit le montre souvent en tension avec ces règles.",
+    "Dagon était une divinité adorée par les Philistins, notamment à Gaza et à Asdod [[1 Samuel 5:1-5]]. Les Philistins occupaient la plaine côtière du sud-ouest de Canaan."
+  ],
+  "chronologie": [
+    { "etape": "Annonce de sa naissance", "ref": "Juges 13:2-25" },
+    { "etape": "Le lion et l’énigme", "ref": "Juges 14" },
+    { "etape": "Les renards et la mâchoire d’âne", "ref": "Juges 15" },
+    { "etape": "Dalila découvre son secret", "ref": "Juges 16:4-17" },
+    { "etape": "Capturé et aveuglé", "ref": "Juges 16:19-21" },
+    { "etape": "Mort dans le temple de Dagon", "ref": "Juges 16:23-31" }
+  ],
+  "references": ["Juges 13-16", "Nombres 6:1-8", "Hébreux 11:32-34"]
+}
