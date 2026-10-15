@@ -48,3 +48,12 @@ One line per non-obvious decision, with the reason.
 - Segmentation threshold adapts per recording (35 % between the 10th and 95th percentile frame energies), silences of 0.25 s split speech, groups end on pauses of 0.45 s once they reach 1.5 s, segments are 1 to 12 s (longer speech is cut at its quietest point).
 - Transcript alignment without timestamps is by order: one to one when counts match, otherwise proportional (characters versus seconds). SRT/VTT cues are used as segments directly; a Common Voice sentence covers the clip trimmed of silence.
 - Common Voice clips are titled with their sentence so the library list stays readable.
+- Pitch: YIN (threshold 0.15, 65 to 450 Hz, 40 ms frames, 10 ms hop) on audio downsampled to 16 kHz, so a 5 s take is analysed in well under a second on a tablet. Contours are in semitones relative to each speaker's median, octave jumps folded, median-smoothed over 5 frames.
+- Voice curve score: DTW (Sakoe-Chiba band 25 %) between both contours resampled to 80 points; 100 at identical, 0 at a mean gap of 4 semitones.
+- Rhythm score: 60 % duration ratio (0 at half or double length) and 40 % pause placement (pauses matched within 8 % of the speech span). TTS references get duration only, measured from the utterance's start and end events.
+- Overall shadow score weights words 50, curve 30, rhythm 20, renormalised over the parts that could be measured.
+- Recording uses an AudioWorklet (ScriptProcessor fallback) with noise suppression and auto gain off, to keep the pitch contour intact. Samples live in memory and are dropped after analysis.
+- Simultaneous recognition and recording is tried first; if the recording is silent (peak < 0.003) or recognition fails with a device error, the app switches to two takes and remembers it (`parley.shadowMode`), with a button to try one take again.
+- Remote manifest audio is only decoded for a curve if a CORS fetch succeeds; otherwise it is scored like a TTS reference, and the UI says so.
+- Tier changes only count attempts made since the tier was entered (`shadowTierSince`), so old scores at a tier do not bounce the learner back.
+- A small built-in bank of original sentences per tier is the last-resort reference when no imported audio or dialogue fits the tier.
