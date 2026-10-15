@@ -6,6 +6,7 @@ import { VERSIONS } from '../core/versions.js';
 import { settings, setSetting, exportBackup, importBackup } from '../core/userdata.js';
 import { versionStatus, deleteVersion } from '../core/importer.js';
 import { compareVersification } from '../core/parse-bolls.js';
+import { buildStructure } from '../core/structure.js';
 import * as db from '../core/db.js';
 import { getBook } from '../core/books.js';
 import { clearCache } from '../core/bible.js';
@@ -75,15 +76,8 @@ export async function renderSettings() {
     }
   });
   const doExport = async () => {
-    const data = await exportBackup();
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
     const day = new Date().toISOString().slice(0, 10);
-    const a = h('a', { href: url, download: `menelik-bible-sauvegarde-${day}.json` });
-    document.body.append(a);
-    a.click();
-    a.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 5000);
+    downloadJson(await exportBackup(), `menelik-bible-sauvegarde-${day}.json`);
     toast('Sauvegarde exportée');
   };
 
@@ -145,6 +139,12 @@ export async function renderSettings() {
       ),
     );
   };
+  const exportStructure = async () => {
+    const all = await db.getAll('chapters');
+    const day = new Date().toISOString().slice(0, 10);
+    downloadJson(buildStructure(all, { app: __APP_VERSION__ }), `menelik-bible-structure-${day}.json`);
+    toast('Structure exportée');
+  };
   const reinstall = async () => {
     if (!(await confirmDialog('Supprimer les textes de la tablette et les télécharger à nouveau ? Une connexion sera nécessaire. Vos surlignages, notes et favoris sont conservés.', 'Retélécharger'))) return;
     for (const id of Object.keys(VERSIONS)) await deleteVersion(id);
@@ -202,6 +202,7 @@ export async function renderSettings() {
         'div',
         { class: 'row wrap' },
         h('button', { class: 'btn', onclick: checkVersif }, 'Comparer la versification'),
+        h('button', { class: 'btn', onclick: exportStructure }, 'Exporter la structure des textes'),
         h('button', { class: 'btn danger', onclick: reinstall }, 'Retélécharger les textes'),
       ),
       versifOut,
@@ -216,6 +217,17 @@ export async function renderSettings() {
     ]),
   );
   return { title: 'Réglages', el };
+}
+
+/** Propose un objet JSON en téléchargement. */
+function downloadJson(data, filename) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = h('a', { href: url, download: filename });
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 5000);
 }
 
 function section(title, children) {

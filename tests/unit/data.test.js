@@ -75,3 +75,20 @@ describe('plages de surlignage', () => {
     expect(l.sort(biblicalOrder).map((x) => x.b + ':' + x.c)).toEqual(['1:1', '43:1', '43:3']);
   });
 });
+
+import { buildStructure } from '../../src/core/structure.js';
+
+describe('structure des textes', () => {
+  it('compte les versets, repère les manquants et les témoins', () => {
+    const recs = [
+      { v: 'FRLSG', b: 1, c: 32, verses: [{ n: 1, t: 'a' }, { n: 2, t: 'b' }, { n: 29, t: 'tu seras appelé Israël' }] },
+      { v: 'BDS', b: 1, c: 32, verses: [{ n: 1, t: 'x' }] },
+    ];
+    const s = buildStructure(recs);
+    expect(s.versions.FRLSG.chapitres['1:32']).toBe(29);
+    expect(s.versions.FRLSG.manquants['1:32']).toHaveLength(26);
+    expect(s.versions.FRLSG.temoins['1:32:29']).toMatch(/Israël/);
+    expect(s.versions.FRLSG.temoins['1:32:28']).toBeNull();
+    expect(s.versions.BDS.chapitres['1:32']).toBe(1);
+  });
+});

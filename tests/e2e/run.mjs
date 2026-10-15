@@ -247,6 +247,17 @@ try {
   const norm = (d) => JSON.stringify(Object.fromEntries(Object.entries(d).map(([k, v]) => [k, [...v].sort((a, b) => String(a.id ?? a.key).localeCompare(String(b.id ?? b.key)))])));
   check(norm(before.data) === norm(after.data), 'Export puis import : données restaurées à l’identique');
 
+  // Export de la structure des textes
+  const [dlStruct] = await Promise.all([
+    page.waitForEvent('download'),
+    page.getByRole('button', { name: 'Exporter la structure des textes' }).click(),
+  ]);
+  const struct = JSON.parse(fs.readFileSync(await dlStruct.path(), 'utf8'));
+  check(
+    Object.keys(struct.versions.FRLSG.chapitres).length === 1189 && struct.versions.BDS.manquants['19:3'][0] === 9,
+    'Export de la structure : 1189 chapitres, verset absent repéré',
+  );
+
   /* 7. Projection */
   await page.goto(BASE + '#/projection');
   await page.locator('.ref-input').fill('Jean 3:16-18');
