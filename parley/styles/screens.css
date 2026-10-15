@@ -22,7 +22,7 @@
 
 /* Focus screens (Talk) */
 .topbar { display: flex; align-items: center; gap: 24px; }
-.topbar .title-center { font-family: var(--font-display); font-weight: 600; font-size: 34px; text-align: center; }
+.title-center { font-family: var(--font-display); font-weight: 600; font-size: 34px; text-align: center; }
 .chat-scroll { flex: 1; min-height: 0; overflow-y: auto; width: 100%; }
 .chat-col { width: 820px; max-width: 100%; margin: 0 auto; padding: 22px 0; }
 .talk-controls { display: flex; align-items: center; justify-content: center; gap: 44px; }

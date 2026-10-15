@@ -81,6 +81,7 @@ export function friendlyError(err) {
     case 'invalid-output': return { title: 'Unexpected answer', text: 'The model answered in an unexpected format twice. Try again.' };
     case 'spend-guard': return { title: 'Limit reached', text: err.message };
     case 'no-mic': return { title: 'Microphone blocked', text: 'Allow microphone access for this site: tap the lock icon next to the address, then Permissions, then Microphone.' };
+    case 'no-mic-device': return { title: 'No microphone available', text: 'No working microphone was found, or another app is using it. Close other apps that use the microphone and try again.' };
     case 'no-stt': return { title: 'Speech recognition unavailable', text: 'This browser has no speech recognition. Open the app in Google Chrome on Android.' };
     case 'stt-network': return { title: 'Speech recognition offline', text: 'Chrome speech recognition needs an internet connection. Check the Wi-Fi and try again.' };
     case 'no-voice': return { title: 'No English voice installed', text: 'Install an English voice: Android Settings, then Accessibility or General management, Text-to-speech output, Speech Services by Google, then Install voice data and pick English (US) and English (UK).' };

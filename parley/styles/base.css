@@ -1,5 +1,6 @@
 /* Base element styles and the app layout. */
 *, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
 
 html, body { height: 100%; }
 

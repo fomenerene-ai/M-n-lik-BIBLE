@@ -4,15 +4,20 @@
 import { APP_NAME } from './config.js';
 import { h, replace } from './ui/dom.js';
 import { icon } from './ui/icons.js';
-import { startRouter, go, hrefFor } from './router.js';
+import { startRouter, go, hrefFor, parseHash } from './router.js';
 import { registerServiceWorker } from './sw-register.js';
 import { requestPersistence } from './state/db.js';
+import { getSettings } from './state/settings.js';
 
 /** Route name to lazy screen module. */
 const SCREENS = {
   today: () => import('./screens/today.js'),
   progress: () => import('./screens/progress.js'),
   cards: () => import('./screens/cards.js'),
+  talk: () => import('./screens/talk.js'),
+  report: () => import('./screens/report.js'),
+  welcome: () => import('./screens/welcome.js'),
+  settings: () => import('./screens/settings.js'),
 };
 
 const NAV_TOP = [
@@ -37,6 +42,8 @@ let renderToken = 0;
 /** Context passed to every screen. */
 const ctx = {
   go,
+  /** Renders the current route again. */
+  refresh() { onRoute(parseHash(location.hash)); },
   /** Hides the sidebar for immersive screens (conversation). */
   setFocusMode(on) { appEl.classList.toggle('focus-mode', !!on); },
 };
@@ -73,7 +80,23 @@ async function onRoute(route) {
   if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
 }
 
-document.title = APP_NAME;
-startRouter(onRoute);
+let onboarded = false;
+
+async function boot() {
+  document.title = APP_NAME;
+  try { onboarded = !!(await getSettings()).onboardedAt; } catch (e) { console.error(e); onboarded = true; }
+  startRouter((route) => {
+    if (!onboarded && route.name !== 'welcome') {
+      getSettings().then((s) => {
+        onboarded = !!s.onboardedAt;
+        if (onboarded) onRoute(route); else go('welcome');
+      });
+      return;
+    }
+    onRoute(route);
+  });
+}
+
+boot();
 registerServiceWorker();
 requestPersistence();

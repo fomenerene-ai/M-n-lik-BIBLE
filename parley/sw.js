@@ -1,7 +1,7 @@
 /* Service worker. Precaches the app shell only; API and audio are network-only.
  * VERSION and PRECACHE are rewritten by tools/build-sw.mjs. Do not edit them by hand. */
 
-const VERSION = '5e151d5e1a8a';
+const VERSION = 'cd2c6f84a9cf';
 const CACHE = `parley-shell-${VERSION}`;
 const PRECACHE = [
   "./",
@@ -16,9 +16,11 @@ const PRECACHE = [
   "./src/ai/prompts.js",
   "./src/ai/schema.js",
   "./src/ai/sse.js",
+  "./src/audio/capture.js",
   "./src/config.js",
   "./src/content/manifest-schema.js",
   "./src/learning/adaptive.js",
+  "./src/learning/conversation.js",
   "./src/learning/dates.js",
   "./src/learning/diff.js",
   "./src/learning/srs.js",
@@ -28,8 +30,13 @@ const PRECACHE = [
   "./src/router.js",
   "./src/screens/cards.js",
   "./src/screens/progress.js",
+  "./src/screens/report-builder.js",
+  "./src/screens/report.js",
   "./src/screens/run.js",
+  "./src/screens/settings.js",
+  "./src/screens/talk.js",
   "./src/screens/today.js",
+  "./src/screens/welcome.js",
   "./src/speech/stt-merge.js",
   "./src/speech/stt.js",
   "./src/speech/tts.js",

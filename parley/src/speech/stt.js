@@ -14,7 +14,7 @@ export function sttSupported() {
 }
 
 function sttError(code) {
-  const kind = code === 'not-allowed' || code === 'service-not-allowed' || code === 'audio-capture' ? 'no-mic'
+  const kind = code === 'not-allowed' || code === 'service-not-allowed' ? 'no-mic' : code === 'audio-capture' ? 'no-mic-device'
     : code === 'network' ? 'stt-network' : code === 'unsupported' ? 'no-stt' : 'stt';
   return Object.assign(new Error(`Speech recognition error: ${code}`), { kind, code });
 }

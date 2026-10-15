@@ -29,3 +29,11 @@ One line per non-obvious decision, with the reason.
 - SRS: new card Again 10 min / Hard 1 d / Good 1 d / Easy 4 d; second success Good 6 d; then interval x ease (Hard x1.2, Easy x ease x1.3). Ease floor 1.3. Again re-queues the card at the end of the current review.
 - Cards "Say it" shows a word match from speech recognition, labelled as such: STT auto-corrects pronunciation.
 - Speech recognition results are merged defensively: some Android Chrome builds return cumulative finals, which would otherwise duplicate words.
+- Talk is half-duplex: the mic opens only after the partner finishes speaking (no echo of the TTS voice into recognition). Tapping the mic while the partner speaks interrupts and opens the mic.
+- The scenario opening line is fixed and spoken without an API call, so the conversation starts instantly. The API's first message must be from the user, so history starts with a "[Session note]" user message.
+- Time-up never cuts the learner: the wrap-up instruction is appended to the learner's current turn, or sent after the current reply.
+- The time-up and turn-limit instructions are plain bracketed notes in user messages (not mid-conversation system messages), so they work with any model chosen in Settings.
+- Reports are saved first with transcript and local metrics, then completed by the AI call: a failed call never loses the conversation, and the report screen offers "Generate feedback" later. Level update and report cards happen once, on the first successful generation.
+- Report uses effort `medium` (quality matters, latency does not); conversation uses `low`.
+- Speech recognition language is en-US for the learner whatever the partner accent: recognition of a French accent does not improve with en-GB, and one setting keeps behaviour predictable.
+- The live transcript is kept per recognition session and Chrome's early session ends trigger a silent restart, so long turns survive Android's short-pause cut-offs.
