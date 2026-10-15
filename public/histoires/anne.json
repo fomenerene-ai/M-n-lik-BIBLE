@@ -1,0 +1,29 @@
+{
+  "id": "anne",
+  "nom": "Anne",
+  "cle": "anne",
+  "ordre": 141,
+  "groupe": "Juges",
+  "periode": "Fin de l’époque des Juges",
+  "resume": "Femme stérile et humiliée, elle prie à Silo et obtient un fils, Samuel, qu’elle consacre à l’Éternel. Son cantique célèbre le Dieu qui renverse les situations.",
+  "recit": [
+    "Elkana, de Ramathaïm, a deux femmes : Anne et Peninna. Peninna a des enfants, Anne n’en a pas [[1 Samuel 1:1-2]]. Chaque année, la famille monte à Silo pour adorer. Elkana donne à Anne une portion double, car il l’aime, mais Peninna l’humilie sans cesse ; Anne pleure et ne mange plus [[1 Samuel 1:3-7]]. Elkana lui demande s’il ne vaut pas mieux pour elle que dix fils [[1 Samuel 1:8]].",
+    "L’amertume dans l’âme, Anne prie l’Éternel en pleurant et fait un vœu : s’il lui donne un fils, elle le consacrera à l’Éternel pour tous les jours de sa vie, et le rasoir ne passera pas sur sa tête [[1 Samuel 1:10-11]]. Elle prie dans son cœur ; seules ses lèvres remuent, et le sacrificateur Éli la croit ivre. Elle lui répond qu’elle répandait son âme devant l’Éternel. Éli la bénit, et son visage « ne fut plus le même » [[1 Samuel 1:12-18]].",
+    "Elle enfante un fils et l’appelle Samuel, « car, dit-elle, je l’ai demandé à l’Éternel » [[1 Samuel 1:19-20]]. Elle reste à la maison jusqu’à ce qu’il soit sevré [[1 Samuel 1:21-23]], puis le conduit à Silo avec une offrande et dit à Éli : « C’était pour cet enfant que je priais, et l’Éternel a exaucé la prière que je lui adressais. Aussi je veux le prêter à l’Éternel » [[1 Samuel 1:24-28]].",
+    "Anne prie alors dans un cantique : « Mon cœur se réjouit en l’Éternel. » Elle célèbre le Dieu saint, qui abaisse les forts et relève les faibles : « L’Éternel fait mourir et il fait vivre », « De la poussière il retire le pauvre ». Elle conclut en parlant du roi et de l’oint de l’Éternel [[1 Samuel 2:1-10]].",
+    "Chaque année, elle fait un petit manteau à Samuel et le lui apporte en montant à Silo avec son mari [[1 Samuel 2:19]]. Éli bénit le couple, et l’Éternel visite Anne : elle a encore trois fils et deux filles [[1 Samuel 2:20-21]]."
+  ],
+  "contexte": [
+    "Le cantique d’Anne présente de nombreux points communs avec le cantique de Marie dans l’Évangile de Luc, le Magnificat [[Luc 1:46-55]] : renversement des puissants, élévation des humbles. Ce rapprochement est couramment fait par les commentateurs.",
+    "Le nom Samuel est expliqué par Anne en lien avec la demande faite à Dieu. Le sens étymologique exact du nom (« nom de Dieu », « Dieu a entendu ») est discuté."
+  ],
+  "chronologie": [
+    { "etape": "Stérile et humiliée par Peninna", "ref": "1 Samuel 1:1-8" },
+    { "etape": "Prière et vœu à Silo", "ref": "1 Samuel 1:9-18" },
+    { "etape": "Naissance de Samuel", "ref": "1 Samuel 1:19-20" },
+    { "etape": "Samuel confié à l’Éternel", "ref": "1 Samuel 1:24-28" },
+    { "etape": "Le cantique d’Anne", "ref": "1 Samuel 2:1-10" },
+    { "etape": "Naissance de cinq autres enfants", "ref": "1 Samuel 2:21" }
+  ],
+  "references": ["1 Samuel 1", "1 Samuel 2:1-10", "1 Samuel 2:18-21", "Luc 1:46-55"]
+}

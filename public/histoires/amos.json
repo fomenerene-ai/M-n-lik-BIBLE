@@ -1,0 +1,30 @@
+{
+  "id": "amos",
+  "nom": "Amos",
+  "cle": "amos",
+  "ordre": 264,
+  "groupe": "Prophètes",
+  "periode": "Royaume d’Israël, VIIIe siècle av. J.-C.",
+  "resume": "Berger de Tekoa en Juda, envoyé prophétiser dans le royaume du nord, il dénonce l’injustice sociale et un culte sans droiture.",
+  "recit": [
+    "Amos est un des bergers de Tekoa, en Juda. Il prophétise sous Ozias, roi de Juda, et Jéroboam, fils de Joas, roi d’Israël, deux ans avant un tremblement de terre [[Amos 1:1]]. Son livre s’ouvre par ces mots : « L’Éternel rugit de Sion » [[Amos 1:2]].",
+    "Il prononce d’abord des oracles contre les nations voisines, puis contre Juda, et enfin contre Israël [[Amos 1:3-2:16]]. Il reproche à Israël d’avoir « vendu le juste pour de l’argent, et le pauvre pour une paire de souliers » [[Amos 2:6]]. Il rappelle que l’élection entraîne la responsabilité : « Je vous ai choisis, vous seuls, parmi toutes les familles de la terre ; c’est pourquoi je vous châtierai pour toutes vos iniquités » [[Amos 3:2]]. Et il explique sa propre mission : « Le Seigneur, l’Éternel, parle : qui ne prophétiserait ? » [[Amos 3:8]].",
+    "Il interpelle les femmes riches de Samarie, qu’il appelle « vaches de Basan », parce qu’elles oppriment les pauvres [[Amos 4:1]], et ceux qui vivent dans le luxe, couchés sur des lits d’ivoire, sans s’affliger de la ruine du peuple [[Amos 6:1-6]]. Il appelle : « Cherchez-moi, et vous vivrez ! » [[Amos 5:4]].",
+    "Au nom de Dieu, il rejette un culte séparé de la justice : « Je hais, je méprise vos fêtes […] Mais que la droiture soit comme un courant d’eau, et la justice comme un torrent qui jamais ne tarit » [[Amos 5:21-24]].",
+    "Il reçoit des visions : sauterelles, feu, puis un niveau, que Dieu place au milieu de son peuple [[Amos 7:1-9]]. Amatsia, prêtre de Béthel, l’accuse de conspiration auprès du roi et lui ordonne de retourner en Juda [[Amos 7:10-13]]. Amos répond : « Je ne suis ni prophète, ni fils de prophète ; mais je suis berger, et je cultive des sycomores. L’Éternel m’a pris derrière le troupeau » [[Amos 7:14-15]].",
+    "Il annonce une famine particulière, non de pain mais d’entendre les paroles de l’Éternel [[Amos 8:11-12]]. Son livre se termine pourtant par une promesse : Dieu relèvera la tente de David qui est tombée, et ramènera les captifs de son peuple [[Amos 9:11-15]]. Lors de l’assemblée de Jérusalem, Jacques cite cette promesse à propos de l’entrée des païens dans l’Église [[Actes 15:15-17]]."
+  ],
+  "contexte": [
+    "Le règne de Jéroboam II fut une période de prospérité pour Israël. Les fouilles de Samarie ont livré des ivoires sculptés et des ostraca administratifs qui témoignent de cette richesse, que dénonce Amos.",
+    "Le tremblement de terre mentionné en Amos 1:1 était encore évoqué des siècles plus tard [[Zacharie 14:5]]. Les géologues ont relevé des traces d’un séisme important dans la région vers le milieu du VIIIe siècle av. J.-C."
+  ],
+  "chronologie": [
+    { "etape": "Berger de Tekoa, appelé à prophétiser", "ref": "Amos 1:1" },
+    { "etape": "Oracles contre les nations et contre Israël", "ref": "Amos 1:3-2:16" },
+    { "etape": "Dénonciation de l’injustice et du culte", "ref": "Amos 5:21-24" },
+    { "etape": "Visions", "ref": "Amos 7:1-9" },
+    { "etape": "Conflit avec Amatsia à Béthel", "ref": "Amos 7:10-17" },
+    { "etape": "Promesse de restauration", "ref": "Amos 9:11-15" }
+  ],
+  "references": ["Amos 1-2", "Amos 5", "Amos 7", "Amos 9:11-15", "Actes 15:15-17"]
+}

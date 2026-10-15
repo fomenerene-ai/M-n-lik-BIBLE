@@ -1,0 +1,34 @@
+{
+  "id": "salomon",
+  "nom": "Salomon",
+  "cle": "salomon",
+  "ordre": 180,
+  "groupe": "Rois d’Israël et de Juda",
+  "periode": "Royaume uni",
+  "resume": "Fils de David et de Bath-Schéba, roi réputé pour sa sagesse, il bâtit le temple de Jérusalem. Dans sa vieillesse, ses nombreuses épouses détournent son cœur vers d’autres dieux.",
+  "recit": [
+    "Salomon est le fils de David et de Bath-Schéba ; l’Éternel l’aime, et Nathan l’appelle Jedidja [[2 Samuel 12:24-25]]. Face aux prétentions d’Adonija, David le fait oindre roi à Guihon par le sacrificateur Tsadok et le prophète Nathan [[1 Rois 1:32-40]]. Son règne s’affermit [[1 Rois 2:12]].",
+    "À Gabaon, l’Éternel lui apparaît en songe : « Demande ce que tu veux que je te donne. » Salomon répond : « Accorde donc à ton serviteur un cœur intelligent pour juger ton peuple, pour discerner le bien du mal ! » Dieu lui accorde la sagesse, et aussi ce qu’il n’a pas demandé, la richesse et la gloire [[1 Rois 3:4-15]].",
+    "Deux femmes se disputent un enfant. Salomon ordonne de le couper en deux ; la vraie mère renonce aussitôt pour qu’il vive, et le roi la reconnaît. Tout Israël voit que la sagesse de Dieu est en lui [[1 Rois 3:16-28]]. Le livre des Rois décrit sa sagesse, supérieure à celle de tous les sages de son temps, et les nombreuses sentences et cantiques qu’il prononça [[1 Rois 4]].",
+    "Il bâtit le temple de Jérusalem, avec l’aide de Hiram, roi de Tyr [[1 Rois 5]]. La construction commence la quatrième année de son règne et dure sept ans [[1 Rois 6:1]] [[1 Rois 6:37-38]]. Lors de la dédicace, la nuée remplit la maison de l’Éternel [[1 Rois 8:10-11]]. Salomon prie : « les cieux et les cieux des cieux ne peuvent te contenir : combien moins cette maison que je t’ai bâtie ! » [[1 Rois 8:27]]. L’Éternel lui apparaît une seconde fois, avec des promesses et des avertissements [[1 Rois 9:1-9]].",
+    "La reine de Séba vient l’éprouver par des énigmes. Elle déclare qu’on ne lui en avait pas dit la moitié [[1 Rois 10:1-9]]. « Le roi Salomon fut plus grand que tous les rois de la terre par les richesses et par la sagesse » [[1 Rois 10:23]].",
+    "Mais il aime de nombreuses femmes étrangères ; il a sept cents princesses et trois cents concubines, et dans sa vieillesse elles détournent son cœur vers d’autres dieux [[1 Rois 11:1-8]]. L’Éternel lui annonce que le royaume sera arraché à son fils, sauf une tribu, à cause de David [[1 Rois 11:9-13]]. Des adversaires se lèvent contre lui, dont Jéroboam [[1 Rois 11:14-40]]. Il meurt après quarante ans de règne [[1 Rois 11:41-43]].",
+    "Les livres des Proverbes, du Cantique des cantiques et de l’Ecclésiaste lui sont rattachés par leurs titres [[Proverbes 1:1]] [[Cantique des cantiques 1:1]]. Jésus évoque « Salomon même, dans toute sa gloire » [[Matthieu 6:29]] et la reine du Midi venue entendre sa sagesse [[Matthieu 12:42]]."
+  ],
+  "contexte": [
+    "La Louis Segond place en 1 Rois 4:29-34 le passage sur la sagesse de Salomon ; les éditions qui suivent l’hébreu le placent en 1 Rois 5:9-14.",
+    "Séba est généralement située dans le sud de l’Arabie, dans l’actuel Yémen, ou parfois en Afrique orientale. L’ampleur exacte du royaume de Salomon est discutée par les historiens et les archéologues."
+  ],
+  "chronologie": [
+    { "etape": "Naissance", "ref": "2 Samuel 12:24-25" },
+    { "etape": "Oint roi", "ref": "1 Rois 1:32-40" },
+    { "etape": "Songe de Gabaon : la sagesse", "ref": "1 Rois 3:4-15" },
+    { "etape": "Le jugement des deux femmes", "ref": "1 Rois 3:16-28" },
+    { "etape": "Construction du temple", "ref": "1 Rois 6" },
+    { "etape": "Dédicace du temple", "ref": "1 Rois 8" },
+    { "etape": "Visite de la reine de Séba", "ref": "1 Rois 10:1-13" },
+    { "etape": "Le cœur détourné", "ref": "1 Rois 11:1-13" },
+    { "etape": "Mort après 40 ans de règne", "ref": "1 Rois 11:41-43" }
+  ],
+  "references": ["1 Rois 1-11", "2 Chroniques 1-9", "Matthieu 6:29", "Matthieu 12:42"]
+}

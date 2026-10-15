@@ -1,0 +1,29 @@
+{
+  "id": "caleb",
+  "nom": "Caleb",
+  "cle": "caleb",
+  "ordre": 81,
+  "groupe": "Exode et conquête",
+  "periode": "Désert et entrée en Canaan",
+  "resume": "Envoyé explorer Canaan, il est avec Josué le seul à faire confiance à Dieu. À quatre-vingt-cinq ans, il réclame la montagne d’Hébron et en chasse les géants.",
+  "recit": [
+    "Caleb, fils de Jephunné, représente la tribu de Juda parmi les douze hommes envoyés explorer le pays de Canaan [[Nombres 13:6]]. Au retour, dix des explorateurs décrivent des villes fortifiées et des géants : « nous étions à nos yeux et aux leurs comme des sauterelles » [[Nombres 13:31-33]]. Caleb fait taire le peuple : « Montons, emparons-nous du pays, nous y serons vainqueurs ! » [[Nombres 13:30]].",
+    "Avec Josué, il déchire ses vêtements et supplie le peuple de ne pas se révolter contre l’Éternel. On parle de les lapider [[Nombres 14:6-10]]. L’Éternel déclare alors : « parce que mon serviteur Caleb a été animé d’un autre esprit, et qu’il a pleinement suivi ma voie, je le ferai entrer dans le pays où il est allé, et ses descendants le posséderont » [[Nombres 14:24]]. Seuls Josué et Caleb, parmi les adultes de cette génération, survivent au désert [[Nombres 14:38]].",
+    "Le livre des Nombres précise qu’il est Kenizien [[Nombres 32:12]]. Moïse rappelle la promesse qui lui a été faite [[Deutéronome 1:36]].",
+    "Pendant le partage du pays, Caleb vient trouver Josué. Il avait quarante ans quand Moïse l’envoya explorer le pays ; il en a maintenant quatre-vingt-cinq, et se dit aussi fort qu’alors. « Donne-moi donc cette montagne dont l’Éternel a parlé dans ce temps-là » : la région d’Hébron, où vivaient les Anakim. Josué le bénit et lui donne Hébron en héritage [[Josué 14:6-15]].",
+    "Caleb chasse d’Hébron les trois fils d’Anak [[Josué 15:13-14]]. Il promet sa fille Acsa à celui qui prendra Kirjath-Sépher ; Othniel, fils de Kenaz, frère de Caleb, s’en empare et l’épouse. Acsa demande ensuite à son père des sources d’eau, et Caleb lui donne les sources supérieures et inférieures [[Josué 15:15-19]]. Le livre des Juges reprend cet épisode [[Juges 1:12-15]], et Othniel devient ensuite le premier juge d’Israël [[Juges 3:9-11]]."
+  ],
+  "contexte": [
+    "Les Kéniziens sont mentionnés parmi les peuples de Canaan en Genèse 15:19. Le rattachement de Caleb à ce groupe, tout en représentant la tribu de Juda, est souvent compris comme le signe d’une intégration de familles étrangères au peuple d’Israël.",
+    "Les Anakim, ou fils d’Anak, sont décrits comme des hommes de grande taille. Le texte ne donne pas plus de précisions sur leur origine."
+  ],
+  "chronologie": [
+    { "etape": "Envoyé explorer Canaan, à 40 ans", "ref": "Nombres 13:6" },
+    { "etape": "« Montons, emparons-nous du pays »", "ref": "Nombres 13:30" },
+    { "etape": "Promesse d’entrer dans le pays", "ref": "Nombres 14:24" },
+    { "etape": "Réclame Hébron, à 85 ans", "ref": "Josué 14:6-15" },
+    { "etape": "Chasse les fils d’Anak", "ref": "Josué 15:13-14" },
+    { "etape": "Donne Acsa à Othniel", "ref": "Josué 15:15-19" }
+  ],
+  "references": ["Nombres 13-14", "Josué 14:6-15", "Josué 15:13-19", "Juges 1:12-15"]
+}

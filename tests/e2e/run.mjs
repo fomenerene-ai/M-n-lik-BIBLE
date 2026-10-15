@@ -305,10 +305,12 @@ try {
   await page.goto(BASE + '#/histoires');
   await page.locator('.story-item').first().waitFor();
   check((await page.locator('.story-item').count()) >= 15, 'Histoires : liste chargée');
-  const firstAlpha = await page.locator('.story-item strong').first().innerText();
+  const alpha = await page.locator('.story-item strong').allInnerTexts();
+  const sorted = [...alpha].sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }));
   await page.getByRole('button', { name: 'Chronologique' }).click();
+  await page.locator('.group-title', { hasText: 'Les origines' }).waitFor();
   const firstChrono = await page.locator('.story-item strong').first().innerText();
-  check(firstAlpha === 'Abraham' && firstChrono === 'Adam', `Classements alphabétique (${firstAlpha}) et chronologique (${firstChrono})`);
+  check(alpha.join() === sorted.join() && firstChrono === 'Adam', `Classements alphabétique (${alpha[0]}…) et chronologique (${firstChrono}…)`);
   await shot(page, '09-histoires');
   await page.locator('a.story-item[href="#/histoires/joseph"]').click();
   await page.locator('.story-name').waitFor();

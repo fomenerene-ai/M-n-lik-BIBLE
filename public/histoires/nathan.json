@@ -1,0 +1,28 @@
+{
+  "id": "nathan",
+  "nom": "Nathan",
+  "cle": "nathan",
+  "ordre": 250,
+  "groupe": "Prophètes",
+  "periode": "Règnes de David et de Salomon",
+  "resume": "Prophète à la cour de David, il lui transmet la promesse d’une dynastie éternelle, puis ose le confronter après l’affaire de Bath-Schéba. Il assure enfin la succession de Salomon.",
+  "recit": [
+    "David, installé dans son palais de cèdre, confie au prophète Nathan qu’il voudrait bâtir une maison pour l’arche de Dieu. Nathan lui répond d’abord : « Va, fais tout ce que tu as dans le cœur, car l’Éternel est avec toi » [[2 Samuel 7:1-3]]. Mais la nuit même, l’Éternel lui adresse sa parole : ce n’est pas David qui bâtira une maison à Dieu, c’est Dieu qui fera une maison à David ; son descendant bâtira le temple, et son trône sera affermi pour toujours [[2 Samuel 7:4-17]].",
+    "Après l’adultère de David avec Bath-Schéba et la mort d’Urie, l’Éternel envoie Nathan vers le roi. Le prophète lui raconte l’histoire d’un riche qui, possédant de nombreux troupeaux, prend l’unique petite brebis d’un pauvre pour recevoir un voyageur [[2 Samuel 12:1-4]]. David s’enflamme de colère contre cet homme. Nathan lui dit : « Tu es cet homme-là ! » [[2 Samuel 12:5-7]]. Il lui rappelle tout ce que Dieu lui a donné et annonce que l’épée ne s’éloignera jamais de sa maison [[2 Samuel 12:7-12]].",
+    "David reconnaît : « J’ai péché contre l’Éternel ! » Nathan lui répond que l’Éternel pardonne son péché et qu’il ne mourra pas, mais que l’enfant né de cette union mourra [[2 Samuel 12:13-14]]. Le psaume 51 est rattaché par son titre à cette visite de Nathan [[Psaumes 51]]. À la naissance de Salomon, Nathan lui donne le nom de Jedidja, « à cause de l’Éternel » [[2 Samuel 12:24-25]].",
+    "À la fin du règne de David, Adonija se fait proclamer roi sans inviter Nathan [[1 Rois 1:5-10]]. Nathan conseille à Bath-Schéba d’aller rappeler à David sa promesse en faveur de Salomon, et vient confirmer ses paroles [[1 Rois 1:11-27]]. David ordonne que le sacrificateur Tsadok et le prophète Nathan oignent Salomon à Guihon, ce qui est fait [[1 Rois 1:32-40]].",
+    "Les Chroniques mentionnent un écrit de Nathan, le prophète, parmi les sources de l’histoire de David [[1 Chroniques 29:29]], et lui attribuent un rôle dans l’organisation de la musique du temple [[2 Chroniques 29:25]]."
+  ],
+  "contexte": [
+    "Un autre Nathan, fils de David, figure dans la généalogie de Jésus selon Luc [[Luc 3:31]]. Il ne s’agit pas du prophète.",
+    "La parabole de Nathan est souvent citée comme un modèle de parole prophétique adressée au pouvoir : elle amène le roi à se juger lui-même avant de l’accuser."
+  ],
+  "chronologie": [
+    { "etape": "Promesse d’une dynastie à David", "ref": "2 Samuel 7:1-17" },
+    { "etape": "La parabole de la brebis", "ref": "2 Samuel 12:1-12" },
+    { "etape": "Pardon annoncé à David", "ref": "2 Samuel 12:13-14" },
+    { "etape": "Nomme Salomon Jedidja", "ref": "2 Samuel 12:24-25" },
+    { "etape": "Assure la succession de Salomon", "ref": "1 Rois 1:11-40" }
+  ],
+  "references": ["2 Samuel 7", "2 Samuel 12:1-25", "1 Rois 1", "Psaumes 51"]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "eli",
+  "nom": "Éli",
+  "cle": "eli",
+  "ordre": 140,
+  "groupe": "Juges",
+  "periode": "Fin de l’époque des Juges",
+  "resume": "Sacrificateur à Silo et juge d’Israël, il accompagne l’appel du jeune Samuel. Faute d’avoir arrêté les abus de ses fils, il voit le jugement tomber sur sa maison.",
+  "recit": [
+    "Éli est sacrificateur au sanctuaire de Silo, où ses fils Hophni et Phinées exercent aussi le sacerdoce [[1 Samuel 1:3]]. Assis près de la porte du temple, il observe Anne qui prie en silence, ne voit remuer que ses lèvres et la croit ivre. Quand elle explique sa détresse, il lui dit : « Va en paix, et que le Dieu d’Israël exauce la prière que tu lui as adressée ! » [[1 Samuel 1:9-17]]. Plus tard, l’enfant Samuel lui est confié et sert l’Éternel en sa présence [[1 Samuel 1:24-28]] [[1 Samuel 2:11]].",
+    "« Les fils d’Éli étaient des hommes pervers, ils ne connaissaient point l’Éternel. » Ils prennent de force la viande des sacrifices avant que la graisse soit offerte, et méprisent ainsi les offrandes [[1 Samuel 2:12-17]]. Éli, très âgé, apprend leur conduite et les reprend, mais ils ne l’écoutent pas [[1 Samuel 2:22-25]].",
+    "Un homme de Dieu vient lui reprocher : « Pourquoi […] honores-tu tes fils plus que moi ? » Il annonce que sa maison perdra sa position et que ses deux fils mourront le même jour [[1 Samuel 2:27-34]].",
+    "Une nuit, l’Éternel appelle Samuel, qui croit entendre Éli et court vers lui. À la troisième fois, Éli comprend que c’est l’Éternel et lui conseille de répondre : « Parle, Éternel, car ton serviteur écoute » [[1 Samuel 3:1-10]]. Le message reçu confirme le jugement sur la maison d’Éli, parce qu’il connaissait la faute de ses fils et ne les a pas réprimés [[1 Samuel 3:11-14]]. Éli exige que Samuel ne lui cache rien, puis répond : « C’est l’Éternel, qu’il fasse ce qui lui semblera bon ! » [[1 Samuel 3:15-18]].",
+    "Israël est battu par les Philistins. On fait venir l’arche de l’alliance de Silo, avec Hophni et Phinées ; l’arche est prise, et les deux fils sont tués [[1 Samuel 4:1-11]]. Éli, âgé de quatre-vingt-dix-huit ans et presque aveugle, attend des nouvelles assis au bord du chemin, le cœur inquiet pour l’arche [[1 Samuel 4:12-15]]. Quand le messager mentionne la prise de l’arche, Éli tombe à la renverse de son siège, se brise la nuque et meurt. Il avait jugé Israël quarante ans [[1 Samuel 4:16-18]].",
+    "Sa belle-fille, en apprenant ces nouvelles, accouche et meurt, après avoir nommé son fils I-Kabod : « La gloire est bannie d’Israël, car l’arche de Dieu est prise » [[1 Samuel 4:19-22]]. Bien plus tard, quand Salomon écarte Abiathar du sacerdoce, le texte y voit l’accomplissement de la parole prononcée contre la maison d’Éli [[1 Rois 2:27]]."
+  ],
+  "contexte": [
+    "Silo, dans la montagne d’Éphraïm, abritait le tabernacle et l’arche depuis l’installation en Canaan [[Josué 18:1]]. Le prophète Jérémie évoquera plus tard la ruine de Silo comme un avertissement [[Jérémie 7:12]].",
+    "La Louis Segond écrit « I-Kabod » ; le nom signifie à peu près « où est la gloire ? » ou « sans gloire »."
+  ],
+  "chronologie": [
+    { "etape": "Bénit Anne à Silo", "ref": "1 Samuel 1:9-17" },
+    { "etape": "Reçoit l’enfant Samuel", "ref": "1 Samuel 1:24-28" },
+    { "etape": "Inconduite de ses fils", "ref": "1 Samuel 2:12-25" },
+    { "etape": "Avertissement d’un homme de Dieu", "ref": "1 Samuel 2:27-34" },
+    { "etape": "Guide Samuel lors de son appel", "ref": "1 Samuel 3:1-18" },
+    { "etape": "Prise de l’arche ; mort d’Éli à 98 ans", "ref": "1 Samuel 4:1-18" }
+  ],
+  "references": ["1 Samuel 1-4", "1 Rois 2:27"]
+}

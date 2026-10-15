@@ -1,0 +1,29 @@
+{
+  "id": "naomi",
+  "nom": "Naomi (Noémi)",
+  "cle": "naomi",
+  "ordre": 130,
+  "groupe": "Juges",
+  "periode": "Époque des Juges",
+  "resume": "Veuve revenue de Moab les mains vides, elle se dit « Mara », l’amère. Grâce à Ruth et à Boaz, elle tient finalement dans ses bras un petit-fils, ancêtre de David.",
+  "recit": [
+    "Au temps des juges, une famine pousse Élimélec de Bethléhem en Juda à émigrer au pays de Moab, avec sa femme Naomi et leurs deux fils, Machlon et Kiljon [[Ruth 1:1-2]]. Élimélec meurt ; ses fils épousent deux Moabites, Orpa et Ruth, puis meurent à leur tour au bout d’une dizaine d’années. Naomi reste seule, sans mari ni enfants [[Ruth 1:3-5]].",
+    "Apprenant que l’Éternel a visité son peuple en lui donnant du pain, elle décide de rentrer [[Ruth 1:6-7]]. Elle presse ses belles-filles de retourner chacune dans la maison de sa mère, et leur souhaite de trouver le repos chez un mari [[Ruth 1:8-13]]. Orpa l’embrasse et repart ; Ruth s’attache à elle [[Ruth 1:14-18]].",
+    "À son arrivée à Bethléhem, toute la ville s’émeut. Elle répond : « Ne m’appelez pas Naomi ; appelez-moi Mara, car le Tout-Puissant m’a remplie d’amertume. J’étais dans l’abondance à mon départ, et l’Éternel me ramène les mains vides » [[Ruth 1:19-21]]. C’est le début de la moisson des orges [[Ruth 1:22]].",
+    "Quand Ruth revient du champ de Boaz, Naomi reconnaît la main de Dieu : « Que l’Éternel le bénisse », et explique que cet homme est un de leurs proches parents, de ceux qui ont sur eux droit de rachat [[Ruth 2:19-20]]. Elle conseille ensuite à Ruth de se présenter à Boaz, de nuit, sur l’aire [[Ruth 3:1-4]], puis de patienter : « cet homme ne se donnera point de repos qu’il n’ait terminé cette affaire aujourd’hui » [[Ruth 3:18]].",
+    "Après le mariage de Ruth et de Boaz naît un fils. Les femmes disent à Naomi que cet enfant restaurera son âme et sera le soutien de sa vieillesse, car il est né de sa belle-fille, « qui vaut mieux pour toi que sept fils » [[Ruth 4:13-15]]. Naomi prend l’enfant sur son sein et en prend soin. Les voisines disent : « Un fils est né à Naomi ! » ; il s’appelle Obed, père d’Isaï, père de David [[Ruth 4:16-17]]."
+  ],
+  "contexte": [
+    "La Louis Segond écrit « Naomi » ; d’autres traductions françaises écrivent « Noémi ». Le nom évoque l’idée d’agrément ou de douceur, ce qui donne tout son sens à l’opposition avec « Mara », « amère ».",
+    "Le livre de Ruth est placé, dans la Bible chrétienne, entre les Juges et Samuel, conformément à son cadre chronologique. Dans la Bible hébraïque, il figure parmi les « Écrits »."
+  ],
+  "chronologie": [
+    { "etape": "Départ pour Moab pendant la famine", "ref": "Ruth 1:1-2" },
+    { "etape": "Veuve, puis privée de ses deux fils", "ref": "Ruth 1:3-5" },
+    { "etape": "Retour vers Bethléhem avec Ruth", "ref": "Ruth 1:6-18" },
+    { "etape": "« Appelez-moi Mara »", "ref": "Ruth 1:19-22" },
+    { "etape": "Conseille Ruth au sujet de Boaz", "ref": "Ruth 3:1-4" },
+    { "etape": "Naissance d’Obed", "ref": "Ruth 4:13-17" }
+  ],
+  "references": ["Ruth 1", "Ruth 2:19-23", "Ruth 3:1-5", "Ruth 4:13-17"]
+}

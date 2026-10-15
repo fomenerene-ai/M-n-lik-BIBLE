@@ -1,0 +1,31 @@
+{
+  "id": "absalom",
+  "nom": "Absalom",
+  "cle": "absalom",
+  "ordre": 175,
+  "groupe": "Rois d’Israël et de Juda",
+  "periode": "Royaume uni",
+  "resume": "Fils de David, célèbre pour sa beauté, il venge sa sœur Tamar puis se révolte contre son père. Sa mort plonge David dans un deuil déchirant.",
+  "recit": [
+    "Absalom est le troisième fils de David, né à Hébron de Maaca, fille de Talmaï, roi de Gueschur [[2 Samuel 3:3]]. Son demi-frère Amnon outrage sa sœur Tamar. Absalom ne lui dit rien, mais le hait [[2 Samuel 13:1-22]]. Deux ans plus tard, il le fait tuer pendant une fête de la tonte [[2 Samuel 13:23-29]], puis s’enfuit chez son grand-père à Gueschur, où il reste trois ans [[2 Samuel 13:37-38]].",
+    "Joab obtient son retour par l’intermédiaire d’une femme de Tekoa, mais David refuse d’abord de le voir [[2 Samuel 14:1-24]]. Le texte souligne sa beauté : il n’y avait dans tout Israël aucun homme aussi beau, et sa chevelure, coupée chaque année, pesait deux cents sicles [[2 Samuel 14:25-26]]. Après deux ans, il obtient une audience, et le roi l’embrasse [[2 Samuel 14:28-33]].",
+    "Il se procure un char et des chevaux, se tient chaque matin à la porte de la ville et promet justice à tous ceux qui viennent voir le roi. « Absalom gagnait le cœur des gens d’Israël » [[2 Samuel 15:1-6]]. Sous prétexte d’un vœu, il se rend à Hébron et s’y fait proclamer roi ; le conseiller Achitophel le rejoint [[2 Samuel 15:7-12]].",
+    "David fuit Jérusalem [[2 Samuel 15:13-14]]. Absalom entre dans la ville et, sur le conseil d’Achitophel, prend publiquement les concubines de son père [[2 Samuel 16:20-22]]. Il préfère ensuite le conseil de Huschaï, ami de David, qui lui fait perdre un temps précieux [[2 Samuel 17:1-14]].",
+    "Avant la bataille, David ordonne à ses chefs : « Pour l’amour de moi, doucement avec le jeune Absalom ! » [[2 Samuel 18:5]]. L’armée d’Absalom est battue dans la forêt d’Éphraïm. Absalom, monté sur un mulet, reste pris par la tête dans les branches d’un grand térébinthe [[2 Samuel 18:6-9]]. Joab le transperce, et ses écuyers l’achèvent ; on le jette dans une fosse sous un monceau de pierres [[2 Samuel 18:14-17]]. De son vivant, il s’était élevé un monument, faute de fils pour conserver son nom [[2 Samuel 18:18]].",
+    "Apprenant sa mort, David monte dans la chambre au-dessus de la porte en pleurant : « Mon fils Absalom ! mon fils, mon fils Absalom ! Que ne suis-je mort à ta place ! » [[2 Samuel 18]]. Joab lui reproche de couvrir de honte ceux qui lui ont sauvé la vie, et David reprend sa place à la porte [[2 Samuel 19:1-8]]."
+  ],
+  "contexte": [
+    "Le cri de David sur Absalom termine 2 Samuel 18 dans la Louis Segond ; dans les éditions qui suivent la numérotation hébraïque, il ouvre le chapitre 19, et les versets suivants sont décalés d’une unité.",
+    "Le monument appelé aujourd’hui « tombeau d’Absalom », dans la vallée du Cédron à Jérusalem, date en réalité de l’époque romaine. Son nom vient de la tradition, non de l’archéologie."
+  ],
+  "chronologie": [
+    { "etape": "Naissance à Hébron", "ref": "2 Samuel 3:3" },
+    { "etape": "Meurtre d’Amnon ; exil à Gueschur", "ref": "2 Samuel 13:23-38" },
+    { "etape": "Retour et réconciliation", "ref": "2 Samuel 14" },
+    { "etape": "Gagne le cœur du peuple", "ref": "2 Samuel 15:1-6" },
+    { "etape": "Révolte à Hébron", "ref": "2 Samuel 15:7-12" },
+    { "etape": "Mort dans la forêt d’Éphraïm", "ref": "2 Samuel 18:6-17" },
+    { "etape": "Deuil de David", "ref": "2 Samuel 18" }
+  ],
+  "references": ["2 Samuel 13-18"]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "jephte",
+  "nom": "Jephthé",
+  "cle": "jephte",
+  "ordre": 126,
+  "groupe": "Juges",
+  "periode": "Époque des Juges",
+  "resume": "Fils rejeté devenu chef de Galaad, il délivre Israël des Ammonites. Son vœu imprudent coûte la vie, ou la liberté, de sa fille unique.",
+  "recit": [
+    "Jephthé, le Galaadite, est « un vaillant héros », fils d’une prostituée. Ses demi-frères le chassent pour qu’il n’hérite pas ; il s’établit au pays de Tob, où des hommes de rien se joignent à lui [[Juges 11:1-3]].",
+    "Quand les Ammonites attaquent Israël, les anciens de Galaad viennent le chercher. Jephthé rappelle qu’ils l’ont chassé, puis accepte de devenir leur chef, sous serment devant l’Éternel à Mitspa [[Juges 11:4-11]]. Il envoie d’abord des messagers au roi des Ammonites pour exposer l’histoire du territoire contesté, sans succès [[Juges 11:12-28]].",
+    "L’esprit de l’Éternel est sur lui [[Juges 11:29]]. Il fait alors un vœu : si l’Éternel livre les Ammonites entre ses mains, ce qui sortira des portes de sa maison à sa rencontre, à son retour, appartiendra à l’Éternel et sera offert en holocauste [[Juges 11:30-31]]. Il remporte la victoire [[Juges 11:32-33]].",
+    "À son retour à Mitspa, c’est sa fille qui sort à sa rencontre, avec des tambourins et des danses ; c’est son unique enfant. Jephthé déchire ses vêtements [[Juges 11:34-35]]. Elle lui répond : « Mon père, si tu as fait un vœu à l’Éternel, traite-moi selon ce qui est sorti de ta bouche. » Elle demande deux mois pour pleurer sa virginité dans les montagnes avec ses compagnes [[Juges 11:36-38]]. À son retour, son père « accomplit sur elle le vœu qu’il avait fait. Elle n’avait point connu d’homme. » Une coutume s’établit : chaque année, les filles d’Israël vont la célébrer quatre jours [[Juges 11:39-40]].",
+    "Les Éphraïmites, vexés de ne pas avoir été appelés au combat, attaquent Jephthé. Les hommes de Galaad gardent les gués du Jourdain et reconnaissent les fugitifs d’Éphraïm à leur manière de prononcer le mot « Schibboleth » [[Juges 12:1-6]]. Jephthé juge Israël six ans, puis meurt et est enterré en Galaad [[Juges 12:7]].",
+    "Samuel le cite parmi les libérateurs envoyés par Dieu [[1 Samuel 12:11]], et l’épître aux Hébreux parmi les témoins de la foi [[Hébreux 11:32]]."
+  ],
+  "contexte": [
+    "Le sort de la fille de Jephthé est débattu depuis l’Antiquité. Beaucoup comprennent qu’elle fut réellement sacrifiée, ce que la loi condamnait pourtant [[Deutéronome 12:31]]. D’autres, s’appuyant sur l’insistance du texte sur sa virginité, pensent qu’elle fut consacrée au service de Dieu sans se marier. Le texte ne tranche pas explicitement.",
+    "« Schibboleth » signifie « épi » ou « courant d’eau ». Le mot est passé en français pour désigner un signe de reconnaissance."
+  ],
+  "chronologie": [
+    { "etape": "Chassé par ses frères", "ref": "Juges 11:1-3" },
+    { "etape": "Rappelé comme chef de Galaad", "ref": "Juges 11:4-11" },
+    { "etape": "Négociation avec le roi d’Ammon", "ref": "Juges 11:12-28" },
+    { "etape": "Le vœu et la victoire", "ref": "Juges 11:29-33" },
+    { "etape": "Sa fille vient à sa rencontre", "ref": "Juges 11:34-40" },
+    { "etape": "Conflit avec Éphraïm", "ref": "Juges 12:1-6" },
+    { "etape": "Juge six ans, puis meurt", "ref": "Juges 12:7" }
+  ],
+  "references": ["Juges 11", "Juges 12:1-7", "Hébreux 11:32"]
+}

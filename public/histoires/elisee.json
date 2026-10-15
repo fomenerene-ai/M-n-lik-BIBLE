@@ -1,0 +1,33 @@
+{
+  "id": "elisee",
+  "nom": "Élisée",
+  "cle": "elisee",
+  "ordre": 256,
+  "groupe": "Prophètes",
+  "periode": "Royaume d’Israël",
+  "resume": "Disciple et successeur d’Élie, il reçoit une double portion de son esprit. Son ministère est marqué par de nombreux miracles, dont la guérison du Syrien Naaman.",
+  "recit": [
+    "Élisée, fils de Schaphath, d’Abel-Mehola, laboure avec douze paires de bœufs quand Élie jette son manteau sur lui. Il immole ses bœufs, les fait cuire pour le peuple, puis suit Élie [[1 Rois 19:16]] [[1 Rois 19:19-21]].",
+    "Le jour où Élie doit être enlevé, Élisée refuse de le quitter [[2 Rois 2:1-6]]. Il lui demande « une double portion de ton esprit » [[2 Rois 2:9-10]]. Voyant Élie monter au ciel, il s’écrie : « Mon père ! mon père ! Char d’Israël et sa cavalerie ! » [[2 Rois 2:11-12]]. Il ramasse le manteau d’Élie, frappe les eaux du Jourdain en disant : « Où est l’Éternel, le Dieu d’Élie ? », et les eaux se partagent [[2 Rois 2:13-15]].",
+    "Il assainit les eaux de Jéricho [[2 Rois 2:19-22]]. Il multiplie l’huile d’une veuve pour qu’elle paie ses dettes [[2 Rois 4:1-7]]. Une femme de Sunem l’héberge ; il lui annonce un fils, et quand l’enfant meurt quelques années plus tard, Élisée le ramène à la vie [[2 Rois 4:8-37]]. Il rend mangeable un potage empoisonné et nourrit cent hommes avec vingt pains d’orge [[2 Rois 4:38-44]].",
+    "Naaman, chef de l’armée du roi de Syrie, est lépreux. Élisée lui fait dire de se laver sept fois dans le Jourdain. Naaman s’irrite d’abord, puis obéit, et sa chair redevient comme celle d’un jeune enfant [[2 Rois 5:1-14]]. Il déclare : « je reconnais qu’il n’y a point de Dieu sur toute la terre, si ce n’est en Israël » [[2 Rois 5:15]]. Élisée refuse tout présent ; son serviteur Guéhazi en réclame en secret et est frappé de la lèpre de Naaman [[2 Rois 5:20-27]].",
+    "Le roi de Syrie envoie une armée pour le capturer à Dothan. Le serviteur d’Élisée s’effraie ; le prophète lui répond : « Ne crains point, car ceux qui sont avec nous sont en plus grand nombre que ceux qui sont avec eux. » Ses yeux s’ouvrent, et il voit la montagne pleine de chevaux et de chars de feu [[2 Rois 6:15-17]]. Élisée frappe les Syriens d’aveuglement, les conduit à Samarie, puis demande au roi de les nourrir et de les renvoyer [[2 Rois 6:18-23]].",
+    "Pendant le siège de Samarie, il annonce l’abondance pour le lendemain, ce qui arrive [[2 Rois 7:1-16]]. Il annonce à Hazaël qu’il régnera sur la Syrie [[2 Rois 8:7-15]] et envoie un disciple oindre Jéhu roi d’Israël [[2 Rois 9:1-3]].",
+    "Atteint de la maladie dont il mourra, il reçoit la visite du roi Joas, qui pleure sur lui avec les mêmes mots qu’Élisée pour Élie ; il lui fait tirer des flèches comme signe de victoire sur la Syrie [[2 Rois 13:14-19]]. Après sa mort, un homme jeté dans son sépulcre touche ses os et revient à la vie [[2 Rois 13:20-21]]. Jésus rappelle qu’il y avait de nombreux lépreux en Israël au temps d’Élisée, mais que seul Naaman le Syrien fut purifié [[Luc 4:27]]."
+  ],
+  "contexte": [
+    "La « double portion » évoque la part de l’héritage réservée au fils aîné [[Deutéronome 21:17]] : Élisée demande à être reconnu comme l’héritier spirituel d’Élie.",
+    "Le récit des jeunes garçons de Béthel déchirés par des ours après avoir insulté Élisée [[2 Rois 2:23-25]] fait partie des passages difficiles du livre ; les interprètes le rattachent au mépris du prophète et de son Dieu dans une ville de culte idolâtre."
+  ],
+  "chronologie": [
+    { "etape": "Appelé par Élie", "ref": "1 Rois 19:19-21" },
+    { "etape": "Reçoit le manteau d’Élie", "ref": "2 Rois 2:9-15" },
+    { "etape": "Miracles pour les veuves et la Sunamite", "ref": "2 Rois 4" },
+    { "etape": "Guérison de Naaman", "ref": "2 Rois 5" },
+    { "etape": "L’armée de feu à Dothan", "ref": "2 Rois 6:8-23" },
+    { "etape": "Siège de Samarie", "ref": "2 Rois 6:24-7:20" },
+    { "etape": "Envoie oindre Jéhu", "ref": "2 Rois 9:1-3" },
+    { "etape": "Mort", "ref": "2 Rois 13:14-21" }
+  ],
+  "references": ["1 Rois 19:19-21", "2 Rois 2-9", "2 Rois 13:14-21", "Luc 4:27"]
+}

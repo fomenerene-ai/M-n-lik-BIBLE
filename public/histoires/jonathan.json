@@ -1,0 +1,30 @@
+{
+  "id": "jonathan",
+  "nom": "Jonathan",
+  "cle": "jonathan",
+  "ordre": 172,
+  "groupe": "Rois d’Israël et de Juda",
+  "periode": "Règne de Saül",
+  "resume": "Fils aîné de Saül, guerrier audacieux, il se lie d’une amitié profonde avec David et reconnaît en lui le futur roi, au détriment de ses propres droits.",
+  "recit": [
+    "Jonathan, fils de Saül, ouvre les hostilités contre les Philistins en battant leur poste de Guéba [[1 Samuel 13:3]]. Plus tard, il attaque seul avec son écuyer un poste philistin, en disant : « rien n’empêche l’Éternel de sauver au moyen d’un petit nombre comme d’un grand nombre ». Sa victoire provoque la panique dans le camp ennemi [[1 Samuel 14:1-15]].",
+    "Ignorant le serment de son père, qui avait interdit au peuple de manger avant le soir, il goûte un peu de miel [[1 Samuel 14:24-30]]. Saül veut le faire mourir, mais le peuple le sauve, car il a remporté la victoire avec l’aide de Dieu [[1 Samuel 14:43-45]].",
+    "Après la victoire de David sur Goliath, « l’âme de Jonathan fut attachée à l’âme de David, et Jonathan l’aima comme son âme ». Il fait alliance avec lui et lui donne son manteau, ses vêtements, son épée, son arc et sa ceinture [[1 Samuel 18:1-4]]. Quand Saül décide de tuer David, Jonathan plaide pour lui et obtient un sursis [[1 Samuel 19:1-7]].",
+    "Pour savoir quelles sont les intentions de son père, Jonathan convient d’un signe avec David : des flèches tirées près de la pierre où David se cache [[1 Samuel 20:18-23]]. À table, Saül s’emporte contre son fils et lance sa lance contre lui ; Jonathan comprend que la mort de David est décidée [[1 Samuel 20:30-34]]. Il tire les flèches comme convenu, puis les deux amis se disent adieu en pleurant [[1 Samuel 20:35-42]].",
+    "Lors d’une dernière rencontre au désert, il fortifie David en Dieu : « tu régneras sur Israël, et moi je serai le second après toi » [[1 Samuel 23:16-18]].",
+    "Jonathan meurt avec son père et ses frères sur le mont Guilboa [[1 Samuel 31:2]]. David le pleure : « Je suis dans la douleur à cause de toi, Jonathan, mon frère ! » [[2 Samuel 1:25-26]]. Par fidélité à Jonathan, David prend plus tard soin de son fils infirme, Mephiboscheth, qui mange à sa table [[2 Samuel 4:4]] [[2 Samuel 9:1-7]]."
+  ],
+  "contexte": [
+    "En tant que fils aîné du roi, Jonathan était l’héritier naturel du trône. Saül le lui rappelle d’ailleurs avec colère [[1 Samuel 20:31]]. Son attitude envers David est d’autant plus remarquable."
+  ],
+  "chronologie": [
+    { "etape": "Victoire à Guéba", "ref": "1 Samuel 13:3" },
+    { "etape": "Exploit avec son écuyer", "ref": "1 Samuel 14:1-15" },
+    { "etape": "Sauvé par le peuple", "ref": "1 Samuel 14:24-45" },
+    { "etape": "Alliance avec David", "ref": "1 Samuel 18:1-4" },
+    { "etape": "Le signe des flèches et les adieux", "ref": "1 Samuel 20" },
+    { "etape": "Dernière rencontre au désert", "ref": "1 Samuel 23:16-18" },
+    { "etape": "Mort sur le mont Guilboa", "ref": "1 Samuel 31:2" }
+  ],
+  "references": ["1 Samuel 14", "1 Samuel 18:1-4", "1 Samuel 20", "1 Samuel 23:16-18", "2 Samuel 1:17-27", "2 Samuel 9"]
+}

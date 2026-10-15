@@ -1,0 +1,30 @@
+{
+  "id": "acan",
+  "nom": "Acan",
+  "cle": "acan",
+  "ordre": 86,
+  "groupe": "Exode et conquête",
+  "periode": "Entrée en Canaan",
+  "resume": "Lors de la prise de Jéricho, il garde pour lui du butin voué à l’Éternel. Sa faute entraîne la défaite d’Aï et sa propre condamnation.",
+  "recit": [
+    "Avant l’assaut de Jéricho, Josué déclare la ville vouée à l’Éternel : l’argent, l’or et les objets de bronze et de fer seront consacrés et entreront dans son trésor, et personne ne doit rien prendre de ce qui est dévoué [[Josué 6:17-19]].",
+    "« Les enfants d’Israël commirent une infidélité » : Acan, fils de Carmi, de la tribu de Juda, prend de ces choses dévouées, et la colère de l’Éternel s’enflamme [[Josué 7:1]]. Ignorant la faute, Josué envoie environ trois mille hommes contre la petite ville d’Aï. Ils sont mis en fuite et trente-six d’entre eux sont tués ; le cœur du peuple « se fondit et devint comme de l’eau » [[Josué 7:2-5]].",
+    "Josué déchire ses vêtements et se prosterne devant l’arche jusqu’au soir [[Josué 7:6-9]]. L’Éternel lui répond : « Israël a péché », et explique qu’il ne sera plus avec eux tant que l’interdit restera au milieu du peuple [[Josué 7:10-12]]. Le lendemain, les tribus sont présentées l’une après l’autre ; Juda est désigné, puis la famille de Zérach, puis la maison de Zabdi, et enfin Acan [[Josué 7:16-18]].",
+    "Josué lui dit : « Mon fils, donne gloire à l’Éternel […] et rends-lui hommage. » Acan avoue : il a vu dans le butin un beau manteau de Schinear, deux cents sicles d’argent et un lingot d’or de cinquante sicles ; il les a convoités, pris, et enfouis sous sa tente [[Josué 7:19-21]]. Des messagers les trouvent et les apportent devant l’Éternel [[Josué 7:22-23]].",
+    "Acan est conduit avec les siens et ses biens dans la vallée d’Acor, où il est lapidé, puis brûlé ; on élève sur lui un grand monceau de pierres [[Josué 7:24-26]]. Israël prend ensuite Aï [[Josué 8:1-29]].",
+    "La faute d’Acan est rappelée plus tard comme exemple de la responsabilité collective [[Josué 22:20]]. La généalogie des Chroniques l’appelle « Acar, qui troubla Israël » [[1 Chroniques 2:7]]. Le prophète Osée reprend le nom de la vallée dans une promesse : Dieu fera de la vallée d’Acor « une porte d’espérance » [[Osée 2:15]]."
+  ],
+  "contexte": [
+    "Le nom de la vallée d’Acor est rapproché par le texte d’un verbe hébreu signifiant « troubler » : « Pourquoi nous as-tu troublés ? L’Éternel te troublera aujourd’hui » [[Josué 7:25]]. La forme « Acar » des Chroniques joue sur le même mot.",
+    "Le « manteau de Schinear » désigne un vêtement de Babylonie, Schinear étant le nom biblique de la Mésopotamie du sud [[Genèse 11:2]]."
+  ],
+  "chronologie": [
+    { "etape": "Jéricho déclarée vouée à l’Éternel", "ref": "Josué 6:17-19" },
+    { "etape": "Acan prend du butin interdit", "ref": "Josué 7:1" },
+    { "etape": "Défaite devant Aï", "ref": "Josué 7:2-5" },
+    { "etape": "Désigné par le sort", "ref": "Josué 7:16-18" },
+    { "etape": "Aveu", "ref": "Josué 7:19-21" },
+    { "etape": "Jugement dans la vallée d’Acor", "ref": "Josué 7:24-26" }
+  ],
+  "references": ["Josué 6:17-19", "Josué 7", "Josué 22:20", "Osée 2:15"]
+}

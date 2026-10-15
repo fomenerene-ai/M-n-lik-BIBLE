@@ -1,0 +1,30 @@
+{
+  "id": "roboam",
+  "nom": "Roboam",
+  "cle": "roboam",
+  "ordre": 190,
+  "groupe": "Rois d’Israël et de Juda",
+  "periode": "Royaume divisé",
+  "resume": "Fils et successeur de Salomon, il refuse d’alléger le joug du peuple. Dix tribus se séparent ; il ne règne plus que sur Juda.",
+  "recit": [
+    "Après la mort de Salomon, son fils Roboam lui succède [[1 Rois 11:43]]. Il se rend à Sichem, où tout Israël est venu le faire roi. Le peuple, avec Jéroboam, lui demande d’alléger la dure servitude imposée par son père [[1 Rois 12:1-5]].",
+    "Les anciens qui avaient servi Salomon lui conseillent de céder : s’il les sert aujourd’hui, ils seront ses serviteurs pour toujours. Roboam rejette leur avis et consulte les jeunes gens de son âge [[1 Rois 12:6-9]]. Il répond au peuple selon leur conseil : « mon père vous a châtiés avec des fouets, et moi je vous châtierai avec des scorpions » [[1 Rois 12:10-14]]. Le texte précise que cela fut conduit par l’Éternel, pour accomplir la parole du prophète Achija [[1 Rois 12:15]].",
+    "Le peuple répond : « Quelle part avons-nous avec David ? […] À tes tentes, Israël ! » [[1 Rois 12:16]]. Roboam envoie Adoram, chef des corvées, qui est lapidé ; le roi s’enfuit à Jérusalem sur son char [[1 Rois 12:18]]. Les dix tribus du nord font de Jéroboam leur roi ; seule la tribu de Juda reste fidèle à la maison de David [[1 Rois 12:19-20]].",
+    "Roboam rassemble une armée pour reconquérir le royaume, mais le prophète Schemaeja transmet l’ordre de l’Éternel : ne pas combattre contre leurs frères. Ils obéissent [[1 Rois 12:21-24]].",
+    "Roboam a quarante et un ans à son avènement et règne dix-sept ans à Jérusalem ; sa mère est Naama, l’Ammonite. Juda fait ce qui est mal : hauts lieux, statues et prostitués de culte se multiplient [[1 Rois 14:21-24]]. La cinquième année de son règne, Schischak, roi d’Égypte, monte contre Jérusalem et emporte les trésors du temple et du palais, dont les boucliers d’or de Salomon ; Roboam les remplace par des boucliers d’airain [[1 Rois 14:25-28]].",
+    "Il y a guerre continuelle entre Roboam et Jéroboam [[1 Rois 14:30]]. Les Chroniques ajoutent qu’à l’arrivée de Schischak, le roi et les chefs s’humilièrent, et que la colère de l’Éternel se détourna d’eux en partie [[2 Chroniques 12:5-12]]. Roboam meurt et son fils Abijam lui succède [[1 Rois 14:31]]."
+  ],
+  "contexte": [
+    "Une inscription du pharaon Sheshonq Ier sur un mur du temple de Karnak, en Égypte, énumère des localités de Canaan prises lors d’une campagne militaire. Ce pharaon est généralement identifié au Schischak de la Bible.",
+    "La séparation du royaume en Israël (au nord, capitale Samarie après Omri) et Juda (au sud, capitale Jérusalem) structure toute la suite des livres des Rois."
+  ],
+  "chronologie": [
+    { "etape": "Succède à Salomon", "ref": "1 Rois 11:43" },
+    { "etape": "L’assemblée de Sichem", "ref": "1 Rois 12:1-15" },
+    { "etape": "Sécession des dix tribus", "ref": "1 Rois 12:16-20" },
+    { "etape": "Guerre évitée sur ordre de Schemaeja", "ref": "1 Rois 12:21-24" },
+    { "etape": "Invasion de Schischak", "ref": "1 Rois 14:25-28" },
+    { "etape": "Mort après 17 ans de règne", "ref": "1 Rois 14:31" }
+  ],
+  "references": ["1 Rois 12:1-24", "1 Rois 14:21-31", "2 Chroniques 10-12"]
+}

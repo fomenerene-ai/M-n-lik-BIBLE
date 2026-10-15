@@ -1,0 +1,27 @@
+{
+  "id": "boaz",
+  "nom": "Boaz",
+  "cle": "boaz",
+  "ordre": 132,
+  "groupe": "Juges",
+  "periode": "Époque des Juges",
+  "resume": "Riche propriétaire de Bethléhem, généreux envers Ruth, il exerce le droit de rachat et l’épouse. Il est l’arrière-grand-père de David.",
+  "recit": [
+    "Naomi a un parent de son mari, « homme puissant et riche, de la famille d’Élimélec », nommé Boaz [[Ruth 2:1]]. Arrivant de Bethléhem dans son champ, il salue ses moissonneurs : « Que l’Éternel soit avec vous ! » [[Ruth 2:4]]. Il remarque Ruth et s’informe d’elle [[Ruth 2:5-7]].",
+    "Il lui demande de rester dans son champ, interdit à ses serviteurs de la toucher et l’invite à boire de leur eau [[Ruth 2:8-9]]. Il explique sa bienveillance par ce qu’il a appris de sa fidélité envers Naomi, et la bénit au nom du Dieu d’Israël, « sous les ailes duquel tu es venue te réfugier » [[Ruth 2:11-12]]. Il la fait asseoir au repas, puis ordonne de laisser exprès des épis pour elle [[Ruth 2:14-16]].",
+    "Une nuit, après avoir vanné l’orge, il dort sur l’aire. Il se réveille et trouve Ruth couchée à ses pieds, qui lui demande d’étendre son aile sur elle, puisqu’il a droit de rachat [[Ruth 3:7-9]]. Il la bénit pour ce dernier acte de bonté, plus grand encore que le premier, car elle n’a pas recherché de jeunes gens. Il promet d’agir, mais un parent plus proche a la priorité [[Ruth 3:10-13]]. Il la renvoie avant l’aube, avec six mesures d’orge, pour qu’on ne sache pas qu’une femme est venue sur l’aire [[Ruth 3:14-15]].",
+    "À la porte de la ville, il fait asseoir le parent et dix anciens. Il expose l’affaire : Naomi vend la part de champ d’Élimélec. Le parent veut d’abord racheter, puis renonce quand il apprend qu’il devra aussi prendre Ruth, de peur de détruire son propre héritage [[Ruth 4:1-6]]. Selon l’usage de l’époque, il retire sa sandale en signe de cession [[Ruth 4:7-8]]. Boaz prend à témoin les anciens et le peuple : il acquiert les biens d’Élimélec et prend Ruth pour femme, « pour relever le nom du défunt dans son héritage » [[Ruth 4:9-10]].",
+    "Les témoins le bénissent : que l’Éternel rende sa femme semblable à Rachel et à Léa, qui ont fondé la maison d’Israël [[Ruth 4:11-12]]. Ruth enfante Obed, grand-père de David [[Ruth 4:13-17]]. La généalogie finale le place entre Salmon et Obed [[Ruth 4:21]]. Matthieu précise que Salmon engendra Boaz de Rahab [[Matthieu 1:5]]."
+  ],
+  "contexte": [
+    "Le droit de rachat permettait à un proche parent de racheter la terre d’un membre de la famille appauvri, pour qu’elle ne sorte pas du clan [[Lévitique 25:25]]. Le récit le combine avec l’idée du lévirat, où un proche épouse la veuve pour donner une descendance au défunt [[Deutéronome 25:5-10]].",
+    "Deux colonnes du temple de Salomon portaient les noms de Jakin et de Boaz [[1 Rois 7:21]]. Le lien éventuel avec l’ancêtre de David n’est pas indiqué par le texte."
+  ],
+  "chronologie": [
+    { "etape": "Rencontre de Ruth dans son champ", "ref": "Ruth 2:1-16" },
+    { "etape": "Nuit sur l’aire", "ref": "Ruth 3:7-15" },
+    { "etape": "Rachat à la porte de la ville", "ref": "Ruth 4:1-10" },
+    { "etape": "Mariage avec Ruth ; naissance d’Obed", "ref": "Ruth 4:13-17" }
+  ],
+  "references": ["Ruth 2-4", "Matthieu 1:5", "Lévitique 25:25"]
+}

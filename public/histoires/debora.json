@@ -1,0 +1,30 @@
+{
+  "id": "debora",
+  "nom": "Débora",
+  "cle": "debora",
+  "ordre": 122,
+  "groupe": "Juges",
+  "periode": "Époque des Juges",
+  "resume": "Prophétesse et juge, elle appelle Barak à combattre Sisera et chante la victoire. Le récit donne aussi le premier rôle à une autre femme, Jaël.",
+  "recit": [
+    "Après la mort d’Éhud, Israël fait de nouveau ce qui est mal. L’Éternel le livre à Jabin, roi de Canaan, qui règne à Hatsor ; le chef de son armée, Sisera, dispose de neuf cents chars de fer et opprime durement Israël pendant vingt ans [[Juges 4:1-3]].",
+    "« Dans ce temps-là, Débora, prophétesse, femme de Lappidoth, était juge en Israël. » Elle siège sous le palmier de Débora, entre Rama et Béthel, dans la montagne d’Éphraïm, et les Israélites montent vers elle pour être jugés [[Juges 4:4-5]].",
+    "Elle fait appeler Barak, fils d’Abinoam, et lui transmet l’ordre de l’Éternel : rassembler dix mille hommes de Nephthali et de Zabulon sur le mont Thabor ; Sisera sera attiré vers le torrent de Kison et livré entre ses mains [[Juges 4:6-7]]. Barak répond : « Si tu viens avec moi, j’irai ; mais si tu ne viens pas avec moi, je n’irai pas. » Débora accepte, mais annonce que la gloire ne sera pas pour lui : « l’Éternel livrera Sisera entre les mains d’une femme » [[Juges 4:8-10]].",
+    "Au moment fixé, Débora dit à Barak : « Lève-toi, car voici le jour où l’Éternel livre Sisera entre tes mains. » L’armée de Sisera est mise en déroute et anéantie [[Juges 4:14-16]]. Sisera s’enfuit à pied jusqu’à la tente de Jaël, femme de Héber le Kénien. Elle l’accueille, lui donne du lait, le couvre, puis, pendant son sommeil, lui enfonce un pieu de la tente dans la tempe [[Juges 4:17-21]]. Quand Barak arrive, elle lui montre Sisera mort [[Juges 4:22]].",
+    "Débora et Barak chantent ensuite un long cantique. Débora s’y décrit comme s’étant levée « comme une mère en Israël » au moment où les chefs manquaient [[Juges 5:7]]. Le chant célèbre les tribus venues au combat et reproche à d’autres d’être restées chez elles [[Juges 5:14-18]]. Il affirme que « des cieux on combattit, de leurs sentiers les étoiles combattirent contre Sisera », et que le torrent de Kison emporta les ennemis [[Juges 5:20-21]]. Il bénit Jaël « entre les femmes » [[Juges 5:24-27]] et se termine par l’image de la mère de Sisera attendant en vain son retour [[Juges 5:28-31]].",
+    "« Le pays fut en repos pendant quarante ans » [[Juges 5:31]]. L’épître aux Hébreux cite Barak parmi les témoins de la foi [[Hébreux 11:32]]."
+  ],
+  "contexte": [
+    "Le cantique de Débora (Juges 5) est considéré par de nombreux spécialistes comme l’un des plus anciens textes poétiques de la Bible, en raison de sa langue archaïque.",
+    "Hatsor, en Galilée, était une très grande cité cananéenne ; les fouilles y ont révélé une destruction importante, dont la date et l’auteur sont discutés."
+  ],
+  "chronologie": [
+    { "etape": "Oppression par Jabin et Sisera", "ref": "Juges 4:1-3" },
+    { "etape": "Débora juge sous son palmier", "ref": "Juges 4:4-5" },
+    { "etape": "Appel de Barak", "ref": "Juges 4:6-10" },
+    { "etape": "Victoire près du Kison", "ref": "Juges 4:14-16" },
+    { "etape": "Jaël tue Sisera", "ref": "Juges 4:17-22" },
+    { "etape": "Le cantique de Débora", "ref": "Juges 5" }
+  ],
+  "references": ["Juges 4", "Juges 5", "Hébreux 11:32"]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "aaron",
+  "nom": "Aaron",
+  "cle": "aaron",
+  "ordre": 71,
+  "groupe": "Exode et conquête",
+  "periode": "Sortie d’Égypte et désert",
+  "resume": "Frère aîné de Moïse et son porte-parole, premier grand sacrificateur d’Israël. Il cède pourtant au peuple lors du veau d’or.",
+  "recit": [
+    "Aaron est fils d’Amram et de Jokébed, de la tribu de Lévi, et frère de Moïse [[Exode 6:20]]. Il épouse Élischéba, qui lui donne quatre fils : Nadab, Abihu, Éléazar et Ithamar [[Exode 6:23]].",
+    "Quand Moïse objecte qu’il n’a pas la parole facile, Dieu lui répond : « N’y a-t-il pas ton frère Aaron, le Lévite ? Je sais qu’il parlera facilement » [[Exode 4:14-16]]. Aaron va à la rencontre de Moïse au désert, puis transmet au peuple les paroles de l’Éternel et accomplit les signes [[Exode 4:27-31]]. Dieu dit à Moïse : « Aaron, ton frère, sera ton prophète » [[Exode 7:1]]. Moïse a alors quatre-vingts ans, Aaron quatre-vingt-trois [[Exode 7:7]].",
+    "Devant Pharaon, Aaron jette son bâton, qui devient un serpent et engloutit ceux des magiciens [[Exode 7:10-12]]. Pendant la bataille contre Amalek, il soutient avec Hur les mains de Moïse jusqu’au coucher du soleil [[Exode 17:12]].",
+    "Pendant que Moïse est sur la montagne, le peuple presse Aaron de lui faire des dieux. Aaron recueille les anneaux d’or, fabrique un veau et proclame une fête [[Exode 32:1-6]]. Interrogé par Moïse, il rejette la faute sur le peuple et explique : « je l’ai jeté au feu, et il en est sorti ce veau » [[Exode 32:21-24]].",
+    "Dieu le choisit avec ses fils pour exercer le sacerdoce [[Exode 28:1]]. Moïse le consacre selon le rituel prescrit [[Lévitique 8]]. Aaron offre ses premiers sacrifices et bénit le peuple ; le feu de l’Éternel consume l’holocauste [[Lévitique 9:22-24]]. Peu après, Nadab et Abihu offrent un feu étranger et meurent ; « Aaron garda le silence » [[Lévitique 10:1-3]]. La formule de bénédiction que Dieu confie à Aaron et à ses fils commence par : « Que l’Éternel te bénisse, et qu’il te garde ! » [[Nombres 6:22-27]].",
+    "Avec sa sœur Miriam, il critique Moïse : « Est-ce seulement par Moïse que l’Éternel parle ? » Dieu les reprend, et Aaron supplie Moïse pour Miriam frappée de lèpre [[Nombres 12:1-11]]. Après la révolte de Koré, une plaie frappe le peuple ; Aaron court avec son encensoir et se tient « entre les morts et les vivants », et la plaie s’arrête [[Nombres 16:41-50]]. Le bâton d’Aaron, déposé devant le témoignage, bourgeonne, fleurit et produit des amandes, signe de son élection [[Nombres 17:1-10]].",
+    "À Meriba, Aaron partage la faute de Moïse et n’entrera pas dans le pays promis [[Nombres 20:12]]. Sur la montagne de Hor, Moïse le dépouille de ses vêtements de grand sacrificateur et en revêt Éléazar ; Aaron meurt là, et le peuple le pleure trente jours [[Nombres 20:22-29]]. Il avait cent vingt-trois ans [[Nombres 33:38-39]].",
+    "L’épître aux Hébreux rappelle que nul ne s’attribue cet honneur s’il n’est « appelé de Dieu, comme le fut Aaron » [[Hébreux 5:4]], et oppose son sacerdoce à celui du Christ [[Hébreux 7:11]]."
+  ],
+  "contexte": [
+    "Les descendants d’Aaron forment la lignée des sacrificateurs, distincte des autres Lévites chargés du service du sanctuaire. Cette distinction est développée dans le livre des Nombres."
+  ],
+  "chronologie": [
+    { "etape": "Fils d’Amram et de Jokébed", "ref": "Exode 6:20" },
+    { "etape": "Porte-parole de Moïse", "ref": "Exode 4:14-16" },
+    { "etape": "Devant Pharaon", "ref": "Exode 7:1-12" },
+    { "etape": "Soutient les mains de Moïse", "ref": "Exode 17:12" },
+    { "etape": "Le veau d’or", "ref": "Exode 32:1-6" },
+    { "etape": "Consécration comme sacrificateur", "ref": "Lévitique 8-9" },
+    { "etape": "Mort de Nadab et Abihu", "ref": "Lévitique 10:1-3" },
+    { "etape": "Critique de Moïse avec Miriam", "ref": "Nombres 12:1-11" },
+    { "etape": "Le bâton qui fleurit", "ref": "Nombres 17:1-10" },
+    { "etape": "Mort sur la montagne de Hor", "ref": "Nombres 20:22-29" }
+  ],
+  "references": ["Exode 4:14-16", "Exode 28", "Exode 32", "Lévitique 8-10", "Nombres 17", "Nombres 20:22-29", "Hébreux 5:1-4"]
+}
