@@ -36,6 +36,8 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+  // Parley (./parley/) est une autre application avec son propre service worker : ne pas intercepter.
+  if (url.pathname.startsWith(new URL('./parley/', self.location).pathname)) return;
 
   if (req.mode === 'navigate') {
     // Application monopage : toujours l'index en cache

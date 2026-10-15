@@ -26,8 +26,13 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm test
+      - run: node --test "parley/tests/*.test.js"
+      - run: node parley/tools/check-secrets.mjs
+      - run: node parley/tools/validate-manifest.mjs
       - run: npm run check:stories
       - run: npm run build
+      # Parley : application statique servie telle quelle sous /parley/
+      - run: cp -r parley dist/parley && rm -rf dist/parley/tests dist/parley/tools dist/parley/docs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -3,3 +3,9 @@ dist/
 *.log
 .DS_Store
 test-results/
+# Parley : ne jamais committer de clé locale
+*.key
+.env
+.env.*
+parley/**/local-key*
+parley/**/*.secret

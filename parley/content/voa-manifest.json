@@ -1,0 +1,45 @@
+{
+  "about": "Curated VOA items for Parley. Tier 1 = VOA Learning English, tier 2 = VOA news at normal speed. VOA-produced items only: never add an item crediting AP, Reuters or AFP. Items with \"placeholder\": true are examples of the format and are ignored by the app. Validate with: node parley/tools/validate-manifest.mjs --check-urls",
+  "items": [
+    {
+      "id": "placeholder-learning-english-1",
+      "placeholder": true,
+      "tier": 1,
+      "title": "PLACEHOLDER: replace with a real VOA Learning English story",
+      "topic": "work",
+      "audioUrl": null,
+      "transcript": "Copy the full transcript from the same VOA page here.",
+      "source": "https://learningenglish.voanews.com/ (paste the exact story URL)",
+      "licenseNote": "VOA content is in the public domain (produced by Voice of America). Check the byline is VOA.",
+      "durationSec": 0
+    },
+    {
+      "id": "placeholder-learning-english-2",
+      "placeholder": true,
+      "tier": 1,
+      "title": "PLACEHOLDER: replace with a real VOA Learning English program (with segments)",
+      "topic": "daily",
+      "audioUrl": null,
+      "transcript": "Full transcript.",
+      "source": "https://learningenglish.voanews.com/ (paste the exact story URL)",
+      "licenseNote": "VOA content is in the public domain (produced by Voice of America).",
+      "durationSec": 0,
+      "segments": [
+        { "start": 0.0, "end": 4.2, "text": "First sentence, timed in seconds." },
+        { "start": 4.6, "end": 9.1, "text": "Second sentence." }
+      ]
+    },
+    {
+      "id": "placeholder-voa-news-1",
+      "placeholder": true,
+      "tier": 2,
+      "title": "PLACEHOLDER: replace with a VOA-produced news report (no AP, Reuters or AFP credit)",
+      "topic": "news",
+      "audioUrl": null,
+      "transcript": "Full transcript.",
+      "source": "https://www.voanews.com/ (paste the exact story URL)",
+      "licenseNote": "Produced by VOA staff, public domain.",
+      "durationSec": 0
+    }
+  ]
+}
