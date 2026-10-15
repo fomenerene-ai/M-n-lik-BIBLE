@@ -59,4 +59,4 @@ ajouter un personnage revient à ajouter un fichier, sans toucher au code.
 | 5 | Nathan, Élie, Élisée, Jonas, Amos, Osée, Ésaïe, Michée, Jérémie, Ézéchiel | Validé |
 | 6 | Nebucadnetsar, Daniel, Schadrac, Méschac et Abed-Nego, Cyrus, Zorobabel, Esther, Mardochée, Esdras, Néhémie | Validé |
 | 7 | Zacharie et Élisabeth, Marie, Joseph de Nazareth, Jean-Baptiste, Pierre, Jean, Thomas, Nicodème, Marie de Magdala, Marthe, Marie et Lazare, Zachée, Judas Iscariot, Ponce Pilate | Validé |
-| 8 | Étienne, Philippe l’évangéliste, Paul, Barnabas, Jacques frère du Seigneur, Silas, Timothée, Lydie, Priscille et Aquilas, Apollos, Onésime et Philémon | Livré, à valider |
+| 8 | Étienne, Philippe l’évangéliste, Paul, Barnabas, Jacques frère du Seigneur, Silas, Timothée, Lydie, Priscille et Aquilas, Apollos, Onésime et Philémon | Validé |
