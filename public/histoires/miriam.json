@@ -1,0 +1,29 @@
+{
+  "id": "miriam",
+  "nom": "Miriam",
+  "cle": "miriam",
+  "ordre": 72,
+  "groupe": "Exode et conquête",
+  "periode": "Sortie d’Égypte et désert",
+  "resume": "Sœur de Moïse et d’Aaron, prophétesse, elle mène le chant des femmes après le passage de la mer. La Louis Segond l’appelle Marie.",
+  "recit": [
+    "Le livre des Nombres donne la famille : Jokébed, fille de Lévi, enfanta à Amram « Aaron, Moïse, et Marie, leur sœur » [[Nombres 26:59]]. La Louis Segond rend son nom par « Marie » ; l’hébreu dit Miryam.",
+    "Lorsque le petit Moïse est déposé dans un coffret sur le fleuve, « la sœur de l’enfant se tint à quelque distance ». Quand la fille de Pharaon découvre l’enfant, cette sœur propose d’aller chercher une nourrice parmi les Hébreues, et appelle la mère de l’enfant [[Exode 2:4-8]].",
+    "Après le passage de la mer, « Marie, la prophétesse, sœur d’Aaron » prend un tambourin, et toutes les femmes la suivent avec des tambourins, en dansant. Elle répond au chant : « Chantez à l’Éternel, car il a fait éclater sa gloire ; il a précipité dans la mer le cheval et son cavalier » [[Exode 15:20-21]].",
+    "Dans le désert, Miriam et Aaron parlent contre Moïse au sujet de la femme éthiopienne qu’il a prise, et disent : « Est-ce seulement par Moïse que l’Éternel parle ? N’est-ce pas aussi par nous qu’il parle ? » [[Nombres 12:1-2]]. L’Éternel les convoque et rappelle qu’il parle à Moïse « bouche à bouche » [[Nombres 12:4-9]].",
+    "Quand la nuée se retire, Miriam est frappée de lèpre, « blanche comme la neige ». Aaron supplie Moïse, qui crie à l’Éternel : « Ô Dieu, je te prie, guéris-la ! » Miriam est enfermée sept jours hors du camp, et le peuple ne part pas avant son retour [[Nombres 12:10-15]].",
+    "Elle meurt à Kadès, dans le désert de Tsin, et y est enterrée [[Nombres 20:1]]. Le Deutéronome rappelle ce que Dieu lui fit en chemin [[Deutéronome 24:9]]. Le prophète Michée la cite parmi les guides donnés à Israël : « j’ai envoyé devant toi Moïse, Aaron et Marie » [[Michée 6:4]]."
+  ],
+  "contexte": [
+    "Le récit de l’Exode 2 ne nomme pas la sœur de Moïse. On l’identifie habituellement à Miriam, puisque Nombres 26:59 ne mentionne qu’une sœur ; c’est une déduction, non une affirmation du texte.",
+    "L’identité de la « femme éthiopienne » (littéralement « couchite ») de Nombres 12 est discutée : Séphora, la Madianite, ou une autre épouse."
+  ],
+  "chronologie": [
+    { "etape": "Veille sur Moïse enfant", "ref": "Exode 2:4-8" },
+    { "etape": "Chant après le passage de la mer", "ref": "Exode 15:20-21" },
+    { "etape": "Critique de Moïse avec Aaron", "ref": "Nombres 12:1-9" },
+    { "etape": "Frappée de lèpre, puis guérie", "ref": "Nombres 12:10-15" },
+    { "etape": "Mort à Kadès", "ref": "Nombres 20:1" }
+  ],
+  "references": ["Exode 2:1-10", "Exode 15:19-21", "Nombres 12", "Nombres 20:1", "Michée 6:4"]
+}

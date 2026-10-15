@@ -1,0 +1,28 @@
+{
+  "id": "jethro",
+  "nom": "Jéthro",
+  "cle": "jethro",
+  "ordre": 73,
+  "groupe": "Exode et conquête",
+  "periode": "Sortie d’Égypte et désert",
+  "resume": "Prêtre de Madian et beau-père de Moïse. Il reconnaît la grandeur de l’Éternel et conseille à Moïse de partager la charge de juger le peuple.",
+  "recit": [
+    "Moïse, en fuite, s’assied près d’un puits au pays de Madian. Les sept filles du prêtre de Madian viennent abreuver le troupeau de leur père ; des bergers les chassent, et Moïse les défend. Leur père, appelé ici Réuel, invite Moïse, qui reste chez lui et épouse sa fille Séphora [[Exode 2:15-22]].",
+    "Moïse fait paître le troupeau de « Jéthro, son beau-père, sacrificateur de Madian », quand Dieu l’appelle au buisson ardent [[Exode 3:1]]. Avant de retourner en Égypte, il demande à Jéthro la permission de partir ; Jéthro lui répond : « Va en paix » [[Exode 4:18]].",
+    "Après la sortie d’Égypte, Jéthro apprend tout ce que Dieu a fait pour Israël. Il vient au désert avec Séphora et les deux fils de Moïse, Guerschom et Éliézer [[Exode 18:1-7]]. Moïse lui raconte la délivrance ; Jéthro se réjouit et déclare : « Je reconnais maintenant que l’Éternel est plus grand que tous les dieux » [[Exode 18:8-11]]. Il offre un holocauste et des sacrifices, et partage un repas avec Aaron et les anciens d’Israël devant Dieu [[Exode 18:12]].",
+    "Le lendemain, il voit Moïse juger le peuple du matin au soir. « Ce que tu fais n’est pas bien », lui dit-il : Moïse s’épuisera. Il lui conseille de choisir des hommes capables, craignant Dieu, intègres, comme chefs de mille, de cent, de cinquante et de dix, qui jugeront les petites affaires, tandis que Moïse portera les causes importantes devant Dieu [[Exode 18:13-23]]. Moïse suit ce conseil [[Exode 18:24-26]], puis laisse partir son beau-père, qui retourne dans son pays [[Exode 18:27]]."
+  ],
+  "contexte": [
+    "Le beau-père de Moïse porte plusieurs noms selon les passages : Réuel en Exode 2:18, Jéthro en Exode 3:1 et 18:1. Juges 4:11 appelle Hobab le beau-père de Moïse, alors que Nombres 10:29 présente Hobab comme fils de Réuel. Les explications proposées varient (double nom, titre, terme de parenté large).",
+    "Les Madianites vivaient au sud-est de Canaan, dans la région du golfe d’Aqaba. Ils descendaient, selon la Genèse, d’Abraham et de Ketura [[Genèse 25:1-2]]."
+  ],
+  "chronologie": [
+    { "etape": "Accueille Moïse fugitif ; mariage avec Séphora", "ref": "Exode 2:15-22" },
+    { "etape": "Moïse garde son troupeau", "ref": "Exode 3:1" },
+    { "etape": "« Va en paix »", "ref": "Exode 4:18" },
+    { "etape": "Visite au désert et confession de foi", "ref": "Exode 18:1-12" },
+    { "etape": "Conseil sur l’organisation des juges", "ref": "Exode 18:13-26" },
+    { "etape": "Retour dans son pays", "ref": "Exode 18:27" }
+  ],
+  "references": ["Exode 2:15-22", "Exode 3:1", "Exode 4:18", "Exode 18"]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "balaam",
+  "nom": "Balaam",
+  "cle": "balaam",
+  "ordre": 83,
+  "groupe": "Exode et conquête",
+  "periode": "Fin du séjour au désert",
+  "resume": "Devin appelé par le roi de Moab pour maudire Israël, il ne peut prononcer que des bénédictions. Le Nouveau Testament le cite pourtant comme exemple d’homme attiré par le gain.",
+  "recit": [
+    "Israël campe dans les plaines de Moab. Balak, roi de Moab, effrayé, envoie chercher Balaam, fils de Beor, à Pethor près du fleuve, pour qu’il maudisse ce peuple [[Nombres 22:1-6]]. Dieu dit à Balaam : « Tu n’iras point avec eux ; tu ne maudiras point ce peuple, car il est béni » [[Nombres 22:12]].",
+    "Balak envoie des chefs plus nombreux et plus considérés. Balaam répond : « Quand Balak me donnerait sa maison pleine d’argent et d’or, je ne pourrais faire aucune chose, ni petite ni grande, contre l’ordre de l’Éternel » [[Nombres 22:15-18]]. Cette nuit-là, Dieu lui permet de partir, mais à condition de faire ce qu’il lui dira [[Nombres 22:20]].",
+    "En chemin, la colère de Dieu s’enflamme. L’ange de l’Éternel se tient sur la route, l’épée à la main ; l’ânesse le voit, se détourne trois fois et finit par se coucher. Balaam la frappe. « L’Éternel ouvrit la bouche de l’ânesse », qui lui parle. Puis l’Éternel ouvre les yeux de Balaam, qui voit l’ange et reconnaît sa faute ; l’ange le laisse continuer, en répétant qu’il ne dira que ce qui lui sera dit [[Nombres 22:22-35]].",
+    "Sur les hauteurs, Balak fait dresser des autels et offrir des sacrifices. Mais Balaam bénit Israël : « Comment maudirais-je celui que Dieu n’a point maudit ? » et ajoute : « Que je meure de la mort des justes » [[Nombres 23:7-10]]. Balak le conduit ailleurs ; Balaam déclare : « Dieu n’est point un homme pour mentir, ni fils d’un homme pour se repentir » [[Nombres 23:19-20]]. Une troisième fois, il bénit encore [[Nombres 24:1-9]].",
+    "Balak, en colère, lui reproche de les avoir bénis trois fois [[Nombres 24:10]]. Avant de partir, Balaam prononce un dernier oracle : « Un astre sort de Jacob, un sceptre s’élève d’Israël » [[Nombres 24:15-17]]. Puis il retourne chez lui [[Nombres 24:25]].",
+    "Le récit suivant montre Israël entraîné par les femmes moabites dans le culte de Baal-Peor [[Nombres 25:1-3]]. Plus loin, Moïse attribue cette séduction « au conseil de Balaam » [[Nombres 31:16]]. Balaam est tué par l’épée lors de la guerre contre Madian [[Nombres 31:8]]. Le Deutéronome rappelle que l’Éternel changea pour Israël la malédiction en bénédiction [[Deutéronome 23:4-5]].",
+    "Pierre décrit les faux docteurs qui suivent « la voie de Balaam, fils de Bosor, qui aima le salaire de l’iniquité », repris par une ânesse muette parlant d’une voix d’homme [[2 Pierre 2:15-16]]. Jude [[Jude 11]] et l’Apocalypse [[Apocalypse 2:14]] le citent aussi comme exemple d’égarement."
+  ],
+  "contexte": [
+    "Une inscription découverte à Deir Alla, en Jordanie, datée d’environ le VIIIe siècle av. J.-C., mentionne un voyant nommé « Balaam, fils de Beor ». Elle atteste qu’une tradition sur ce personnage circulait hors de la Bible ; son rapport exact avec le récit des Nombres est discuté.",
+    "L’oracle de « l’astre qui sort de Jacob » a été lu dans le judaïsme ancien et dans le christianisme comme une annonce messianique. Le texte des Nombres ne précise pas qui est désigné."
+  ],
+  "chronologie": [
+    { "etape": "Balak le fait appeler", "ref": "Nombres 22:1-6" },
+    { "etape": "Dieu lui interdit de maudire Israël", "ref": "Nombres 22:7-14" },
+    { "etape": "L’ânesse et l’ange", "ref": "Nombres 22:22-35" },
+    { "etape": "Trois bénédictions au lieu de malédictions", "ref": "Nombres 23-24" },
+    { "etape": "Oracle de l’astre de Jacob", "ref": "Nombres 24:15-19" },
+    { "etape": "Le conseil de Balaam à Peor", "ref": "Nombres 31:16" },
+    { "etape": "Mort lors de la guerre contre Madian", "ref": "Nombres 31:8" }
+  ],
+  "references": ["Nombres 22-24", "Nombres 31:8", "Nombres 31:16", "Deutéronome 23:4-5", "2 Pierre 2:15-16", "Apocalypse 2:14"]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "josue",
+  "nom": "Josué",
+  "cle": "josue",
+  "ordre": 80,
+  "groupe": "Exode et conquête",
+  "periode": "Désert et entrée en Canaan",
+  "resume": "Serviteur de Moïse puis son successeur, il fait traverser le Jourdain au peuple, conduit la conquête de Canaan et partage le pays entre les tribus.",
+  "recit": [
+    "Josué apparaît pour la première fois quand Moïse lui confie le combat contre Amalek ; il remporte la victoire pendant que Moïse tient les mains levées [[Exode 17:8-13]]. Il est le serviteur de Moïse : il l’accompagne sur la montagne de Dieu [[Exode 24:13]] et ne quitte pas la tente d’assignation [[Exode 33:11]].",
+    "Il s’appelle d’abord Hosée, fils de Nun, de la tribu d’Éphraïm ; Moïse lui donne le nom de Josué [[Nombres 13:8]] [[Nombres 13:16]]. Envoyé avec onze autres hommes pour explorer Canaan, il revient avec Caleb pour encourager le peuple : « Le pays que nous avons parcouru […] est un pays très bon. » Le peuple veut les lapider [[Nombres 14:6-10]]. Des hommes de cette génération, seuls Josué et Caleb entreront dans le pays [[Nombres 14:30]] [[Nombres 14:38]].",
+    "Dieu désigne Josué comme successeur, « un homme en qui réside l’esprit », et Moïse lui impose les mains devant le peuple [[Nombres 27:18-23]]. Après la mort de Moïse, il est rempli de l’esprit de sagesse [[Deutéronome 34:9]].",
+    "L’Éternel lui dit : « Ne t’ai-je pas donné cet ordre : Fortifie-toi et prends courage ? Ne t’effraie point et ne t’épouvante point, car l’Éternel, ton Dieu, est avec toi dans tout ce que tu entreprendras » [[Josué 1:1-9]]. Josué envoie deux espions à Jéricho, qui sont cachés par Rahab [[Josué 2]]. Quand les sacrificateurs portant l’arche entrent dans le Jourdain, les eaux s’arrêtent, et le peuple passe à pied sec [[Josué 3:14-17]]. Douze pierres sont dressées en souvenir [[Josué 4:1-9]].",
+    "Près de Jéricho, un homme l’épée nue à la main se présente comme le chef de l’armée de l’Éternel et lui dit d’ôter ses souliers [[Josué 5:13-15]]. Le peuple fait le tour de la ville pendant sept jours ; au septième, au son des trompettes et au cri du peuple, la muraille s’écroule [[Josué 6:1-20]].",
+    "La première attaque contre Aï échoue à cause du péché d’Acan [[Josué 7]] ; la ville est prise ensuite [[Josué 8:1-29]]. Josué lit au peuple toutes les paroles de la loi [[Josué 8:30-35]]. Trompé par les Gabaonites, qui se font passer pour un peuple lointain, il conclut alliance avec eux sans consulter l’Éternel [[Josué 9:3-15]]. Lors de la bataille pour défendre Gabaon, il demande que le soleil s’arrête, et le texte rapporte que le soleil s’arrêta au milieu du ciel [[Josué 10:12-14]].",
+    "« Josué s’empara donc de tout le pays », et le donna en héritage aux tribus [[Josué 11:23]]. Le partage occupe la suite du livre [[Josué 13-21]]. Devenu vieux, il rassemble Israël à Sichem, rappelle l’histoire du peuple et appelle à un choix : « Moi et ma maison, nous servirons l’Éternel » [[Josué 24:14-15]]. Le peuple s’engage, et Josué conclut une alliance [[Josué 24:16-25]].",
+    "Il meurt à cent dix ans et est enterré à Thimnath-Sérach, dans la montagne d’Éphraïm. « Israël servit l’Éternel pendant toute la vie de Josué » [[Josué 24:29-31]]. L’épître aux Hébreux note que Josué n’a pas donné au peuple le repos définitif [[Hébreux 4:8]]."
+  ],
+  "contexte": [
+    "Josué (Yehoshoua) signifie « l’Éternel sauve ». En grec, ce nom devient Iêsous, le même que celui de Jésus.",
+    "L’archéologie de Jéricho et d’Aï fait l’objet de débats sur la datation des destructions et sur la manière de lire les récits de conquête. Le livre des Juges montre d’ailleurs que de nombreuses populations restèrent dans le pays [[Juges 1:27-36]]."
+  ],
+  "chronologie": [
+    { "etape": "Victoire sur Amalek", "ref": "Exode 17:8-13" },
+    { "etape": "Serviteur de Moïse au Sinaï", "ref": "Exode 24:13" },
+    { "etape": "Exploration de Canaan avec Caleb", "ref": "Nombres 13-14" },
+    { "etape": "Désigné successeur de Moïse", "ref": "Nombres 27:18-23" },
+    { "etape": "Appel : « Fortifie-toi »", "ref": "Josué 1:1-9" },
+    { "etape": "Traversée du Jourdain", "ref": "Josué 3-4" },
+    { "etape": "Prise de Jéricho", "ref": "Josué 6" },
+    { "etape": "Aï et l’affaire d’Acan", "ref": "Josué 7-8" },
+    { "etape": "Alliance avec Gabaon ; le soleil s’arrête", "ref": "Josué 9-10" },
+    { "etape": "Partage du pays", "ref": "Josué 13-21" },
+    { "etape": "Assemblée de Sichem", "ref": "Josué 24:1-28" },
+    { "etape": "Mort à 110 ans", "ref": "Josué 24:29-31" }
+  ],
+  "references": ["Nombres 13-14", "Nombres 27:12-23", "Josué 1", "Josué 3-6", "Josué 24", "Hébreux 4:8"]
+}

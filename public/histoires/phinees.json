@@ -1,0 +1,30 @@
+{
+  "id": "phinees",
+  "nom": "Phinées",
+  "cle": "phinees",
+  "ordre": 84,
+  "groupe": "Exode et conquête",
+  "periode": "Fin du désert et conquête",
+  "resume": "Petit-fils d’Aaron, il arrête une plaie par un geste violent lors de l’apostasie de Baal-Peor et reçoit une alliance de sacerdoce perpétuel. Plus tard, il évite une guerre entre tribus.",
+  "recit": [
+    "Phinées est fils d’Éléazar, lui-même fils d’Aaron ; sa mère est une des filles de Puthiel [[Exode 6:25]].",
+    "À Sittim, le peuple se livre à la débauche avec les filles de Moab et s’attache au culte de Baal-Peor ; la colère de l’Éternel s’enflamme [[Nombres 25:1-3]]. Alors que le peuple pleure à l’entrée de la tente d’assignation, un Israélite amène une Madianite sous leurs yeux. Phinées se lève, prend une lance, les suit et les transperce tous les deux. La plaie qui frappait Israël s’arrête ; elle a fait vingt-quatre mille morts [[Nombres 25:6-9]].",
+    "L’Éternel déclare : « Phinées […] a détourné ma fureur de dessus les enfants d’Israël, parce qu’il a été animé de mon zèle au milieu d’eux ». Il lui donne son « alliance de paix » : à lui et à sa descendance, une alliance de sacerdoce perpétuel [[Nombres 25:10-13]]. Le texte nomme ensuite les deux coupables, Zimri, chef d’une famille de Siméon, et Cozbi, fille d’un chef madianite [[Nombres 25:14-15]].",
+    "Lors de la guerre contre Madian, Moïse l’envoie avec l’armée, portant les ustensiles sacrés et les trompettes [[Nombres 31:6]].",
+    "Après la conquête, les tribus de Ruben, de Gad et la demi-tribu de Manassé bâtissent un grand autel près du Jourdain. Les autres tribus y voient une rébellion et se préparent à la guerre. Phinées conduit une délégation, écoute leur explication (l’autel est un témoin, non un lieu de sacrifice) et conclut : « nous reconnaissons que l’Éternel est au milieu de nous » [[Josué 22:10-34]].",
+    "Son père Éléazar est enterré « à Guibea de Phinées », dans la montagne d’Éphraïm [[Josué 24:33]]. À l’époque des Juges, c’est encore Phinées qui se tient devant l’arche quand Israël consulte l’Éternel à Béthel [[Juges 20:27-28]]. Un psaume rappelle son intervention : « Cela lui fut imputé à justice, de génération en génération pour toujours » [[Psaumes 106:28-31]]."
+  ],
+  "contexte": [
+    "Le geste de Phinées est raconté et approuvé par le texte, mais il est difficile à recevoir pour un lecteur moderne. Les interprètes soulignent qu’il s’agit d’un récit lié à une situation exceptionnelle, non d’une règle générale ; le même personnage apparaît ensuite comme un artisan de paix en Josué 22.",
+    "Dans les livres des Chroniques, la lignée des grands sacrificateurs passe par Phinées, puis jusqu’à Tsadok, sacrificateur au temps de David et de Salomon [[1 Chroniques 6:4-8]]."
+  ],
+  "chronologie": [
+    { "etape": "Fils d’Éléazar, petit-fils d’Aaron", "ref": "Exode 6:25" },
+    { "etape": "Intervention à Baal-Peor", "ref": "Nombres 25:6-9" },
+    { "etape": "Alliance de sacerdoce perpétuel", "ref": "Nombres 25:10-13" },
+    { "etape": "Guerre contre Madian", "ref": "Nombres 31:6" },
+    { "etape": "Médiation au sujet de l’autel du Jourdain", "ref": "Josué 22:10-34" },
+    { "etape": "Devant l’arche à Béthel", "ref": "Juges 20:27-28" }
+  ],
+  "references": ["Nombres 25", "Josué 22:10-34", "Psaumes 106:28-31"]
+}

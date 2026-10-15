@@ -1,0 +1,28 @@
+{
+  "id": "kore",
+  "nom": "Koré",
+  "cle": "kore",
+  "ordre": 82,
+  "groupe": "Exode et conquête",
+  "periode": "Désert",
+  "resume": "Lévite de la famille de Kehath, il conteste l’autorité de Moïse et d’Aaron. Sa révolte se termine par un jugement spectaculaire, mais ses fils survivent.",
+  "recit": [
+    "Koré est fils de Jitsehar, fils de Kehath, fils de Lévi. Avec Dathan, Abiram et On, de la tribu de Ruben, il se soulève contre Moïse, entraînant deux cent cinquante chefs de l’assemblée [[Nombres 16:1-2]]. Ils disent à Moïse et à Aaron : « C’en est assez ! car toute l’assemblée, tous sont saints, et l’Éternel est au milieu d’eux. Pourquoi vous élevez-vous au-dessus de l’assemblée de l’Éternel ? » [[Nombres 16:3]].",
+    "Moïse tombe sur son visage, puis propose une épreuve : le lendemain, chacun prendra un encensoir, et l’Éternel fera connaître qui il a choisi [[Nombres 16:4-7]]. Il reproche aux Lévites de ne pas se contenter de leur service au sanctuaire : « vous recherchez encore le sacerdoce ! » [[Nombres 16:8-11]]. Dathan et Abiram refusent de venir et accusent Moïse de les avoir fait sortir d’un pays « où coulent le lait et le miel » pour les faire mourir au désert [[Nombres 16:12-14]].",
+    "Le lendemain, la gloire de l’Éternel apparaît à toute l’assemblée réunie devant la tente d’assignation [[Nombres 16:16-19]]. Moïse annonce un signe : si ces hommes meurent d’une mort ordinaire, ce n’est pas l’Éternel qui l’a envoyé ; mais si la terre ouvre sa bouche pour les engloutir, on saura qu’ils ont méprisé l’Éternel [[Nombres 16:28-30]]. Aussitôt, le sol se fend et engloutit les révoltés, leurs maisons et « tous les gens de Koré » [[Nombres 16:31-33]]. Un feu sort de l’Éternel et consume les deux cent cinquante hommes qui offraient le parfum [[Nombres 16:35]].",
+    "Les encensoirs sont réduits en lames pour recouvrir l’autel, comme souvenir que nul étranger à la descendance d’Aaron ne doit offrir le parfum [[Nombres 16:36-40]]. Le lendemain, le peuple murmure contre Moïse et Aaron ; une plaie éclate, arrêtée par l’intercession d’Aaron [[Nombres 16:41-50]].",
+    "Le recensement suivant précise : « Les fils de Koré ne moururent pas » [[Nombres 26:9-11]]. Plusieurs psaumes portent en titre la mention « des fils de Koré » [[Psaumes 42]] [[Psaumes 84]]. L’épître de Jude cite « la révolte de Koré » comme exemple d’opposition à l’autorité donnée par Dieu [[Jude 11]]."
+  ],
+  "contexte": [
+    "Le récit mêle deux contestations : celle de Koré et des Lévites, qui revendiquent le sacerdoce réservé aux descendants d’Aaron, et celle de Dathan et Abiram, qui contestent la conduite politique de Moïse. Les commentateurs discutent de la manière dont ces deux fils s’articulent.",
+    "Dans la Louis Segond, la numérotation de Nombres 16 et 17 suit les traductions anglaises ; d’autres éditions suivent l’hébreu, où Nombres 16:36-50 correspond à Nombres 17:1-15."
+  ],
+  "chronologie": [
+    { "etape": "Révolte contre Moïse et Aaron", "ref": "Nombres 16:1-3" },
+    { "etape": "L’épreuve des encensoirs", "ref": "Nombres 16:4-19" },
+    { "etape": "La terre engloutit les révoltés", "ref": "Nombres 16:28-33" },
+    { "etape": "Le feu consume les 250 chefs", "ref": "Nombres 16:35" },
+    { "etape": "Les fils de Koré épargnés", "ref": "Nombres 26:11" }
+  ],
+  "references": ["Nombres 16", "Nombres 26:9-11", "Jude 11"]
+}
