@@ -1,0 +1,32 @@
+{
+  "id": "osee",
+  "nom": "Osée",
+  "cle": "osee",
+  "ordre": 265,
+  "groupe": "Prophètes",
+  "periode": "Royaume d’Israël, VIIIe siècle av. J.-C.",
+  "resume": "Prophète du royaume du nord, il vit dans son propre mariage l’infidélité d’Israël envers Dieu, et annonce un amour plus fort que la trahison.",
+  "recit": [
+    "Osée, fils de Beéri, prophétise au temps d’Ozias, Jotham, Achaz et Ézéchias, rois de Juda, et de Jéroboam, fils de Joas, roi d’Israël [[Osée 1:1]].",
+    "L’Éternel lui ordonne de prendre « une femme prostituée », car le pays se prostitue en abandonnant l’Éternel. Osée épouse Gomer, fille de Diblaïm [[Osée 1:2-3]]. Leurs enfants reçoivent des noms qui sont autant de messages : Jizreel, en annonce du châtiment de la maison de Jéhu ; Lo-Ruchama, « pas de miséricorde » ; Lo-Ammi, « pas mon peuple » [[Osée 1:4-9]].",
+    "Le chapitre suivant décrit Israël comme une épouse infidèle qui court après ses amants et oublie celui qui lui donnait le blé, le vin et l’huile. Mais Dieu promet de la conduire au désert pour parler à son cœur, de la fiancer à lui pour toujours, et de dire à « Pas mon peuple » : « Tu es mon peuple ! » [[Osée 2]].",
+    "L’Éternel lui dit encore : « Va encore, et aime une femme aimée d’un amant, et adultère » ; Osée la rachète pour quinze sicles d’argent et une mesure d’orge, et lui demande de lui rester fidèle longtemps [[Osée 3:1-3]]. Cette histoire figure l’amour de Dieu pour Israël, qui se tourne vers d’autres dieux [[Osée 3:1]].",
+    "Osée dénonce l’absence de fidélité et de connaissance de Dieu dans le pays : « Mon peuple est détruit, parce qu’il lui manque la connaissance » [[Osée 4:1-6]]. Il transmet cette parole : « J’aime la piété et non les sacrifices, et la connaissance de Dieu plus que les holocaustes » [[Osée 6:6]].",
+    "Il exprime la tendresse de Dieu en termes paternels : « Quand Israël était jeune, je l’aimais, et j’appelai mon fils hors d’Égypte » ; puis le déchirement de Dieu devant son peuple rebelle : « Que ferai-je de toi, Éphraïm ? […] Mon cœur s’agite au dedans de moi » [[Osée 11:1-9]]. Le livre se termine par un appel au retour et une promesse de guérison [[Osée 14]].",
+    "Jésus cite deux fois Osée 6:6 : « Je prends plaisir à la miséricorde, et non aux sacrifices » [[Matthieu 9:13]] [[Matthieu 12:7]]. Matthieu applique Osée 11:1 au séjour de l’enfant Jésus en Égypte [[Matthieu 2:15]], et Paul cite les noms de ses enfants à propos de l’appel des païens [[Romains 9:25-26]]."
+  ],
+  "contexte": [
+    "Le mariage d’Osée est compris par certains comme un acte réel, par d’autres comme une action symbolique ou une parabole vécue. On discute aussi de savoir si la femme du chapitre 3 est Gomer.",
+    "Osée prêche dans les dernières décennies du royaume d’Israël, marquées par l’instabilité politique et les assassinats de rois successifs, avant la prise de Samarie par l’Assyrie en 722 av. J.-C."
+  ],
+  "chronologie": [
+    { "etape": "Appel au temps de Jéroboam II", "ref": "Osée 1:1" },
+    { "etape": "Mariage avec Gomer ; noms des enfants", "ref": "Osée 1:2-9" },
+    { "etape": "L’épouse infidèle et la promesse", "ref": "Osée 2" },
+    { "etape": "Rachat de la femme adultère", "ref": "Osée 3" },
+    { "etape": "Procès contre Israël", "ref": "Osée 4" },
+    { "etape": "L’amour paternel de Dieu", "ref": "Osée 11:1-9" },
+    { "etape": "Appel au retour", "ref": "Osée 14" }
+  ],
+  "references": ["Osée 1-3", "Osée 6:1-6", "Osée 11", "Osée 14", "Matthieu 9:13"]
+}

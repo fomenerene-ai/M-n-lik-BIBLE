@@ -1,0 +1,32 @@
+{
+  "id": "michee",
+  "nom": "Michée",
+  "cle": "michee",
+  "ordre": 272,
+  "groupe": "Prophètes",
+  "periode": "Royaume de Juda, VIIIe siècle av. J.-C.",
+  "resume": "Prophète campagnard de Moréscheth, contemporain d’Ésaïe, il dénonce l’oppression des petits et annonce un chef sorti de Bethléhem.",
+  "recit": [
+    "Michée de Moréscheth prophétise sous Jotham, Achaz et Ézéchias, rois de Juda, contre Samarie et Jérusalem [[Michée 1:1]].",
+    "Il s’en prend à ceux qui, la nuit, méditent l’injustice et, le matin, l’exécutent : ils convoitent des champs et des maisons et s’en emparent [[Michée 2:1-2]]. Il accuse les chefs qui « haïssent le bien et aiment le mal » [[Michée 3:1-2]], et les prophètes qui annoncent la paix tant qu’on les nourrit [[Michée 3:5]]. Il annonce : « Sion sera labourée comme un champ, Jérusalem deviendra un monceau de pierres » [[Michée 3:12]].",
+    "Il annonce aussi que, dans les derniers temps, les nations monteront à la montagne de l’Éternel : « De leurs glaives ils forgeront des hoyaux », et chacun demeurera sous sa vigne et sous son figuier, sans que personne le trouble [[Michée 4:1-4]]. Le même oracle figure presque mot pour mot dans Ésaïe [[Ésaïe 2:2-4]].",
+    "Il annonce qu’un dominateur sur Israël sortira de Bethléhem Éphrata, « petite entre les milliers de Juda », dont l’origine remonte aux temps anciens [[Michée 5]]. Lors de la visite des mages, les prêtres et les scribes citent ce passage pour indiquer où doit naître le Christ [[Matthieu 2:4-6]].",
+    "À la question de savoir comment se présenter devant Dieu, il répond : « On t’a fait connaître, ô homme, ce qui est bien ; et ce que l’Éternel demande de toi, c’est que tu pratiques la justice, que tu aimes la miséricorde, et que tu marches humblement avec ton Dieu » [[Michée 6:6-8]].",
+    "Son livre se termine par une louange : « Quel Dieu est semblable à toi, qui pardonnes l’iniquité ? […] Tu jetteras au fond de la mer tous leurs péchés » [[Michée 7:18-20]].",
+    "Un siècle plus tard, lors du procès de Jérémie, des anciens rappellent que Michée de Moréscheth avait annoncé la ruine de Jérusalem sous Ézéchias, et que le roi, au lieu de le faire mourir, avait imploré l’Éternel [[Jérémie 26:17-19]]."
+  ],
+  "contexte": [
+    "Ce Michée est différent de Michée, fils de Jimla, prophète du royaume d’Israël au temps d’Achab [[1 Rois 22:8-28]].",
+    "Moréscheth (ou Moréscheth-Gath) était un village de la plaine du Sud-Ouest de Juda, exposé aux invasions. Le passage sur Bethléhem est numéroté Michée 5:2 ou 5:1 selon les éditions."
+  ],
+  "chronologie": [
+    { "etape": "Appel sous Jotham, Achaz et Ézéchias", "ref": "Michée 1:1" },
+    { "etape": "Contre les accapareurs", "ref": "Michée 2:1-2" },
+    { "etape": "Annonce de la ruine de Sion", "ref": "Michée 3:12" },
+    { "etape": "Paix des derniers temps", "ref": "Michée 4:1-4" },
+    { "etape": "Le chef sorti de Bethléhem", "ref": "Michée 5" },
+    { "etape": "Ce que l’Éternel demande", "ref": "Michée 6:8" },
+    { "etape": "Louange au Dieu qui pardonne", "ref": "Michée 7:18-20" }
+  ],
+  "references": ["Michée 3", "Michée 4:1-5", "Michée 5", "Michée 6:6-8", "Michée 7:18-20", "Jérémie 26:17-19"]
+}

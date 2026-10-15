@@ -1,0 +1,33 @@
+{
+  "id": "elie",
+  "nom": "Élie",
+  "cle": "elie",
+  "ordre": 255,
+  "groupe": "Prophètes",
+  "periode": "Royaume d’Israël, règne d’Achab",
+  "resume": "Prophète du royaume du nord, il affronte Achab et les prophètes de Baal sur le mont Carmel. Épuisé, il rencontre Dieu dans un murmure doux et léger, puis est enlevé au ciel.",
+  "recit": [
+    "Élie le Thischbite, de Galaad, annonce à Achab : « L’Éternel est vivant, le Dieu d’Israël, dont je suis le serviteur ! il n’y aura ces années-ci ni rosée ni pluie, sinon à ma parole » [[1 Rois 17:1]]. Il se cache près du torrent de Kerith, où les corbeaux lui apportent du pain et de la viande [[1 Rois 17:2-6]]. À Sarepta, une veuve le nourrit de ses dernières provisions ; la farine et l’huile ne s’épuisent pas [[1 Rois 17:8-16]]. Quand son fils meurt, Élie prie, et l’enfant revient à la vie ; la veuve déclare : « Je reconnais maintenant que tu es un homme de Dieu » [[1 Rois 17:17-24]].",
+    "La troisième année, il se présente à Achab [[1 Rois 18:1-2]] et convoque le peuple et les prophètes de Baal sur le mont Carmel. Il interpelle le peuple : « Jusqu’à quand clocherez-vous des deux côtés ? Si l’Éternel est Dieu, allez après lui ; si c’est Baal, allez après lui ! » [[1 Rois 18:19-21]]. Les prophètes de Baal invoquent leur dieu toute la journée, sans réponse ; Élie se moque d’eux [[1 Rois 18:22-29]].",
+    "Élie rebâtit l’autel de l’Éternel avec douze pierres, fait inonder l’holocauste d’eau, puis prie. Le feu de l’Éternel tombe et consume tout. Le peuple se prosterne : « C’est l’Éternel qui est Dieu ! » [[1 Rois 18:30-39]]. Les prophètes de Baal sont mis à mort près du torrent de Kison [[1 Rois 18:40]]. Élie prie sur le Carmel ; un petit nuage « comme la main d’un homme » monte de la mer, et une grande pluie tombe [[1 Rois 18:41-46]].",
+    "Menacé par Jézabel, il s’enfuit au désert, s’assied sous un genêt et demande la mort : « C’est assez ! Maintenant, Éternel, prends mon âme » [[1 Rois 19:1-4]]. Un ange le nourrit deux fois, et il marche quarante jours jusqu’à Horeb, la montagne de Dieu [[1 Rois 19:5-8]]. L’Éternel lui demande : « Que fais-tu ici, Élie ? » [[1 Rois 19:9-10]]. Un vent violent, un tremblement de terre et un feu passent, mais l’Éternel n’y est pas ; puis vient « un murmure doux et léger » [[1 Rois 19:11-13]]. Dieu l’envoie oindre Hazaël, Jéhu et Élisée, et lui révèle qu’il s’est réservé sept mille hommes fidèles [[1 Rois 19:15-18]].",
+    "Il jette son manteau sur Élisée, qui le suit [[1 Rois 19:19-21]]. Il condamne Achab après le meurtre de Naboth [[1 Rois 21:17-24]], puis annonce sa mort au roi Achazia, qui avait consulté un dieu étranger [[2 Rois 1:1-17]].",
+    "Avec Élisée, il frappe les eaux du Jourdain avec son manteau ; elles se partagent. Élisée demande une double portion de son esprit. Pendant qu’ils marchent, un char de feu et des chevaux de feu les séparent, « et Élie monta au ciel dans un tourbillon » [[2 Rois 2:1-11]].",
+    "Le dernier des prophètes annonce l’envoi d’Élie avant le jour de l’Éternel [[Malachie 4:5-6]]. Les Évangiles voient l’accomplissement de cette promesse en Jean-Baptiste [[Matthieu 17:10-13]] [[Luc 1:17]]. Élie apparaît avec Moïse lors de la transfiguration [[Matthieu 17:1-3]]. Jacques le donne en exemple de prière : « Élie était un homme de la même nature que nous » [[Jacques 5:17-18]]."
+  ],
+  "contexte": [
+    "Baal était un dieu de l’orage et de la fertilité dans le monde cananéen et phénicien. Le défi du Carmel, qui porte sur la pluie et le feu, s’attaque donc directement aux attributions prêtées à Baal.",
+    "Le nom Élie signifie « mon Dieu est l’Éternel », ce qui résume son combat."
+  ],
+  "chronologie": [
+    { "etape": "Annonce de la sécheresse", "ref": "1 Rois 17:1" },
+    { "etape": "Kerith et Sarepta", "ref": "1 Rois 17:2-24" },
+    { "etape": "Le mont Carmel", "ref": "1 Rois 18:19-40" },
+    { "etape": "Retour de la pluie", "ref": "1 Rois 18:41-46" },
+    { "etape": "Fuite et rencontre à Horeb", "ref": "1 Rois 19:1-18" },
+    { "etape": "Appel d’Élisée", "ref": "1 Rois 19:19-21" },
+    { "etape": "La vigne de Naboth", "ref": "1 Rois 21:17-24" },
+    { "etape": "Enlevé au ciel", "ref": "2 Rois 2:1-11" }
+  ],
+  "references": ["1 Rois 17-19", "1 Rois 21:17-29", "2 Rois 1-2", "Malachie 4:5-6", "Jacques 5:17-18"]
+}

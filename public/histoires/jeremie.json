@@ -1,0 +1,35 @@
+{
+  "id": "jeremie",
+  "nom": "Jérémie",
+  "cle": "jeremie",
+  "ordre": 290,
+  "groupe": "Prophètes",
+  "periode": "Fin du royaume de Juda et chute de Jérusalem",
+  "resume": "Appelé tout jeune, il annonce pendant quarante ans le jugement de Jérusalem, au prix de persécutions. Il vit la chute de la ville et promet une alliance nouvelle.",
+  "recit": [
+    "Jérémie, fils de Hilkija, est issu d’une famille de sacrificateurs d’Anathoth. La parole de l’Éternel lui est adressée de la treizième année de Josias jusqu’à la déportation de Jérusalem, la onzième année de Sédécias [[Jérémie 1:1-3]]. Dieu lui dit : « Avant que je t’eusse formé dans le ventre de ta mère, je te connaissais […] je t’avais établi prophète des nations. » Jérémie objecte : « je ne sais point parler, car je suis un enfant. » L’Éternel touche sa bouche et met ses paroles en lui [[Jérémie 1:4-10]].",
+    "À la porte du temple, il dénonce la confiance aveugle dans le sanctuaire : « Est-ce à vos yeux une caverne de voleurs que cette maison sur laquelle mon nom est invoqué ? » [[Jérémie 7:1-11]]. Il multiplie les actes symboliques : la ceinture de lin pourrie [[Jérémie 13:1-11]], le vase du potier que Dieu peut refaire [[Jérémie 18:1-6]], la cruche brisée devant les anciens [[Jérémie 19:1-11]]. Dieu lui interdit de se marier, en signe des malheurs à venir [[Jérémie 16:1-4]].",
+    "Ses prédications lui valent des souffrances. Le prêtre Paschhur le fait battre et mettre aux ceps [[Jérémie 20:1-2]]. Jérémie se plaint à Dieu, mais ne peut se taire : il y a dans son cœur « comme un feu dévorant qui est renfermé dans mes os » [[Jérémie 20:7-9]]. Accusé de mériter la mort pour avoir annoncé la ruine du temple, il est protégé par des chefs et par Achikam [[Jérémie 26:7-24]].",
+    "Il porte un joug pour signifier la soumission à Babylone ; le prophète Hanania le brise, mais Jérémie annonce un joug de fer [[Jérémie 27:1-11]] [[Jérémie 28:10-17]]. Il écrit aux exilés : « Recherchez le bien de la ville où je vous ai menés en captivité », et annonce un retour après soixante-dix ans [[Jérémie 29:4-10]].",
+    "Il annonce une alliance nouvelle : Dieu mettra sa loi au-dedans d’eux, l’écrira dans leur cœur, et pardonnera leur iniquité [[Jérémie 31:31-34]]. Pendant le siège, il achète un champ à Anathoth, en signe que l’on achètera encore des champs dans ce pays [[Jérémie 32:6-15]].",
+    "Il dicte ses oracles à son secrétaire Baruc. Le roi Jojakim fait lire le rouleau, le coupe au fur et à mesure et le jette au feu ; Jérémie en dicte un nouveau [[Jérémie 36]]. Accusé de passer aux Chaldéens, il est arrêté [[Jérémie 37:11-16]], puis descendu dans une citerne boueuse ; l’Éthiopien Ébed-Mélec obtient qu’on l’en retire [[Jérémie 38:6-13]].",
+    "Après la prise de Jérusalem, Nebucadnetsar ordonne de bien le traiter [[Jérémie 39:11-14]]. Il reste dans le pays avec le gouverneur Guedalia [[Jérémie 40:1-6]]. Après l’assassinat de Guedalia, les survivants l’emmènent de force en Égypte, à Tachpanès [[Jérémie 43:1-7]]. L’épître aux Hébreux cite sa prophétie de la nouvelle alliance [[Hébreux 8:8-12]]."
+  ],
+  "contexte": [
+    "Le livre des Lamentations, qui pleure la ruine de Jérusalem, est traditionnellement attribué à Jérémie, mais le texte ne porte pas son nom.",
+    "Des empreintes de sceaux (bulles) portant les noms de personnages du livre, comme « Berekyahu fils de Neriyahu » (Baruc, fils de Nérija), ont été publiées ; l’authenticité de certaines d’entre elles est discutée."
+  ],
+  "chronologie": [
+    { "etape": "Appel sous Josias", "ref": "Jérémie 1:4-10" },
+    { "etape": "Discours du temple", "ref": "Jérémie 7:1-15" },
+    { "etape": "Actes symboliques : le potier", "ref": "Jérémie 18:1-6" },
+    { "etape": "Persécuté par Paschhur", "ref": "Jérémie 20:1-9" },
+    { "etape": "Lettre aux exilés", "ref": "Jérémie 29:4-14" },
+    { "etape": "Promesse de la nouvelle alliance", "ref": "Jérémie 31:31-34" },
+    { "etape": "Le rouleau brûlé par Jojakim", "ref": "Jérémie 36" },
+    { "etape": "Dans la citerne", "ref": "Jérémie 38:6-13" },
+    { "etape": "Chute de Jérusalem", "ref": "Jérémie 39" },
+    { "etape": "Emmené en Égypte", "ref": "Jérémie 43:1-7" }
+  ],
+  "references": ["Jérémie 1", "Jérémie 20:7-18", "Jérémie 31:31-34", "Jérémie 36-39", "Hébreux 8:8-12"]
+}

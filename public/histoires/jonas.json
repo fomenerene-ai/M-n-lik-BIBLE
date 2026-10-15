@@ -1,0 +1,30 @@
+{
+  "id": "jonas",
+  "nom": "Jonas",
+  "cle": "jonas",
+  "ordre": 262,
+  "groupe": "Prophètes",
+  "periode": "Royaume d’Israël, VIIIe siècle av. J.-C.",
+  "resume": "Envoyé prêcher à Ninive, il fuit dans la direction opposée. Avalé par un grand poisson, il finit par obéir, puis s’irrite de la miséricorde de Dieu envers la ville repentante.",
+  "recit": [
+    "Jonas, fils d’Amitthaï, de Gath-Hépher, est un prophète du temps du roi Jéroboam II [[2 Rois 14:25]]. L’Éternel lui ordonne d’aller crier contre Ninive, la grande ville. Jonas descend à Japho et s’embarque pour Tarsis, « loin de la face de l’Éternel » [[Jonas 1:1-3]].",
+    "Une grande tempête s’abat sur la mer. Les marins prient chacun leur dieu, tandis que Jonas dort au fond du navire [[Jonas 1:4-6]]. Le sort désigne Jonas. Il se présente : « Je suis Hébreu, et je crains l’Éternel, le Dieu des cieux, qui a fait la mer et la terre » [[Jonas 1:7-10]]. Il leur dit de le jeter à la mer ; après avoir tenté de ramer vers la côte, ils s’y résolvent, et la mer se calme. Les marins craignent l’Éternel et lui offrent un sacrifice [[Jonas 1:11-16]].",
+    "L’Éternel fait venir un grand poisson pour engloutir Jonas, qui reste dans son ventre trois jours et trois nuits [[Jonas 1]]. De là, il adresse une prière à l’Éternel, qui se termine par ces mots : « Le salut vient de l’Éternel. » Le poisson le rejette sur la terre [[Jonas 2]].",
+    "La parole de l’Éternel lui est adressée une seconde fois. Jonas parcourt Ninive en criant : « Encore quarante jours, et Ninive est détruite ! » [[Jonas 3:1-4]]. Les habitants croient à Dieu, proclament un jeûne et se revêtent de sacs ; le roi lui-même s’assied sur la cendre et ordonne que chacun revienne de sa mauvaise voie [[Jonas 3:5-9]]. Dieu voit leurs œuvres et renonce au mal qu’il avait annoncé [[Jonas 3:10]].",
+    "Jonas en est très irrité : « je savais que tu es un Dieu compatissant et miséricordieux, lent à la colère et riche en bonté, et qui te repens du mal. » Il demande à mourir [[Jonas 4:1-3]]. Assis à l’est de la ville, il se réjouit de l’ombre d’un ricin que Dieu fait pousser ; le lendemain, un ver le fait sécher, et un vent brûlant accable Jonas [[Jonas 4:5-8]]. Dieu lui répond : s’il a pitié d’un ricin qui ne lui a coûté aucune peine, comment Dieu n’aurait-il pas pitié de Ninive, où plus de cent vingt mille personnes ne savent pas distinguer leur droite de leur gauche ? Le livre se termine sur cette question [[Jonas 4:9-11]].",
+    "Jésus parle du « signe du prophète Jonas » : comme Jonas fut trois jours et trois nuits dans le ventre du poisson, le Fils de l’homme sera trois jours et trois nuits dans le sein de la terre. Les Ninivites, qui se repentirent, condamneront sa génération [[Matthieu 12:39-41]]."
+  ],
+  "contexte": [
+    "Ninive, sur le Tigre, était l’une des capitales de l’Assyrie, la grande puissance qui menaçait Israël et finit par détruire Samarie en 722 av. J.-C. Cela éclaire la répugnance de Jonas à lui annoncer un possible pardon.",
+    "Le verset où apparaît le grand poisson est numéroté Jonas 1:17 ou Jonas 2:1 selon les éditions ; c’est pourquoi la fiche renvoie aux chapitres entiers. Le genre littéraire du livre (récit historique, récit didactique) est discuté par les interprètes."
+  ],
+  "chronologie": [
+    { "etape": "Appel et fuite vers Tarsis", "ref": "Jonas 1:1-3" },
+    { "etape": "La tempête ; jeté à la mer", "ref": "Jonas 1:4-16" },
+    { "etape": "Dans le ventre du poisson", "ref": "Jonas 2" },
+    { "etape": "Prédication à Ninive", "ref": "Jonas 3:1-4" },
+    { "etape": "Repentance de Ninive", "ref": "Jonas 3:5-10" },
+    { "etape": "La colère de Jonas et le ricin", "ref": "Jonas 4" }
+  ],
+  "references": ["Jonas 1-4", "2 Rois 14:25", "Matthieu 12:39-41"]
+}
