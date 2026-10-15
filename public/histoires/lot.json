@@ -1,0 +1,34 @@
+{
+  "id": "lot",
+  "nom": "Lot",
+  "cle": "lot",
+  "ordre": 34,
+  "groupe": "Patriarches et matriarches",
+  "periode": "Époque des patriarches",
+  "resume": "Neveu d’Abraham, il choisit la riche plaine du Jourdain et s’installe à Sodome. Il échappe de justesse à la destruction de la ville.",
+  "recit": [
+    "Lot est fils d’Haran, frère d’Abram ; Haran meurt à Ur, du vivant de son père Térach [[Genèse 11:27-28]]. Térach emmène Lot avec Abram et Saraï vers Canaan [[Genèse 11:31]], et Lot part ensuite avec Abram quand celui-ci quitte Charan [[Genèse 12:4-5]].",
+    "Les deux hommes ont de nombreux troupeaux, et leurs bergers se querellent. Abram propose de se séparer et laisse Lot choisir [[Genèse 13:5-9]]. Lot lève les yeux sur la plaine du Jourdain, entièrement arrosée, « comme un jardin de l’Éternel », et la choisit. Il dresse ses tentes jusqu’à Sodome, dont les habitants sont « méchants et de grands pécheurs contre l’Éternel » [[Genèse 13:10-13]].",
+    "Lors d’une guerre entre rois, Lot, qui demeure à Sodome, est emmené prisonnier avec ses biens [[Genèse 14:12]]. Abram rassemble ses serviteurs, poursuit les vainqueurs et ramène Lot [[Genèse 14:14-16]].",
+    "Plus tard, deux anges arrivent le soir à Sodome ; Lot, assis à la porte de la ville, les presse d’entrer chez lui [[Genèse 19:1-3]]. Les hommes de la ville entourent la maison et exigent qu’on leur livre les visiteurs. Lot sort, tente de les en détourner et va jusqu’à leur proposer ses deux filles ; les anges le tirent à l’intérieur et frappent d’aveuglement les assaillants [[Genèse 19:4-11]].",
+    "Les anges annoncent la destruction de la ville. Les gendres de Lot croient qu’il plaisante [[Genèse 19:12-14]]. À l’aube, comme Lot tarde, les anges le saisissent par la main, avec sa femme et ses filles, « car l’Éternel voulait l’épargner », et les conduisent hors de la ville [[Genèse 19:15-16]]. Lot obtient de se réfugier dans la petite ville de Tsoar [[Genèse 19:17-22]].",
+    "L’Éternel fait pleuvoir sur Sodome et Gomorrhe du soufre et du feu [[Genèse 19:24-25]]. La femme de Lot regarde en arrière et devient une statue de sel [[Genèse 19:26]]. Le texte précise que Dieu, en détruisant les villes de la plaine, « se souvint d’Abraham » et fit échapper Lot [[Genèse 19:29]].",
+    "Lot quitte Tsoar par crainte et habite dans une caverne de la montagne avec ses deux filles. Celles-ci, pensant qu’il n’y a plus d’homme pour leur donner une descendance, enivrent leur père et conçoivent de lui. Leurs fils, Moab et Ben-Ammi, sont présentés comme les ancêtres des Moabites et des Ammonites [[Genèse 19:30-38]].",
+    "Jésus cite les jours de Lot et lance cet avertissement : « Souvenez-vous de la femme de Lot » [[Luc 17:28-32]]. Pierre appelle Lot « le juste », tourmenté par la conduite des habitants de Sodome [[2 Pierre 2:6-8]]."
+  ],
+  "contexte": [
+    "L’emplacement exact de Sodome et Gomorrhe est inconnu. La plupart des propositions les situent près de la mer Morte, au sud ou au nord-est ; aucune n’est établie avec certitude.",
+    "Moab et Ammon étaient des peuples voisins d’Israël, à l’est du Jourdain et de la mer Morte, avec lesquels les relations furent souvent conflictuelles."
+  ],
+  "chronologie": [
+    { "etape": "Fils d’Haran, emmené par Térach", "ref": "Genèse 11:27-31" },
+    { "etape": "Part avec Abram", "ref": "Genèse 12:4-5" },
+    { "etape": "Choisit la plaine du Jourdain", "ref": "Genèse 13:5-13" },
+    { "etape": "Fait prisonnier, délivré par Abram", "ref": "Genèse 14:12-16" },
+    { "etape": "Accueille les deux anges à Sodome", "ref": "Genèse 19:1-11" },
+    { "etape": "Fuite vers Tsoar", "ref": "Genèse 19:15-22" },
+    { "etape": "Destruction de Sodome ; sa femme regarde en arrière", "ref": "Genèse 19:24-29" },
+    { "etape": "Dans la caverne avec ses filles", "ref": "Genèse 19:30-38" }
+  ],
+  "references": ["Genèse 13", "Genèse 14:12-16", "Genèse 19", "Luc 17:28-32", "2 Pierre 2:6-9"]
+}

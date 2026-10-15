@@ -1,0 +1,42 @@
+{
+  "id": "abraham",
+  "nom": "Abraham",
+  "cle": "abraham",
+  "ordre": 30,
+  "groupe": "Patriarches et matriarches",
+  "periode": "Époque des patriarches",
+  "resume": "Appelé par Dieu à quitter son pays, il reçoit la promesse d’une terre et d’une descendance innombrable. Le Nouveau Testament en fait le père des croyants.",
+  "recit": [
+    "Abram est fils de Térach, de la ville d’Ur en Chaldée. Sa femme Saraï est stérile. Térach part avec Abram, Saraï et son petit-fils Lot pour aller au pays de Canaan, mais s’arrête à Charan, où il meurt [[Genèse 11:26-32]].",
+    "L’Éternel dit à Abram : « Va-t’en de ton pays, de ta patrie, et de la maison de ton père, dans le pays que je te montrerai. » Il lui promet de faire de lui une grande nation et ajoute : « toutes les familles de la terre seront bénies en toi » [[Genèse 12:1-3]]. Abram part à soixante-quinze ans, avec Saraï et Lot [[Genèse 12:4-5]]. À Sichem, Dieu lui promet le pays pour sa descendance, et Abram y bâtit un autel [[Genèse 12:6-7]].",
+    "Pendant une famine, il descend en Égypte et fait passer Saraï pour sa sœur ; Pharaon la prend chez lui, puis la rend après avoir été frappé de plaies [[Genèse 12:10-20]]. De retour, Abram et Lot se séparent pour éviter les querelles entre leurs bergers ; Lot choisit la plaine du Jourdain, et Dieu renouvelle sa promesse à Abram, qui s’établit près des chênes de Mamré, à Hébron [[Genèse 13:8-18]]. Plus tard, Abram délivre Lot, fait prisonnier par une coalition de rois, et reçoit la bénédiction de Melchisédek, roi de Salem, à qui il donne la dîme de tout [[Genèse 14:14-20]].",
+    "Dieu lui dit : « Regarde vers le ciel, et compte les étoiles, si tu peux les compter. […] Telle sera ta postérité. » Le texte ajoute : « Abram eut confiance en l’Éternel, qui le lui imputa à justice » [[Genèse 15:5-6]]. Dieu conclut alors une alliance avec lui et annonce que ses descendants seront étrangers et opprimés pendant quatre cents ans dans un pays qui n’est pas le leur [[Genèse 15:13-18]].",
+    "Saraï, toujours sans enfant, lui donne sa servante Agar ; Ismaël naît quand Abram a quatre-vingt-six ans [[Genèse 16:1-16]]. À quatre-vingt-dix-neuf ans, Dieu se révèle à lui comme le Dieu tout-puissant, change son nom en Abraham, « père d’une multitude », institue la circoncision comme signe de l’alliance et annonce que Sara lui donnera un fils, Isaac [[Genèse 17:1-21]].",
+    "Aux chênes de Mamré, Abraham accueille trois visiteurs ; l’un d’eux annonce que Sara aura un fils, et Sara rit en elle-même [[Genèse 18:1-15]]. Abraham intercède ensuite pour Sodome : Dieu accepte d’épargner la ville s’il s’y trouve dix justes [[Genèse 18:22-33]]. Sodome est pourtant détruite, mais « Dieu se souvint d’Abraham » et fait sortir Lot [[Genèse 19:27-29]].",
+    "Isaac naît quand Abraham a cent ans [[Genèse 21:1-5]]. Sur la demande de Sara, et avec l’assurance de Dieu qu’il fera aussi d’Ismaël une nation, Abraham renvoie Agar et son fils [[Genèse 21:9-14]].",
+    "Dieu met Abraham à l’épreuve : il lui demande d’offrir Isaac en holocauste sur une montagne du pays de Morija. Abraham part, et répond à la question de son fils : « Mon fils, Dieu se pourvoira lui-même de l’agneau pour l’holocauste. » Au moment où il lève le couteau, l’ange de l’Éternel l’arrête ; Abraham sacrifie un bélier à la place de son fils et nomme ce lieu « l’Éternel pourvoira » [[Genèse 22:1-14]]. Dieu confirme ses promesses par un serment [[Genèse 22:15-18]].",
+    "À la mort de Sara, Abraham achète à Éphron le Héthien la caverne de Macpéla, près d’Hébron, pour l’y enterrer [[Genèse 23:1-20]]. Il envoie son serviteur chercher une femme pour Isaac dans sa parenté [[Genèse 24:1-9]]. Il épouse ensuite Ketura [[Genèse 25:1-2]]. Il meurt à cent soixante-quinze ans et ses fils Isaac et Ismaël l’enterrent dans la caverne de Macpéla [[Genèse 25:7-10]].",
+    "Le Nouveau Testament en fait le modèle de la foi : Paul cite Genèse 15:6 pour montrer que la justice est accordée par la foi [[Romains 4:1-3]] [[Galates 3:6-9]]. L’épître aux Hébreux évoque son départ sans savoir où il allait et son offrande d’Isaac [[Hébreux 11:8-19]]. Jacques rappelle qu’il fut appelé « ami de Dieu » [[Jacques 2:21-23]]."
+  ],
+  "contexte": [
+    "Ur était une grande cité de basse Mésopotamie, dans l’actuel sud de l’Irak ; Charan se trouvait au nord, dans l’actuelle Turquie. La Bible ne donne pas de date pour Abraham. On situe souvent l’époque des patriarches au début du IIe millénaire av. J.-C., mais cette datation reste débattue.",
+    "Hébron et la caverne de Macpéla sont encore aujourd’hui associées par la tradition au tombeau des patriarches. Cette identification relève de la tradition, et non du texte biblique lui-même."
+  ],
+  "chronologie": [
+    { "etape": "Départ d’Ur avec Térach, arrêt à Charan", "ref": "Genèse 11:31-32" },
+    { "etape": "Appel de Dieu et départ, à 75 ans", "ref": "Genèse 12:1-5" },
+    { "etape": "Séjour en Égypte", "ref": "Genèse 12:10-20" },
+    { "etape": "Séparation d’avec Lot", "ref": "Genèse 13:8-18" },
+    { "etape": "Délivrance de Lot et rencontre de Melchisédek", "ref": "Genèse 14:14-20" },
+    { "etape": "Alliance et promesse d’une descendance", "ref": "Genèse 15" },
+    { "etape": "Naissance d’Ismaël, à 86 ans", "ref": "Genèse 16:15-16" },
+    { "etape": "Nouveau nom et circoncision, à 99 ans", "ref": "Genèse 17" },
+    { "etape": "Les trois visiteurs de Mamré", "ref": "Genèse 18:1-15" },
+    { "etape": "Intercession pour Sodome", "ref": "Genèse 18:22-33" },
+    { "etape": "Naissance d’Isaac, à 100 ans", "ref": "Genèse 21:1-7" },
+    { "etape": "Le sacrifice d’Isaac", "ref": "Genèse 22:1-19" },
+    { "etape": "Mort de Sara et achat de Macpéla", "ref": "Genèse 23" },
+    { "etape": "Mort à 175 ans", "ref": "Genèse 25:7-10" }
+  ],
+  "references": ["Genèse 12:1-9", "Genèse 15", "Genèse 17", "Genèse 22:1-19", "Romains 4", "Galates 3:6-9", "Hébreux 11:8-19", "Jacques 2:21-23"]
+}

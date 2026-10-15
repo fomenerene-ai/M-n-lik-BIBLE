@@ -1,0 +1,30 @@
+{
+  "id": "eve",
+  "nom": "Ève",
+  "cle": "eve",
+  "ordre": 11,
+  "groupe": "Les origines",
+  "periode": "Origines de l’humanité",
+  "resume": "La première femme, « mère de tous les vivants ». Séduite par le serpent, elle reçoit pourtant la promesse d’une descendance victorieuse.",
+  "recit": [
+    "Après avoir formé l’homme, Dieu déclare : « Il n’est pas bon que l’homme soit seul ; je lui ferai une aide semblable à lui » [[Genèse 2:18]]. Il prend une côte de l’homme pendant son sommeil et en forme une femme, qu’il amène vers lui [[Genèse 2:21-22]]. L’homme la reconnaît comme « os de mes os et chair de ma chair » et l’appelle « femme » [[Genèse 2:23]].",
+    "Le serpent, « le plus rusé de tous les animaux des champs », interroge la femme sur l’ordre de Dieu et contredit l’avertissement : « Vous ne mourrez point ». Il lui promet que ses yeux s’ouvriront et qu’elle sera « comme des dieux, connaissant le bien et le mal » [[Genèse 3:1-5]]. Voyant que l’arbre est bon à manger, agréable à la vue et précieux pour ouvrir l’intelligence, elle prend du fruit, en mange et en donne à son mari [[Genèse 3:6]].",
+    "Interrogée par Dieu, elle répond : « Le serpent m’a séduite, et j’en ai mangé » [[Genèse 3:13]]. Dans la parole adressée au serpent, Dieu annonce une inimitié entre lui et la femme, entre sa postérité et la postérité de la femme : celle-ci lui écrasera la tête [[Genèse 3:15]]. À la femme, il annonce des douleurs dans l’enfantement et ajoute : « tes désirs se porteront vers ton mari, mais il dominera sur toi » [[Genèse 3:16]].",
+    "C’est après ces paroles qu’Adam lui donne le nom d’Ève, « car elle a été la mère de tous les vivants » [[Genèse 3:20]]. Le nom hébreu Hawwa est rapproché du verbe « vivre ».",
+    "Hors du jardin, Ève met au monde Caïn et dit : « J’ai formé un homme avec l’aide de l’Éternel » ; puis elle enfante Abel [[Genèse 4:1-2]]. Après le meurtre d’Abel par Caïn, elle donne naissance à Seth : « Dieu m’a donné un autre fils à la place d’Abel, que Caïn a tué » [[Genèse 4:25]]. Le texte ne rapporte pas sa mort.",
+    "Paul cite Ève à deux reprises : il craint que les croyants ne se laissent égarer « comme le serpent séduisit Ève par sa ruse » [[2 Corinthiens 11:3]], et il rappelle l’ordre de la création et de la transgression [[1 Timothée 2:13-14]]."
+  ],
+  "contexte": [
+    "Dans l’histoire de l’interprétation chrétienne, Genèse 3:15 a souvent été lu comme une première annonce de la victoire du Messie sur le mal ; on l’appelle parfois le « protévangile ». Cette lecture relève de la tradition d’interprétation : le verset lui-même ne nomme personne."
+  ],
+  "chronologie": [
+    { "etape": "Création de la femme", "ref": "Genèse 2:18-23" },
+    { "etape": "Dialogue avec le serpent", "ref": "Genèse 3:1-5" },
+    { "etape": "Elle mange du fruit et en donne à son mari", "ref": "Genèse 3:6" },
+    { "etape": "Promesse au sujet de sa postérité", "ref": "Genèse 3:15" },
+    { "etape": "Adam la nomme Ève", "ref": "Genèse 3:20" },
+    { "etape": "Naissance de Caïn et d’Abel", "ref": "Genèse 4:1-2" },
+    { "etape": "Naissance de Seth", "ref": "Genèse 4:25" }
+  ],
+  "references": ["Genèse 2:18-25", "Genèse 3", "Genèse 4:1-2", "Genèse 4:25", "2 Corinthiens 11:3", "1 Timothée 2:13-14"]
+}

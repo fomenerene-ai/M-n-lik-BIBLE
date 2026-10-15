@@ -1,0 +1,32 @@
+{
+  "id": "rachel",
+  "nom": "Rachel",
+  "cle": "rachel",
+  "ordre": 53,
+  "groupe": "Patriarches et matriarches",
+  "periode": "Époque des patriarches",
+  "resume": "Fille cadette de Laban et femme bien-aimée de Jacob. Longtemps stérile, elle devient mère de Joseph et meurt en donnant naissance à Benjamin.",
+  "recit": [
+    "Rachel est bergère : elle mène le troupeau de son père Laban [[Genèse 29:9]]. Quand Jacob la voit arriver au puits, il roule la pierre, abreuve ses brebis, l’embrasse et pleure ; il lui apprend qu’il est son parent [[Genèse 29:10-12]].",
+    "Rachel est « belle de taille et belle de figure », et Jacob l’aime [[Genèse 29:17-18]]. Il sert sept ans pour elle, années qui lui paraissent quelques jours [[Genèse 29:20]]. Trompé par Laban, qui lui donne d’abord Léa, il épouse Rachel une semaine plus tard [[Genèse 29:25-28]].",
+    "Rachel est stérile [[Genèse 29:31]]. Jalouse de sa sœur, elle dit à Jacob : « Donne-moi des enfants, ou je meurs ! » Jacob s’irrite : « Suis-je à la place de Dieu, qui t’empêche d’être féconde ? » [[Genèse 30:1-2]]. Elle lui donne sa servante Bilha, qui enfante Dan et Nephthali [[Genèse 30:3-8]].",
+    "Enfin, « Dieu se souvint de Rachel » : elle enfante un fils et l’appelle Joseph, en disant : « Que l’Éternel m’ajoute un autre fils ! » [[Genèse 30:22-24]].",
+    "Au départ de chez Laban, Rachel dérobe les théraphim, les idoles domestiques de son père [[Genèse 31:19]]. Quand Laban fouille le camp, elle les cache dans la selle de son chameau et reste assise dessus, en s’excusant de ne pas se lever [[Genèse 31:33-35]]. Jacob ignorait ce vol [[Genèse 31:32]].",
+    "Sur la route entre Béthel et Éphrata, Rachel accouche avec de grandes difficultés. Mourante, elle nomme son fils Ben-Oni (nom que l’on comprend comme « fils de ma douleur ») ; Jacob l’appelle Benjamin. Elle est enterrée sur le chemin d’Éphrata, c’est-à-dire Bethléhem, et Jacob dresse un monument sur sa tombe [[Genèse 35:16-20]]. À la fin de sa vie, il évoque encore ce souvenir [[Genèse 48:7]].",
+    "Le prophète Jérémie fait entendre à Rama « Rachel pleure ses enfants » [[Jérémie 31:15]], parole que Matthieu cite à propos du massacre des enfants de Bethléhem [[Matthieu 2:16-18]]. Le livre de Ruth l’associe à Léa comme fondatrice de la maison d’Israël [[Ruth 4:11]]."
+  ],
+  "contexte": [
+    "Les théraphim étaient de petites figurines domestiques. Certains historiens ont proposé qu’ils aient été liés à des droits d’héritage ; d’autres contestent ce lien. Le texte ne donne pas la raison du vol.",
+    "Un tombeau de Rachel est aujourd’hui vénéré près de Bethléhem. Un autre passage situe ce sépulcre « sur la frontière de Benjamin » [[1 Samuel 10:2]] ; la localisation exacte est discutée."
+  ],
+  "chronologie": [
+    { "etape": "Rencontre de Jacob au puits", "ref": "Genèse 29:9-12" },
+    { "etape": "Jacob sert sept ans pour elle", "ref": "Genèse 29:18-20" },
+    { "etape": "Mariage après celui de Léa", "ref": "Genèse 29:25-30" },
+    { "etape": "Bilha enfante Dan et Nephthali", "ref": "Genèse 30:3-8" },
+    { "etape": "Naissance de Joseph", "ref": "Genèse 30:22-24" },
+    { "etape": "Vol des théraphim", "ref": "Genèse 31:19-35" },
+    { "etape": "Naissance de Benjamin et mort de Rachel", "ref": "Genèse 35:16-20" }
+  ],
+  "references": ["Genèse 29", "Genèse 30:1-24", "Genèse 31:14-35", "Genèse 35:16-20", "Jérémie 31:15", "Matthieu 2:16-18"]
+}

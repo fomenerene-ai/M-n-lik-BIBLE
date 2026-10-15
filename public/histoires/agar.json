@@ -1,0 +1,32 @@
+{
+  "id": "agar",
+  "nom": "Agar",
+  "cle": "agar",
+  "ordre": 32,
+  "groupe": "Patriarches et matriarches",
+  "periode": "Époque des patriarches",
+  "resume": "Servante égyptienne de Sara et mère d’Ismaël. Deux fois dans le désert, elle fait l’expérience du Dieu qui voit et qui entend.",
+  "recit": [
+    "Agar est une servante égyptienne de Saraï. Comme Saraï n’a pas d’enfant, elle la donne pour femme à Abram. Agar devient enceinte et, dès lors, regarde sa maîtresse avec mépris [[Genèse 16:1-4]]. Saraï s’en plaint à Abram, qui lui laisse toute liberté ; Saraï la maltraite, et Agar s’enfuit [[Genèse 16:5-6]].",
+    "L’ange de l’Éternel la trouve près d’une source dans le désert, sur le chemin de Schur. Il lui dit de retourner vers sa maîtresse et lui promet une postérité trop nombreuse pour être comptée [[Genèse 16:7-10]]. Il annonce qu’elle enfantera un fils et l’appellera Ismaël, « car l’Éternel t’a entendue dans ton affliction » [[Genèse 16:11-12]].",
+    "Agar donne alors un nom à l’Éternel qui lui a parlé : « Tu es le Dieu qui me voit » ; le puits voisin est appelé Lachaï-roï [[Genèse 16:13-14]]. Elle met au monde Ismaël ; Abram a quatre-vingt-six ans [[Genèse 16:15-16]].",
+    "Des années plus tard, après la naissance d’Isaac, Sara voit Ismaël rire et demande qu’Agar et son fils soient chassés. Dieu dit à Abraham d’écouter Sara et promet de faire aussi une nation du fils de la servante [[Genèse 21:9-13]]. Abraham se lève de bon matin, donne à Agar du pain et une outre d’eau, et la renvoie ; elle erre dans le désert de Beer-Schéba [[Genèse 21:14]].",
+    "Quand l’eau est épuisée, elle laisse l’enfant sous un arbrisseau et s’assied à distance : « Que je ne voie pas mourir mon enfant ! » Elle pleure à haute voix [[Genèse 21:15-16]]. Dieu entend la voix de l’enfant ; l’ange de Dieu appelle Agar du ciel : « Ne crains point », et lui promet que l’enfant deviendra une grande nation [[Genèse 21:17-18]]. Dieu lui ouvre les yeux, elle voit un puits et donne à boire à l’enfant [[Genèse 21:19]].",
+    "Dieu est avec Ismaël, qui grandit dans le désert de Paran et devient tireur à l’arc. Sa mère lui prend une femme du pays d’Égypte [[Genèse 21:20-21]]. La Genèse donne ensuite la liste des douze princes issus d’Ismaël [[Genèse 25:12-16]].",
+    "Paul reprend l’histoire d’Agar et de Sara comme une allégorie de deux alliances, Agar représentant le mont Sinaï et la servitude [[Galates 4:22-31]]."
+  ],
+  "contexte": [
+    "Le désert de Schur se situe entre le sud de Canaan et l’Égypte, sur la route qu’Agar pouvait prendre pour regagner son pays. Le désert de Paran correspond, selon la plupart des auteurs, à une partie du Sinaï."
+  ],
+  "chronologie": [
+    { "etape": "Donnée à Abram par Saraï", "ref": "Genèse 16:1-4" },
+    { "etape": "Fuite au désert", "ref": "Genèse 16:5-6" },
+    { "etape": "L’ange de l’Éternel la rencontre", "ref": "Genèse 16:7-12" },
+    { "etape": "« Tu es le Dieu qui me voit »", "ref": "Genèse 16:13-14" },
+    { "etape": "Naissance d’Ismaël", "ref": "Genèse 16:15-16" },
+    { "etape": "Renvoyée avec Ismaël", "ref": "Genèse 21:9-14" },
+    { "etape": "Dieu entend l’enfant et montre un puits", "ref": "Genèse 21:15-19" },
+    { "etape": "Ismaël dans le désert de Paran", "ref": "Genèse 21:20-21" }
+  ],
+  "references": ["Genèse 16", "Genèse 21:8-21", "Genèse 25:12-18", "Galates 4:21-31"]
+}

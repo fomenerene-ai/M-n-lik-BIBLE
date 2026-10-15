@@ -1,0 +1,41 @@
+{
+  "id": "joseph",
+  "nom": "Joseph",
+  "cle": "joseph",
+  "ordre": 60,
+  "groupe": "Patriarches et matriarches",
+  "periode": "Époque des patriarches, séjour en Égypte",
+  "resume": "Fils préféré de Jacob, vendu par ses frères, il devient en Égypte le second après Pharaon. Pendant la famine, il sauve sa famille et pardonne à ses frères.",
+  "recit": [
+    "Joseph est le premier fils de Rachel [[Genèse 30:22-24]]. À dix-sept ans, il garde le troupeau avec ses frères et rapporte à son père leurs mauvais propos. Jacob l’aime plus que ses autres fils et lui fait une tunique de plusieurs couleurs ; ses frères le haïssent [[Genèse 37:2-4]].",
+    "Il raconte deux songes : des gerbes qui se prosternent devant la sienne, puis le soleil, la lune et onze étoiles qui se prosternent devant lui. Ses frères le haïssent davantage, et son père le reprend, tout en gardant la chose dans son cœur [[Genèse 37:5-11]].",
+    "Envoyé par Jacob, il retrouve ses frères à Dothan. Ils complotent de le tuer ; Ruben obtient qu’on le jette seulement dans une citerne vide [[Genèse 37:17-24]]. Sur la proposition de Juda, ils le vendent vingt sicles d’argent à des marchands ismaélites [[Genèse 37:25-28]], puis trempent sa tunique dans le sang d’un bouc pour faire croire à sa mort [[Genèse 37:31-33]]. En Égypte, il est vendu à Potiphar, officier de Pharaon [[Genèse 37:36]].",
+    "« L’Éternel fut avec Joseph », qui prospère dans la maison de Potiphar et en reçoit la charge [[Genèse 39:2-6]]. La femme de son maître tente de le séduire ; il refuse : « Comment ferais-je un aussi grand mal et pécherais-je contre Dieu ? » [[Genèse 39:7-12]]. Faussement accusée, il est jeté en prison, où l’Éternel est encore avec lui [[Genèse 39:19-23]].",
+    "En prison, il interprète les songes de l’échanson et du panetier de Pharaon, en précisant : « Les explications ne sont-elles pas à Dieu ? » Tout se réalise comme il l’a dit, mais l’échanson l’oublie [[Genèse 40:8-23]]. Deux ans plus tard, Pharaon fait des songes que nul ne peut expliquer. On appelle Joseph, qui déclare : « Ce n’est pas moi ! c’est Dieu qui donnera une réponse favorable à Pharaon » [[Genèse 41:1-16]]. Il annonce sept années d’abondance suivies de sept années de famine, et conseille de faire des réserves [[Genèse 41:25-36]].",
+    "Pharaon l’établit sur tout le pays d’Égypte, lui donne le nom de Tsaphnath-Paenéach et pour femme Asnath ; Joseph a trente ans [[Genèse 41:39-46]]. Naissent Manassé et Éphraïm [[Genèse 41:50-52]]. Quand vient la famine, tous les pays viennent en Égypte acheter du blé [[Genèse 41:56-57]].",
+    "Ses frères arrivent et se prosternent devant lui sans le reconnaître [[Genèse 42:6-8]]. Joseph les met à l’épreuve : il les accuse d’espionnage, garde Siméon et exige qu’ils reviennent avec Benjamin [[Genèse 42:14-24]]. Au second voyage, il fait cacher sa coupe dans le sac de Benjamin [[Genèse 44:1-12]]. Juda plaide alors et s’offre comme esclave à la place de son jeune frère [[Genèse 44:18-34]].",
+    "Joseph ne peut plus se contenir : « Je suis Joseph ! Mon père vit-il encore ? » Il dit à ses frères effrayés : « C’est pour vous sauver la vie que Dieu m’a envoyé devant vous » [[Genèse 45:1-8]]. Il fait venir Jacob et toute la famille, qui s’installe dans le pays de Gosen [[Genèse 46:28-34]] [[Genèse 47:11-12]].",
+    "Après la mort de Jacob, ses frères craignent sa vengeance. Joseph pleure et leur répond : « Vous aviez médité de me faire du mal, Dieu l’a changé en bien, pour accomplir ce qui arrive aujourd’hui, pour sauver la vie à un peuple nombreux » [[Genèse 50:15-21]]. Il meurt à cent dix ans, après avoir fait jurer aux fils d’Israël d’emporter ses os quand Dieu les visitera [[Genèse 50:22-26]].",
+    "Moïse emporte les os de Joseph lors de la sortie d’Égypte [[Exode 13:19]], et ils sont enterrés à Sichem [[Josué 24:32]]. Étienne résume son histoire devant le sanhédrin [[Actes 7:9-16]], et l’épître aux Hébreux rappelle sa foi au moment de sa mort [[Hébreux 11:22]]."
+  ],
+  "contexte": [
+    "Le récit contient plusieurs détails cohérents avec l’Égypte ancienne : l’importance des songes, l’embaumement, l’investiture par l’anneau et le collier d’or. La date de son séjour en Égypte n’est pas établie et fait l’objet d’hypothèses diverses.",
+    "Le pays de Gosen est généralement situé dans la partie orientale du delta du Nil."
+  ],
+  "chronologie": [
+    { "etape": "Naissance, fils de Rachel", "ref": "Genèse 30:22-24" },
+    { "etape": "La tunique et les songes", "ref": "Genèse 37:3-11" },
+    { "etape": "Vendu par ses frères", "ref": "Genèse 37:18-28" },
+    { "etape": "Chez Potiphar", "ref": "Genèse 39:1-6" },
+    { "etape": "Accusé et emprisonné", "ref": "Genèse 39:7-23" },
+    { "etape": "Songes de l’échanson et du panetier", "ref": "Genèse 40" },
+    { "etape": "Explique les songes de Pharaon", "ref": "Genèse 41:1-36" },
+    { "etape": "Gouverneur de l’Égypte, à 30 ans", "ref": "Genèse 41:37-46" },
+    { "etape": "Ses frères viennent acheter du blé", "ref": "Genèse 42" },
+    { "etape": "Il se fait reconnaître", "ref": "Genèse 45:1-15" },
+    { "etape": "Jacob s’installe en Égypte", "ref": "Genèse 46:28-47:12" },
+    { "etape": "Pardon après la mort de Jacob", "ref": "Genèse 50:15-21" },
+    { "etape": "Mort à 110 ans", "ref": "Genèse 50:22-26" }
+  ],
+  "references": ["Genèse 37", "Genèse 39-45", "Genèse 50:15-26", "Actes 7:9-16", "Hébreux 11:22"]
+}

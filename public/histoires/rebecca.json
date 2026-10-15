@@ -1,0 +1,35 @@
+{
+  "id": "rebecca",
+  "nom": "Rebecca",
+  "cle": "rebecca",
+  "ordre": 41,
+  "groupe": "Patriarches et matriarches",
+  "periode": "Époque des patriarches",
+  "resume": "Choisie pour Isaac au bord d’un puits, elle quitte sa famille sans hésiter. Mère d’Ésaü et de Jacob, elle oriente la bénédiction vers le cadet.",
+  "recit": [
+    "Rebecca est fille de Bethuel, fils de Nachor, frère d’Abraham [[Genèse 22:20-23]]. Abraham, âgé, fait jurer à son serviteur de ne pas prendre pour Isaac une femme cananéenne, mais d’aller dans sa parenté [[Genèse 24:1-9]].",
+    "Arrivé près de la ville de Nachor, en Mésopotamie, le serviteur prie : la jeune fille qui lui donnera à boire et proposera d’abreuver aussi ses chameaux sera celle que Dieu a choisie [[Genèse 24:10-14]]. Avant qu’il ait fini de parler, Rebecca sort, sa cruche sur l’épaule. Elle lui donne à boire, puis puise pour tous ses chameaux [[Genèse 24:15-20]]. Le texte la décrit comme « très belle de figure » [[Genèse 24:16]].",
+    "Le serviteur lui offre un anneau et des bracelets d’or, et se fait recevoir par Laban, son frère [[Genèse 24:22-31]]. Il raconte sa mission ; Laban et Bethuel répondent : « C’est de l’Éternel que la chose vient » [[Genèse 24:50-51]]. Quand on demande à Rebecca si elle veut partir avec cet homme, elle répond simplement : « J’irai » [[Genèse 24:57-58]]. Sa famille la bénit [[Genèse 24:60]].",
+    "En approchant, Rebecca aperçoit Isaac dans les champs. Elle descend de son chameau et se couvre de son voile. Isaac la prend pour femme et l’aime [[Genèse 24:63-67]].",
+    "Rebecca est stérile ; Isaac prie pour elle et elle conçoit. Les enfants se heurtent dans son sein ; elle va consulter l’Éternel, qui lui répond : « Deux nations sont dans ton ventre […] et le plus grand sera assujetti au plus petit » [[Genèse 25:21-23]]. Elle met au monde Ésaü puis Jacob. Isaac préfère Ésaü, et « Rebecca aimait Jacob » [[Genèse 25:24-28]].",
+    "À Guérar, Isaac la fait passer pour sa sœur par crainte des habitants ; le roi Abimélec le découvre et interdit qu’on touche au couple [[Genèse 26:6-11]]. Les mariages d’Ésaü avec deux femmes hittites sont pour Isaac et Rebecca « un sujet d’amertume » [[Genèse 26:34-35]].",
+    "Quand Isaac, âgé et aveugle, s’apprête à bénir Ésaü, Rebecca élabore un plan : elle prépare un plat avec deux chevreaux, revêt Jacob des habits d’Ésaü et lui couvre les mains et le cou de peaux. Jacob craint d’attirer sur lui une malédiction ; elle répond : « Que cette malédiction retombe sur moi, mon fils ! » [[Genèse 27:5-17]].",
+    "Apprenant qu’Ésaü projette de tuer son frère, elle pousse Jacob à fuir chez Laban, à Charan, « jusqu’à ce que la fureur de ton frère s’apaise » [[Genèse 27:42-45]]. Elle obtient d’Isaac qu’il l’y envoie, en évoquant son dégoût des femmes hittites [[Genèse 27:46]]. Le texte ne raconte pas sa mort ; Jacob indique seulement plus tard qu’elle a été enterrée dans la caverne de Macpéla [[Genèse 49:31]].",
+    "Paul cite l’oracle reçu par Rebecca pour montrer que le choix de Dieu ne dépend pas des œuvres [[Romains 9:10-12]]."
+  ],
+  "contexte": [
+    "Le voile que Rebecca met en voyant Isaac est souvent compris comme un usage lié aux fiançailles. Le texte ne l’explique pas : c’est une interprétation à partir des coutumes anciennes."
+  ],
+  "chronologie": [
+    { "etape": "Fille de Bethuel", "ref": "Genèse 22:23" },
+    { "etape": "Rencontre du serviteur au puits", "ref": "Genèse 24:15-27" },
+    { "etape": "« J’irai »", "ref": "Genèse 24:57-61" },
+    { "etape": "Rencontre d’Isaac", "ref": "Genèse 24:63-67" },
+    { "etape": "Oracle sur les jumeaux", "ref": "Genèse 25:21-23" },
+    { "etape": "Naissance d’Ésaü et de Jacob", "ref": "Genèse 25:24-28" },
+    { "etape": "Épisode de Guérar", "ref": "Genèse 26:6-11" },
+    { "etape": "La bénédiction détournée vers Jacob", "ref": "Genèse 27:5-29" },
+    { "etape": "Elle fait partir Jacob chez Laban", "ref": "Genèse 27:42-46" }
+  ],
+  "references": ["Genèse 24", "Genèse 25:19-28", "Genèse 27", "Romains 9:10-12"]
+}
