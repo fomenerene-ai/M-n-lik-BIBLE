@@ -12,6 +12,7 @@ import { getBook } from '../core/books.js';
 import { clearCache } from '../core/bible.js';
 import { applyTheme } from '../theme.js';
 import { FONT_MIN, FONT_MAX } from './reader.js';
+import { checkForUpdate } from '../sw-register.js';
 
 export async function renderSettings() {
   const s = settings();
@@ -142,9 +143,36 @@ export async function renderSettings() {
   const exportStructure = async () => {
     const all = await db.getAll('chapters');
     const day = new Date().toISOString().slice(0, 10);
-    downloadJson(buildStructure(all, { app: __APP_VERSION__ }), `menelik-bible-structure-${day}.json`);
+    downloadJson(buildStructure(all, { app: __APP_VERSION__, build: __BUILD_ID__ }), `menelik-bible-structure-${day}.json`);
     toast('Structure exportée');
   };
+  const updateBtn = h(
+    'button',
+    {
+      class: 'btn',
+      onclick: async () => {
+        updateBtn.disabled = true;
+        updateBtn.textContent = 'Recherche…';
+        let res;
+        try {
+          res = await checkForUpdate();
+        } catch {
+          res = 'error';
+        }
+        updateBtn.disabled = false;
+        updateBtn.textContent = 'Rechercher une mise à jour';
+        const msg = {
+          available: 'Mise à jour trouvée : touchez « Mettre à jour » en bas de l’écran.',
+          none: 'L’application est à jour.',
+          offline: 'Pas de connexion : réessayez une fois connecté.',
+          unsupported: 'Recherche impossible dans ce navigateur.',
+          error: 'La recherche a échoué. Réessayez plus tard.',
+        }[res];
+        toast(msg, 4000);
+      },
+    },
+    'Rechercher une mise à jour',
+  );
   const reinstall = async () => {
     if (!(await confirmDialog('Supprimer les textes de la tablette et les télécharger à nouveau ? Une connexion sera nécessaire. Vos surlignages, notes et favoris sont conservés.', 'Retélécharger'))) return;
     for (const id of Object.keys(VERSIONS)) await deleteVersion(id);
@@ -208,7 +236,8 @@ export async function renderSettings() {
       versifOut,
     ]),
     section('À propos', [
-      h('p', null, `Ménélik Bible, version ${__APP_VERSION__}. Usage strictement personnel.`),
+      h('p', null, `Ménélik Bible, version ${__APP_VERSION__} (build du ${__BUILD_ID__} UTC). Usage strictement personnel.`),
+      h('div', { class: 'row wrap' }, updateBtn),
       h(
         'p',
         { class: 'muted small' },
