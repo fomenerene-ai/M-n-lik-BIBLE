@@ -1,0 +1,16 @@
+{
+  "_comment": "Constantes uniques du site. Modifie ici puis relance python3 build.py.",
+  "EMAIL": "menelikrenefomene@gmail.com",
+  "SITE_URL": "https://menelik-tatiodjio.com",
+  "LINKEDIN_URL": "https://www.linkedin.com/in/TODO",
+  "BOOKING_URL": "https://cal.com/TODO",
+  "CV_PATH": "assets/cv.pdf",
+  "ANALYTICS": {
+    "_comment": "TODO: choisis Plausible ou Umami, renseigne le domaine, puis passe enabled à true (sans cookie, donc sans bannière).",
+    "enabled": false,
+    "provider": "plausible",
+    "plausible_src": "https://plausible.io/js/script.js",
+    "umami_src": "https://cloud.umami.is/script.js",
+    "umami_website_id": "TODO"
+  }
+}
