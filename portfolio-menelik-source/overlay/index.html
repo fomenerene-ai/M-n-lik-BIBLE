@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<meta name="author" content="Ménélik René Tatiodjio Fomene">
+<meta name="theme-color" content="#0b1d4d">
+[[HEAD_SEO]]
+<link rel="icon" href="./assets/brand/favicon.svg" type="image/svg+xml">
+<script>[[BOOT_SCRIPT]]</script>
+<link rel="stylesheet" href="./css/styles.css?v={{VERSION}}">
+<link rel="stylesheet" href="./css/portfolio.css?v={{VERSION}}">
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three.module.js",
+    "three/examples/jsm/loaders/SVGLoader.js": "./vendor/SVGLoader.js"
+  }
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#projets" data-i18n="ui.skip">[[ui.skip]]</a>
+<div class="loader" id="loader" role="status" aria-live="polite">
+  <div class="loader-inner">
+    <span class="loader-value"><span id="loader-count">00</span><span class="loader-unit">%</span></span>
+    <span class="loader-bar"><span id="loader-fill"></span></span>
+    <span class="loader-hint" data-i18n="loader_hint">{{LOADER_HINT}}</span>
+  </div>
+</div>
+<script>[[LOADER_SCRIPT]]</script>
+<div class="cursor-inner"></div>
+<div class="cursor-outer"><span class="cursor-ticks"><span></span><span></span><span></span><span></span></span></div>
+<div class="cursor-label" aria-hidden="true">000</div>
+<div class="cinematic-container">
+<header class="main-header">
+  <a class="brand" href="#slide-1">
+    <span class="brand-mark" aria-hidden="true">{{BRAND_MARK}}</span>
+    <span class="brand-text">{{BRAND}}</span>
+  </a>
+  <nav class="header-nav" aria-label="{{NAV_LABEL}}" data-i18n-attr="aria-label:nav_label">
+    <a href="#slide-1" class="nav-link is-active" data-chapter="0" data-i18n="nav.0">{{NAV_1}}</a>
+    <a href="#slide-2" class="nav-link" data-chapter="1" data-i18n="nav.1">{{NAV_2}}</a>
+    <a href="#slide-3" class="nav-link" data-chapter="2" data-i18n="nav.2">{{NAV_3}}</a>
+    <a href="#slide-4" class="nav-link" data-chapter="3" data-i18n="nav.3">{{NAV_4}}</a>
+    <a href="#projets" class="nav-link nav-flow" data-i18n="ui.nav_projects">[[ui.nav_projects]]</a>
+    <a href="#parcours" class="nav-link nav-flow" data-i18n="ui.nav_path">[[ui.nav_path]]</a>
+  </nav>
+  <div class="header-actions">
+    <span class="header-counter" aria-hidden="true"><span id="brand-chapter">01</span><span class="counter-sep"></span>05</span>
+    <button type="button" class="lang-toggle" id="lang-toggle" lang="en" aria-label="[[ui.lang_toggle_label]]" data-i18n="ui.lang_toggle" data-i18n-attr="aria-label:ui.lang_toggle_label">[[ui.lang_toggle]]</button>
+    <a href="#contact" class="contact-btn"><span data-i18n="nav.4">{{NAV_CONTACT}}</span> <span class="btn-arrow" aria-hidden="true">&#8599;</span></a>
+  </div>
+</header>
+
+<main id="main" class="slides">
+<div class="slide" id="slide-1">
+  <p class="hero-kicker" data-i18n="ui.hero_kicker">[[ui.hero_kicker]]</p>
+  <h1 class="slide-title" data-i18n-title="hero.title">{{T1_A}} <br>{{T1_B}}</h1>
+  <div class="desc-row">
+    <p class="slide-desc col-1" data-i18n="hero.lead">{{LEAD_1}}</p>
+  </div>
+</div>
+
+<div class="slide" id="slide-2">
+  <h2 class="slide-title" data-i18n-title="about.title">{{T2_A}} <br>{{T2_B}}</h2>
+  <p class="slide-desc" data-i18n="about.text">{{ABOUT}}</p>
+</div>
+
+<div class="slide" id="slide-3">
+  <h2 class="slide-title" data-i18n-title="benefits.title">{{T3_A}} <br>{{T3_B}}</h2>
+  <ul class="benefits">
+    <li class="benefit"><span class="benefit-icon" aria-hidden="true">{{ICON_1}}</span><p data-i18n="benefits.items.0">{{BENEFIT_1}}</p></li>
+    <li class="benefit"><span class="benefit-icon" aria-hidden="true">{{ICON_2}}</span><p data-i18n="benefits.items.1">{{BENEFIT_2}}</p></li>
+    <li class="benefit"><span class="benefit-icon" aria-hidden="true">{{ICON_3}}</span><p data-i18n="benefits.items.2">{{BENEFIT_3}}</p></li>
+    <li class="benefit"><span class="benefit-icon" aria-hidden="true">{{ICON_4}}</span><p data-i18n="benefits.items.3">{{BENEFIT_4}}</p></li>
+  </ul>
+</div>
+
+<div class="slide" id="slide-4">
+  <h2 class="slide-title" data-i18n-title="results.title">{{T4_A}} <br>{{T4_B}}</h2>
+  <p class="slide-desc" data-i18n="results.lead">{{RESULTS_LEAD}}</p>
+  <dl class="figures">
+    <div class="figure"><dt><span class="figure-value" data-count="{{F1_VALUE}}" data-decimals="{{F1_DECIMALS}}">{{F1_VALUE}}</span><span data-i18n="figures.0.suffix">{{F1_SUFFIX}}</span></dt><dd data-i18n="figures.0.label">{{F1_LABEL}}</dd></div>
+    <div class="figure"><dt><span class="figure-value" data-count="{{F2_VALUE}}" data-decimals="{{F2_DECIMALS}}">{{F2_VALUE}}</span><span data-i18n="figures.1.suffix">{{F2_SUFFIX}}</span></dt><dd data-i18n="figures.1.label">{{F2_LABEL}}</dd></div>
+    <div class="figure"><dt><span class="figure-value" data-count="{{F3_VALUE}}" data-decimals="{{F3_DECIMALS}}">{{F3_VALUE}}</span><span data-i18n="figures.2.suffix">{{F3_SUFFIX}}</span></dt><dd data-i18n="figures.2.label">{{F3_LABEL}}</dd></div>
+  </dl>
+</div>
+</main>
+</div>
+
+<div class="scroll-stage" aria-hidden="true"></div>
+
+[[SECTION_PROJECTS]]
+
+[[SECTION_PATH]]
+
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="contact-inner">
+    <div class="contact-intro">
+      <p class="contact-eyebrow"><span class="eyebrow-dot"></span><span data-i18n="ui.contact_eyebrow">[[ui.contact_eyebrow]]</span></p>
+      <h2 class="contact-title" id="contact-title" data-i18n-title="contact.title"><span class="line"><span class="line-inner">{{CT_A}}</span></span><span class="line muted"><span class="line-inner">{{CT_B}}</span></span></h2>
+      <p class="contact-lead" data-i18n="contact.lead">{{CONTACT_LEAD}}</p>
+      <a class="contact-mail" data-email-link href="mailto:{{EMAIL}}">{{EMAIL}} <span class="arrow" aria-hidden="true">&#8599;</span></a>
+      [[CONTACT_EXTRAS]]
+    </div>
+    <form class="contact-card" id="contact-form" data-email="{{EMAIL}}" data-subject="[[ui.mail_subject]]" data-l-name="[[ui.mail_name]]" data-l-email="[[ui.mail_email]]" data-l-company="[[ui.mail_company]]" data-i18n-attr="data-subject:ui.mail_subject;data-l-name:ui.mail_name;data-l-email:ui.mail_email;data-l-company:ui.mail_company">
+      <div class="card-head"><span data-i18n="form.title">{{FORM_TITLE}}</span><span class="arrow" aria-hidden="true">&#8599;</span></div>
+      <div class="field-grid">
+        <label class="field"><span class="field-label"><span data-i18n="form.name">{{F_NAME}}</span> <em aria-hidden="true">*</em></span><input type="text" name="name" placeholder="{{F_NAME_PLACEHOLDER}}" data-i18n-attr="placeholder:form.name_placeholder" autocomplete="name" required></label>
+        <label class="field"><span class="field-label"><span data-i18n="form.email">{{F_EMAIL}}</span> <em aria-hidden="true">*</em></span><input type="email" name="email" placeholder="{{F_EMAIL_PLACEHOLDER}}" data-i18n-attr="placeholder:form.email_placeholder" autocomplete="email" required></label>
+        <label class="field field-wide"><span class="field-label"><span data-i18n="form.company">{{F_COMPANY}}</span> <small data-i18n="form.optional">{{F_OPTIONAL}}</small></span><input type="text" name="company" placeholder="{{F_COMPANY_PLACEHOLDER}}" data-i18n-attr="placeholder:form.company_placeholder" autocomplete="organization"></label>
+        <label class="field field-wide"><span class="field-label"><span data-i18n="form.project">{{F_PROJECT}}</span> <em aria-hidden="true">*</em></span><textarea name="project" rows="4" placeholder="{{F_PROJECT_PLACEHOLDER}}" data-i18n-attr="placeholder:form.project_placeholder" required></textarea></label>
+      </div>
+      <div class="card-foot">
+        <p class="card-note" data-i18n="form.note">{{FORM_NOTE}}</p>
+        <button type="submit" class="pill-btn"><span class="btn-label" data-i18n="form.button">{{FORM_BUTTON}}</span> <span class="arrow" aria-hidden="true">&#8599;</span></button>
+      </div>
+    </form>
+  </div>
+  <footer class="contact-footer">
+    <span data-i18n="ui.copyright">[[ui.copyright]]</span>
+    <span class="footer-spec" data-i18n="footer.spec">{{FOOTER_SPEC}}</span>
+    <span class="footer-links">
+      <a href="./mentions-legales.html" data-i18n="ui.legal_notice">[[ui.legal_notice]]</a>
+      <a href="./confidentialite.html" data-i18n="ui.privacy">[[ui.privacy]]</a>
+      <a href="#slide-1" class="footer-top"><span data-i18n="footer.top">{{FOOTER_TOP}}</span> <span aria-hidden="true">&uarr;</span></a>
+    </span>
+  </footer>
+</section>
+<div class="grid-horizontal-line"></div>
+<div class="header-progress" aria-hidden="true"><span id="header-progress-fill"></span></div>
+<div class="story-progress" aria-hidden="true">
+  <div class="story-dashes">
+    <div class="story-dash"><div class="story-dash-fill" id="dash-fill-1"></div></div>
+    <div class="story-dash"><div class="story-dash-fill" id="dash-fill-2"></div></div>
+    <div class="story-dash"><div class="story-dash-fill" id="dash-fill-3"></div></div>
+    <div class="story-dash"><div class="story-dash-fill" id="dash-fill-4"></div></div>
+  </div>
+</div>
+<canvas id="webgl" aria-hidden="true"></canvas>
+<script src="./js/i18n.js?v={{VERSION}}"></script>
+<script src="./js/portfolio.js?v={{VERSION}}"></script>
+<script type="module" src="./js/app.js?v={{VERSION}}"></script>
+</body>
+</html>

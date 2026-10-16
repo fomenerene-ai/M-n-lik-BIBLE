@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /version-monofichier.html
+
+Sitemap: https://menelik-tatiodjio.com/sitemap.xml

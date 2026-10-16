@@ -1,0 +1,52 @@
+{
+  "brand": "Ménélik Tatiodjio",
+  "title": "Ménélik Tatiodjio Fomene | Contrôle de gestion & FP&A",
+  "meta_description": "Portfolio de Ménélik Tatiodjio Fomene, futur contrôleur de gestion et analyste FP&A. Modélisation financière, budgets, reporting et audit. Master 2 CCF, EM Strasbourg.",
+  "lang": "fr",
+  "shape": "growth",
+  "palette": ["#0b1d4d", "#16398a", "#2a5cc4", "#c9972e", "#f1c966"],
+  "nav": ["Accueil", "À propos", "Services", "Repères", "Contact"],
+  "nav_label": "Sections",
+  "loader_hint": "Chargement",
+  "hero": {
+    "title": ["Piloter la finance", "avec précision"],
+    "lead": "Futur contrôleur de gestion et analyste FP&A. Je transforme les chiffres en décisions pour les directions financières et les PME."
+  },
+  "about": {
+    "title": ["Rigueur comptable,", "regard stratégique"],
+    "text": "Étudiant en Master 2 Comptabilité Contrôle Finance à EM Strasbourg, après un an en CDI comme assistant comptable et trois stages en entreprise. J'aime les modèles Excel solides, les tableaux de bord lisibles et les produits que je construis moi-même, comme PlanPro, un générateur de business plans conforme SYSCOHADA."
+  },
+  "benefits": {
+    "title": ["Ce que je", "peux apporter"],
+    "items": [
+      {"icon": "euro", "text": "Business plans et modèles financiers prévisionnels, clairs et auditables."},
+      {"icon": "target", "text": "Budgets, prévisions et analyse des écarts pour piloter la performance."},
+      {"icon": "chart", "text": "Reporting et tableaux de bord sous Excel, Power BI, SQL et Python."},
+      {"icon": "shield", "text": "Contrôle interne et travaux d'audit : fiabilité des chiffres et des processus."}
+    ]
+  },
+  "results": {
+    "title": ["Trois repères", "de mon parcours"],
+    "lead": "Des faits, pas des promesses.",
+    "figures": []
+  },
+  "figures": [
+    {"value": 1, "suffix": " an", "label": "en CDI comme<br>assistant comptable"},
+    {"value": 3, "suffix": "", "label": "stages en cabinet<br>et en PME"},
+    {"value": 2, "suffix": "", "label": "produits construits<br>de zéro"}
+  ],
+  "contact": {
+    "title": ["Parlons de", "ta mission."],
+    "lead": "Une alternance, une mission, un modèle à construire ?<br>Écris-moi."
+  },
+  "form": {
+    "title": "Ton message", "name": "Ton nom", "email": "Ton e-mail",
+    "company": "Entreprise", "project": "Ton message", "optional": "optionnel",
+    "name_placeholder": "Nom et prénom", "email_placeholder": "toi@entreprise.com",
+    "company_placeholder": "Nom de l'entreprise",
+    "project_placeholder": "Ce que tu aimerais construire…",
+    "note": "Ta messagerie s'ouvrira<br>avec le message prêt à envoyer.",
+    "button": "Préparer mon e-mail"
+  },
+  "footer": {"spec": "Three.js · WebGL 2 · 100 % temps réel", "top": "Haut de page"}
+}

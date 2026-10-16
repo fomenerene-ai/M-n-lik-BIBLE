@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ménélik Tatiodjio Fomene | Contrôle de gestion &amp; FP&amp;A</title>
+<meta name="description" content="Portfolio de Ménélik Tatiodjio Fomene, futur contrôleur de gestion et analyste FP&amp;A. Modélisation financière, budgets, reporting et audit. Master 2 CCF, EM Strasbourg.">
+<meta name="author" content="Ménélik René Tatiodjio Fomene">
+<meta name="theme-color" content="#0b1d4d">
+<!-- TODO domaine : SITE_URL dans config.json (https://menelik-tatiodjio.com) -->
+<link rel="canonical" href="https://menelik-tatiodjio.com/">
+<link rel="alternate" hreflang="fr" href="https://menelik-tatiodjio.com/">
+<link rel="alternate" hreflang="en" href="https://menelik-tatiodjio.com/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://menelik-tatiodjio.com/">
+<meta property="og:type" content="profile">
+<meta property="profile:first_name" content="Ménélik">
+<meta property="profile:last_name" content="Tatiodjio Fomene">
+<meta property="og:site_name" content="Ménélik Tatiodjio">
+<meta property="og:title" content="Ménélik Tatiodjio Fomene | Contrôle de gestion &amp; FP&amp;A">
+<meta property="og:description" content="Portfolio de Ménélik Tatiodjio Fomene, futur contrôleur de gestion et analyste FP&amp;A. Modélisation financière, budgets, reporting et audit. Master 2 CCF, EM Strasbourg.">
+<meta property="og:url" content="https://menelik-tatiodjio.com/">
+<meta property="og:image" content="https://menelik-tatiodjio.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Objet en verre 3D en forme de courbe de croissance, sur fond bleu nuit et or">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ménélik Tatiodjio Fomene | Contrôle de gestion &amp; FP&amp;A">
+<meta name="twitter:description" content="Portfolio de Ménélik Tatiodjio Fomene, futur contrôleur de gestion et analyste FP&amp;A. Modélisation financière, budgets, reporting et audit. Master 2 CCF, EM Strasbourg.">
+<meta name="twitter:image" content="https://menelik-tatiodjio.com/og.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Ménélik René Tatiodjio Fomene", "alternateName": "Ménélik Tatiodjio", "jobTitle": "Contrôle de gestion et FP&A (Master 2 en cours)", "description": "Portfolio de Ménélik Tatiodjio Fomene, futur contrôleur de gestion et analyste FP&A. Modélisation financière, budgets, reporting et audit. Master 2 CCF, EM Strasbourg.", "email": "mailto:menelikrenefomene@gmail.com", "url": "https://menelik-tatiodjio.com/", "image": "https://menelik-tatiodjio.com/og.png", "alumniOf": {"@type": "CollegeOrUniversity", "name": "EM Strasbourg Business School", "sameAs": "https://www.em-strasbourg.com"}, "knowsAbout": ["Contrôle de gestion", "FP&A", "Modélisation financière", "Budget et prévisions", "Reporting", "Audit", "SYSCOHADA", "Excel", "Power Query", "Power BI", "Python", "SQL", "SAP"], "knowsLanguage": ["fr", "en"]}</script>
+<!-- TODO analytics : mesure d'audience sans cookie, donc sans bannière. Active-la dans config.json (ANALYTICS.enabled), le build insère la balise et ouvre la CSP. Exemple Plausible :
+<script defer data-domain="menelik-tatiodjio.com" src="https://plausible.io/js/script.js"></script>
+ou Umami : <script defer src="https://cloud.umami.is/script.js" data-website-id="TODO"></script> -->
+<link rel="icon" href="./assets/brand/favicon.svg" type="image/svg+xml">
+<script>(function(){var d=document.documentElement;try{var c=document.createElement('canvas'),g=c.getContext('webgl2');if(!g){d.classList.add('no-webgl');}else{var x=g.getExtension('WEBGL_lose_context');if(x)x.loseContext();}}catch(e){d.classList.add('no-webgl');}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('reduced-motion');})();</script>
+<link rel="stylesheet" href="./css/styles.css?v=20261016">
+<link rel="stylesheet" href="./css/portfolio.css?v=20261016">
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three.module.js",
+    "three/examples/jsm/loaders/SVGLoader.js": "./vendor/SVGLoader.js"
+  }
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#projets" data-i18n="ui.skip">Passer l'animation, aller aux projets</a>
+<div class="loader" id="loader" role="status" aria-live="polite">
+  <div class="loader-inner">
+    <span class="loader-value"><span id="loader-count">00</span><span class="loader-unit">%</span></span>
+    <span class="loader-bar"><span id="loader-fill"></span></span>
+    <span class="loader-hint" data-i18n="loader_hint">Chargement</span>
+  </div>
+</div>
+<script>
+(function () {
+  var el = document.getElementById('loader'), count = document.getElementById('loader-count'), fill = document.getElementById('loader-fill');
+  var start = performance.now(), ready = false, rampAt = 0, shownAtRamp = 0, shown = 0, finished = false;
+  var MIN_HOLD = 0, RAMP = 180;   // ms: minimum time on screen, then the run to 100
+  document.body.classList.add('is-loading');
+  function finish() {
+    if (finished) return;
+    finished = true;
+    count.textContent = '100';
+    fill.style.transform = 'scaleX(1)';
+    el.classList.add('is-done');
+    document.body.classList.remove('is-loading');
+    setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 900);
+  }
+  function tick(now) {
+    if (finished) return;
+    if (ready && !rampAt && now - start >= MIN_HOLD) { rampAt = now; shownAtRamp = shown; }
+    if (rampAt) {
+      var k = Math.min(1, (now - rampAt) / RAMP);
+      shown = shownAtRamp + (100 - shownAtRamp) * (1 - Math.pow(1 - k, 3));
+    } else {
+      // Time-based pseudo progress while the modules and the scene are prepared.
+      shown = 92 * (1 - Math.exp(-(now - start) / 1600));
+    }
+    count.textContent = String(Math.round(shown)).padStart(2, '0');
+    fill.style.transform = 'scaleX(' + (shown / 100) + ')';
+    if (rampAt && shown >= 99.5) { finish(); return; }
+    requestAnimationFrame(tick);
+  }
+  window.__glassLoader = { done: function () { ready = true; } };
+  // Portfolio: no WebGL 2, or the 3D never started: static layout, content readable.
+  window.__portfolioFallback = function () {
+    document.documentElement.classList.add('no-webgl');
+    ready = true; finish();
+  };
+  if (document.documentElement.classList.contains('no-webgl')) { finish(); return; }
+  requestAnimationFrame(tick);
+  setTimeout(function () { if (!window.__glassStarted) window.__portfolioFallback(); }, 12000);
+  setTimeout(function () { window.__glassLoader.done(); }, 15000);   // never trap the visitor
+  setTimeout(finish, 17000);
+})();
+</script>
+<div class="cursor-inner"></div>
+<div class="cursor-outer"><span class="cursor-ticks"><span></span><span></span><span></span><span></span></span></div>
+<div class="cursor-label" aria-hidden="true">000</div>
+<div class="cinematic-container">
+<header class="main-header">
+  <a class="brand" href="#slide-1">
+    <span class="brand-mark" aria-hidden="true"><svg role="img" viewBox="0 0 572 572" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M315.994 213.542L447.692 43.1698L528.776 124.254L358.308 256.024L572 228.665V343.335L358.394 315.986L528.775 447.69L447.691 528.774L315.986 358.392L343.335 572H228.665L256.021 358.329L124.311 528.719L43.2265 447.635L213.522 315.997L0 343.335V228.665L213.607 256.013L43.2258 124.31L124.31 43.2251L256.013 213.605L228.665 0H343.335L315.994 213.542Z"/></svg></span>
+    <span class="brand-text">Ménélik Tatiodjio</span>
+  </a>
+  <nav class="header-nav" aria-label="Sections" data-i18n-attr="aria-label:nav_label">
+    <a href="#slide-1" class="nav-link is-active" data-chapter="0" data-i18n="nav.0">Accueil</a>
+    <a href="#slide-2" class="nav-link" data-chapter="1" data-i18n="nav.1">À propos</a>
+    <a href="#slide-3" class="nav-link" data-chapter="2" data-i18n="nav.2">Services</a>
+    <a href="#slide-4" class="nav-link" data-chapter="3" data-i18n="nav.3">Repères</a>
+    <a href="#projets" class="nav-link nav-flow" data-i18n="ui.nav_projects">Projets</a>
+    <a href="#parcours" class="nav-link nav-flow" data-i18n="ui.nav_path">Parcours</a>
+  </nav>
+  <div class="header-actions">
+    <span class="header-counter" aria-hidden="true"><span id="brand-chapter">01</span><span class="counter-sep"></span>05</span>
+    <button type="button" class="lang-toggle" id="lang-toggle" lang="en" aria-label="EN, switch to English" data-i18n="ui.lang_toggle" data-i18n-attr="aria-label:ui.lang_toggle_label">EN</button>
+    <a href="#contact" class="contact-btn"><span data-i18n="nav.4">Contact</span> <span class="btn-arrow" aria-hidden="true">&#8599;</span></a>
+  </div>
+</header>
+
+<main id="main" class="slides">
+<div class="slide" id="slide-1">
+  <p class="hero-kicker" data-i18n="ui.hero_kicker">Ménélik Tatiodjio Fomene · Contrôle de gestion et FP&amp;A</p>
+  <h1 class="slide-title" data-i18n-title="hero.title">Piloter la finance <br>avec précision</h1>
+  <div class="desc-row">
+    <p class="slide-desc col-1" data-i18n="hero.lead">Futur contrôleur de gestion et analyste FP&amp;A. Je transforme les chiffres en décisions pour les directions financières et les PME.</p>
+  </div>
+</div>
+
+<div class="slide" id="slide-2">
+  <h2 class="slide-title" data-i18n-title="about.title">Rigueur comptable, <br>regard stratégique</h2>
+  <p class="slide-desc" data-i18n="about.text">Étudiant en Master 2 Comptabilité Contrôle Finance à EM Strasbourg, après un an en CDI comme assistant comptable et trois stages en entreprise. J'aime les modèles Excel solides, les tableaux de bord lisibles et les produits que je construis moi-même, comme PlanPro, un générateur de business plans conforme SYSCOHADA.</p>
+</div>
+
+<div class="slide" id="slide-3">
+  <h2 class="slide-title" data-i18n-title="benefits.title">Ce que je <br>peux apporter</h2>
+  <ul class="benefits">
+    <li class="benefit"><span class="benefit-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="7"/><path d="M12.8 7.2a3.6 3.6 0 0 0-5 1.2c-.9 1.7-.3 3.8 1.4 4.7a3.6 3.6 0 0 0 3.6-.1M6.6 9.3h4.6M6.6 11h4"/></svg></span><p data-i18n="benefits.items.0">Business plans et modèles financiers prévisionnels, clairs et auditables.</p></li>
+    <li class="benefit"><span class="benefit-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="7"/><circle cx="10" cy="10" r="3.2"/></svg></span><p data-i18n="benefits.items.1">Budgets, prévisions et analyse des écarts pour piloter la performance.</p></li>
+    <li class="benefit"><span class="benefit-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16h14"/><path d="M6 16V9m4 7V5m4 11v-5"/></svg></span><p data-i18n="benefits.items.2">Reporting et tableaux de bord sous Excel, Power BI, SQL et Python.</p></li>
+    <li class="benefit"><span class="benefit-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3 4 5.5v5c0 3.4 2.4 5.7 6 6.5 3.6-.8 6-3.1 6-6.5v-5L10 3z"/></svg></span><p data-i18n="benefits.items.3">Contrôle interne et travaux d'audit : fiabilité des chiffres et des processus.</p></li>
+  </ul>
+</div>
+
+<div class="slide" id="slide-4">
+  <h2 class="slide-title" data-i18n-title="results.title">Trois repères <br>de mon parcours</h2>
+  <p class="slide-desc" data-i18n="results.lead">Des faits, pas des promesses.</p>
+  <dl class="figures">
+    <div class="figure"><dt><span class="figure-value" data-count="1" data-decimals="0">1</span><span data-i18n="figures.0.suffix"> an</span></dt><dd data-i18n="figures.0.label">en CDI comme<br>assistant comptable</dd></div>
+    <div class="figure"><dt><span class="figure-value" data-count="3" data-decimals="0">3</span><span data-i18n="figures.1.suffix"></span></dt><dd data-i18n="figures.1.label">stages en cabinet<br>et en PME</dd></div>
+    <div class="figure"><dt><span class="figure-value" data-count="2" data-decimals="0">2</span><span data-i18n="figures.2.suffix"></span></dt><dd data-i18n="figures.2.label">produits construits<br>de zéro</dd></div>
+  </dl>
+</div>
+</main>
+</div>
+
+<div class="scroll-stage" aria-hidden="true"></div>
+
+<section class="flow-section projects" id="projets" aria-labelledby="projets-title" tabindex="-1">
+<div class="flow-inner">
+<div class="flow-head">
+  <div class="flow-head-text">
+    <p class="flow-eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span><span data-i18n="ui.projects_eyebrow">Études de cas</span></p>
+    <h2 class="flow-title" id="projets-title" data-i18n-title="ui.projects_title"><span class="line"><span class="line-inner">Mes projets</span></span><span class="line muted"><span class="line-inner">en détail</span></span></h2>
+    <p class="flow-lead" data-i18n="ui.projects_lead">Trois projets personnels, présentés comme des études de cas : le contexte, le problème, ce que j'ai construit, avec quels outils, et ce que ça change.</p>
+  </div>
+</div>
+<ol class="cases">
+  <li class="case reveal" id="case-planpro">
+    <article aria-labelledby="case-planpro-title">
+      <div class="case-head">
+        <span class="case-index" aria-hidden="true">01</span>
+        <div>
+          <p class="case-tag" data-i18n="projects.planpro.tag">SaaS · Modélisation financière</p>
+          <h3 class="case-title" id="case-planpro-title" data-i18n="projects.planpro.name">PlanPro</h3>
+          <p class="case-summary" data-i18n="projects.planpro.summary">Un générateur de business plans pour les PME africaines, conforme SYSCOHADA.</p>
+        </div>
+      </div>
+      <dl class="case-grid">
+        <div class="case-item case-context"><dt data-i18n="ui.label_context">Contexte</dt><dd data-i18n="projects.planpro.context">En zone OHADA, une PME qui cherche un financement doit présenter des états prévisionnels établis selon le référentiel comptable SYSCOHADA.</dd></div>
+        <div class="case-item case-problem"><dt data-i18n="ui.label_problem">Problème</dt><dd data-i18n="projects.planpro.problem">Construire ces prévisions prend du temps et demande une vraie compétence comptable, que beaucoup d'entrepreneurs n'ont pas en interne.</dd></div>
+        <div class="case-item case-solution"><dt data-i18n="ui.label_solution">Ma solution</dt><dd data-i18n="projects.planpro.solution">PlanPro, un générateur de business plans en ligne (SaaS) qui produit des états financiers prévisionnels conformes au référentiel SYSCOHADA.</dd></div>
+        <div class="case-item case-tools"><dt data-i18n="ui.label_tools">Outils</dt><dd data-i18n="projects.planpro.tools">Modélisation financière, référentiel SYSCOHADA</dd></div>
+        <div class="case-item case-result"><dt data-i18n="ui.label_result">Résultat</dt><dd data-i18n="projects.planpro.result">Un produit construit de zéro, qui m'a appris à traduire des règles comptables en logiciel.</dd></div>
+      </dl>
+      <!-- TODO: à compléter par Ménélik : PlanPro : préciser la stack technique (champ Outils), l&#x27;état du produit (prototype, en ligne, utilisateurs) et un résultat concret si tu en as un. -->
+    </article>
+  </li>
+  <li class="case reveal" id="case-crm-whatsapp">
+    <article aria-labelledby="case-crm-whatsapp-title">
+      <div class="case-head">
+        <span class="case-index" aria-hidden="true">02</span>
+        <div>
+          <p class="case-tag" data-i18n="projects.crm-whatsapp.tag">Automatisation · Recouvrement</p>
+          <h3 class="case-title" id="case-crm-whatsapp-title" data-i18n="projects.crm-whatsapp.name">CRM WhatsApp</h3>
+          <p class="case-summary" data-i18n="projects.crm-whatsapp.summary">Un CRM pour suivre commandes, recouvrements et relances depuis WhatsApp.</p>
+        </div>
+      </div>
+      <dl class="case-grid">
+        <div class="case-item case-context"><dt data-i18n="ui.label_context">Contexte</dt><dd data-i18n="projects.crm-whatsapp.context">Beaucoup de petits commerces prennent leurs commandes et suivent leurs clients directement sur WhatsApp.</dd></div>
+        <div class="case-item case-problem"><dt data-i18n="ui.label_problem">Problème</dt><dd data-i18n="projects.crm-whatsapp.problem">Les commandes se perdent dans les conversations, les relances dépendent de la mémoire de chacun et les impayés traînent.</dd></div>
+        <div class="case-item case-solution"><dt data-i18n="ui.label_solution">Ma solution</dt><dd data-i18n="projects.crm-whatsapp.solution">Un CRM relié à WhatsApp qui centralise les commandes clients, suit les recouvrements et envoie des relances automatisées.</dd></div>
+        <div class="case-item case-tools"><dt data-i18n="ui.label_tools">Outils</dt><dd data-i18n="projects.crm-whatsapp.tools">Automatisation des relances, suivi du poste clients</dd></div>
+        <div class="case-item case-result"><dt data-i18n="ui.label_result">Résultat</dt><dd data-i18n="projects.crm-whatsapp.result">Commandes, encaissements attendus et relances réunis au même endroit : le poste clients devient lisible.</dd></div>
+      </dl>
+      <!-- TODO: à compléter par Ménélik : CRM WhatsApp : préciser la stack technique (API WhatsApp utilisée, base de données, langage) et le contexte réel d&#x27;usage. -->
+    </article>
+  </li>
+  <li class="case reveal" id="case-excel-fpa">
+    <article aria-labelledby="case-excel-fpa-title">
+      <div class="case-head">
+        <span class="case-index" aria-hidden="true">03</span>
+        <div>
+          <p class="case-tag" data-i18n="projects.excel-fpa.tag">FP&amp;A · Excel</p>
+          <h3 class="case-title" id="case-excel-fpa-title" data-i18n="projects.excel-fpa.name">Modèles Excel FP&amp;A</h3>
+          <p class="case-summary" data-i18n="projects.excel-fpa.summary">Des modèles de budget, de prévision et de reporting pensés pour être audités.</p>
+        </div>
+      </div>
+      <dl class="case-grid">
+        <div class="case-item case-context"><dt data-i18n="ui.label_context">Contexte</dt><dd data-i18n="projects.excel-fpa.context">En FP&amp;A, budgets, prévisions et reportings reposent encore largement sur Excel.</dd></div>
+        <div class="case-item case-problem"><dt data-i18n="ui.label_problem">Problème</dt><dd data-i18n="projects.excel-fpa.problem">Un fichier mal structuré devient vite fragile : on ne sait plus d'où vient un chiffre, et une formule cassée fausse tout le reste.</dd></div>
+        <div class="case-item case-solution"><dt data-i18n="ui.label_solution">Ma solution</dt><dd data-i18n="projects.excel-fpa.solution">Des modèles où les hypothèses sont séparées des calculs, avec des contrôles de cohérence et des imports de données automatisés via Power Query.</dd></div>
+        <div class="case-item case-tools"><dt data-i18n="ui.label_tools">Outils</dt><dd data-i18n="projects.excel-fpa.tools">Excel, Power Query</dd></div>
+        <div class="case-item case-result"><dt data-i18n="ui.label_result">Résultat</dt><dd data-i18n="projects.excel-fpa.result">Des fichiers qu'une autre personne peut relire, vérifier et mettre à jour sans tout reprendre.</dd></div>
+      </dl>
+      <!-- TODO: à compléter par Ménélik : Modèles Excel FP&amp;A : citer les modèles précis (budget, prévision de trésorerie, reporting mensuel…) et joindre un exemple anonymisé si possible. -->
+    </article>
+  </li>
+</ol>
+</div>
+</section>
+
+<section class="flow-section path" id="parcours" aria-labelledby="parcours-title" tabindex="-1">
+<div class="flow-inner">
+<div class="flow-head">
+  <div class="flow-head-text">
+    <p class="flow-eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span><span data-i18n="ui.path_eyebrow">Parcours</span></p>
+    <h2 class="flow-title" id="parcours-title" data-i18n-title="ui.path_title"><span class="line"><span class="line-inner">Mon parcours</span></span><span class="line muted"><span class="line-inner">pas à pas</span></span></h2>
+    <p class="flow-lead" data-i18n="ui.path_lead">Une formation en comptabilité, contrôle et finance, et une première expérience de terrain : un an en CDI et trois stages en entreprise.</p>
+  </div>
+  <!-- Photo : emplacement prévu, masqué. Dépose ta photo dans portfolio-menelik-source/assets/photo.jpg (portrait 4:5) puis relance build.py. -->
+</div>
+<ol class="timeline">
+  <li class="tl-item reveal">
+    <span class="tl-dot" aria-hidden="true"></span>
+    <article class="tl-card" aria-labelledby="tl-secamec">
+      <p class="tl-type" data-i18n="path.secamec.type">CDI · 1 an</p>
+      <h3 class="tl-title" id="tl-secamec" data-i18n="path.secamec.title">Assistant comptable</h3>
+      <p class="tl-org"><span data-i18n="path.secamec.org">SECAMEC SARL</span> · <span data-i18n="path.secamec.place">Cameroun</span></p>
+      <!-- TODO: à compléter par Ménélik : SECAMEC : dates exactes et deux ou trois missions principales. -->
+    </article>
+  </li>
+  <li class="tl-item reveal">
+    <span class="tl-dot" aria-hidden="true"></span>
+    <article class="tl-card" aria-labelledby="tl-futurnet">
+      <p class="tl-type" data-i18n="path.futurnet.type">Stage</p>
+      <h3 class="tl-title" id="tl-futurnet" data-i18n="path.futurnet.org">FUTURNET CONSULTING</h3>
+      <!-- TODO: à compléter par Ménélik : FUTURNET CONSULTING : intitulé du poste, dates, lieu, missions. -->
+    </article>
+  </li>
+  <li class="tl-item reveal">
+    <span class="tl-dot" aria-hidden="true"></span>
+    <article class="tl-card" aria-labelledby="tl-dahken">
+      <p class="tl-type" data-i18n="path.dahken.type">Stage</p>
+      <h3 class="tl-title" id="tl-dahken" data-i18n="path.dahken.org">DAH KEN SARL</h3>
+      <!-- TODO: à compléter par Ménélik : DAH KEN SARL : intitulé du poste, dates, lieu, missions. -->
+    </article>
+  </li>
+  <li class="tl-item reveal">
+    <span class="tl-dot" aria-hidden="true"></span>
+    <article class="tl-card" aria-labelledby="tl-somecam">
+      <p class="tl-type" data-i18n="path.somecam.type">Stage</p>
+      <h3 class="tl-title" id="tl-somecam" data-i18n="path.somecam.org">SOMECAM SARL</h3>
+      <!-- TODO: à compléter par Ménélik : SOMECAM SARL : intitulé du poste, dates, lieu, missions. -->
+    </article>
+  </li>
+  <li class="tl-item reveal">
+    <span class="tl-dot" aria-hidden="true"></span>
+    <article class="tl-card" aria-labelledby="tl-licence">
+      <p class="tl-type" data-i18n="path.licence.type">Formation</p>
+      <h3 class="tl-title" id="tl-licence" data-i18n="path.licence.title">Licence Professionnelle CCA</h3>
+      <!-- TODO: à compléter par Ménélik : Licence Pro CCA : établissement, intitulé complet, années. -->
+    </article>
+  </li>
+  <li class="tl-item reveal">
+    <span class="tl-dot" aria-hidden="true"></span>
+    <article class="tl-card" aria-labelledby="tl-master">
+      <p class="tl-type" data-i18n="path.master.type">Formation · Programme Grande École</p>
+      <h3 class="tl-title" id="tl-master" data-i18n="path.master.title">Master 2 Comptabilité Contrôle Finance</h3>
+      <p class="tl-org"><span data-i18n="path.master.org">EM Strasbourg Business School</span> · <span data-i18n="path.master.place">Strasbourg</span></p>
+      <!-- TODO: à compléter par Ménélik : Master 2 : années, spécialisation, cours clés éventuels. -->
+    </article>
+  </li>
+</ol>
+<div class="tools" id="outils">
+<div class="flow-head">
+  <div class="flow-head-text">
+    <p class="flow-eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span><span data-i18n="ui.tools_eyebrow">Outils</span></p>
+    <h2 class="flow-title" id="outils-title" data-i18n-title="ui.tools_title"><span class="line"><span class="line-inner">Mes outils</span></span><span class="line muted"><span class="line-inner">de travail</span></span></h2>
+    <p class="flow-lead" data-i18n="ui.tools_lead">Ceux que j'utilise pour modéliser, analyser et présenter les chiffres.</p>
+  </div>
+</div>
+  <ul class="chips">
+    <li class="chip" data-i18n="tools.0">Excel / Power Query</li>
+    <li class="chip" data-i18n="tools.1">Power BI</li>
+    <li class="chip" data-i18n="tools.2">Python / SQL</li>
+    <li class="chip" data-i18n="tools.3">SAP / ERP</li>
+  </ul>
+</div>
+</div>
+</section>
+
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="contact-inner">
+    <div class="contact-intro">
+      <p class="contact-eyebrow"><span class="eyebrow-dot"></span><span data-i18n="ui.contact_eyebrow">Contact / 05</span></p>
+      <h2 class="contact-title" id="contact-title" data-i18n-title="contact.title"><span class="line"><span class="line-inner">Parlons de</span></span><span class="line muted"><span class="line-inner">ta mission.</span></span></h2>
+      <p class="contact-lead" data-i18n="contact.lead">Une alternance, une mission, un modèle à construire ?<br>Écris-moi.</p>
+      <a class="contact-mail" data-email-link href="mailto:menelikrenefomene@gmail.com">menelikrenefomene@gmail.com <span class="arrow" aria-hidden="true">&#8599;</span></a>
+      <div class="availability">
+        <p class="availability-title" data-i18n="ui.availability_title">Disponibilité</p>
+        <ul>
+          <li data-i18n="ui.availability_rhythm">Alternance : 3 semaines en entreprise, 1 semaine à l'école</li>
+          <li data-i18n="ui.availability_start">Dès septembre 2026</li>
+          <li data-i18n="ui.availability_mobility">Mobilité totale sur Paris</li>
+        </ul>
+      </div>
+      <div class="cta-row">
+        <!-- TODO: remplace assets/cv.pdf par ton vrai CV (portfolio-menelik-source/assets/cv.pdf). -->
+        <a class="cta-btn cta-primary" href="./assets/cv.pdf" download><span data-i18n="ui.cta_cv">Télécharger mon CV</span> <span aria-hidden="true">&darr;</span></a>
+        <!-- TODO: BOOKING_URL dans config.json (lien Cal.com ou Google Agenda). -->
+        <a class="cta-btn" href="https://cal.com/TODO" target="_blank" rel="noopener"><span data-i18n="ui.cta_booking">Prendre rendez-vous</span> <span class="sr-only" data-i18n="ui.new_tab">(nouvel onglet)</span><span aria-hidden="true">&#8599;</span></a>
+        <!-- TODO: LINKEDIN_URL dans config.json. -->
+        <a class="cta-btn" href="https://www.linkedin.com/in/TODO" target="_blank" rel="noopener me"><span data-i18n="ui.cta_linkedin">LinkedIn</span> <span class="sr-only" data-i18n="ui.new_tab">(nouvel onglet)</span><span aria-hidden="true">&#8599;</span></a>
+      </div>
+    </div>
+    <form class="contact-card" id="contact-form" data-email="menelikrenefomene@gmail.com" data-subject="Prise de contact : {name}{company}" data-l-name="Nom" data-l-email="E-mail" data-l-company="Entreprise" data-i18n-attr="data-subject:ui.mail_subject;data-l-name:ui.mail_name;data-l-email:ui.mail_email;data-l-company:ui.mail_company">
+      <div class="card-head"><span data-i18n="form.title">Ton message</span><span class="arrow" aria-hidden="true">&#8599;</span></div>
+      <div class="field-grid">
+        <label class="field"><span class="field-label"><span data-i18n="form.name">Ton nom</span> <em aria-hidden="true">*</em></span><input type="text" name="name" placeholder="Nom et prénom" data-i18n-attr="placeholder:form.name_placeholder" autocomplete="name" required></label>
+        <label class="field"><span class="field-label"><span data-i18n="form.email">Ton e-mail</span> <em aria-hidden="true">*</em></span><input type="email" name="email" placeholder="toi@entreprise.com" data-i18n-attr="placeholder:form.email_placeholder" autocomplete="email" required></label>
+        <label class="field field-wide"><span class="field-label"><span data-i18n="form.company">Entreprise</span> <small data-i18n="form.optional">optionnel</small></span><input type="text" name="company" placeholder="Nom de l&#x27;entreprise" data-i18n-attr="placeholder:form.company_placeholder" autocomplete="organization"></label>
+        <label class="field field-wide"><span class="field-label"><span data-i18n="form.project">Ton message</span> <em aria-hidden="true">*</em></span><textarea name="project" rows="4" placeholder="Ce que tu aimerais construire…" data-i18n-attr="placeholder:form.project_placeholder" required></textarea></label>
+      </div>
+      <div class="card-foot">
+        <p class="card-note" data-i18n="form.note">Ta messagerie s'ouvrira<br>avec le message prêt à envoyer.</p>
+        <button type="submit" class="pill-btn"><span class="btn-label" data-i18n="form.button">Préparer mon e-mail</span> <span class="arrow" aria-hidden="true">&#8599;</span></button>
+      </div>
+    </form>
+  </div>
+  <footer class="contact-footer">
+    <span data-i18n="ui.copyright">© 2026 · Ménélik Tatiodjio Fomene</span>
+    <span class="footer-spec" data-i18n="footer.spec">Three.js · WebGL 2 · 100 % temps réel</span>
+    <span class="footer-links">
+      <a href="./mentions-legales.html" data-i18n="ui.legal_notice">Mentions légales</a>
+      <a href="./confidentialite.html" data-i18n="ui.privacy">Confidentialité</a>
+      <a href="#slide-1" class="footer-top"><span data-i18n="footer.top">Haut de page</span> <span aria-hidden="true">&uarr;</span></a>
+    </span>
+  </footer>
+</section>
+<div class="grid-horizontal-line"></div>
+<div class="header-progress" aria-hidden="true"><span id="header-progress-fill"></span></div>
+<div class="story-progress" aria-hidden="true">
+  <div class="story-dashes">
+    <div class="story-dash"><div class="story-dash-fill" id="dash-fill-1"></div></div>
+    <div class="story-dash"><div class="story-dash-fill" id="dash-fill-2"></div></div>
+    <div class="story-dash"><div class="story-dash-fill" id="dash-fill-3"></div></div>
+    <div class="story-dash"><div class="story-dash-fill" id="dash-fill-4"></div></div>
+  </div>
+</div>
+<canvas id="webgl" aria-hidden="true"></canvas>
+<script src="./js/i18n.js?v=20261016"></script>
+<script src="./js/portfolio.js?v=20261016"></script>
+<script type="module" src="./js/app.js?v=20261016"></script>
+</body>
+</html>
