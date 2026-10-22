@@ -39,6 +39,8 @@ Cahier des charges complet : demandé par l'utilisateur en session ; résumé da
 
 ## Problèmes connus
 
+- Toute nouvelle dépendance importée par le Worker doit aller dans `optimizeDeps.include` (vite.config.ts), sinon `npm run dev` recharge la page au premier import et l'import est perdu.
+
 - Prototype `reference/lecteur-classeur.html` absent du dépôt : design reconstruit d'après la section 5 du cahier des charges.
 - `npm audit` : 3 alertes modérées via `mammoth → argparse → sprintf-js`, code de ligne de commande jamais chargé dans le navigateur.
 - PDF, ePub, images : détectés mais refusés avec message clair jusqu'aux phases 3 et 4.

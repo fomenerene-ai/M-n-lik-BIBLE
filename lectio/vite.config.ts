@@ -42,6 +42,9 @@ export default defineConfig({
       },
     }),
   ],
+  // Dépendances du Worker déclarées d'avance : sinon, en développement, Vite les
+  // découvre au premier import et recharge la page en plein milieu.
+  optimizeDeps: { include: ['mammoth', 'jszip'] },
   worker: { format: 'es' },
   build: { target: 'es2022', chunkSizeWarningLimit: 1500 },
   server: { port: 5175, strictPort: true },
