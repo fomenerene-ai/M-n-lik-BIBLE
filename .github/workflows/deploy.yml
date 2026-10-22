@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: 22
           cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            lectio/package-lock.json
       - run: npm ci
       - run: npm test
       - run: node --test "parley/tests/*.test.js"
@@ -33,6 +36,14 @@ jobs:
       - run: npm run build
       # Parley : application statique servie telle quelle sous /parley/
       - run: cp -r parley dist/parley && rm -rf dist/parley/tests dist/parley/tools dist/parley/docs
+      # Lectio : application Vite séparée, publiée sous /lectio/
+      - run: npm ci
+        working-directory: lectio
+      - run: npm test
+        working-directory: lectio
+      - run: npm run build
+        working-directory: lectio
+      - run: cp -r lectio/dist dist/lectio
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
