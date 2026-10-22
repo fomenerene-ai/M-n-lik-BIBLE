@@ -1,0 +1,81 @@
+/* Jetons de design Lectio. Thème sombre par défaut ; les autres thèmes
+   redéfinissent seulement les couleurs (data-theme sur <html>). */
+
+:root {
+  --bg: #141414;
+  --surface: #1c1c1c;
+  --surface2: #2a2a2a;
+  --surface3: #333333;
+  --text: #ecebe8;
+  --muted: #a3a19c; /* 7,0:1 sur --bg, AA même en petit corps */
+  --faint: #8e8c87;
+  --line: #2c2c2c;
+  --hl: rgba(240, 190, 80, 0.15);
+  --hlline: #e9b949;
+  --accent: #e9b949;
+  --accent-ink: #1a1408;
+  --danger: #f2867e;
+  --ok: #8fcf9a;
+  --focus: #f5d58a;
+  --shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+
+  --font-ui: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-read: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+
+  --tap: 44px;
+  --radius: 12px;
+  --radius-lg: 20px;
+  --rail-w: 76px;
+  --bar-h: 64px;
+
+  --read-size: 21px;
+  --read-leading: 1.7;
+  --read-width: 40rem;
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --surface2: #efede8;
+  --surface3: #e4e1da;
+  --text: #1d1c1a;
+  --muted: #5f5d58;
+  --faint: #76736d;
+  --line: #e2dfd8;
+  --hl: rgba(233, 185, 73, 0.28);
+  --hlline: #b8860b;
+  --accent: #8a6100;
+  --accent-ink: #ffffff;
+  --danger: #b42318;
+  --ok: #24733a;
+  --focus: #8a6100;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  color-scheme: light;
+}
+
+:root[data-theme='sepia'] {
+  --bg: #f4ecd8;
+  --surface: #faf4e4;
+  --surface2: #ebe1c8;
+  --surface3: #e0d4b6;
+  --text: #3b2f1e;
+  --muted: #6b5a40;
+  --faint: #7d6b4f;
+  --line: #dccfb0;
+  --hl: rgba(201, 140, 20, 0.22);
+  --hlline: #a66d00;
+  --accent: #7a4f00;
+  --accent-ink: #fff8e8;
+  --danger: #a3231b;
+  --ok: #3d6b2a;
+  --focus: #7a4f00;
+  --shadow: 0 8px 24px rgba(60, 40, 10, 0.15);
+  color-scheme: light;
+}

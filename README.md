@@ -10,6 +10,10 @@ Usage strictement personnel. Aucun compte, aucun serveur, aucune statistique : r
 
 Le dossier `parley/` contient Parley, un entraîneur d'anglais oral (PWA statique, sans build), publié sous `/parley/` par le même workflow. Voir `parley/README.md`.
 
+## Autre application du dépôt : Lectio
+
+Le dossier `lectio/` contient Lectio, un lecteur vocal de documents et classeur personnel (React, TypeScript, Vite). Voir `lectio/CLAUDE.md`.
+
 ## Installer sur la tablette
 
 1. Ouvrir l’adresse du site dans **Chrome** (connexion nécessaire la première fois).

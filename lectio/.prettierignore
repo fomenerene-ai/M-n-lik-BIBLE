@@ -1,0 +1,9 @@
+dist
+dev-dist
+node_modules
+package-lock.json
+tests/fixtures
+public/tessdata
+android
+playwright-report
+test-results
