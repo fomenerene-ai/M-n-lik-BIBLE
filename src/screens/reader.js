@@ -1,6 +1,6 @@
 // Lecture d'un chapitre : navigation continue, sélecteur de version, taille du texte.
 
-import { h, icon, toast, onSwipe } from '../ui.js';
+import { h, icon, toast, onSwipe, prefersReducedMotion } from '../ui.js';
 import { ICONS } from '../icons.js';
 import { go } from '../router.js';
 import { getBook } from '../core/books.js';
@@ -10,6 +10,8 @@ import { nextChapter, prevChapter, nextBook, prevBook } from '../core/navigation
 import { settings, setSetting, bookmarksOf, toggleBookmark } from '../core/userdata.js';
 import { applyTheme } from '../theme.js';
 import { createPassage } from '../components/passage.js';
+import { createPlayer } from '../components/player.js';
+import { chapterSegments, requestContinue, takeContinue } from '../core/speech.js';
 
 export const FONT_MIN = 14;
 export const FONT_MAX = 40;
@@ -110,6 +112,31 @@ export async function renderReader(route) {
   });
   await syncBm();
 
+  // Lecture vocale : suit le verset lu, puis enchaîne sur le chapitre suivant
+  const player = createPlayer({
+    title: `${book.name} ${chapter}`,
+    segments: chapterSegments(book.name, chapter, verses),
+    label: (i, seg) => (seg.n ? `${book.name} ${chapter}:${seg.n}` : `${book.name} ${chapter}`),
+    onSegment: (i, seg) => {
+      const v = passage.speaking(seg.n);
+      if (v) v.scrollIntoView({ block: 'center', behavior: prefersReducedMotion() ? 'auto' : 'smooth' });
+    },
+    onEnd: () => {
+      passage.speaking(null);
+      if (targets.next) {
+        requestContinue();
+        go(path(version, targets.next));
+      } else toast('Fin de la Bible');
+    },
+    onStop: () => passage.speaking(null),
+  });
+  const listenBtn = h(
+    'button',
+    { class: 'btn-icon', 'aria-label': 'Écouter le chapitre', title: 'Écouter le chapitre', onclick: () => player.start() },
+    icon(ICONS.listen),
+  );
+  const autoplay = takeContinue();
+
   const article = h(
     'article',
     { class: 'reader' },
@@ -120,7 +147,7 @@ export async function renderReader(route) {
   const el = h(
     'div',
     { class: 'page reading' },
-    h('div', { class: 'reader-tools' }, versionSwitch, sizeCtl, bmBtn),
+    h('div', { class: 'reader-tools' }, versionSwitch, sizeCtl, listenBtn, bmBtn),
     navBar(),
     article,
     navBar(),
@@ -135,8 +162,12 @@ export async function renderReader(route) {
   return {
     title: `${book.name} ${chapter}`,
     el,
-    cleanup: () => passage.destroy(),
+    cleanup: () => {
+      player.destroy();
+      passage.destroy();
+    },
     afterMount: () => {
+      if (autoplay && verses.length) player.start();
       if (focus) {
         const target = article.querySelector(`.verse[data-n="${focus.vs}"]`);
         if (target) target.scrollIntoView({ block: 'center' });

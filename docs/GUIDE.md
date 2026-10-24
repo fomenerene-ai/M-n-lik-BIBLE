@@ -29,6 +29,19 @@ Pendant la lecture :
 - Boutons **Livre précédent, Chapitre précédent, Chapitre suivant, Livre suivant**, en haut et en bas.
   On passe de Malachie à Matthieu sans revenir aux listes.
 - Balayer vers la gauche : chapitre suivant. Vers la droite : chapitre précédent.
+- Haut-parleur : lecture vocale du chapitre (voir plus bas).
+
+## Lecture vocale
+
+Toucher le haut-parleur dans la lecture, ou **Écouter le récit** dans une histoire. Une barre
+apparaît en bas : lecture ou pause, position, vitesse (− et +), arrêt. Le verset lu est mis en
+valeur et l’écran suit la lecture ; à la fin d’un chapitre, la lecture continue sur le suivant.
+L’écran reste allumé pendant l’écoute ; quitter l’écran arrête la lecture.
+
+Dans **Réglages › Lecture vocale** : voix, vitesse, annonce des numéros de verset, bouton
+**Essayer la voix**. La voix vient du moteur de synthèse d’Android. Pour écouter sans connexion,
+installez une voix française : Paramètres Android › Synthèse vocale › moteur Google ›
+Installer les données vocales › Français (France).
 
 ## Marquer un verset
 
@@ -77,7 +90,7 @@ Liste alphabétique ou chronologique. Chaque fiche : récit, encadré de context
 
 ## Réglages
 
-Taille du texte, thème de lecture (parchemin ou sombre), version par défaut, couleur et taille de
+Taille du texte, thème de lecture (parchemin ou sombre), version par défaut, lecture vocale, couleur et taille de
 projection, sauvegarde (export et import), état des textes, comparaison de versification.
 
 ## Numérotation des versets

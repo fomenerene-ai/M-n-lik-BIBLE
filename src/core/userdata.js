@@ -14,6 +14,9 @@ export const DEFAULT_SETTINGS = {
   projColor: 'jaune', // 'jaune' | 'blanc'
   projScale: 1, // facteur de taille du texte en projection
   projVersion: 'FRLSG', // version utilisée par la file de projection
+  ttsRate: 1, // vitesse de la lecture vocale
+  ttsVoice: '', // voiceURI choisie ; vide = meilleure voix française
+  ttsAnnounce: false, // dire « Verset n » avant chaque verset
 };
 
 let settingsCache = null;

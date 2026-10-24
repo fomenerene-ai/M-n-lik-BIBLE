@@ -41,6 +41,10 @@ export const ICONS = {
   note: svg('<path d="M10 6h20l8 8v28H10z"/><path d="M16 22h16M16 28h16M16 34h10"/>'),
   copy: svg('<rect x="16" y="16" width="24" height="26" rx="2"/><path d="M32 16V8H8v26h8"/>'),
   play: svg('<path d="M14 8l26 16-26 16z"/>'),
+  pause: svg('<path d="M16 8v32M32 8v32"/>'),
+  stop: svg('<rect x="11" y="11" width="26" height="26" rx="2"/>'),
+  // Haut-parleur et ondes (lecture vocale)
+  listen: svg('<path d="M6 18h8l10-8v28l-10-8H6z"/><path d="M31 17a9 9 0 0 1 0 14M36 11a17 17 0 0 1 0 26"/>'),
   trash: svg('<path d="M8 12h32M18 12V6h12v6M12 12l2 30h20l2-30"/>'),
   up: svg('<path d="M10 30l14-14 14 14"/>'),
   down: svg('<path d="M10 18l14 14 14-14"/>'),

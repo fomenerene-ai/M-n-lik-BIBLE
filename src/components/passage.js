@@ -47,6 +47,8 @@ export function createPassage(o) {
     marks = { highlights: hl, notes: nt, bookmarks: bk };
   }
 
+  let speakingN = null; // verset en cours de lecture vocale
+
   function draw() {
     const frag = [];
     for (const n of nums) {
@@ -72,7 +74,7 @@ export function createPassage(o) {
           'div',
           {
             class:
-              'verse' + (color ? ` hl-${color}` : '') + (selected ? ' selected' : '') + (o.focus && n >= o.focus.vs && n <= o.focus.ve ? ' focus' : ''),
+              'verse' + (color ? ` hl-${color}` : '') + (selected ? ' selected' : '') + (o.focus && n >= o.focus.vs && n <= o.focus.ve ? ' focus' : '') + (n === speakingN ? ' speaking' : ''),
             'data-n': n,
           },
           // Le verset entier est un bouton (clavier : Entrée ou Espace) ; les notes sont des boutons voisins.
@@ -298,7 +300,16 @@ export function createPassage(o) {
     }
   }
 
-  return { el, refresh, destroy, select: (vs, ve) => ((sel = { anchor: vs, vs, ve }), draw(), showBar()) };
+  /** Met en valeur le verset lu à voix haute (null pour effacer) ; renvoie son élément. */
+  function speaking(n) {
+    speakingN = n;
+    el.querySelectorAll('.verse.speaking').forEach((v) => v.classList.remove('speaking'));
+    const v = n == null ? null : el.querySelector(`.verse[data-n="${n}"]`);
+    if (v) v.classList.add('speaking');
+    return v;
+  }
+
+  return { el, refresh, destroy, speaking, select: (vs, ve) => ((sel = { anchor: vs, vs, ve }), draw(), showBar()) };
 }
 
 function actionBtn(svg, label, onclick) {

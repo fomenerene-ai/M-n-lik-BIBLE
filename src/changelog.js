@@ -3,6 +3,16 @@
 
 export const CHANGELOG = [
   {
+    version: '1.4.0',
+    date: '2026-10-24',
+    items: [
+      'Lecture vocale des chapitres : bouton haut-parleur dans la lecture, verset lu mis en valeur, enchaînement automatique sur le chapitre suivant.',
+      'Lecture vocale des histoires : bouton « Écouter le récit », paragraphe en cours mis en valeur.',
+      'Barre de lecture : pause, vitesse, arrêt ; l’écran reste allumé pendant l’écoute.',
+      'Réglages › Lecture vocale : choix de la voix française, vitesse, annonce des numéros de verset, aide pour installer une voix hors connexion.',
+    ],
+  },
+  {
     version: '1.3.0',
     date: '2026-10-24',
     items: [
