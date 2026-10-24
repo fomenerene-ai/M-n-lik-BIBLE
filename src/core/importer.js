@@ -10,6 +10,7 @@ import * as db from './db.js';
 import { parseBolls, validateAgainstCanon } from './parse-bolls.js';
 import { VERSIONS } from './versions.js';
 import { BOOKS } from './books.js';
+import { renumber, RULES, NUMEROTATION } from './versification.js';
 
 const RAW_CACHE = 'bible-brut';
 const APPROX_SIZE = 5_500_000; // taille indicative si le serveur ne la donne pas
@@ -23,6 +24,12 @@ export function sourcesFor(id) {
 
 export async function versionStatus(id) {
   return (await db.get('meta', `version:${id}`)) || { key: `version:${id}`, complete: false };
+}
+
+/** Version installée avec une numérotation antérieure aux règles actuelles. */
+export async function needsRenumbering(id) {
+  const st = await versionStatus(id);
+  return Boolean(st.complete && RULES[id] && st.numerotation !== NUMEROTATION);
 }
 
 export async function allReady() {
@@ -101,13 +108,17 @@ async function dropRaw(id) {
   }
 }
 
-/** Enregistre un fichier déjà analysé dans IndexedDB, livre par livre. */
-export async function storeParsed(id, parsed, onProgress) {
+/**
+ * Enregistre un fichier déjà analysé dans IndexedDB, livre par livre.
+ * replace : réécrit tous les chapitres, même ceux déjà présents.
+ */
+export async function storeParsed(id, parsed, onProgress, replace = false) {
+  parsed = renumber(id, parsed);
   const problems = validateAgainstCanon(parsed.chapters);
   if (parsed.chapters.size < 1000) {
     throw new Error(`Fichier incomplet pour ${VERSIONS[id].label} (${parsed.chapters.size} chapitres).`);
   }
-  const existing = new Set((await db.chapterKeys(id)).map((k) => `${k[1]}:${k[2]}`));
+  const existing = replace ? new Set() : new Set((await db.chapterKeys(id)).map((k) => `${k[1]}:${k[2]}`));
   for (const book of BOOKS) {
     const rows = [];
     let have = true;
@@ -126,6 +137,7 @@ export async function storeParsed(id, parsed, onProgress) {
     verses: parsed.total,
     chapters: parsed.chapters.size,
     problems,
+    numerotation: NUMEROTATION,
     emptyVerses: parsed.empty,
     date: Date.now(),
   };
@@ -133,10 +145,14 @@ export async function storeParsed(id, parsed, onProgress) {
   return status;
 }
 
-/** Télécharge et enregistre une version (sautée si déjà complète). */
-export async function importVersion(id, onProgress = () => {}) {
+/**
+ * Télécharge et enregistre une version (sautée si déjà complète).
+ * replace : retélécharge et réécrit une version déjà installée, sans la vider avant :
+ * l'ancien texte reste lisible jusqu'à ce que le nouveau le remplace.
+ */
+export async function importVersion(id, onProgress = () => {}, replace = false) {
   const st = await versionStatus(id);
-  if (st.complete) {
+  if (st.complete && !replace) {
     onProgress({ phase: 'done', ratio: 1 });
     return st;
   }
@@ -150,7 +166,7 @@ export async function importVersion(id, onProgress = () => {}) {
     throw new Error('Fichier reçu illisible. Réessayez.');
   }
   const parsed = parseBolls(data);
-  const status = await storeParsed(id, parsed, onProgress);
+  const status = await storeParsed(id, parsed, onProgress, replace);
   await dropRaw(id);
   onProgress({ phase: 'done', ratio: 1 });
   return status;
@@ -169,4 +185,28 @@ export async function importFromFile(file, onProgress = () => {}) {
 export async function deleteVersion(id) {
   await db.clearVersion(id);
   await db.del('meta', `version:${id}`);
+}
+
+let renumbering = null;
+
+/**
+ * Retélécharge les versions installées avec une ancienne numérotation (connexion nécessaire).
+ * Un seul passage à la fois ; en cas d'échec, nouvel essai au prochain appel.
+ * @returns {Promise<string[]>} identifiants des versions réalignées
+ */
+export function renumberOutdated() {
+  renumbering ||= (async () => {
+    const done = [];
+    for (const id of Object.keys(VERSIONS)) {
+      if (!(await needsRenumbering(id))) continue;
+      try {
+        await importVersion(id, () => {}, true);
+        done.push(id);
+      } catch {
+        /* hors ligne ou serveur indisponible */
+      }
+    }
+    return done;
+  })().finally(() => (renumbering = null));
+  return renumbering;
 }

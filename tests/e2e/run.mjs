@@ -7,6 +7,7 @@
 import { createRequire } from 'node:module';
 import { spawn } from 'node:child_process';
 import fs from 'node:fs';
+const PKG_VERSION = JSON.parse(fs.readFileSync(new URL('../../package.json', import.meta.url), 'utf8')).version;
 import { BOOKS } from '../../src/core/books.js';
 
 const require = createRequire(import.meta.url);
@@ -124,7 +125,7 @@ try {
   /* 1 bis. Écran Mise à jour */
   await page.locator('.tile-mini', { hasText: 'Mise à jour' }).click();
   await page.locator('.status-title').waitFor();
-  check((await page.locator('.version-meta').innerText()).includes('1.2.0'), 'Mise à jour : version installée affichée');
+  check((await page.locator('.version-meta').innerText()).includes(PKG_VERSION), 'Mise à jour : version installée affichée');
   check((await page.locator('.changelog > li').count()) >= 3, 'Mise à jour : historique des nouveautés');
   await shot(page, '11-mise-a-jour');
   await page.getByRole('button', { name: 'Rechercher une mise à jour' }).click();
@@ -416,6 +417,30 @@ try {
 
   check(external.length === 0, `Aucun appel réseau externe après le premier lancement (${external.length})`);
   check(errors.length === 0, `Aucune erreur console (${errors.join(' | ')})`);
+
+  /* 10. Textes installés avec l'ancienne numérotation : réalignement automatique */
+  bollsAllowed = true;
+  await page2.evaluate(
+    () =>
+      new Promise((resolve, reject) => {
+        const req = indexedDB.open('menelik-bible');
+        req.onsuccess = () => {
+          const tx = req.result.transaction('meta', 'readwrite');
+          const store = tx.objectStore('meta');
+          store.get('version:BDS').onsuccess = (e) => store.put({ ...e.target.result, numerotation: 1 });
+          tx.oncomplete = () => (req.result.close(), resolve());
+          tx.onerror = () => reject(tx.error);
+        };
+      }),
+  );
+  await page2.goto(BASE + '#/');
+  await page2.reload();
+  await page2.locator('#toast', { hasText: 'numérotation alignée' }).waitFor({ timeout: 20000 });
+  await page2.goto(BASE + '#/l/BDS/32/1');
+  check(
+    (await page2.locator('.verse[data-n="17"]').innerText()).includes('Jonas 2:1'),
+    'Ancienne numérotation : BDS retéléchargée et alignée (Jonas 2:1 devient 1:17)',
+  );
 } catch (e) {
   failures++;
   console.error('✗ Échec :', e);

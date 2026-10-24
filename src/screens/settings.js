@@ -4,7 +4,7 @@ import { h, toast, confirmDialog } from '../ui.js';
 import { go } from '../router.js';
 import { VERSIONS } from '../core/versions.js';
 import { settings, setSetting, exportBackup, importBackup } from '../core/userdata.js';
-import { versionStatus, deleteVersion } from '../core/importer.js';
+import { versionStatus, deleteVersion, needsRenumbering, renumberOutdated } from '../core/importer.js';
 import { compareVersification } from '../core/parse-bolls.js';
 import { buildStructure } from '../core/structure.js';
 import * as db from '../core/db.js';
@@ -95,9 +95,18 @@ export async function renderSettings() {
   }
 
   /* ---------- Textes ---------- */
+  const realign = async (btn) => {
+    btn.disabled = true;
+    btn.textContent = 'Téléchargement…';
+    const done = await renumberOutdated();
+    clearCache();
+    toast(done.length ? 'Numérotation alignée sur la Louis Segond' : 'Échec : vérifiez la connexion puis réessayez', 4000);
+    refresh();
+  };
   const textRows = [];
   for (const id of Object.keys(VERSIONS)) {
     const st = await versionStatus(id);
+    const outdated = await needsRenumbering(id);
     textRows.push(
       h(
         'div',
@@ -112,6 +121,14 @@ export async function renderSettings() {
         ),
         st.problems && st.problems.length
           ? h('details', null, h('summary', null, `${st.problems.length} écart(s) avec la liste des livres`), h('ul', null, st.problems.map((p) => h('li', null, p))))
+          : null,
+        outdated
+          ? h(
+              'div',
+              { class: 'row wrap' },
+              h('span', { class: 'muted small' }, 'Numérotation à aligner sur la Louis Segond : retéléchargement automatique dès qu’une connexion est disponible.'),
+              h('button', { class: 'btn small', onclick: (e) => realign(e.currentTarget) }, 'Aligner maintenant'),
+            )
           : null,
       ),
     );
