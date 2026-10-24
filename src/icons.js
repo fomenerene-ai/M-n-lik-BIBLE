@@ -45,5 +45,11 @@ export const ICONS = {
   up: svg('<path d="M10 30l14-14 14 14"/>'),
   down: svg('<path d="M10 18l14 14 14-14"/>'),
   plus: svg('<path d="M24 8v32M8 24h32"/>'),
+  // Flèches circulaires (rechercher une mise à jour)
+  refresh: svg('<path d="M40 24a16 16 0 0 1-28.3 10.3M8 24a16 16 0 0 1 28.3-10.3"/><path d="M36 6v8h-8M12 42v-8h8"/>'),
+  // Flèche vers un plateau (installer)
+  download: svg('<path d="M24 6v24M14 20l10 10 10-10"/><path d="M8 34v6h32v-6"/>'),
+  // Cadran et éclat (écran Mise à jour)
+  update: svg('<circle cx="24" cy="24" r="18"/><path d="M24 14v10l7 5"/><path d="M38 8l4-4M42 14h4M34 4v-4" />'),
   marker: svg('<path d="M30 6l12 12-20 20H10V26z"/><path d="M6 42h36"/>'),
 };

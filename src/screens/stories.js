@@ -57,7 +57,7 @@ export function richText(str) {
     if (m.index > last) out.push(str.slice(last, m.index));
     // Référence sans libellé : affichée entre parenthèses, comme dans un texte imprimé
     if (m[2]) out.push(refLink(m[1].trim(), m[2].trim()));
-    else out.push('(', refLink(m[1].trim()), ')');
+    else out.push(h('span', { class: 'ref-wrap' }, '(', refLink(m[1].trim()), ')'));
     last = re.lastIndex;
   }
   if (last < str.length) out.push(str.slice(last));
@@ -135,7 +135,7 @@ export async function renderStory(route) {
     h('p', { class: 'story-lead' }, richText(s.resume)),
 
     h('h3', { class: 'section-title' }, 'Le récit biblique'),
-    s.recit.map((p) => h('p', { class: 'story-p' }, richText(p))),
+    s.recit.map((p, i) => h('p', { class: i === 0 ? 'story-p story-first' : 'story-p' }, richText(p))),
 
     s.contexte && s.contexte.length
       ? h(

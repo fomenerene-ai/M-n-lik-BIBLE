@@ -78,7 +78,10 @@ await new Promise((resolve, reject) => {
 
 const browser = await chromium.launch();
 const context = await browser.newContext({
-  viewport: { width: 1280, height: 800 },
+  // VIEWPORT=390x844 pour tester le format téléphone
+  viewport: process.env.VIEWPORT
+    ? { width: +process.env.VIEWPORT.split('x')[0], height: +process.env.VIEWPORT.split('x')[1] }
+    : { width: 1280, height: 800 },
   acceptDownloads: true,
   hasTouch: true,
   serviceWorkers: 'allow',
@@ -114,6 +117,20 @@ try {
   await page.evaluate(() => navigator.serviceWorker.ready);
   bollsAllowed = false;
   external.length = 0;
+
+  check(await page.locator('.home-verse').isVisible(), 'Accueil : verset du jour affiché');
+  check((await page.locator('.tile-mini').count()) === 2, 'Accueil : accès Mise à jour et Réglages');
+
+  /* 1 bis. Écran Mise à jour */
+  await page.locator('.tile-mini', { hasText: 'Mise à jour' }).click();
+  await page.locator('.status-title').waitFor();
+  check((await page.locator('.version-meta').innerText()).includes('1.2.0'), 'Mise à jour : version installée affichée');
+  check((await page.locator('.changelog > li').count()) >= 3, 'Mise à jour : historique des nouveautés');
+  await shot(page, '11-mise-a-jour');
+  await page.getByRole('button', { name: 'Rechercher une mise à jour' }).click();
+  await page.locator('.status-title', { hasText: 'à jour' }).waitFor({ timeout: 20000 });
+  check(true, 'Mise à jour : recherche sans nouveauté, « L’application est à jour »');
+  await page.goto(BASE + '#/');
 
   /* 2. Recherche */
   await page.locator('.tile', { hasText: 'Recherche' }).click();
@@ -179,9 +196,17 @@ try {
 
   /* 5. Surlignage, note, favori */
   await page.goto(BASE + '#/l/FRLSG/43/3');
+  // Clavier : Entrée sur un verset ouvre le menu, Échap le ferme
+  await page.locator('.verse[data-n="2"] .verse-hit').focus();
+  await page.keyboard.press('Enter');
+  await page.locator('.action-bar').waitFor();
+  await page.keyboard.press('Escape');
+  await page.locator('.action-bar').waitFor({ state: 'detached' });
+  check(true, 'Clavier : verset sélectionné avec Entrée, menu fermé avec Échap');
   await page.locator('.verse[data-n="16"]').click();
   await page.locator('.verse[data-n="18"]').click();
   check((await page.locator('.action-head strong').innerText()) === 'Jean 3:16-18', 'Sélection d’une suite de versets');
+  check((await page.locator('button button, [role=button] button').count()) === 0, 'Accessibilité : aucun bouton imbriqué dans un autre');
   await shot(page, '05-menu-verset');
   await page.getByRole('button', { name: 'Surligner en jaune' }).click();
   await page.locator('.verse[data-n="17"].hl-jaune').waitFor();
@@ -218,6 +243,47 @@ try {
   await page.locator('.fav-open').first().click();
   await page.locator('.chapter-title', { hasText: 'Jean 3' }).waitFor();
   check(true, 'Ouverture du passage depuis les favoris');
+
+  // Audit d'accessibilité automatisé (axe-core), si AXE=chemin/vers/axe.min.js
+  if (process.env.AXE) {
+    const axeSrc = fs.readFileSync(process.env.AXE, 'utf8');
+    const routes = ['#/', '#/recherche/Jean%203%3A16-21', '#/t/AT', '#/t/NT/FRLSG', '#/l/FRLSG/43', '#/l/FRLSG/43/3', '#/favoris', '#/projection', '#/histoires', '#/histoires/joseph', '#/reglages', '#/mise-a-jour'];
+    for (const theme of ['Parchemin', 'Sombre']) {
+      await page.goto(BASE + '#/reglages');
+      await page.getByRole('button', { name: theme }).click();
+      await page.locator('.segmented button.on', { hasText: theme }).waitFor();
+      for (const r of routes) {
+        await page.goto(BASE + r);
+        await page.waitForTimeout(400);
+        await page.evaluate(axeSrc);
+        const res = await page.evaluate(() =>
+          window.axe.run(document, { runOnly: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'] }).then((x) =>
+            x.violations.map((v) => `${v.id} (${v.nodes.length}) : ${v.nodes.slice(0, 2).map((n) => n.target.join(' ')).join(' | ')}`),
+          ),
+        );
+        check(res.length === 0, `axe ${theme} ${r}${res.length ? ' → ' + res.join(' ; ') : ''}`);
+      }
+    }
+    await page.goto(BASE + '#/reglages');
+    await page.getByRole('button', { name: 'Parchemin' }).click();
+    await page.locator('.segmented button.on', { hasText: 'Parchemin' }).waitFor();
+  }
+
+  // Mode sombre en lecture (captures)
+  if (process.env.SHOTS) {
+    await page.goto(BASE + '#/reglages');
+    await page.getByRole('button', { name: 'Sombre' }).click();
+    await page.locator('.segmented button.on', { hasText: 'Sombre' }).waitFor();
+    await page.goto(BASE + '#/l/FRLSG/43/3');
+    await page.locator('.verse[data-n="16"].hl-jaune').waitFor();
+    await shot(page, '12-lecture-sombre');
+    await page.goto(BASE + '#/');
+    await page.locator('.tile').first().waitFor();
+    await shot(page, '13-accueil-sombre');
+    await page.goto(BASE + '#/reglages');
+    await page.getByRole('button', { name: 'Parchemin' }).click();
+    await page.locator('.segmented button.on', { hasText: 'Parchemin' }).waitFor();
+  }
 
   /* 6. Sauvegarde : export puis import */
   await page.goto(BASE + '#/reglages');
