@@ -3,6 +3,16 @@
 
 export const CHANGELOG = [
   {
+    version: '1.3.0',
+    date: '2026-10-24',
+    items: [
+      'Bible du Semeur renumérotée comme la Louis Segond : mêmes numéros de versets dans les deux versions (Genèse 32, Nombres 17, 1 Rois 5, Daniel 4, Jonas 2…).',
+      'Joël 3 et Malachie 4 désormais disponibles en Bible du Semeur.',
+      'Retéléchargement automatique de la Bible du Semeur au premier lancement connecté. Surlignages, notes et favoris conservés.',
+      'Références corrigées dans les histoires d’Acan, d’Ésaïe et de Michée.',
+    ],
+  },
+  {
     version: '1.2.0',
     date: '2026-10-24',
     items: [

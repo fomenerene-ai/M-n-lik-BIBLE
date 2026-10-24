@@ -3,11 +3,13 @@
 import './styles/fonts.css';
 import './styles/base.css';
 
-import { h, icon } from './ui.js';
+import { h, icon, toast } from './ui.js';
 import { ICONS } from './icons.js';
 import { startRouter, parse, back } from './router.js';
 import { loadSettings } from './core/userdata.js';
-import { allReady } from './core/importer.js';
+import { allReady, renumberOutdated } from './core/importer.js';
+import { clearCache } from './core/bible.js';
+import { VERSIONS } from './core/versions.js';
 import { registerSW } from './sw-register.js';
 import { applyTheme } from './theme.js';
 
@@ -117,6 +119,17 @@ async function boot() {
     return;
   }
   startRouter(render);
+  realignTexts();
+}
+
+// Textes installés avant l'alignement de la numérotation : remplacés en arrière-plan.
+async function realignTexts() {
+  if (!navigator.onLine) return;
+  const done = await renumberOutdated();
+  if (!done.length) return;
+  clearCache();
+  const names = done.map((id) => VERSIONS[id].label).join(', ');
+  toast(`${names} : numérotation alignée sur la Louis Segond. Rouvrez le chapitre en cours.`, 6000);
 }
 
 boot();

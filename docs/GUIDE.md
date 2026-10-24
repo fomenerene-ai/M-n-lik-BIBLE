@@ -79,3 +79,10 @@ Liste alphabétique ou chronologique. Chaque fiche : récit, encadré de context
 
 Taille du texte, thème de lecture (parchemin ou sombre), version par défaut, couleur et taille de
 projection, sauvegarde (export et import), état des textes, comparaison de versification.
+
+## Numérotation des versets
+
+La Bible du Semeur est renumérotée comme la Louis Segond : un même numéro désigne le même verset
+dans les deux versions (par exemple Genèse 32:28, « tu seras appelé Israël »). Dans une vingtaine
+de chapitres (Genèse 32, Nombres 17, 1 Rois 5, Daniel 4, Joël 3, Jonas 2, Malachie 4…), les numéros
+affichés en BDS peuvent donc différer d’une Bible du Semeur imprimée.
