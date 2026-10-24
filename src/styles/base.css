@@ -1852,3 +1852,112 @@ input[type='range'] {
     animation: none !important;
   }
 }
+
+/* ========== Lecture vocale ========== */
+
+.tts-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 35; /* sous le menu d'action sur verset */
+  background: var(--color-surface-raised);
+  border-top: 2px solid var(--color-accent);
+  box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.18);
+  padding: var(--p-space-2) var(--p-space-3) max(var(--p-space-2), env(safe-area-inset-bottom));
+}
+
+.tts-bar[hidden] {
+  display: none;
+}
+
+.tts-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: var(--p-space-2);
+}
+
+.tts-play {
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+.tts-play:hover {
+  background: var(--color-accent-hover);
+}
+
+.tts-play .ico,
+.tts-bar .btn-icon .ico {
+  width: 24px;
+  height: 24px;
+}
+
+.tts-pos {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: var(--font-serif);
+  font-size: var(--p-font-lg);
+  color: var(--color-text-strong);
+}
+
+.tts-speed button {
+  padding: var(--p-space-1) var(--p-space-3);
+  font-size: var(--p-font-lg);
+}
+
+.tts-rate {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 var(--p-space-2);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  border-left: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
+}
+
+body.tts-on .page {
+  padding-bottom: calc(var(--tap) + var(--p-space-8));
+}
+
+.verse.speaking,
+.story-p.speaking {
+  box-shadow: inset 4px 0 0 var(--color-accent);
+}
+
+.verse.speaking:not([class*='hl-']),
+.story-p.speaking {
+  background-color: var(--color-accent-soft);
+}
+
+.story-p.speaking {
+  border-radius: var(--p-radius-sm);
+  padding-left: var(--p-space-3);
+}
+
+.verse.speaking[class*='hl-'] {
+  box-shadow: inset 4px 0 0 var(--color-accent), 0 0 0 2px var(--color-accent);
+}
+
+@media (max-width: 600px) {
+  .tts-pos {
+    font-size: var(--p-font-base);
+  }
+  .tts-speed button {
+    padding: var(--p-space-1) var(--p-space-2);
+  }
+}
+
+.select {
+  max-width: 100%;
+  min-height: var(--tap);
+  padding: var(--p-space-1) var(--p-space-3);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-control);
+  background: var(--color-input-bg);
+  color: var(--color-input-text);
+}

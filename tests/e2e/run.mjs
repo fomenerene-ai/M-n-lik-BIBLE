@@ -88,6 +88,48 @@ const context = await browser.newContext({
   serviceWorkers: 'allow',
 });
 await context.grantPermissions(['clipboard-read', 'clipboard-write'], { origin: BASE });
+
+// Synthèse vocale simulée : chaque énoncé « dure » 15 ms ; les textes lus sont notés.
+await context.addInitScript(() => {
+  const spoken = (window.__spoken = []);
+  const queue = [];
+  let busy = false;
+  const run = () => {
+    if (busy || !queue.length) return;
+    busy = true;
+    const u = queue.shift();
+    spoken.push(u.text);
+    setTimeout(() => {
+      busy = false;
+      if (!u.cancelled) u.onend && u.onend({});
+      run();
+    }, 15);
+  };
+  window.SpeechSynthesisUtterance = class {
+    constructor(text) {
+      this.text = text;
+    }
+  };
+  const voice = { name: 'Voix test', lang: 'fr-FR', voiceURI: 'test-fr', localService: true };
+  const synth = {
+    get speaking() {
+      return busy;
+    },
+    pending: false,
+    getVoices: () => [voice],
+    speak(u) {
+      queue.push(u);
+      run();
+    },
+    cancel() {
+      queue.length = 0;
+      spoken.cancelled = (spoken.cancelled || 0) + 1;
+    },
+    addEventListener() {},
+    removeEventListener() {},
+  };
+  Object.defineProperty(window, 'speechSynthesis', { value: synth, configurable: true });
+});
 const errors = [];
 const external = [];
 let bollsAllowed = true;
@@ -264,6 +306,19 @@ try {
         );
         check(res.length === 0, `axe ${theme} ${r}${res.length ? ' → ' + res.join(' ; ') : ''}`);
       }
+      // Barre de lecture vocale ouverte (en pause)
+      await page.goto(BASE + '#/l/FRLSG/43/3');
+      await page.getByRole('button', { name: 'Écouter le chapitre' }).click();
+      await page.getByRole('button', { name: 'Pause' }).click();
+      await page.evaluate(axeSrc);
+      const ttsRes = await page.evaluate(() =>
+        window.axe.run(document, { runOnly: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'] }).then((x) =>
+          x.violations.map((v) => `${v.id} (${v.nodes.length}) : ${v.nodes.slice(0, 2).map((n) => n.target.join(' ')).join(' | ')}`),
+        ),
+      );
+      check(ttsRes.length === 0, `axe ${theme} lecture vocale${ttsRes.length ? ' → ' + ttsRes.join(' ; ') : ''}`);
+      await shot(page, `11-lecture-vocale-${theme.toLowerCase()}`);
+      await page.getByRole('button', { name: 'Arrêter la lecture' }).click();
     }
     await page.goto(BASE + '#/reglages');
     await page.getByRole('button', { name: 'Parchemin' }).click();
@@ -398,6 +453,40 @@ try {
   await page.locator('.ref-link', { hasText: 'Genèse 37:2-4' }).first().click();
   await page.locator('.chapter-title', { hasText: 'Genèse 37' }).waitFor();
   check((await page.locator('.verse.focus').count()) === 3, 'Référence d’histoire : ouvre le bon passage');
+
+  /* 8 bis. Lecture vocale */
+  await page.goto(BASE + '#/l/FRLSG/65/1'); // Jude : un seul chapitre de 12 versets, puis Apocalypse 1
+  await page.evaluate(() => (window.__spoken.length = 0));
+  await page.getByRole('button', { name: 'Écouter le chapitre' }).click();
+  await page.locator('.tts-bar:not([hidden])').waitFor();
+  await page.locator('.verse.speaking').first().waitFor();
+  check(true, 'Lecture vocale : barre affichée, verset lu mis en valeur');
+  await page.locator('.chapter-title', { hasText: 'Apocalypse 1' }).waitFor({ timeout: 10000 });
+  await page.locator('.verse.speaking').first().waitFor();
+  const spoken = await page.evaluate(() => window.__spoken.slice());
+  check(
+    spoken[0] === 'Jude, chapitre 1.' && spoken.includes('Apocalypse, chapitre 1.') && spoken.length >= 14,
+    'Lecture vocale : enchaîne sur le chapitre suivant (Jude 1 → Apocalypse 1)',
+  );
+  await page.getByRole('button', { name: 'Pause' }).click();
+  await page.getByRole('button', { name: 'Reprendre la lecture' }).waitFor();
+  await page.getByRole('button', { name: 'Arrêter la lecture' }).click();
+  check(
+    (await page.locator('.tts-bar:not([hidden])').count()) === 0 && (await page.locator('.verse.speaking').count()) === 0,
+    'Lecture vocale : pause, puis arrêt',
+  );
+  await page.goto(BASE + '#/histoires/abraham');
+  await page.locator('.story-name').waitFor();
+  await page.evaluate(() => (window.__spoken.length = 0));
+  await page.getByRole('button', { name: 'Écouter le récit' }).click();
+  await page.locator('.story-p.speaking').waitFor();
+  const storySpoken = await page.evaluate(() => window.__spoken.join(' '));
+  check(storySpoken.startsWith('Abraham.') && !storySpoken.includes('[['), 'Lecture vocale : récit lu sans les références');
+  await page.goto(BASE + '#/');
+  check((await page.locator('.tts-bar:not([hidden])').count()) === 0, 'Lecture vocale : arrêtée en quittant l’écran');
+  await page.goto(BASE + '#/reglages');
+  await page.getByRole('combobox', { name: 'Voix' }).waitFor();
+  check((await page.locator('select option').allInnerTexts()).some((t) => t.includes('Voix test')), 'Réglages : voix française proposée');
 
   /* 9. Hors ligne, application fermée puis rouverte */
   await context.setOffline(true);

@@ -12,6 +12,7 @@ import { getBook } from '../core/books.js';
 import { clearCache } from '../core/bible.js';
 import { applyTheme } from '../theme.js';
 import { FONT_MIN, FONT_MAX } from './reader.js';
+import { speechSupported, frenchVoices, createSpeaker, RATE_MIN, RATE_MAX } from '../core/speech.js';
 
 export async function renderSettings() {
   const s = settings();
@@ -57,6 +58,52 @@ export async function renderSettings() {
     await setSetting('fontSize', Number(size.value));
     applyTheme();
   });
+
+  /* ---------- Lecture vocale ---------- */
+  const voices = await frenchVoices();
+  const voiceSel = h(
+    'select',
+    { class: 'select', 'aria-label': 'Voix' },
+    h('option', { value: '' }, 'Automatique (meilleure voix française)'),
+    voices.map((v) =>
+      h('option', { value: v.voiceURI, selected: v.voiceURI === s.ttsVoice }, `${v.name} (${v.lang})${v.localService ? '' : ', en ligne'}`),
+    ),
+  );
+  voiceSel.addEventListener('change', () => setSetting('ttsVoice', voiceSel.value));
+  const rate = h('input', {
+    type: 'range',
+    min: String(RATE_MIN),
+    max: String(RATE_MAX),
+    step: '0.1',
+    value: String(s.ttsRate),
+    'aria-label': 'Vitesse de lecture',
+  });
+  const rateOut = h('span', { class: 'muted' }, `${s.ttsRate.toFixed(1).replace('.', ',')}×`);
+  rate.addEventListener('input', async () => {
+    await setSetting('ttsRate', Number(rate.value));
+    rateOut.textContent = `${Number(rate.value).toFixed(1).replace('.', ',')}×`;
+  });
+  let trial = null;
+  const tryVoice = () => {
+    trial && trial.stop();
+    trial = createSpeaker({ segments: [{ text: 'Au commencement, Dieu créa les cieux et la terre.' }] });
+    trial.play();
+  };
+  const voiceHelp = h(
+    'details',
+    { class: 'help', open: !voices.length },
+    h('summary', null, voices.length ? 'Voix absente ou muette hors connexion ?' : 'Aucune voix française trouvée sur cet appareil'),
+    h(
+      'ol',
+      { class: 'steps' },
+      h('li', null, 'Ouvrez les Paramètres d’Android.'),
+      h('li', null, 'Cherchez « Synthèse vocale » (souvent dans Gestion générale ou Système, puis Langue).'),
+      h('li', null, 'Choisissez le moteur Google (Services vocaux Google), puis ses paramètres.'),
+      h('li', null, 'Touchez « Installer les données vocales », puis Français (France), et téléchargez la voix.'),
+      h('li', null, 'Revenez ici et touchez « Essayer la voix ».'),
+    ),
+    h('p', { class: 'muted small' }, 'Une voix téléchargée fonctionne sans connexion. Les voix marquées « en ligne » demandent internet.'),
+  );
 
   /* ---------- Sauvegarde ---------- */
   const fileInput = h('input', { type: 'file', accept: '.json,application/json', hidden: true });
@@ -178,6 +225,18 @@ export async function renderSettings() {
       field('Thème de lecture', seg('Thème', 'theme', [['parchemin', 'Parchemin'], ['sombre', 'Sombre']], applyTheme)),
       field('Version par défaut', seg('Version', 'version', Object.values(VERSIONS).map((v) => [v.id, v.label]))),
     ]),
+    section(
+      'Lecture vocale',
+      speechSupported()
+        ? [
+            field('Voix', voiceSel),
+            field('Vitesse', h('div', { class: 'row' }, rate, rateOut)),
+            field('Annoncer les numéros de verset', seg('Annoncer les numéros', 'ttsAnnounce', [[false, 'Non'], [true, 'Oui']])),
+            h('div', { class: 'row wrap' }, h('button', { class: 'btn', onclick: tryVoice }, 'Essayer la voix')),
+            voiceHelp,
+          ]
+        : [h('p', { class: 'muted' }, 'La lecture vocale n’est pas disponible sur ce navigateur. Utilisez Chrome.')],
+    ),
     section('Projection', [
       field('Couleur du texte', seg('Couleur', 'projColor', [['jaune', 'Jaune'], ['blanc', 'Blanc']])),
       field(
@@ -234,7 +293,7 @@ export async function renderSettings() {
       ),
     ]),
   );
-  return { title: 'Réglages', el };
+  return { title: 'Réglages', el, cleanup: () => trial && trial.stop() };
 }
 
 /** Propose un objet JSON en téléchargement. */

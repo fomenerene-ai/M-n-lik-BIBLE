@@ -2,7 +2,10 @@
 // Les fiches sont des fichiers JSON statiques dans public/histoires/ ; l'index est
 // généré au build (voir vite.config.js). Ajouter un personnage = ajouter un fichier.
 
-import { h } from '../ui.js';
+import { h, icon, prefersReducedMotion } from '../ui.js';
+import { ICONS } from '../icons.js';
+import { createPlayer } from '../components/player.js';
+import { splitSentences } from '../core/speech.js';
 import { parseReference } from '../core/reference.js';
 import { settings } from '../core/userdata.js';
 import { go } from '../router.js';
@@ -125,8 +128,41 @@ export async function renderStories() {
   return { title: 'Histoires', el };
 }
 
+/** Texte à lire à voix haute : sans les références entre crochets. */
+export function speakableText(str) {
+  return str
+    .replace(/\s*\(?\[\[([^\]|]+)\|([^\]]+)\]\]\)?/g, ' $2')
+    .replace(/\s*\(?\[\[[^\]]+\]\]\)?/g, '')
+    .replace(/\s+([.,])/g, '$1')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
 export async function renderStory(route) {
   const s = await loadStory(route.id);
+  const paras = s.recit.map((p, i) => h('p', { class: i === 0 ? 'story-p story-first' : 'story-p' }, richText(p)));
+
+  // Lecture vocale du récit, phrase par phrase, paragraphe en cours mis en valeur
+  const segments = [{ text: `${s.nom}.`, p: -1 }];
+  s.recit.forEach((p, i) => splitSentences(speakableText(p)).forEach((text) => segments.push({ text, p: i })));
+  let current = null;
+  const mark = (el) => {
+    current && current.classList.remove('speaking');
+    current = el;
+    if (el) {
+      el.classList.add('speaking');
+      el.scrollIntoView({ block: 'center', behavior: prefersReducedMotion() ? 'auto' : 'smooth' });
+    }
+  };
+  const player = createPlayer({
+    title: s.nom,
+    segments,
+    label: (i, seg) => (seg.p < 0 ? s.nom : `Paragraphe ${seg.p + 1} sur ${s.recit.length}`),
+    onSegment: (i, seg) => mark(seg.p < 0 ? null : paras[seg.p]),
+    onEnd: () => mark(null),
+    onStop: () => mark(null),
+  });
+
   const el = h(
     'article',
     { class: 'page story' },
@@ -134,8 +170,13 @@ export async function renderStory(route) {
     h('p', { class: 'muted' }, s.periode),
     h('p', { class: 'story-lead' }, richText(s.resume)),
 
-    h('h3', { class: 'section-title' }, 'Le récit biblique'),
-    s.recit.map((p, i) => h('p', { class: i === 0 ? 'story-p story-first' : 'story-p' }, richText(p))),
+    h(
+      'div',
+      { class: 'row between wrap' },
+      h('h3', { class: 'section-title' }, 'Le récit biblique'),
+      h('button', { class: 'btn small', onclick: () => player.start() }, icon(ICONS.listen), h('span', null, 'Écouter le récit')),
+    ),
+    paras,
 
     s.contexte && s.contexte.length
       ? h(
@@ -161,6 +202,6 @@ export async function renderStory(route) {
         ]
       : null,
   );
-  return { title: s.nom, el };
+  return { title: s.nom, el, cleanup: () => player.destroy() };
 }
 
