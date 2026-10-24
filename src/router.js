@@ -41,6 +41,8 @@ export function parse(hash) {
       return b ? { name: 'story', id: b } : { name: 'stories' };
     case 'reglages':
       return { name: 'settings' };
+    case 'mise-a-jour':
+      return { name: 'updates' };
     default:
       return { name: 'home' };
   }

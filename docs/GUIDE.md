@@ -2,9 +2,18 @@
 
 ## Accueil
 
-Six tuiles : Recherche, Ancien Testament, Nouveau Testament, Histoires, Favoris, Projection.
-La roue dentée en haut à droite ouvre les Réglages. La flèche en haut à gauche, comme le bouton
-retour d’Android, remonte toujours d’un niveau.
+Un verset du jour, puis six tuiles : Recherche, Ancien Testament, Nouveau Testament, Histoires,
+Favoris, Projection. En dessous, deux accès secondaires : **Mise à jour** et **Réglages**.
+La flèche en haut à gauche, comme le bouton retour d’Android, remonte toujours d’un niveau.
+
+## Mise à jour
+
+L’écran affiche la version installée et sa date de publication. **Rechercher une mise à jour**
+interroge le site (connexion nécessaire) ; si une version plus récente existe, touchez
+**Installer la mise à jour** : l’application redémarre, vos données sont conservées.
+Un badge « Nouvelle version » apparaît sur la tuile quand une mise à jour attend.
+L’écran liste aussi les nouveautés de chaque version et la marche à suivre si l’application
+reste bloquée sur une ancienne version.
 
 ## Lire
 

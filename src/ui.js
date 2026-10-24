@@ -50,35 +50,59 @@ export function toast(msg, ms = 2200) {
 /* ---------- Feuille modale (fermée par le bouton retour d'Android) ---------- */
 
 export function sheet(title, content, { onClose } = {}) {
+  const opener = document.activeElement; // pour rendre le focus à la fermeture
+  const titleId = `sheet-title-${Date.now()}`;
   const close = () => {
     if (!wrap.isConnected) return;
     wrap.remove();
     popOverlay(closeFromBack);
     onClose && onClose();
+    if (opener && opener.isConnected && typeof opener.focus === 'function') opener.focus({ preventScroll: true });
   };
   const closeFromBack = () => {
     close();
     return true;
   };
-  const wrap = h(
+  const dialog = h(
     'div',
-    { class: 'sheet-wrap', onclick: (e) => e.target === wrap && close() },
+    { class: 'sheet', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': titleId },
     h(
       'div',
-      { class: 'sheet', role: 'dialog', 'aria-modal': 'true', 'aria-label': title },
-      h(
-        'div',
-        { class: 'sheet-head' },
-        h('h2', null, title),
-        h('button', { class: 'btn-icon', 'aria-label': 'Fermer', onclick: () => close() }, '×'),
-      ),
-      content,
+      { class: 'sheet-head' },
+      h('h2', { id: titleId }, title),
+      h('button', { type: 'button', class: 'btn-icon', 'aria-label': 'Fermer', onclick: () => close() }, '×'),
     ),
+    content,
   );
+  const wrap = h('div', { class: 'sheet-wrap', onclick: (e) => e.target === wrap && close() }, dialog);
+
+  // Échap ferme ; Tab reste à l'intérieur de la feuille
+  wrap.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      e.stopPropagation();
+      close();
+      return;
+    }
+    if (e.key !== 'Tab') return;
+    const items = [...dialog.querySelectorAll('button, [href], input, textarea, select, [tabindex]:not([tabindex="-1"])')].filter(
+      (x) => !x.disabled && x.offsetParent !== null,
+    );
+    if (!items.length) return;
+    const first = items[0];
+    const last = items[items.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  });
+
   document.body.append(wrap);
   pushOverlay(closeFromBack);
-  const focusable = wrap.querySelector('textarea, input, button:not(.btn-icon)');
-  if (focusable) focusable.focus();
+  const focusable = wrap.querySelector('textarea, input, .sheet-body button');
+  (focusable || dialog.querySelector('.btn-icon')).focus();
   return { close, el: wrap };
 }
 

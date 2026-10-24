@@ -22,6 +22,7 @@ import { renderFavorites } from './screens/favorites.js';
 import { renderStories, renderStory } from './screens/stories.js';
 import { renderProjection } from './screens/projection.js';
 import { renderSettings } from './screens/settings.js';
+import { renderUpdates } from './screens/updates.js';
 
 const SCREENS = {
   home: renderHome,
@@ -35,11 +36,12 @@ const SCREENS = {
   story: renderStory,
   projection: renderProjection,
   settings: renderSettings,
+  updates: renderUpdates,
 };
 
 /* ---------- Enveloppe : bandeau + zone principale ---------- */
 
-const titleEl = h('h1', { class: 'top-title' });
+const titleEl = h('h1', { class: 'top-title', tabindex: '-1' });
 const subEl = h('p', { class: 'top-sub' }, 'Bible en français');
 const backBtn = h(
   'button',
@@ -55,6 +57,8 @@ const topbar = h(
   actionsEl,
 );
 const view = h('main', { id: 'view', tabindex: '-1' });
+const skipLink = h('a', { class: 'skip-link', href: '#view', onclick: (e) => (e.preventDefault(), view.focus()) }, 'Aller au contenu');
+let firstRender = true;
 
 let cleanup = null;
 let token = 0;
@@ -87,12 +91,16 @@ async function render(path) {
   view.dataset.screen = route.name;
   window.scrollTo(0, 0);
   if (res.afterMount) res.afterMount();
+  // Lecteurs d'écran : annoncer le nouvel écran en plaçant le focus sur son titre
+  // (sauf si l'écran a déjà placé le focus lui-même, par exemple dans le champ de recherche)
+  if (!firstRender && !view.contains(document.activeElement)) titleEl.focus({ preventScroll: true });
+  firstRender = false;
 }
 
 async function boot() {
   await loadSettings();
   applyTheme();
-  document.body.append(topbar, view);
+  document.body.append(skipLink, topbar, view);
 
   // Stockage persistant : évite que le navigateur efface les données sans prévenir.
   if (navigator.storage && navigator.storage.persist) {

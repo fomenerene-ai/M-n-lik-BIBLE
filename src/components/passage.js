@@ -66,6 +66,7 @@ export function createPassage(o) {
       const notes = marks.notes.filter((x) => x.vs === n);
       const bookmarked = marks.bookmarks.some((x) => x.v === n);
       const selected = sel && n >= sel.vs && n <= sel.ve;
+      const label = `Verset ${n}${color ? ', surligné' : ''}${bookmarked ? ', favori' : ''}`;
       frag.push(
         h(
           'div',
@@ -73,19 +74,23 @@ export function createPassage(o) {
             class:
               'verse' + (color ? ` hl-${color}` : '') + (selected ? ' selected' : '') + (o.focus && n >= o.focus.vs && n <= o.focus.ve ? ' focus' : ''),
             'data-n': n,
-            role: 'button',
-            tabindex: '0',
-            'aria-pressed': selected ? 'true' : 'false',
           },
-          h('sup', { class: 'vn' }, String(n)),
-          h('span', { class: 'vt' }, t),
-          bookmarked ? icon(ICONS.bookmark, 'mark-ico') : null,
+          // Le verset entier est un bouton (clavier : Entrée ou Espace) ; les notes sont des boutons voisins.
+          h(
+            'button',
+            { type: 'button', class: 'verse-hit', 'aria-pressed': selected ? 'true' : 'false' },
+            h('span', { class: 'sr-only' }, label + ' : '),
+            h('sup', { class: 'vn', 'aria-hidden': 'true' }, String(n)),
+            h('span', { class: 'vt' }, t),
+            bookmarked ? icon(ICONS.bookmark, 'mark-ico') : null,
+          ),
           notes.map((nt) =>
             h(
               'button',
               {
+                type: 'button',
                 class: 'note-btn',
-                'aria-label': 'Voir la note',
+                'aria-label': `Voir la note du verset ${n}`,
                 onclick: (e) => {
                   e.stopPropagation();
                   openNote(nt.vs, nt.ve, nt);
@@ -112,15 +117,25 @@ export function createPassage(o) {
   }
 
   el.addEventListener('click', (e) => {
+    if (e.target.closest('.note-btn')) return;
     const v = e.target.closest('.verse');
-    if (v) onTap(Number(v.dataset.n));
+    if (!v || v.classList.contains('missing')) return;
+    const n = Number(v.dataset.n);
+    const hadFocus = el.contains(document.activeElement);
+    onTap(n);
+    if (hadFocus) refocus(n);
   });
-  el.addEventListener('keydown', (e) => {
-    if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('verse')) {
-      e.preventDefault();
-      onTap(Number(e.target.dataset.n));
-    }
-  });
+  // Après un nouveau rendu, rendre le focus clavier au verset touché
+  function refocus(n) {
+    const b2 = el.querySelector(`.verse[data-n="${n}"] .verse-hit`);
+    if (b2) b2.focus({ preventScroll: true });
+  }
+
+  // Échap ferme le menu d'action
+  const onEsc = (e) => {
+    if (e.key === 'Escape' && bar && !document.querySelector('.sheet-wrap')) clearSel();
+  };
+  document.addEventListener('keydown', onEsc);
 
   const refOfSel = () => ({ book: b, chapter: c, vStart: sel.vs, vEnd: sel.ve });
 
@@ -275,6 +290,7 @@ export function createPassage(o) {
   }
 
   function destroy() {
+    document.removeEventListener('keydown', onEsc);
     if (bar) {
       bar.remove();
       bar = null;

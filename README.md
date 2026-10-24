@@ -33,6 +33,10 @@ Quand une nouvelle version est publiée, l’app affiche « Nouvelle version dis
 (si la tablette est connectée). Toucher **Mettre à jour**. Tant que vous n’acceptez pas, l’ancienne version
 reste active et fonctionne hors ligne. Vos textes et vos données sont conservés.
 
+La tuile **Mise à jour** de l’accueil permet aussi de lancer la recherche à la main, d’installer la
+nouvelle version et de lire l’historique des nouveautés (`src/changelog.js`, à compléter à chaque
+publication, avec le numéro de version de `package.json`).
+
 ## Sauvegarder ses données
 
 Surlignages, notes, marque-pages, file de projection et réglages sont stockés dans le navigateur.
@@ -65,6 +69,8 @@ npm run check:stories  # contrôle des fiches d'histoires
 npm run build          # build de production dans dist/ (+ sw.js)
 npm run preview        # sert dist/ sur http://localhost:4173
 npm run test:e2e       # parcours complet dans Chromium (après build), textes simulés
+                       # options : VIEWPORT=390x844 (téléphone), SHOTS=1 (captures),
+                       # AXE=…/axe.min.js (audit d'accessibilité WCAG 2.1 AA, 12 écrans × 2 thèmes)
 npm run icons          # régénère les icônes PNG (Playwright requis)
 ```
 
@@ -81,7 +87,10 @@ src/
   ui.js                    aides DOM, notifications, feuilles modales, balayages
   icons.js                 icônes SVG originales
   theme.js                 thème parchemin / sombre, taille du texte
-  sw-register.js           service worker et bandeau de mise à jour
+  sw-register.js           service worker, état des mises à jour, bandeau
+  changelog.js             historique des versions (écran Mise à jour)
+  styles/base.css          styles ; variables en trois niveaux : primitives (--p-…),
+                           sémantiques (--color-…, --space-…), composants (--btn-…, --tile-…)
   sw-template.js           service worker (précache complet, mise à jour sur accord)
   core/
     books.js               66 livres, chapitres, testaments, formes alternatives
@@ -103,7 +112,7 @@ src/
     projector.js           rendu et mesure des diapositives (aperçu = plein écran)
     live.js                plein écran, gestes, clavier, écran noir, Wake Lock
   screens/                 accueil, préparation, version, livres, chapitres, lecture,
-                           recherche, favoris, projection, histoires, réglages
+                           recherche, favoris, projection, histoires, réglages, mise à jour
 public/
   manifest.webmanifest     manifeste PWA
   icons/                   icônes 192/512, maskable

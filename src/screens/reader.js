@@ -91,8 +91,8 @@ export async function renderReader(route) {
   const sizeCtl = h(
     'div',
     { class: 'segmented', role: 'group', 'aria-label': 'Taille du texte' },
-    h('button', { 'aria-label': 'Réduire le texte', onclick: () => setSize(-2) }, 'A−'),
-    h('button', { 'aria-label': 'Agrandir le texte', class: 'big-a', onclick: () => setSize(2) }, 'A+'),
+    h('button', { 'aria-label': 'A−, réduire le texte', title: 'Réduire le texte', onclick: () => setSize(-2) }, 'A−'),
+    h('button', { 'aria-label': 'A+, agrandir le texte', title: 'Agrandir le texte', class: 'big-a', onclick: () => setSize(2) }, 'A+'),
   );
 
   // Marque-page du chapitre
